@@ -14,7 +14,8 @@ class LoginController extends GetxController {
   final pswdfocusnode = FocusNode();
   var isReferralChecked = false;
   var referralCode = '';
-  final _firestore = FirebaseFirestore.instance;
+  // Startup renders before optional Firebase services finish initializing.
+  FirebaseFirestore get _firestore => FirebaseFirestore.instance;
   String get status => _status;
 
   void updateStatus(String newStatus) {
