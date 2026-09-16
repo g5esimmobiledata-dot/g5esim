@@ -19,3 +19,5 @@ Changes in this copy:
 - Added root ignore rules and macOS setup instructions.
 
 Secret scanning was performed before publishing. Remaining scanner matches in CocoaPods lockfile checksums and API documentation examples were reviewed as non-secret values. Source and dependency checks do not validate production integrations, payment flows, or iOS/macOS packaging.
+
+Validation before upload: main web production build passed (existing translation and chunk-size warnings); Electron syntax checks passed; Flutter dependency resolution passed using Flutter 3.38.5. Six transitive dependency versions in the mobile lockfile were adjusted by that SDK. Native Apple builds were not run.
