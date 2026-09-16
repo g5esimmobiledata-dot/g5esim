@@ -40,6 +40,8 @@ Firebase Admin and Google Play integration require your own private service-acco
 
 ## Flutter mobile app: iOS and Android
 
+For the latest local eSIM-only version (source modified August 17, 2026), substitute `mobile-esim-only` for `mobile` in the commands below. This variant includes startup timeout handling, local-first translations, updated checkout/USDT handling, and Android launch adjustments. Its Android package is `com.g5esim.app`. Keep Firebase registration and signing aligned with the variant you build.
+
 Install Flutter with Dart compatible with the checked-in lockfile (the project declares Dart `^3.8.1`), Xcode with iOS tools, and CocoaPods. For Android, also install Android Studio/SDK and Java 17. Check your tools with `flutter doctor -v`.
 
 From the repository root:

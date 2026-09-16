@@ -5,9 +5,12 @@ Source mapping:
 - `web/`: `eSIM PWA`
 - `web-classic/`: `eSIM`
 - `mobile/`: `Mobile_App`
+- `mobile-esim-only/`: `eSIM Project/eSIM Only/Mobile_App`, local source changes through August 17, 2026
 - `desktop/`: `g5esim-desktop-wrapper`, including its local uncommitted changes
 
 This is a source snapshot, not a merge of the two web variants. Deployment archives/scripts, production database contents, customer uploads, build output, installed dependencies, signing material, private environment files, and machine-specific settings were omitted.
+
+The newer eSIM-only mobile variant is included separately to preserve the earlier full-feature app. It has the same credential exclusions and optional Android signing setup as `mobile/`. The original local app with its private Firebase configuration is used for on-device validation; GitHub copies require the private configuration described in the setup guide.
 
 Changes in this copy:
 
