@@ -1,0 +1,1 @@
+ALTER TYPE "public"."ticket_priority" ADD VALUE 'normal';

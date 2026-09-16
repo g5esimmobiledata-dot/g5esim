@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover"
+  >
+  <meta name="description" content="Install the G5 eSIM PWA on iPhone.">
+  <meta name="theme-color" content="#050816">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="G5 eSIM">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <title>Install G5 eSIM</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #050816;
+      --panel: #10192b;
+      --panel-strong: #14213a;
+      --text: #f7f9ff;
+      --muted: #aab6cf;
+      --line: #283554;
+      --accent: #c8ff5f;
+      --accent-ink: #102000;
+      --warn: #ffcf66;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100dvh;
+      background:
+        radial-gradient(circle at 20% 10%, rgba(200, 255, 95, 0.12), transparent 30%),
+        radial-gradient(circle at 80% 15%, rgba(66, 133, 244, 0.12), transparent 28%),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+    }
+
+    main {
+      width: min(1040px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+
+    .logo {
+      width: 54px;
+      height: 54px;
+      border-radius: 12px;
+      box-shadow: 0 12px 40px rgba(200, 255, 95, 0.22);
+    }
+
+    .brand {
+      display: grid;
+      gap: 2px;
+    }
+
+    .brand strong {
+      font-size: 20px;
+      line-height: 1.1;
+    }
+
+    .brand span {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 360px;
+      gap: 28px;
+      align-items: start;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(34px, 6vw, 60px);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      margin: 0 0 28px;
+      max-width: 620px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.55;
+    }
+
+    .status {
+      display: none;
+      width: fit-content;
+      margin-bottom: 22px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 207, 102, 0.08);
+      color: var(--warn);
+      font-size: 15px;
+      line-height: 1.45;
+    }
+
+    .status.show {
+      display: block;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 34px;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 48px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      padding: 0 18px;
+      color: var(--accent-ink);
+      background: var(--accent);
+      font-size: 16px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .button.secondary {
+      color: var(--text);
+      background: transparent;
+      border-color: var(--line);
+    }
+
+    .steps {
+      display: grid;
+      gap: 12px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 38px minmax(0, 1fr);
+      gap: 12px;
+      align-items: start;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(16, 25, 43, 0.82);
+    }
+
+    .step b {
+      display: inline-flex;
+      width: 38px;
+      height: 38px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: var(--panel-strong);
+      color: var(--accent);
+      font-size: 18px;
+    }
+
+    .step span {
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .qr-panel {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #ffffff;
+      color: #101828;
+      text-align: center;
+    }
+
+    .qr-panel img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-bottom: 12px;
+    }
+
+    .qr-panel strong {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 19px;
+    }
+
+    .qr-panel span {
+      display: block;
+      color: #516070;
+      font-size: 14px;
+      word-break: break-word;
+    }
+
+    .print-note {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 820px) {
+      main {
+        width: min(100% - 24px, 640px);
+        padding: 22px 0;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .qr-panel {
+        max-width: 360px;
+        margin: 0 auto;
+      }
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+        color: #101828;
+      }
+
+      main {
+        width: 100%;
+        padding: 20px;
+      }
+
+      .layout {
+        grid-template-columns: 1fr 320px;
+      }
+
+      .lead,
+      .brand span,
+      .step span,
+      .print-note {
+        color: #475467;
+      }
+
+      .actions,
+      .status {
+        display: none !important;
+      }
+
+      .step,
+      .qr-panel {
+        border-color: #d0d5dd;
+        background: #ffffff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img class="logo" src="/apple-touch-icon.png" alt="G5 eSIM">
+      <div class="brand">
+        <strong>G5 eSIM</strong>
+        <span>iPhone PWA install</span>
+      </div>
+    </header>
+
+    <section class="layout" aria-label="Install G5 eSIM">
+      <div>
+        <h1>Install G5 eSIM</h1>
+        <p class="lead">
+          Scan the QR code with the iPhone Camera, open the website in Safari,
+          then add it to the Home Screen as a web app.
+        </p>
+
+        <p id="browserStatus" class="status" role="status"></p>
+
+        <div class="actions">
+          <a class="button" href="/">Open PWA</a>
+          <a class="button secondary" href="/download.html">All Options</a>
+          <button class="button secondary" type="button" id="copyLink">Copy Link</button>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <b>1</b>
+            <span>Open <strong>https://ios.g5esim.mobile</strong> in Safari.</span>
+          </li>
+          <li class="step">
+            <b>2</b>
+            <span>Tap the Safari <strong>Share</strong> button.</span>
+          </li>
+          <li class="step">
+            <b>3</b>
+            <span>Tap <strong>Add to Home Screen</strong>.</span>
+          </li>
+          <li class="step">
+            <b>4</b>
+            <span>Keep <strong>Open as Web App</strong> enabled, then tap <strong>Add</strong>.</span>
+          </li>
+        </ol>
+      </div>
+
+      <aside>
+        <div class="qr-panel">
+          <img src="/pwa-install-qr.png" alt="QR code for G5 eSIM PWA">
+          <strong>Scan to open G5 eSIM</strong>
+          <span>https://ios.g5esim.mobile/</span>
+        </div>
+        <p class="print-note">This QR code opens the real PWA app URL.</p>
+      </aside>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      var targetUrl = 'https://ios.g5esim.mobile/';
+      var userAgent = navigator.userAgent || '';
+      var isIos = /iPad|iPhone|iPod/.test(userAgent) ||
+        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      var isSafari = /^((?!chrome|android|crios|fxios|edgios|opr|mercury).)*safari/i.test(userAgent);
+      var isStandalone = window.navigator.standalone === true ||
+        window.matchMedia('(display-mode: standalone)').matches;
+      var status = document.getElementById('browserStatus');
+      var copyButton = document.getElementById('copyLink');
+
+      if (isStandalone) {
+        status.textContent = 'G5 eSIM is already running as an installed web app.';
+        status.classList.add('show');
+      } else if (isIos && !isSafari) {
+        status.textContent = 'For iPhone installation, open this link in Safari first. In app browsers cannot add the PWA to the Home Screen.';
+        status.classList.add('show');
+      } else if (isIos && isSafari) {
+        status.textContent = 'Ready in Safari. Use Share, then Add to Home Screen.';
+        status.classList.add('show');
+      }
+
+      copyButton.addEventListener('click', function () {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(targetUrl).then(function () {
+            copyButton.textContent = 'Copied';
+            window.setTimeout(function () {
+              copyButton.textContent = 'Copy Link';
+            }, 1600);
+          });
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

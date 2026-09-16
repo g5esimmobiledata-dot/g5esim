@@ -1,0 +1,14 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 30 35 Q 50 20, 75 25 Q 85 28, 95 35 Q 105 42, 120 40 Q 135 38, 145 30 Q 155 22, 165 20 Q 170 19, 172 20 Q 174 21, 172 23 Q 170 25, 165 28 Q 155 35, 145 38 Q 135 41, 125 42 Q 115 43, 105 45 Q 95 47, 85 50 Q 75 53, 65 52 Q 55 51, 50 48 Q 45 45, 42 40" 
+        fill="none" 
+        stroke="#7B4FA3" 
+        stroke-width="2.5" 
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  
+  <path d="M 172 20 Q 175 20, 178 22 Q 180 24, 179 26 Q 178 28, 175 29 Q 172 30, 170 28" 
+        fill="none" 
+        stroke="#7B4FA3" 
+        stroke-width="2" 
+        stroke-linecap="round"/>
+</svg>

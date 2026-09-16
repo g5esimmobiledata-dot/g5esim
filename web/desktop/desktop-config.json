@@ -1,0 +1,6 @@
+{
+  "appName": "G5 eSIM Admin",
+  "apiBaseUrl": "https://g5esim.mobile",
+  "adminUrl": "https://g5esim.mobile/admin/login?desktop=1",
+  "desktopToken": ""
+}

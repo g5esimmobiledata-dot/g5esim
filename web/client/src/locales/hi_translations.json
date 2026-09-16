@@ -1,0 +1,3763 @@
+{
+  "common": {
+    "button.save": "सहेजें",
+    "button.close": "बंद करें",
+    "button.confirm": "पुष्टि करें",
+    "button.back": "वापस",
+    "button.next": "आगे",
+    "button.previous": "पिछला",
+    "button.continue": "जारी रखें",
+    "button.delete": "हटाएँ",
+    "button.view": "देखें",
+    "button.search": "खोजें",
+    "button.filter": "फ़िल्टर",
+    "button.signUp": "साइन अप",
+    "button.signOut": "लॉग आउट",
+    "message.loading": "लोड हो रहा है...",
+    "message.error": "कोई त्रुटि हुई। कृपया पुनः प्रयास करें।",
+    "status.active": "सक्रिय",
+    "status.pending": "लंबित",
+    "status.completed": "पूर्ण",
+    "form.email": "ईमेल",
+    "form.password": "पासवर्ड",
+    "form.name": "नाम",
+    "button.submit": "जमा करें",
+    "button.edit": "संपादित करें",
+    "button.buyNow": "अभी खरीदें",
+    "button.reset": "रीसेट करें",
+    "button.apply": "लागू करें",
+    "button.download": "डाउनलोड करें",
+    "button.upload": "अपलोड करें",
+    "button.copy": "कॉपी करें",
+    "button.share": "साझा करें",
+    "button.refresh": "रीफ़्रेश करें",
+    "button.loadMore": "और लोड करें",
+    "button.showAll": "सभी दिखाएँ",
+    "button.showLess": "कम दिखाएँ",
+    "button.tryAgain": "फिर से प्रयास करें",
+    "button.learnMore": "और जानें",
+    "button.getStarted": "शुरू करें",
+    "button.addToCart": "कार्ट में जोड़ें",
+    "button.checkout": "चेकआउट",
+    "form.confirmPassword": "पासवर्ड की पुष्टि करें",
+    "form.firstName": "पहला नाम",
+    "form.lastName": "अंतिम नाम",
+    "form.phone": "फ़ोन नंबर",
+    "form.address": "पता",
+    "form.city": "शहर",
+    "form.country": "देश",
+    "form.subject": "विषय",
+    "form.required": "आवश्यक",
+    "form.optional": "वैकल्पिक",
+    "validation.email": "कृपया एक मान्य ईमेल पता दर्ज करें",
+    "validation.minLength": "कम से कम {min} अक्षर होने चाहिए",
+    "validation.maxLength": "{max} अक्षरों से कम होना चाहिए",
+    "validation.passwordMatch": "पासवर्ड मेल नहीं खाते",
+    "validation.invalidPhone": "कृपया एक मान्य फ़ोन नंबर दर्ज करें",
+    "validation.invalidFormat": "अमान्य प्रारूप",
+    "status.inactive": "निष्क्रिय",
+    "status.failed": "असफल",
+    "status.cancelled": "रद्द किया गया",
+    "status.processing": "प्रक्रिया में",
+    "status.expired": "समाप्त",
+    "status.new": "नया",
+    "status.used": "उपयोग किया गया",
+    "status.available": "उपलब्ध",
+    "table.actions": "क्रियाएँ",
+    "table.date": "तिथि",
+    "table.amount": "राशि",
+    "table.status": "स्थिति",
+    "table.description": "विवरण",
+    "table.noData": "कोई डेटा उपलब्ध नहीं है",
+    "pagination.page": "पृष्ठ",
+    "pagination.of": "का",
+    "pagination.showing": "दिखा रहे हैं",
+    "pagination.items": "आइटम",
+    "pagination.first": "पहला",
+    "pagination.last": "अंतिम",
+    "message.saving": "सहेजा जा रहा है...",
+    "message.saved": "परिवर्तन सफलतापूर्वक सहेजे गए",
+    "message.deleted": "सफलतापूर्वक हटाया गया",
+    "message.copied": "क्लिपबोर्ड में कॉपी किया गया",
+    "message.noResults": "कोई परिणाम नहीं मिला",
+    "message.confirmDelete": "क्या आप वाकई इस आइटम को हटाना चाहते हैं?",
+    "date.today": "आज",
+    "date.yesterday": "कल",
+    "date.hours": "घंटे",
+    "date.minutes": "मिनट",
+    "date.ago": "पहले",
+    "currency.total": "कुल",
+    "currency.subtotal": "उप-योग",
+    "currency.tax": "कर",
+    "currency.discount": "छूट",
+    "currency.free": "निःशुल्क",
+    "form.zipCode": "पिन / पोस्टल कोड",
+    "validation.required": "यह फ़ील्ड आवश्यक है",
+    "date.tomorrow": "आने वाला कल",
+    "button.signIn": "साइन इन",
+    "message.success": "कार्य सफलतापूर्वक पूरा हुआ",
+    "form.message": "संदेश",
+    "date.days": "दिन",
+    "button.cancel": "रद्द करें",
+
+    
+  "common.date": "तिथि",
+  "common.actions": "क्रियाएँ",
+  "common.days": "दिन",
+  "common.pending": "लंबित",
+  "common.available": "उपलब्ध",
+  "common.global": "वैश्विक",
+  "common.unassigned": "असाइन नहीं किया गया",
+  "common.na": "लागू नहीं",
+  "common.success": "सफल",
+  "common.error": "त्रुटि",
+  "common.noData": "कोई डेटा नहीं",
+  "common.tryAdjustingFilters": "फ़िल्टर बदलकर देखें",
+  "common.showing": "दिखा रहे हैं",
+  "common.to": "से",
+  "common.of": "में से",
+  "common.viewDetails": "विवरण देखें"
+
+  },
+  "website": {
+    "nav.home": "होम",
+    "nav.destinations": "गंतव्य",
+    "home.howItWorks.title": "यह कैसे काम करता है",
+    "destinations.title": "सभी गंतव्य",
+    "package.buyNow": "अभी खरीदें",
+    "checkout.title": "चेकआउट",
+    "footer.copyright": "सभी अधिकार सुरक्षित।",
+    "home.features.unlimited.title": "असीमित डेटा प्लान",
+    "home.features.unlimited.description": "दुनिया भर में तेज डेटा से जुड़े रहें।",
+    "home.features.noRoaming.title": "कोई रोमिंग शुल्क नहीं",
+    "home.features.noRoaming.description": "बिना अतिरिक्त शुल्क के स्वतंत्र रूप से यात्रा करें।",
+    "home.features.keepSim.title": "अपना फिजिकल सिम रखें",
+    "home.features.keepSim.description": "कॉल और टेक्स्ट के लिए अपना लोकल सिम रखें।",
+    "home.features.quickSetup.title": "त्वरित eSIM सेटअप",
+    "home.features.quickSetup.description": "ऑनलाइन एक्टिवेट करें और मिनटों में कनेक्ट करें।",
+    "home.howItWorks.cta": "अभी शुरू करें",
+    "home.benefits.title": "eSIM के क्या फायदे हैं",
+    "home.benefits.cta": "सभी गंतव्य देखें",
+    "home.destinations.title": "लोकप्रिय गंतव्य",
+    "home.destinations.seeAll": "सभी 200+ गंतव्य देखें",
+    "home.destinations.tabs.countries": "देश",
+    "home.destinations.tabs.regional": "क्षेत्रीय eSIMs",
+    "home.destinations.tabs.global": "वैश्विक eSIMs",
+    "home.popular.days": "दिन",
+    "home.popular.perDay": "प्रति दिन",
+    "home.popular.unlimited": "असीमित",
+    "home.testimonials.title": "हमारे ग्राहक क्या कहते हैं",
+    "home.testimonials.viewAll": "सभी गंतव्य देखें",
+    "home.popular.title": "लोकप्रिय eSIMs",
+    "nav.regions": "क्षेत्र",
+    "nav.packages": "पैकेज",
+    "nav.compare": "तुलना करें",
+    "nav.howItWorks": "यह कैसे काम करता है",
+    "nav.support": "सहायता",
+    "nav.help": "सहायता केंद्र",
+    "nav.about": "हमारे बारे में",
+    "nav.contact": "संपर्क करें",
+    "nav.myAccount": "मेरा खाता",
+    "nav.myEsims": "मेरे eSIM",
+    "nav.orders": "ऑर्डर",
+    "nav.profile": "प्रोफ़ाइल",
+    "nav.settings": "सेटिंग्स",
+    "nav.referrals": "रेफ़रल",
+    "nav.giftCards": "गिफ्ट कार्ड",
+    "home.hero.title": "दुनिया में कहीं भी जुड़े रहें",
+    "home.hero.cta": "eSIM पैकेज ब्राउज़ करें",
+    "home.hero.search": "गंतव्य खोजें...",
+    "home.features.title": "eSIMConnect क्यों चुनें?",
+    "home.features.instant": "तत्काल सक्रियण",
+    "home.features.instantDesc": "कुछ ही मिनटों में आपका eSIM सक्रिय हो जाएगा",
+    "home.features.global": "वैश्विक कवरेज",
+    "home.features.globalDesc": "200+ देशों और क्षेत्रों में उपलब्ध",
+    "home.features.affordable": "किफ़ायती प्लान",
+    "home.features.affordableDesc": "रोमिंग शुल्क की तुलना में 90% तक बचत करें",
+    "home.features.noRoaming": "कोई रोमिंग शुल्क नहीं",
+    "package.networks": "नेटवर्क",
+    "home.destinations.viewAll": "सभी गंतव्य देखें",
+    "home.regions.title": "क्षेत्रीय प्लान",
+    "home.regions.subtitle": "कई देशों के लिए एक ही eSIM",
+    "home.howItWorks.step1": "अपना प्लान चुनें",
+    "home.howItWorks.step1Desc": "अपने गंतव्य के लिए डेटा पैकेज चुनें",
+    "home.howItWorks.step2": "eSIM इंस्टॉल करें",
+    "home.howItWorks.step2Desc": "QR कोड स्कैन करके अपना eSIM इंस्टॉल करें",
+    "home.howItWorks.step3": "कनेक्ट करें और उपयोग करें",
+    "home.howItWorks.step3Desc": "पहुंचने पर सक्रिय करें और डेटा का आनंद लें",
+    "footer.company": "कंपनी",
+    "footer.support": "सहायता",
+    "footer.legal": "कानूनी",
+    "footer.social": "हमें फ़ॉलो करें",
+    "footer.newsletter": "हमारे न्यूज़लेटर की सदस्यता लें",
+    "footer.newsletterPlaceholder": "अपना ईमेल दर्ज करें",
+    "footer.subscribe": "सब्सक्राइब करें",
+    "footer.terms": "सेवा की शर्तें",
+    "footer.privacy": "गोपनीयता नीति",
+    "footer.cookies": "कुकी नीति",
+    "destinations.subtitle": "अपनी यात्रा के लिए सही eSIM पैकेज खोजें",
+    "destinations.search": "गंतव्य खोजें...",
+    "destinations.filter.all": "सभी",
+    "destinations.filter.popular": "लोकप्रिय",
+    "destinations.filter.europe": "यूरोप",
+    "destinations.filter.asia": "एशिया",
+    "destinations.filter.americas": "अमेरिका",
+    "destinations.filter.africa": "अफ्रीका",
+    "destinations.filter.oceania": "ओशिनिया",
+    "destinations.packagesFrom": "से शुरू",
+    "destinations.viewPackages": "पैकेज देखें",
+    "package.data": "डेटा",
+    "package.validity": "वैधता",
+    "package.days": "दिन",
+    "package.price": "मूल्य",
+    "package.provider": "प्रदाता",
+    "package.coverage": "कवरेज",
+    "package.topup": "टॉप-अप उपलब्ध",
+    "package.calls": "कॉल शामिल",
+    "package.sms": "SMS शामिल",
+    "package.activationPolicy": "सक्रियण नीति",
+    "package.compareWith": "अन्य से तुलना करें",
+    "package.similar": "समान पैकेज",
+    "checkout.summary": "ऑर्डर सारांश",
+    "checkout.contact": "संपर्क जानकारी",
+    "checkout.payment": "भुगतान विधि",
+    "checkout.promoCode": "प्रोमो कोड",
+    "checkout.applyCode": "लागू करें",
+    "checkout.codeApplied": "कोड लागू हो गया!",
+    "checkout.invalidCode": "अमान्य कोड",
+    "checkout.subtotal": "उप-योग",
+    "checkout.discount": "छूट",
+    "checkout.total": "कुल",
+    "checkout.payNow": "अभी भुगतान करें",
+    "checkout.processing": "प्रक्रिया जारी है...",
+    "checkout.secure": "सुरक्षित भुगतान",
+    "checkout.guestCheckout": "गेस्ट के रूप में जारी रखें",
+    "checkout.createAccount": "खाता बनाएँ",
+    "checkout.haveAccount": "पहले से खाता है?",
+    "install.title": "इंस्टॉलेशन गाइड",
+    "install.step1": "सेटिंग्स > सेल्युलर पर जाएँ",
+    "install.step2": "eSIM जोड़ें या सेल्युलर प्लान जोड़ें चुनें",
+    "install.step3": "QR कोड स्कैन करें या विवरण मैन्युअली दर्ज करें",
+    "install.qrCode": "QR कोड स्कैन करें",
+    "install.manual": "मैन्युअल इंस्टॉलेशन",
+    "install.compatible": "डिवाइस संगतता",
+    "install.checkDevice": "जाँचें कि आपका डिवाइस eSIM को सपोर्ट करता है या नहीं",
+    "install.notCompatible": "आपका डिवाइस संगत नहीं हो सकता",
+    "install.tips": "इंस्टॉलेशन सुझाव",
+    "support.title": "सहायता और समर्थन",
+    "support.subtitle": "आज हम आपकी कैसे मदद कर सकते हैं?",
+    "support.searchHelp": "सहायता लेख खोजें...",
+    "support.troubleshooting": "समस्या निवारण",
+    "support.billing": "बिलिंग और भुगतान",
+    "support.account": "खाता और प्रोफ़ाइल",
+    "support.contactUs": "हमसे संपर्क करें",
+    "support.liveChat": "लाइव चैट",
+    "support.email": "ईमेल सहायता",
+    "support.response": "24 घंटे के भीतर प्रतिक्रिया",
+    "error.404.title": "पेज नहीं मिला",
+    "error.500.title": "सर्वर त्रुटि",
+    "error.500.message": "कुछ गलत हो गया। कृपया बाद में पुनः प्रयास करें।",
+    "error.goHome": "होमपेज पर जाएँ",
+    "nav.faq": "अक्सर पूछे जाने वाले प्रश्न",
+    "home.features.noRoamingDesc": "अतिरिक्त शुल्क की चिंता किए बिना डेटा का उपयोग करें",
+    "package.features": "विशेषताएँ",
+    "package.hotspot": "हॉटस्पॉट / टेथरिंग",
+    "support.categories": "श्रेणियाँ",
+    "home.popular.viewAll": "सभी पैकेज देखें",
+    "home.destinations.subtitle": "हमारे सबसे लोकप्रिय यात्रा गंतव्यों को ब्राउज़ करें",
+    "package.unlimited": "अनलिमिटेड",
+    "support.getStarted": "शुरुआत करें",
+    "error.404.message": "क्षमा करें, आप जिस पेज की तलाश कर रहे हैं वह मौजूद नहीं है।",
+    "home.hero.subtitle": "eSIM के साथ तुरंत मोबाइल डेटा पाएँ। किसी फिज़िकल सिम कार्ड की आवश्यकता नहीं।",
+    "compatibleDevices.title": "संगत डिवाइस",
+    "compatibleDevices.description": "जानें कि कौन से डिवाइस eSIM को सपोर्ट करते हैं",
+    "compatibleDevices.howToCheck": "अपने डिवाइस की जाँच कैसे करें",
+    "compatibleDevices.iphoneUsers": "iPhone उपयोगकर्ता",
+    "compatibleDevices.iphoneInstructions": "सेटिंग्स > सामान्य > अबाउट पर जाएँ और 'eSIM' या 'ईआईडी' देखें। यदि आप इसे देखते हैं, तो आपका डिवाइस eSIM को सपोर्ट करता है।",
+    "compatibleDevices.androidUsers": "Android उपयोगकर्ता",
+    "compatibleDevices.androidInstructions": "सेटिंग्स > नेटवर्क और इंटरनेट > मोबाइल नेटवर्क पर जाएँ और 'eSIM' विकल्प देखें। यदि आप इसे देखते हैं, तो आपका डिवाइस eSIM को सपोर्ट करता है।",
+    "compatibleDevices.compatibleDevicesList": "संगत डिवाइस सूची",
+    "compatibleDevices.apple": "Apple",
+    "compatibleDevices.samsung": "Samsung",
+    "compatibleDevices.google": "Google",
+    "compatibleDevices.other": "अन्य ब्रांड",
+
+    "home.hero.trustBadge": "4.7/5 रेटिंग के साथ 5 लाख+ डाउनलोड",
+    "home.hero.headline.prefix": "ग्लोबल",
+    "home.hero.headline.suffix": "जीवन भर के लिए",
+    "home.hero.rotating.anywhere": "कहीं भी",
+    "home.hero.rotating.traveling": "यात्रा के दौरान",
+    "home.hero.rotating.abroad": "विदेश में",
+    "home.hero.rotating.roaming": "रोमिंग में",
+    "home.hero.dataVoice": "डेटा + वॉइस",
+    "home.hero.magicSim": "मैजिक सिम उपलब्ध है",
+    "home.search.country": "देश",
+    "home.search.region": "क्षेत्र",
+    "home.search.searching": "खोजा जा रहा है...",
+    "home.search.noResults": "कोई परिणाम नहीं मिला",
+    "home.search.popular": "लोकप्रिय",
+    "home.search.from": "शुरू",
+
+    "features.section1.title": "ग्लोबल eSIM कनेक्टिविटी अब आसान",
+    "features.section1.subtitle": "मिनटों में अपना eSIM सेट करें। अपना गंतव्य चुनें, तुरंत सक्रिय करें और बिना फिजिकल सिम के दुनिया भर में जुड़े रहें।",
+    "features.section1.button": "शुरू करें",
+    "features.section1.feature1": "QR कोड से तुरंत eSIM सक्रियण",
+    "features.section1.feature2": "150+ देशों में हाई-स्पीड डेटा",
+    "features.section1.feature3": "कोई फिजिकल सिम या रोमिंग शुल्क नहीं",
+
+    "features.section2.title": "तेज़ और सुरक्षित भुगतान प्रक्रिया",
+    "features.section2.button": "भुगतान जारी रखें",
+    "features.section2.feature1": "डेबिट कार्ड, क्रेडिट कार्ड, UPI या वॉलेट से भुगतान करें",
+    "features.section2.feature2": "100% सुरक्षित और एन्क्रिप्टेड लेनदेन",
+    "features.section2.feature3": "भुगतान के बाद तुरंत ऑर्डर पुष्टि",
+    "features.section2.feature4": "कोई फिजिकल सिम या डिलीवरी आवश्यक नहीं",
+
+    "features.section3.title": "ग्राहक सहायता",
+    "features.section3.button": "संपर्क करें",
+    "features.section3.feature1": "24x7 उपलब्धता",
+    "features.section3.feature2": "मल्टी-लैंग्वेज सपोर्ट",
+    "features.section3.feature3": "तुरंत प्रतिक्रिया समय",
+
+    "banner.plans": "प्लान्स",
+    "banner.title": "दुनिया भर की यात्रा के लिए तैयार?",
+    "banner.subtitle": "उड़ान से पहले कनेक्ट हो जाएँ!",
+    "banner.description1": "अपना",
+    "banner.esimToday": "eSIM आज ही खरीदें",
+    "banner.description2": "और लैंड करते ही सक्रिय करें। अब स्थानीय सिम खोजने या महंगे रोमिंग शुल्क की चिंता नहीं। केवल",
+    "banner.description3": "से शुरुआत करें — समझदारी से यात्रा करें,",
+    "banner.stayConnected": "जुड़े रहें",
+    "banner.button": "डेस्टिनेशन देखें",
+    "banner.feature1": "तुरंत सक्रियण",
+    "banner.feature2": "कोई फिजिकल सिम आवश्यक नहीं",
+
+    "subscription.plans": "प्लान्स",
+    "subscription.title": "30+ दिनों के लिए विदेश जा रहे हैं?",
+    "subscription.subtitle": "सब्सक्राइब करें और विदेश में पैसे बचाएं!",
+    "subscription.description1": "हमारे",
+    "subscription.highlight": "मासिक और वार्षिक",
+    "subscription.description2": "प्लान आपको दुनिया में कहीं भी कनेक्टेड रखते हैं। केवल",
+    "subscription.description3": "से शुरुआत करें — बड़ा प्लान चुनें,",
+    "subscription.highlight2": "कम खर्च करें",
+    "subscription.button": "प्लान देखें",
+    "subscription.feature1": "160 गंतव्य",
+    "subscription.feature2": "कभी भी रद्द करें",
+
+    "agency.title": "तुरंत eSIM सक्रियण के साथ दुनिया भर में जुड़े रहें",
+    "agency.button": "प्लान देखें",
+    "agency.description1": "अनुभव करें सहज",
+    "agency.globalConnectivity": "वैश्विक कनेक्टिविटी",
+    "agency.description2": "हमारे इंस्टेंट eSIM समाधान के साथ। कोई फिजिकल सिम नहीं, कोई इंतजार नहीं — बस QR कोड स्कैन करें और सेकंडों में कनेक्ट हो जाएँ। 190+ देशों में किफायती डेटा प्लान और विश्वसनीय हाई-स्पीड इंटरनेट का आनंद लें।",
+    "agency.circleText": "इंस्टेंट • एक्टिवेशन • 190+ • देश • सपोर्ट •",
+    "agency.imageAlt1": "कई डिवाइस पर वैश्विक eSIM कनेक्टिविटी",
+    "agency.imageAlt2": "eSIM सक्रियण प्रक्रिया दिखाता मोबाइल डिवाइस",
+
+    "compare.whyChoose": "हमें क्यों चुनें",
+    "compare.others": "अन्य कंपनियाँ",
+    "compare.trust": "जानें क्यों हजारों यात्री {{siteName}} पर भरोसा करते हैं",
+    "compare.features": "फीचर्स और लाभ",
+    "compare.bestChoice": "सर्वश्रेष्ठ विकल्प",
+    "compare.competitors": "प्रतिद्वंदी",
+    "compare.getStarted": "अभी शुरू करें",
+    "compare.premiumFeatures": "10+ प्रीमियम फीचर्स — बिना अतिरिक्त शुल्क",
+
+    "compare.affordability": "किफायती",
+    "compare.cheaper": "40% सस्ता",
+    "compare.expensive": "महंगा",
+    "compare.globalSim": "ग्लोबल सिम के साथ",
+    "compare.lifetime": "लाइफटाइम वैधता",
+    "compare.topup": "किसी भी देश में टॉप-अप",
+    "compare.addData": "कभी भी डेटा जोड़ें",
+    "compare.transparency": "पारदर्शी उपयोग नीति",
+    "compare.esimPhysical": "eSIM और फिजिकल सिम दोनों",
+    "compare.gbUnlimited": "GB और अनलिमिटेड प्लान",
+    "compare.voiceSms": "वॉइस और SMS शामिल",
+    "compare.regulatory": "स्थानीय नियमों का पालन",
+    "compare.localPlans": "USA और कनाडा लोकल प्लान",
+    "compare.some": "कुछ",
+
+    "compare.costSavings": "लागत बचत",
+    "compare.transparencyStat": "पारदर्शिता",
+    "compare.extraFeatures": "अतिरिक्त फीचर्स",
+
+    "home.testimonials.titlee": "{{siteName}} के बारे में यात्रियों की राय",
+
+    "home.testimonials.t1": "मैंने जापान यात्रा के दौरान {{siteName}} का उपयोग किया और लैंड करते ही यह बेहतरीन काम करने लगा। सेटअप में दो मिनट से भी कम समय लगा और डेटा स्पीड शानदार थी!",
+    "home.testimonials.t2": "इंस्टॉल करना बेहद आसान और कोई रोमिंग शुल्क नहीं। पूरी यूरोप यात्रा में बिना सिम बदले कनेक्टेड रहा। पूरी तरह से सही चुनाव!",
+    "home.testimonials.t3": "थाईलैंड जाने से पहले मैंने ऑनलाइन प्लान खरीदा। QR कोड तुरंत मिल गया और बीच, शहर या दूरदराज हर जगह कनेक्शन तेज था।",
+    "home.testimonials.t4": "सब कुछ कितना स्मूद था देखकर हैरान रह गया। {{siteName}} ने मुझे लोकल सिम और Wi-Fi ढूंढने की परेशानी से बचाया। शानदार कवरेज और सही कीमत।",
+    "home.testimonials.t5": "मैंने पहले भी अन्य eSIM आजमाए हैं, लेकिन {{siteName}} सबसे आसान था। ग्राहक सहायता ने मिनटों में मदद की।",
+    "home.testimonials.t6": "मैंने एक ही प्लान से फ्रांस, बेल्जियम और इटली में इस्तेमाल किया। सिग्नल मजबूत था और अतिरिक्त शुल्क की चिंता नहीं थी।",
+
+    "footer.global": "ग्लोबल",
+    "footer.description": "आपका अंतिम ट्रैवल कनेक्टिविटी पार्टनर जो 175+ देशों में सुरक्षित eSIM और SIM कार्ड किफायती कीमतों पर प्रदान करता है।",
+
+    "footer.topDestinations": "लोकप्रिय गंतव्य",
+    "footer.resources": "संसाधन",
+    "footer.pages": "पेज",
+
+    "footer.whatIsEsim": "eSIM क्या है",
+    "footer.aboutUs": "हमारे बारे में",
+    "footer.contactUs": "संपर्क करें",
+    "footer.destinations": "गंतव्य",
+
+    "footer.blog": "ब्लॉग",
+    "footer.faq": "अक्सर पूछे जाने वाले प्रश्न",
+    "footer.supportTicket": "सपोर्ट टिकट",
+    "footer.helpCenter": "सहायता केंद्र",
+
+    "footer.rights": "सभी अधिकार सुरक्षित।",
+
+    "faq.loading": "FAQ लोड हो रहे हैं...",
+    "faq.viewMore": "और देखें",
+
+    "home.faq.title": "ट्रैवल eSIM के बारे में अक्सर पूछे जाने वाले प्रश्न",
+
+    "home.faq.support.label": "सहायता",
+    "home.faq.support.title": "क्या आपको और मदद चाहिए?",
+    "home.faq.support.description": "क्या आपको अपनी जरूरत की जानकारी नहीं मिल रही? हमारी सपोर्ट टीम ईमेल या चैट के माध्यम से सेटअप और समस्या समाधान में आपकी मदद करने के लिए उपलब्ध है।",
+    "home.faq.support.button": "हेल्प सेंटर पर जाएँ",
+
+
+    "home.benefits.convenience.title": "सुविधा",
+    "home.benefits.convenience.description": "किसी स्टोर पर जाए बिना या फिजिकल सिम का इंतज़ार किए बिना कभी भी नया प्लान एक्टिवेट करें।",
+
+    "home.benefits.security.title": "सुरक्षा",
+    "home.benefits.security.description": "eSIM आपके डिवाइस से जुड़ा रहता है, इसलिए फोन खो जाने या चोरी होने पर भी आपका डेटा सुरक्षित रहता है।",
+
+    "home.benefits.flexibility.title": "लचीलापन",
+    "home.benefits.flexibility.description": "एक ही डिवाइस पर कई डेटा प्लान रखें और विदेश यात्रा के दौरान आसानी से नेटवर्क बदलें।",
+
+    "home.benefits.noRoaming.title": "कोई रोमिंग शुल्क नहीं",
+    "home.benefits.noRoaming.description": "जहां भी जाएं, किफायती दरों पर लोकल डेटा का उपयोग करें और अतिरिक्त शुल्क से बचें।",
+
+    "home.benefits.sustainability.title": "सततता",
+    "home.benefits.sustainability.description": "प्लास्टिक कचरे को कम करें और पारंपरिक सिम कार्ड या स्लॉट के नुकसान से बचें।",
+
+
+    "esim.hero.badge": "यात्रा कनेक्टिविटी का भविष्य",
+    "esim.hero.title": "eSIM क्या है?",
+    "esim.hero.description": "eSIM एक डिजिटल सिम कार्ड है जो आपके फोन में पहले से ही मौजूद होता है। कोई फिजिकल सिम की जरूरत नहीं — बस QR कोड स्कैन करें और 190+ देशों में तुरंत इंटरनेट से जुड़ें।",
+
+    "esim.hero.points.save": "90% तक बचत: महंगे रोमिंग शुल्क से बचें",
+    "esim.hero.points.instant": "तुरंत सेटअप: QR कोड स्कैन करके तुरंत एक्टिवेट करें",
+    "esim.hero.points.dual": "डुअल सिम: यात्रा के दौरान अपना मुख्य नंबर सक्रिय रखें",
+
+    "esim.hero.cta.buy": "अपना eSIM अभी प्राप्त करें",
+    "esim.hero.cta.compatibility": "डिवाइस संगतता जांचें",
+
+    "esim.how.title": "eSIM कैसे काम करता है?",
+    "esim.how.description": "सिर्फ 4 आसान चरणों में इंटरनेट से जुड़ें।",
+
+    "esim.benefits.title": "eSIM क्यों चुनें?",
+    "esim.benefits.description": "यात्रा कनेक्टिविटी के भविष्य का अनुभव करें।",
+
+    "esim.compare.title": "eSIM बनाम पारंपरिक सिम",
+    "esim.compare.description": "जानें क्यों eSIM आधुनिक यात्रियों के लिए बेहतर विकल्प है।",
+
+    "esim.compatibility.title": "क्या आपका डिवाइस संगत है?",
+    "esim.compatibility.description": "2018 के बाद के अधिकांश डिवाइस eSIM सपोर्ट करते हैं।",
+    "esim.compatibility.cta": "पूरी सूची देखें",
+
+    "esim.cta.title": "क्या आप eSIM आज़माने के लिए तैयार हैं?",
+    "esim.cta.description": "दुनिया भर में जुड़े रहने वाले लाखों यात्रियों से जुड़ें।",
+    "esim.cta.plans": "eSIM प्लान देखें",
+    "esim.cta.learn": "और जानें",
+
+
+    "esim.benefits.instant.title": "इंस्टेंट एक्टिवेशन",
+"esim.benefits.instant.desc": "कुछ ही सेकंड में कनेक्ट हो जाएँ। QR कोड स्कैन करें और तुरंत डेटा इस्तेमाल करना शुरू करें।",
+
+"esim.benefits.save.title": "पैसे बचाएं",
+"esim.benefits.save.desc": "रोमिंग चार्ज पर 90% तक बचत करें। जितना डेटा चाहिए उतना ही भुगतान करें।",
+
+"esim.benefits.global.title": "ग्लोबल कवरेज",
+"esim.benefits.global.desc": "190+ देशों में काम करता है। कई डेस्टिनेशन के लिए एक ही eSIM।",
+
+"esim.benefits.number.title": "अपना नंबर रखें",
+"esim.benefits.number.desc": "आपका मुख्य नंबर एक्टिव रहता है। WhatsApp और iMessage सामान्य रूप से इस्तेमाल कर सकते हैं।",
+
+"esim.benefits.management.title": "आसान मैनेजमेंट",
+"esim.benefits.management.desc": "फिजिकल SIM बदले बिना तुरंत प्लान बदलें।",
+
+"esim.benefits.profiles.title": "मल्टीपल प्रोफाइल",
+"esim.benefits.profiles.desc": "कई eSIM प्रोफाइल स्टोर करें। बार-बार यात्रा करने वालों के लिए परफेक्ट।",
+
+
+"esim.how.purchase.title": "eSIM खरीदें",
+"esim.how.purchase.desc": "अपना डेस्टिनेशन और डेटा प्लान चुनें। कुछ ही सेकंड में खरीदारी पूरी करें।",
+
+"esim.how.scan.title": "QR कोड स्कैन करें",
+"esim.how.scan.desc": "ईमेल के जरिए QR कोड प्राप्त करें और उसे अपने फोन कैमरा से स्कैन करें।",
+
+"esim.how.install.title": "eSIM इंस्टॉल करें",
+"esim.how.install.desc": "स्क्रीन पर दिए गए आसान निर्देशों का पालन करें। इंस्टॉलेशन में 2 मिनट से भी कम समय लगता है।",
+
+"esim.how.connect.title": "कनेक्ट हो जाएँ",
+"esim.how.connect.desc": "डेटा रोमिंग चालू करें और तुरंत इंटरनेट इस्तेमाल करना शुरू करें।",
+
+
+"esim.compare.activation": "एक्टिवेशन समय",
+"esim.compare.activation.traditional": "घंटों लगते हैं (स्टोर ढूँढना, इंतजार करना)",
+"esim.compare.activation.esim": "तुरंत (QR स्कैन करें)",
+
+"esim.compare.cost": "खर्च",
+"esim.compare.cost.traditional": "$50-100/दिन रोमिंग",
+"esim.compare.cost.esim": "$5-20/सप्ताह",
+
+"esim.compare.setup": "सेटअप",
+"esim.compare.setup.traditional": "स्टोर पर जाना, पासपोर्ट जरूरी",
+"esim.compare.setup.esim": "ऑनलाइन, घर बैठे पूरा",
+
+"esim.compare.number": "मूल नंबर रखें",
+"esim.compare.number.traditional": "नहीं (SIM बदलना पड़ता है)",
+"esim.compare.number.esim": "हाँ (ड्यूल SIM)",
+
+"esim.compare.countries": "कई देश",
+"esim.compare.countries.traditional": "हर बार नया SIM खरीदना पड़ता है",
+"esim.compare.countries.esim": "रीजनल प्लान उपलब्ध",
+
+
+"esim.devices.iphone": "iPhone XS/XR और उसके बाद के मॉडल",
+"esim.devices.samsung": "Samsung Galaxy S20 और उसके बाद के मॉडल",
+"esim.devices.pixel": "Google Pixel 3 और उसके बाद के मॉडल",
+"esim.devices.ipad": "iPad Pro (2018+), iPad Air (2019+)",
+"esim.devices.galaxywatch": "Samsung Galaxy Watch",
+"esim.devices.applewatch": "Apple Watch Series 3+",
+
+
+
+"about.hero.rating": "50,000+ यात्रियों से 4.9/5 रेटिंग",
+  "about.hero.title1": "दुनिया की यात्रा करें",
+  "about.hero.title2": "हमेशा कनेक्टेड रहें",
+  "about.hero.desc": "हमारा लक्ष्य महंगे रोमिंग शुल्क को खत्म करना और अंतरराष्ट्रीय कनेक्टिविटी को हर यात्री के लिए सरल, सस्ती और तुरंत उपलब्ध बनाना है।",
+  "about.hero.cta.plans": "eSIM प्लान देखें",
+  "about.hero.cta.how": "यह कैसे काम करता है",
+
+  "about.stats.title": "दुनिया भर में लाखों लोगों का भरोसा",
+  "about.stats.subtitle": "उन यात्रियों से जुड़ें जिन्होंने स्मार्ट कनेक्टिविटी को चुना है",
+  "about.stats.countries": "देश",
+  "about.stats.users": "खुश उपयोगकर्ता",
+  "about.stats.uptime": "अपटाइम",
+  "about.stats.support": "सपोर्ट",
+
+  "about.badges.noFees": "कोई छिपे हुए शुल्क नहीं",
+  "about.badges.instant": "तुरंत सक्रियण",
+  "about.badges.support": "सपोर्ट",
+
+  "about.story.title": "हमारी कहानी",
+  "about.story.desc": "2020 में हमारे संस्थापक पेरिस पहुंचे और एयरपोर्ट से बाहर निकलने से पहले ही €50 रोमिंग शुल्क देना पड़ा। फिर स्थानीय सिम ढूंढने, लाइन में खड़े रहने और एक्टिवेशन में देरी जैसी परेशानियों का सामना करना पड़ा।",
+
+  "about.story.problem.title": "समस्या",
+  "about.story.problem.item1": "महंगे रोमिंग शुल्क ($50-100/दिन)",
+  "about.story.problem.item2": "स्थानीय सिम के लिए लंबी एयरपोर्ट कतारें",
+  "about.story.problem.item3": "जटिल एक्टिवेशन प्रक्रियाएँ",
+  "about.story.problem.item4": "अपना मूल फोन नंबर खोना",
+
+  "about.story.solution.title": "हमारा समाधान",
+  "about.story.solution.item1": "रोमिंग की तुलना में 90% तक बचत",
+  "about.story.solution.item2": "5 सेकंड में तुरंत एक्टिवेशन",
+  "about.story.solution.item3": "कोई सिम कार्ड नहीं, कोई इंतजार नहीं",
+  "about.story.solution.item4": "अपना मूल नंबर सक्रिय रखें",
+
+  "about.story.highlight": "आज हमने 50 मिलियन से अधिक यात्रियों को 190+ देशों में कनेक्ट रहने में मदद की है। कोई रोमिंग शुल्क नहीं, कोई इंतजार नहीं — बस तुरंत कनेक्टिविटी।",
+
+  "about.features.title": "क्यों चुनें",
+  "about.features.subtitle": "हमने अंतरराष्ट्रीय यात्रियों के लिए सबसे भरोसेमंद और सस्ती eSIM सेवा बनाई है",
+
+  "about.features.instant.title": "तुरंत सक्रियण",
+  "about.features.instant.desc": "कुछ ही सेकंड में कनेक्ट हो जाएं। बस स्कैन करें और तुरंत उपयोग करें।",
+
+  "about.features.save.title": "90% तक बचत",
+  "about.features.save.desc": "महंगे रोमिंग शुल्क को अलविदा कहें। केवल उतना ही भुगतान करें जितना आपको चाहिए।",
+
+  "about.features.number.title": "अपना नंबर रखें",
+  "about.features.number.desc": "WhatsApp, iMessage और अन्य ऐप्स अपने मूल नंबर के साथ उपयोग करें।",
+
+  "about.features.global.title": "वैश्विक कवरेज",
+  "about.features.global.desc": "एक eSIM से कई देशों में कनेक्ट रहें।",
+
+  "about.features.secure.title": "सुरक्षित और भरोसेमंद",
+  "about.features.secure.desc": "99.9% अपटाइम के साथ एंटरप्राइज स्तर की सुरक्षा।",
+
+  "about.features.easy.title": "उपयोग में आसान",
+  "about.features.easy.desc": "डाउनलोड करें, QR कोड स्कैन करें और कनेक्ट हो जाएं।",
+
+  "about.timeline.title": "हमारी यात्रा",
+  "about.timeline.subtitle": "एक साधारण विचार से लाखों यात्रियों तक",
+
+  "about.timeline.start.title": "शुरुआत",
+  "about.timeline.start.desc": "यात्रियों के लिए महंगे रोमिंग शुल्क को खत्म करने के विचार से शुरुआत हुई।",
+
+  "about.timeline.launch.title": "पहले 10 देश",
+  "about.timeline.launch.desc": "10 लोकप्रिय गंतव्यों में लॉन्च किया और यात्रियों को बचत करने में मदद की।",
+
+  "about.timeline.expand.title": "वैश्विक विस्तार",
+  "about.timeline.expand.desc": "150+ देशों तक पहुंच और वैश्विक टेलीकॉम ऑपरेटरों के साथ साझेदारी।",
+
+  "about.timeline.leader.title": "उद्योग में अग्रणी",
+  "about.timeline.leader.desc": "190+ देशों में सेवा और लाखों यात्रियों को कनेक्टिविटी।",
+
+  "about.values.title": "हमारे मूल मूल्य",
+  "about.values.subtitle": "वे सिद्धांत जो हमारे हर काम का मार्गदर्शन करते हैं",
+
+  "about.values.customer.title": "ग्राहक पहले",
+  "about.values.customer.desc": "हर निर्णय एक सवाल से शुरू होता है: इससे हमारे यात्रियों को क्या फायदा होगा?",
+
+  "about.values.transparency.title": "पारदर्शिता",
+  "about.values.transparency.desc": "कोई छिपे हुए शुल्क नहीं। जो दिखता है वही भुगतान करते हैं।",
+
+  "about.values.innovation.title": "नवाचार",
+  "about.values.innovation.desc": "हम लगातार सेवा में सुधार करते हैं।",
+
+  "about.values.reliable.title": "विश्वसनीयता",
+  "about.values.reliable.desc": "99.9% अपटाइम और भरोसेमंद सपोर्ट।",
+
+  "about.cta.title": "क्या आप स्मार्ट तरीके से यात्रा करने के लिए तैयार हैं?",
+  "about.cta.desc": "50 मिलियन यात्रियों के साथ जुड़ें जो दुनिया भर में कनेक्ट रहते हैं",
+  "about.cta.plans": "eSIM प्लान देखें",
+  "about.cta.contact": "संपर्क करें",
+
+  "about.story.highlight.before": "आज हमने",
+  "about.story.highlight.users": "50 मिलियन से अधिक यात्रियों",
+  "about.story.highlight.middle": "को",
+  "about.story.highlight.countries": "190+ देशों",
+  "about.story.highlight.line1": "में कनेक्ट रहने में मदद की है।",
+  "about.story.highlight.line2": "कोई रोमिंग शुल्क नहीं।",
+  "about.story.highlight.line3": "बस तुरंत कनेक्टिविटी।",
+
+
+"nav.whatIsEsim": "eSIM क्या है",
+"nav.aboutUs": "हमारे बारे में",
+"nav.resources": "संसाधन",
+"nav.helpCenter": "सपोर्ट टिकट",
+"nav.helpCenterExternal": "हेल्प सेंटर",
+"nav.blog": "ब्लॉग",
+"nav.faqs": "सामान्य प्रश्न",
+"nav.pages": "पेज",
+"nav.noPages": "कोई पेज उपलब्ध नहीं है",
+"nav.supportedDevices": "समर्थित डिवाइस",
+"nav.seePacks": "प्लान देखें",
+"nav.signIn": "साइन इन",
+"nav.signOut": "साइन आउट",
+
+"nav.menu": "मेनू",
+"nav.theme": "थीम",
+"nav.currency": "करेंसी",
+"nav.notifications": "नोटिफिकेशन",
+"nav.myOrders": "मेरे ऑर्डर",
+
+"common.button.selectLanguage": "भाषा चुनें",
+
+
+"account.settings": "अकाउंट सेटिंग्स",
+"account.title": "अकाउंट",
+
+"account.info.title": "अकाउंट जानकारी",
+"account.info.desc": "अपनी व्यक्तिगत जानकारी प्रबंधित करें",
+
+"account.esim.title": "मेरी E-SIM जानकारी",
+"account.esim.desc": "अपने eSIM प्रोफाइल प्रबंधित करें",
+
+"account.orders.title": "ऑर्डर इतिहास",
+"account.orders.desc": "अपना खरीद इतिहास देखें",
+
+"account.kyc.title": "KYC सत्यापन",
+"account.kyc.desc": "अपनी पहचान सत्यापित करें",
+
+"account.referrals.title": "रेफरल",
+"account.referrals.desc": "रेफरल प्राप्त करें",
+
+"account.support.title": "ग्राहक सहायता",
+"account.support.desc": "मदद और सपोर्ट प्राप्त करें",
+
+"account.giftcards.title": "गिफ्ट कार्ड",
+"account.giftcards.desc": "अपने गिफ्ट कार्ड प्रबंधित करें",
+
+"common.home": "होम",
+
+
+  "profile.title": "मेरा प्रोफ़ाइल",
+  "profile.description": "अपनी अकाउंट जानकारी और सेटिंग्स प्रबंधित करें",
+
+  "profile.profileUpdated": "प्रोफ़ाइल अपडेट हो गया",
+  "profile.profileUpdatedDesc": "आपकी प्रोफ़ाइल जानकारी सफलतापूर्वक सेव हो गई है।",
+
+  "profile.preferencesUpdated": "प्रेफरेंस अपडेट हो गई",
+  "profile.preferencesUpdatedDesc": "आपकी नोटिफिकेशन सेटिंग्स सफलतापूर्वक सेव हो गई हैं।",
+
+  "profile.updateFailed": "अपडेट असफल",
+  "profile.notificationUpdateFailed": "नोटिफिकेशन सेटिंग्स अपडेट नहीं हो सकीं",
+
+  "profile.accountOverview": "अकाउंट ओवरव्यू",
+  "profile.accountOverviewDesc": "आपके अकाउंट की स्थिति और वेरिफिकेशन जानकारी",
+
+  "profile.noNameSet": "कोई नाम सेट नहीं किया गया",
+
+  "profile.kycVerification": "KYC सत्यापन",
+  "profile.kycVerificationDesc": "पहचान सत्यापन की स्थिति",
+
+  "profile.kycPending": "लंबित",
+  "profile.kycSubmitted": "सबमिट किया गया",
+  "profile.kycApproved": "स्वीकृत",
+  "profile.kycVerified": "सत्यापित",
+  "profile.kycRejected": "अस्वीकृत",
+
+  "profile.submitKYC": "KYC जमा करें",
+  "profile.viewStatus": "स्थिति देखें",
+  "profile.kycRejectionReason": "KYC अस्वीकृति का कारण",
+
+  "profile.profileInfo": "प्रोफ़ाइल जानकारी",
+  "profile.profileInfoDesc": "अपनी व्यक्तिगत जानकारी अपडेट करें",
+
+  "profile.fullName": "पूरा नाम",
+  "profile.namePlaceholder": "जॉन डो",
+
+  "profile.phoneNumber": "फोन नंबर",
+  "profile.phonePlaceholder": "+91 9876543210",
+
+  "profile.address": "पता",
+  "profile.addressPlaceholder": "123 मेन स्ट्रीट, शहर, देश",
+
+  "profile.country": "देश",
+  "profile.selectCountry": "देश चुनें",
+
+  "profile.currency": "मुद्रा",
+  "profile.selectCurrency": "मुद्रा चुनें",
+
+  "profile.saving": "सेव हो रहा है...",
+  "profile.saveChanges": "परिवर्तन सहेजें",
+
+  "profile.notificationPreferences": "नोटिफिकेशन सेटिंग्स",
+  "profile.notificationPreferencesDesc": "अपने eSIM से जुड़े अलर्ट कैसे प्राप्त करें, इसे प्रबंधित करें",
+
+  "profile.lowDataAlerts": "कम डेटा अलर्ट",
+  "profile.lowDataAlertsDesc": "जब आपका eSIM 75% या 90% डेटा उपयोग पर पहुँचता है तब ईमेल नोटिफिकेशन प्राप्त करें",
+
+  "profile.expiryAlerts": "समाप्ति अलर्ट",
+  "profile.expiryAlertsDesc": "जब आपका eSIM समाप्त होने वाला हो तब नोटिफिकेशन प्राप्त करें (3 दिन और 1 दिन पहले)",
+
+  "profile.notificationInfo": "ये नोटिफिकेशन आपको डेटा उपयोग प्रबंधित करने और सेवा बाधित होने से बचाने में मदद करते हैं। आप इन्हें कभी भी बदल सकते हैं।",
+
+  "profile.quickActions": "त्वरित कार्य",
+  "profile.viewMyOrders": "मेरे ऑर्डर देखें",
+  "profile.contactSupport": "सपोर्ट से संपर्क करें",
+
+  "common.cancel": "रद्द करें",
+
+  
+  "myEsims.title": "मेरे eSIM",
+  "myEsims.description": "अपने सक्रिय eSIM पैकेज और डेटा उपयोग को प्रबंधित करें",
+  "myEsims.loading": "आपके eSIM लोड हो रहे हैं...",
+  "myEsims.noEsims": "अभी कोई eSIM नहीं है",
+  "myEsims.noEsimsDesc": "अपना पहला eSIM शुरू करने के लिए एक पैकेज खरीदें",
+  "myEsims.browsePackages": "पैकेज देखें",
+  "myEsims.installationInstructions": "इंस्टॉलेशन निर्देश",
+  "myEsims.followSteps": "अपना eSIM सक्रिय करने के लिए इन चरणों का पालन करें",
+  "myEsims.scanQrCode": "QR कोड स्कैन करें",
+  "myEsims.activationDetails": "एक्टिवेशन विवरण",
+  "myEsims.copy": "कॉपी करें",
+  "myEsims.copied": "कॉपी हो गया",
+  "myEsims.smdpAddress": "SM-DP+ पता",
+  "myEsims.activationCode": "एक्टिवेशन कोड",
+  "myEsims.completePayment": "भुगतान पूरा करें",
+  "myEsims.purchaseTopup": "टॉप-अप खरीदें",
+  "myEsims.securelyPay": "अपने टॉप-अप के लिए सुरक्षित भुगतान करें",
+  "myEsims.addMoreData": "अपने eSIM में और डेटा जोड़ें",
+  "myEsims.backToPackages": "पैकेज पर वापस जाएं",
+  "myEsims.select": "चुनें",
+  "myEsims.noTopupPackages": "कोई टॉप-अप पैकेज उपलब्ध नहीं है",
+  "myEsims.daysValidity": "दिनों की वैधता",
+  "myEsims.dataUsed": "उपयोग किया गया डेटा",
+  "myEsims.used": "उपयोग किया",
+  "myEsims.remaining": "बाकी",
+  "myEsims.validUntil": "वैधता",
+  "myEsims.setup": "सेटअप",
+  "myEsims.topUp": "टॉप अप",
+  "myEsims.active": "सक्रिय",
+  "myEsims.expired": "समाप्त",
+  "myEsims.inactive": "निष्क्रिय",
+  "myEsims.processingPayment": "भुगतान प्रोसेस हो रहा है...",
+  "myEsims.payAmount": "${{amount}} भुगतान करें",
+  "myEsims.paymentFailed": "भुगतान विफल",
+  "myEsims.topupSuccessful": "टॉप-अप सफल!",
+  "myEsims.topupSuccessfulDesc": "आपके eSIM में अतिरिक्त डेटा जोड़ दिया गया है",
+  "myEsims.topupFailed": "टॉप-अप विफल",
+  "myEsims.topupFailedDesc": "भुगतान सफल हुआ लेकिन टॉप-अप नहीं बना। कृपया सपोर्ट से संपर्क करें।",
+  "myEsims.purchaseFailed": "खरीद विफल",
+  "myEsims.purchaseFailedDesc": "टॉप-अप खरीदने में विफल",
+  "myEsims.initializePaymentFailed": "भुगतान प्रारंभ करने में विफल",
+
+  
+  "esim.installationInstructions": "इंस्टॉलेशन निर्देश",
+  "esim.followSteps": "अपने eSIM को सक्रिय करने के लिए इन चरणों का पालन करें",
+  "esim.scanQr": "QR कोड स्कैन करें",
+
+  "esim.activationDetails": "सक्रियण विवरण",
+  "esim.smdpAddress": "SM-DP+ पता",
+  "esim.activationCode": "सक्रियण कोड",
+
+  "common.copy": "कॉपी करें",
+  "common.copied": "कॉपी हो गया",
+  "common.android": "एंड्रॉइड",
+  "common.ios": "आईओएस",
+
+  "esim.android.step1": "सेटिंग्स > नेटवर्क और इंटरनेट > सिम पर जाएँ",
+  "esim.android.step2": "Download a SIM instead या Add eSIM पर टैप करें",
+  "esim.android.step3": "'Scan QR Code' या 'Use QR code' पर टैप करें",
+  "esim.android.step4": "कैमरा को नीचे दिए गए QR कोड पर रखें",
+  "esim.android.step5": "eSIM को सक्रिय करने के लिए स्क्रीन पर दिए गए निर्देशों का पालन करें",
+  "esim.android.step6": "अपने eSIM को नाम दें (वैकल्पिक) और 'Done' पर टैप करें",
+
+  "esim.ios.step1": "सेटिंग्स > सेल्युलर पर जाएँ",
+  "esim.ios.step2": "'Add Cellular Plan' पर टैप करें",
+  "esim.ios.step3": "'Scan QR Code' पर टैप करें",
+  "esim.ios.step4": "कैमरा को नीचे दिए गए QR कोड पर रखें",
+  "esim.ios.step5": "eSIM को सक्रिय करने के लिए स्क्रीन पर दिए गए निर्देशों का पालन करें",
+  "esim.ios.step6": "अपने eSIM को नाम दें (वैकल्पिक) और 'Done' पर टैप करें",
+
+
+  
+  "myOrders.esimManagement": "eSIM प्रबंधन",
+  "myOrders.qrCode": "QR कोड",
+  "myOrders.scanQr": "QR कोड स्कैन करें",
+  "myOrders.scanQrDesc": "eSIM इंस्टॉल करने के लिए अपने फोन से इस QR को स्कैन करें",
+
+  "myOrders.details": "विवरण",
+  "myOrders.installation": "इंस्टॉलेशन",
+  "myOrders.usage": "उपयोग",
+  "myOrders.topups": "टॉप-अप",
+
+  "myOrders.esimInformation": "eSIM जानकारी",
+  "myOrders.packageDetails": "पैकेज विवरण",
+  "myOrders.orderDetails": "ऑर्डर विवरण",
+
+  "myOrders.iccid": "ICCID",
+  "myOrders.status": "स्थिति",
+  "myOrders.created": "बनाया गया",
+  "myOrders.activated": "सक्रिय किया गया",
+  "myOrders.expires": "समाप्ति",
+
+  "myOrders.packageName": "पैकेज नाम",
+  "myOrders.packageId": "पैकेज आईडी",
+  "myOrders.data": "डेटा",
+  "myOrders.validity": "वैधता",
+  "myOrders.price": "कीमत",
+  "myOrders.operator": "ऑपरेटर",
+
+  "myOrders.customerPrice": "ग्राहक कीमत",
+  "myOrders.airaloCost": "Airalo लागत",
+
+  "myOrders.qrInstallation": "QR कोड इंस्टॉलेशन",
+  "myOrders.scanQrDesc2": "eSIM इंस्टॉल करने के लिए इस QR कोड को स्कैन करें",
+  "myOrders.manualActivationCode": "मैनुअल एक्टिवेशन कोड",
+
+  "myOrders.installationSteps": "इंस्टॉलेशन स्टेप्स",
+  "myOrders.deviceCompatibility": "डिवाइस संगतता",
+  "myOrders.compatible": "संगत",
+  "myOrders.notCompatible": "असंगत",
+
+  "myOrders.dataUsage": "डेटा उपयोग",
+  "myOrders.dataUsed": "उपयोग किया गया डेटा",
+  "myOrders.remaining": "शेष",
+  "myOrders.validUntil": "वैधता तक",
+
+  "myOrders.callsMessages": "कॉल और संदेश",
+  "myOrders.voice": "वॉयस",
+  "myOrders.sms": "SMS",
+
+  "myOrders.availableTopups": "उपलब्ध टॉप-अप पैकेज",
+  "myOrders.applyTopup": "टॉप-अप लागू करें",
+  "myOrders.noTopups": "इस eSIM के लिए कोई टॉप-अप पैकेज उपलब्ध नहीं है",
+
+  "myOrders.qrNotAvailable": "QR उपलब्ध नहीं",
+  "myOrders.qrNotAvailableDesc": "QR कोड नहीं मिला",
+  "myOrders.qrError": "QR त्रुटि",
+  "myOrders.qrErrorDesc": "QR कोड लोड नहीं हो सका",
+  "myOrders.title": "मेरे ऑर्डर",
+  "myOrders.description": "अपने सक्रिय eSIM पैकेज और डेटा उपयोग को प्रबंधित करें",
+
+
+  
+  "kyc.title": "केवाईसी सत्यापन",
+  "kyc.description": "अपने खाते की सुरक्षा सुनिश्चित करने के लिए अपनी पहचान सत्यापित करें",
+  "kyc.loading": "लोड हो रहा है...",
+
+  "kyc.verificationStatus": "सत्यापन स्थिति",
+  "kyc.verificationStatusDesc": "आपके केवाईसी सत्यापन की वर्तमान स्थिति",
+
+  "kyc.verificationApproved": "सत्यापन स्वीकृत",
+  "kyc.identityVerified": "पहचान सत्यापित",
+  "kyc.verificationRejected": "सत्यापन अस्वीकृत",
+  "kyc.underReview": "समीक्षा के अंतर्गत",
+  "kyc.verificationPending": "सत्यापन लंबित",
+
+  "kyc.approvedDesc": "आपकी पहचान सफलतापूर्वक सत्यापित हो गई है",
+  "kyc.verifiedDesc": "आपकी पहचान सफलतापूर्वक सत्यापित हो गई है",
+  "kyc.rejectedDesc": "कृपया नए दस्तावेज़ जमा करें",
+  "kyc.submittedDesc": "हमारी टीम आपके दस्तावेज़ों की समीक्षा कर रही है",
+  "kyc.pendingDesc": "सत्यापित होने के लिए अपने दस्तावेज़ जमा करें",
+
+  "kyc.rejectionReason": "अस्वीकृति का कारण",
+
+  "kyc.uploadDocuments": "दस्तावेज़ अपलोड करें",
+  "kyc.uploadDocumentsDesc": "अपने सरकारी पहचान पत्र की स्पष्ट फोटो या स्कैन अपलोड करें",
+
+  "kyc.documentType": "दस्तावेज़ का प्रकार",
+  "kyc.selectDocumentType": "दस्तावेज़ का प्रकार चुनें",
+
+  "kyc.passport": "पासपोर्ट",
+  "kyc.nationalId": "राष्ट्रीय पहचान पत्र",
+  "kyc.driversLicense": "ड्राइविंग लाइसेंस",
+  "kyc.proofOfAddress": "पते का प्रमाण",
+
+  "kyc.uploadFile": "फ़ाइल अपलोड करें",
+  "kyc.clickToUpload": "अपलोड करने के लिए क्लिक करें",
+  "kyc.orDragAndDrop": "या ड्रैग और ड्रॉप करें",
+  "kyc.fileFormat": "PNG, JPG, PDF (अधिकतम 10MB)",
+
+  "kyc.removeFile": "फ़ाइल हटाएँ",
+
+  "kyc.documentRequirements": "दस्तावेज़ आवश्यकताएँ:",
+  "kyc.requirement1": "सरकार द्वारा जारी पहचान पत्र होना चाहिए",
+  "kyc.requirement2": "फोटो स्पष्ट और पढ़ने योग्य होनी चाहिए",
+  "kyc.requirement3": "दस्तावेज़ के सभी कोने दिखाई देने चाहिए",
+  "kyc.requirement4": "टेक्स्ट पर चमक या छाया नहीं होनी चाहिए",
+
+  "kyc.submitForReview": "समीक्षा के लिए जमा करें",
+  "kyc.uploading": "अपलोड हो रहा है...",
+
+  "kyc.documentUploaded": "दस्तावेज़ अपलोड हो गया",
+  "kyc.documentUploadedDesc": "आपका केवाईसी दस्तावेज़ समीक्षा के लिए जमा कर दिया गया है",
+
+  "kyc.uploadFailed": "अपलोड विफल",
+  "kyc.uploadFailedDesc": "दस्तावेज़ अपलोड करने में विफल",
+
+  "kyc.fileTooLarge": "फ़ाइल बहुत बड़ी है",
+  "kyc.fileTooLargeDesc": "कृपया 10MB से छोटी फ़ाइल चुनें",
+
+  "kyc.missingInformation": "जानकारी अधूरी है",
+  "kyc.missingInformationDesc": "कृपया दस्तावेज़ का प्रकार और फ़ाइल चुनें",
+
+  "kyc.submittedDocuments": "जमा किए गए दस्तावेज़",
+  "kyc.submittedDocumentsDesc": "वे दस्तावेज़ जिन्हें आपने सत्यापन के लिए अपलोड किया है",
+
+  "kyc.uploaded": "अपलोड किया गया",
+
+  "kyc.status.pending": "जमा नहीं किया गया",
+  "kyc.status.approved": "स्वीकृत",
+  "kyc.status.verified": "सत्यापित",
+  "kyc.status.rejected": "अस्वीकृत",
+  "kyc.status.submitted": "जमा किया गया",
+
+
+  
+"support.myTickets":"मेरे सपोर्ट टिकट",
+"support.manageTickets":"अपने सपोर्ट अनुरोधों को ट्रैक और मैनेज करें",
+"support.createTicket":"टिकट बनाएं",
+"support.createNewTicket":"नया सपोर्ट टिकट बनाएं",
+"support.ticketDesc":"अपनी समस्या का विवरण दें और हम जल्द ही आपसे संपर्क करेंगे",
+
+"support.open":"खुला",
+"support.inProgress":"प्रगति में",
+"support.resolved":"सुलझाया गया",
+"support.closed":"बंद",
+"support.total":"कुल",
+"support.allTickets":"सभी टिकट",
+
+"support.loadingTickets":"टिकट लोड हो रहे हैं...",
+"support.noTicketsFound":"कोई टिकट नहीं मिला",
+"support.adjustFilter":"अपना फ़िल्टर बदलकर देखें",
+"support.createFirstTicket":"अपना पहला सपोर्ट टिकट बनाएं",
+
+"support.created":"बनाया गया",
+"support.priority":"प्राथमिकता",
+"support.description":"विवरण",
+
+"support.conversation":"बातचीत",
+"support.noMessages":"अभी तक कोई संदेश नहीं है। बातचीत शुरू करें!",
+
+"support.typeReply":"अपना जवाब लिखें...",
+"support.send":"भेजें",
+
+"support.noTicketSelected":"कोई टिकट चयनित नहीं है",
+"support.selectTicket":"विवरण और बातचीत देखने के लिए सूची से एक टिकट चुनें",
+
+
+"support.issueTitle":"अपनी समस्या का संक्षिप्त विवरण",
+"support.issueDesc":"कृपया अपनी समस्या के बारे में विस्तृत जानकारी दें",
+
+"support.priorityLow":"कम - सामान्य पूछताछ",
+"support.priorityMedium":"मध्यम - समस्या पर ध्यान देने की आवश्यकता",
+"support.priorityHigh":"उच्च - महत्वपूर्ण समस्या",
+"support.priorityUrgent":"अति आवश्यक - गंभीर समस्या",
+
+"support.creating":"बनाया जा रहा है...",
+
+
+"giftcards.metaTitle": "गिफ्ट कार्ड - कनेक्टिविटी का उपहार दें",
+    "giftcards.metaDescription": "वैश्विक कनेक्टिविटी का उपहार दें eSIM गिफ्ट कार्ड के साथ। यात्रियों और रिमोट वर्कर्स के लिए बिल्कुल सही।",
+
+    "giftcards.perfectGift": "यात्रियों के लिए बेहतरीन उपहार",
+    "giftcards.title1": "कनेक्टिविटी का",
+    "giftcards.title2": "उपहार दें",
+    "giftcards.subtitle": "दोस्तों और परिवार को गिफ्ट कार्ड भेजें। यात्रियों, रिमोट वर्कर्स और उन सभी के लिए बिल्कुल सही जिन्हें दुनिया भर में जुड़े रहना है।",
+    "giftcards.history": "गिफ्ट कार्ड इतिहास देखें",
+
+    "giftcards.instantDelivery": "तुरंत डिलीवरी",
+    "giftcards.emailDelivery": "कुछ ही सेकंड में ईमेल डिलीवरी",
+    "giftcards.countries": "200+ देश",
+    "giftcards.worldwide": "दुनिया भर में काम करता है",
+    "giftcards.neverExpires": "कभी समाप्त नहीं होता",
+    "giftcards.useAnytime": "कभी भी उपयोग करें",
+    "giftcards.anyAmount": "कोई भी राशि",
+    "giftcards.range": "$10 से $500 तक",
+
+    "giftcards.purchaseTitle": "गिफ्ट कार्ड खरीदें",
+    "giftcards.purchaseDesc": "एक राशि चुनें और अपने उपहार को व्यक्तिगत बनाएं",
+
+    "giftcards.selectAmount": "राशि चुनें",
+    "giftcards.customAmount": "या कस्टम राशि दर्ज करें",
+    "giftcards.recipientName": "प्राप्तकर्ता का नाम",
+    "giftcards.recipientEmail": "प्राप्तकर्ता का ईमेल",
+    "giftcards.personalMessage": "व्यक्तिगत संदेश (वैकल्पिक)",
+
+    "giftcards.paymentMethod": "भुगतान विधि",
+    "giftcards.continuePayment": "भुगतान के लिए आगे बढ़ें",
+
+    "giftcards.preview": "पूर्वावलोकन",
+    "giftcards.howItWorks": "यह कैसे काम करता है",
+
+    "giftcards.step1": "राशि चुनें या कस्टम राशि दर्ज करें",
+    "giftcards.step2": "प्राप्तकर्ता का विवरण और संदेश जोड़ें",
+    "giftcards.step3": "सुरक्षित भुगतान पूरा करें",
+    "giftcards.step4": "प्राप्तकर्ता को ईमेल के माध्यम से तुरंत गिफ्ट कार्ड मिलेगा",
+    "giftcards.step5": "वे इसे किसी भी eSIM पैकेज के लिए उपयोग कर सकते हैं",
+
+    "giftcards.completePurchase": "अपनी खरीद पूरी करें",
+    "giftcards.back": "वापस जाएँ",
+
+    "giftcards.faqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+
+    "giftcards.faq1q": "गिफ्ट कार्ड कैसे डिलीवर होते हैं?",
+    "giftcards.faq1a": "गिफ्ट कार्ड तुरंत ईमेल के माध्यम से उस प्राप्तकर्ता के ईमेल पते पर भेज दिए जाते हैं जो आप प्रदान करते हैं।",
+
+    "giftcards.faq2q": "क्या गिफ्ट कार्ड समाप्त हो जाते हैं?",
+    "giftcards.faq2a": "नहीं, गिफ्ट कार्ड कभी समाप्त नहीं होते। प्राप्तकर्ता इन्हें कभी भी उपयोग कर सकता है।",
+
+    "giftcards.faq3q": "क्या मैं एक गिफ्ट कार्ड का उपयोग कई खरीद के लिए कर सकता हूँ?",
+    "giftcards.faq3a": "हाँ! गिफ्ट कार्ड की राशि को कई खरीद में तब तक उपयोग किया जा सकता है जब तक बैलेंस समाप्त न हो जाए।",
+
+    "giftcards.faq4q": "अगर मेरी खरीद गिफ्ट कार्ड बैलेंस से अधिक हो जाए तो क्या होगा?",
+    "giftcards.faq4a": "आप शेष राशि का भुगतान हमारे किसी भी समर्थित भुगतान विधि से कर सकते हैं।",
+
+
+    "blog.metaTitle": "eSIM ट्रैवल ब्लॉग - टिप्स, गाइड्स और डेस्टिनेशन इनसाइट्स",
+    "blog.metaDescription": "हमारे ट्रैवल ब्लॉग में eSIM गाइड्स, डेस्टिनेशन टिप्स और डिजिटल नोमैड संसाधन खोजें। दुनिया भर में यात्रा करते समय कनेक्टेड रहने के तरीके जानें।",
+    "blog.ogTitle": "eSIM ट्रैवल ब्लॉग - टिप्स और गाइड्स",
+    "blog.ogDescription": "डिजिटल नोमैड्स और यात्रियों के लिए ट्रैवल टिप्स, eSIM गाइड्स और डेस्टिनेशन इनसाइट्स।",
+
+    "blog.badge": "ट्रैवल इनसाइट्स और गाइड्स",
+    "blog.title": "eSIM ट्रैवल ब्लॉग",
+    "blog.description": "ट्रैवल टिप्स, डेस्टिनेशन गाइड्स और विशेषज्ञ सलाह खोजें कि eSIM के साथ दुनिया भर में कैसे जुड़े रहें।",
+    "blog.search": "लेख, डेस्टिनेशन और गाइड खोजें...",
+
+    "blog.articles": "लेख",
+    "blog.thisPage": "यह पेज",
+
+    "blog.previous": "पिछला",
+    "blog.next": "अगला",
+    "blog.page": "पेज",
+    "blog.of": "का",
+
+    "blog.noArticles": "कोई लेख नहीं मिला",
+    "blog.noArticlesDesc": "अपनी खोज को समायोजित करने का प्रयास करें या सभी लेख देखें।",
+    "blog.clearSearch": "खोज साफ करें",
+
+    "blog.draft": "ड्राफ्ट",
+
+
+    "login.welcome": "स्वागत है",
+"login.subtitle": "अपने खाते में साइन इन करें या नया खाता बनाएं",
+
+"login.signin": "साइन इन",
+"login.signup": "साइन अप",
+
+"login.email": "ईमेल",
+"login.password": "पासवर्ड",
+"login.forgotPassword": "पासवर्ड भूल गए?",
+
+"login.signingIn": "साइन इन हो रहा है...",
+"login.signInButton": "साइन इन करें",
+
+"login.noAccount": "क्या आपका खाता नहीं है?",
+"login.createAccount": "खाता बनाएं",
+
+"login.enterEmail": "शुरू करने के लिए अपना ईमेल दर्ज करें",
+"login.verifyEmail": "ईमेल सत्यापित करें",
+"login.completeSetup": "सेटअप पूरा करें",
+
+"login.fullName": "पूरा नाम",
+"login.confirmPassword": "पासवर्ड की पुष्टि करें",
+
+"login.creatingAccount": "खाता बनाया जा रहा है...",
+"login.createAccountButton": "खाता बनाएं",
+
+"login.resetPassword": "पासवर्ड रीसेट करें",
+"login.sendResetCode": "रीसेट कोड भेजें",
+
+"login.verificationCode": "सत्यापन कोड",
+"login.verifyEmailButton": "ईमेल सत्यापित करें",
+
+"login.orContinue": "या इसके साथ जारी रखें",
+"login.continueGoogle": "Google के साथ जारी रखें",
+
+"login.backHome": "होम पर वापस जाएँ",
+
+"login.stayConnected": "कहीं भी जुड़े रहें",
+"login.joinMillions": "दुनिया भर में निर्बाध कनेक्टिविटी के लिए eSIM का उपयोग करने वाले लाखों यात्रियों से जुड़ें",
+
+"login.globalCoverage": "वैश्विक कवरेज",
+"login.globalCoverageDesc": "दुनिया के 190+ देशों में मोबाइल डेटा का उपयोग करें",
+
+"login.instantActivation": "तुरंत सक्रियण",
+"login.instantActivationDesc": "QR कोड सेटअप के साथ कुछ ही सेकंड में कनेक्ट हों",
+
+"login.secureReliable": "सुरक्षित और विश्वसनीय",
+"login.secureReliableDesc": "आपके डेटा के लिए एंटरप्राइज़ स्तर की सुरक्षा",
+
+"login.support247": "24/7 सहायता",
+"login.support247Desc": "हमारी टीम हमेशा आपकी मदद के लिए तैयार है",
+
+"login.trustedTravelers": "दुनिया भर में 20 लाख से अधिक यात्रियों का भरोसा",
+
+
+"login.signinDesc": "अपना ईमेल और पासवर्ड दर्ज करें",
+"login.enterPassword": "अपना पासवर्ड दर्ज करें",
+"login.setNewPassword": "नया पासवर्ड सेट करें",
+"login.sending": "भेजा जा रहा है...",
+"login.enterEmailStart": "शुरू करने के लिए अपना ईमेल दर्ज करें",
+"login.enterEmailReset": "रीसेट कोड प्राप्त करने के लिए अपना ईमेल दर्ज करें",
+"login.enterCodePassword": "{{email}} पर भेजा गया कोड और अपना नया पासवर्ड दर्ज करें",
+"login.rememberPassword": "क्या आपको अपना पासवर्ड याद है?"
+
+
+
+
+
+
+  },
+  "userPanel": {
+    "dashboard.title": "डैशबोर्ड",
+    "dashboard.welcome": "वापसी पर स्वागत है!",
+    "esims.title": "मेरी eSIMs",
+    "orders.title": "मेरे ऑर्डर",
+    "profile.title": "प्रोफ़ाइल",
+    "dashboard.activeEsims": "सक्रिय eSIMs",
+    "dashboard.totalOrders": "कुल ऑर्डर",
+    "dashboard.recentActivity": "हाल की गतिविधि",
+    "dashboard.quickActions": "त्वरित क्रियाएँ",
+    "dashboard.buyNewEsim": "नई eSIM खरीदें",
+    "dashboard.topUp": "टॉप अप",
+    "dashboard.viewUsage": "उपयोग देखें",
+    "esims.active": "सक्रिय",
+    "esims.expired": "समाप्त",
+    "esims.all": "सभी",
+    "esims.noEsims": "अभी तक कोई eSIM नहीं",
+    "esims.buyFirst": "शुरू करने के लिए अपनी पहली eSIM खरीदें",
+    "esims.viewDetails": "विवरण देखें",
+    "esims.install": "इंस्टॉल करें",
+    "esims.topUp": "टॉप अप",
+    "esims.usage": "डेटा उपयोग",
+    "esims.remaining": "शेष",
+    "esims.expiresIn": "समाप्त होने में",
+    "esims.qrCode": "QR कोड",
+    "esims.manualCodes": "मैन्युअल कोड",
+    "esims.iccid": "ICCID",
+    "esims.activationCode": "सक्रियण कोड",
+    "orders.all": "सभी ऑर्डर",
+    "orders.completed": "पूर्ण",
+    "orders.pending": "लंबित",
+    "orders.orderDate": "ऑर्डर तिथि",
+    "orders.orderStatus": "स्थिति",
+    "orders.orderTotal": "कुल",
+    "orders.viewDetails": "विवरण देखें",
+    "orders.trackOrder": "ऑर्डर ट्रैक करें",
+    "orders.downloadReceipt": "रसीद डाउनलोड करें",
+    "orders.requestRefund": "रिफंड का अनुरोध करें",
+    "profile.personalInfo": "व्यक्तिगत जानकारी",
+    "profile.email": "ईमेल पता",
+    "profile.name": "पूरा नाम",
+    "profile.phone": "फ़ोन नंबर",
+    "profile.country": "देश",
+    "profile.language": "पसंदीदा भाषा",
+    "profile.currency": "पसंदीदा मुद्रा",
+    "profile.saveChanges": "परिवर्तन सहेजें",
+    "profile.changePassword": "पासवर्ड बदलें",
+    "profile.currentPassword": "वर्तमान पासवर्ड",
+    "profile.newPassword": "नया पासवर्ड",
+    "profile.updatePassword": "पासवर्ड अपडेट करें",
+    "settings.title": "सेटिंग्स",
+    "settings.notifications": "सूचना प्राथमिकताएँ",
+    "settings.emailNotifications": "ईमेल सूचनाएँ",
+    "settings.pushNotifications": "पुश सूचनाएँ",
+    "settings.marketingEmails": "मार्केटिंग ईमेल",
+    "settings.orderUpdates": "ऑर्डर अपडेट",
+    "settings.usageAlerts": "उपयोग अलर्ट",
+    "settings.security": "सुरक्षा",
+    "settings.twoFactor": "दो-स्तरीय प्रमाणीकरण",
+    "settings.sessions": "सक्रिय सत्र",
+    "settings.deleteAccount": "खाता हटाएँ",
+    "settings.deleteWarning": "यह क्रिया वापस नहीं की जा सकती",
+    "referrals.title": "रेफरल प्रोग्राम",
+    "referrals.yourCode": "आपका रेफरल कोड",
+    "referrals.shareLink": "अपना लिंक साझा करें",
+    "referrals.copyCode": "कोड कॉपी करें",
+    "referrals.codeCopied": "रेफरल कोड कॉपी हो गया!",
+    "referrals.totalEarned": "कुल कमाई",
+    "referrals.pendingRewards": "लंबित रिवॉर्ड",
+    "referrals.referredFriends": "रेफ़र किए गए मित्र",
+    "referrals.rewardHistory": "इनाम इतिहास",
+    "giftCards.title": "गिफ्ट कार्ड",
+    "giftCards.myCards": "मेरे गिफ्ट कार्ड",
+    "giftCards.balance": "बैलेंस",
+    "giftCards.redeemCode": "कोड रिडीम करें",
+    "giftCards.enterCode": "कोड दर्ज करें",
+    "giftCards.redeem": "रिडीम करें",
+    "giftCards.buyGiftCard": "गिफ्ट कार्ड खरीदें",
+    "giftCards.purchaseHistory": "खरीद इतिहास",
+    "giftCards.usageHistory": "उपयोग इतिहास",
+    "notifications.title": "सूचनाएँ",
+    "notifications.all": "सभी",
+    "notifications.unread": "अपठित",
+    "notifications.markRead": "पढ़ा हुआ चिह्नित करें",
+    "notifications.markAllRead": "सभी को पढ़ा हुआ चिह्नित करें",
+    "notifications.noNotifications": "कोई सूचना नहीं",
+    "notifications.clearAll": "सभी साफ़ करें",
+    "support.title": "सहायता",
+    "support.newTicket": "नया टिकट बनाएँ",
+    "support.myTickets": "मेरे टिकट",
+    "support.ticketSubject": "विषय",
+    "support.ticketCategory": "श्रेणी",
+    "support.ticketMessage": "संदेश",
+    "support.submitTicket": "टिकट सबमिट करें",
+    "support.ticketStatus": "स्थिति",
+    "support.reply": "उत्तर दें",
+    "support.closeTicket": "टिकट बंद करें",
+    "auth.login": "साइन इन करें",
+    "auth.emailLogin": "ईमेल से साइन इन करें",
+    "auth.passwordLogin": "पासवर्ड से साइन इन करें",
+    "auth.sendOtp": "सत्यापन कोड भेजें",
+    "auth.enterOtp": "सत्यापन कोड दर्ज करें",
+    "auth.verifyOtp": "सत्यापित करें",
+    "auth.resetPassword": "पासवर्ड रीसेट करें",
+    "auth.noAccount": "क्या आपका खाता नहीं है?",
+    "auth.createAccount": "खाता बनाएँ",
+    "auth.haveAccount": "क्या पहले से खाता है?",
+    "auth.loginHere": "यहाँ साइन इन करें",
+    "orders.noOrders": "अभी तक कोई ऑर्डर नहीं",
+    "referrals.earnRewards": "इनाम कमाएँ",
+    "auth.loginSubtitle": "वापसी पर स्वागत है! अपने खाते में साइन इन करें",
+    "auth.resendOtp": "कोड पुनः भेजें",
+    "orders.orderNumber": "ऑर्डर #",
+    "profile.confirmPassword": "नए पासवर्ड की पुष्टि करें",
+    "referrals.howItWorks": "यह कैसे काम करता है",
+    "auth.forgotPassword": "पासवर्ड भूल गए?",
+    "referrals.subtitle": "दोस्तों को रेफर करें और रिवॉर्ड कमाएं",
+    "referrals.copyLink": "लिंक कॉपी करें",
+    "referrals.shareVia": "इसके जरिए शेयर करें",
+    "referrals.linkCopied": "रेफरल लिंक कॉपी हो गया!",
+    "referrals.totalReferrals": "कुल रेफरल",
+    "referrals.successfulReferrals": "सफल रेफरल",
+    "referrals.totalEarnings": "कुल कमाई",
+    "referrals.referralHistory": "रेफरल इतिहास",
+    "referrals.referredUser": "रेफर किया गया यूज़र",
+    "referrals.status": "स्थिति",
+    "referrals.rewardAmount": "रिवॉर्ड",
+    "referrals.date": "तारीख",
+    "referrals.pending": "लंबित",
+    "referrals.completed": "पूर्ण",
+    "referrals.step1Title": "अपना कोड शेयर करें",
+    "referrals.step2Title": "वे साइन अप करते हैं",
+    "referrals.step3Title": "आप रिवॉर्ड कमाते हैं",
+    "referrals.step3Desc": "हर सफल रेफरल पर {{reward}} रिवॉर्ड पाएं",
+    "referrals.termsAndConditions": "नियम और शर्तें",
+    "referrals.haveReferralCode": "क्या आपके पास रेफरल कोड है?",
+    "referrals.enterCode": "रेफरल कोड दर्ज करें",
+    "referrals.applyCode": "कोड लागू करें",
+    "referrals.codeApplied": "रेफरल कोड लागू हो गया! आपको {{discount}}% की छूट मिलेगी",
+    "referrals.invalidCode": "अमान्य या एक्सपायर रेफरल कोड",
+    "referrals.youveBeenReferred": "आपको रेफर किया गया है! साइन अप करें और {{discount}}% की छूट पाएं",
+    "referrals.convertToGiftCard": "कमाई को गिफ्ट कार्ड में बदलें",
+    "referrals.step1Desc": "अपना यूनिक रेफरल कोड दोस्तों के साथ शेयर करें",
+    "referrals.step2Desc": "आपका दोस्त साइन अप करता है और पहली खरीदारी करता है"
+  },
+  "adminPanel": {
+    "dashboard.title": "एडमिन डैशबोर्ड",
+    "customers.title": "ग्राहक",
+    "orders.title": "ऑर्डर",
+    "languages.title": "भाषाएँ",
+    "translations.title": "अनुवाद",
+    "nav.dashboard": "डैशबोर्ड",
+    "nav.customers": "ग्राहक",
+    "nav.orders": "ऑर्डर",
+    "nav.packages": "पैकेज",
+    "nav.topupPackages": "टॉप-अप पैकेज",
+    "nav.unifiedCatalog": "एकीकृत कैटलॉग",
+    "nav.providers": "प्रदाता",
+    "nav.pricing": "मूल्य निर्धारण",
+    "nav.vouchers": "वाउचर",
+    "nav.giftCards": "गिफ्ट कार्ड",
+    "nav.referrals": "रेफ़रल",
+    "nav.notifications": "सूचनाएँ",
+    "nav.content": "सामग्री",
+    "nav.settings": "सेटिंग्स",
+    "nav.languages": "भाषाएँ",
+    "nav.translations": "अनुवाद",
+    "nav.activityLogs": "गतिविधि लॉग",
+    "nav.reports": "रिपोर्ट्स",
+    "dashboard.totalRevenue": "कुल राजस्व",
+    "dashboard.totalOrders": "कुल ऑर्डर",
+    "dashboard.totalCustomers": "कुल ग्राहक",
+    "dashboard.activeEsims": "सक्रिय eSIMs",
+    "dashboard.revenueChart": "राजस्व अवलोकन",
+    "dashboard.ordersChart": "ऑर्डर अवलोकन",
+    "dashboard.recentOrders": "हाल के ऑर्डर",
+    "dashboard.topDestinations": "शीर्ष गंतव्य",
+    "dashboard.providerStats": "प्रदाता आँकड़े",
+    "customers.search": "ग्राहक खोजें...",
+    "customers.filter": "फ़िल्टर",
+    "customers.addCustomer": "ग्राहक जोड़ें",
+    "customers.name": "नाम",
+    "customers.email": "ईमेल",
+    "customers.phone": "फ़ोन",
+    "customers.totalSpent": "कुल खर्च",
+    "customers.joinDate": "शामिल होने की तिथि",
+    "customers.lastActive": "अंतिम सक्रिय",
+    "customers.viewDetails": "विवरण देखें",
+    "customers.editCustomer": "ग्राहक संपादित करें",
+    "customers.deleteCustomer": "ग्राहक हटाएँ",
+    "orders.search": "ऑर्डर खोजें...",
+    "orders.filterProvider": "प्रदाता के अनुसार फ़िल्टर करें",
+    "orders.filterDate": "तिथि के अनुसार फ़िल्टर करें",
+    "orders.orderId": "ऑर्डर ID",
+    "orders.customer": "ग्राहक",
+    "orders.package": "पैकेज",
+    "orders.provider": "प्रदाता",
+    "orders.amount": "राशि",
+    "orders.status": "स्थिति",
+    "orders.date": "तिथि",
+    "orders.viewDetails": "विवरण देखें",
+    "orders.processRefund": "रिफंड प्रक्रिया करें",
+    "orders.resendEsim": "eSIM पुनः भेजें",
+    "orders.cancelOrder": "ऑर्डर रद्द करें",
+    "packages.title": "पैकेज",
+    "packages.search": "पैकेज खोजें...",
+    "packages.filterProvider": "प्रदाता के अनुसार फ़िल्टर करें",
+    "packages.filterDestination": "गंतव्य के अनुसार फ़िल्टर करें",
+    "packages.syncNow": "अभी सिंक करें",
+    "packages.lastSync": "अंतिम सिंक",
+    "packages.packageName": "पैकेज नाम",
+    "packages.data": "डेटा",
+    "packages.validity": "वैधता",
+    "packages.wholesalePrice": "थोक मूल्य",
+    "packages.retailPrice": "खुदरा मूल्य",
+    "packages.margin": "मार्जिन",
+    "packages.active": "सक्रिय",
+    "packages.editPackage": "पैकेज संपादित करें",
+    "providers.title": "प्रदाता",
+    "providers.addProvider": "प्रदाता जोड़ें",
+    "providers.name": "प्रदाता नाम",
+    "providers.packageCount": "पैकेज",
+    "providers.orderCount": "ऑर्डर",
+    "providers.defaultMargin": "डिफ़ॉल्ट मार्जिन",
+    "providers.priority": "प्राथमिकता",
+    "providers.testConnection": "कनेक्शन जाँचें",
+    "pricing.title": "मूल्य निर्धारण",
+    "pricing.globalMargin": "वैश्विक मार्जिन",
+    "pricing.providerMargins": "प्रदाता मार्जिन",
+    "pricing.destinationMargins": "गंतव्य मार्जिन",
+    "pricing.packageOverrides": "पैकेज ओवरराइड",
+    "pricing.saveChanges": "परिवर्तन सहेजें",
+    "vouchers.title": "वाउचर",
+    "vouchers.createVoucher": "वाउचर बनाएँ",
+    "vouchers.code": "वाउचर कोड",
+    "vouchers.type": "प्रकार",
+    "vouchers.discountType": "छूट प्रकार",
+    "vouchers.discountValue": "छूट मूल्य",
+    "vouchers.usageLimit": "उपयोग सीमा",
+    "vouchers.usedCount": "उपयोग की संख्या",
+    "vouchers.validFrom": "से मान्य",
+    "vouchers.validUntil": "तक मान्य",
+    "vouchers.status": "स्थिति",
+    "vouchers.editVoucher": "वाउचर संपादित करें",
+    "vouchers.deleteVoucher": "वाउचर हटाएँ",
+    "giftCards.title": "गिफ्ट कार्ड",
+    "giftCards.createGiftCard": "गिफ्ट कार्ड बनाएँ",
+    "giftCards.code": "कार्ड कोड",
+    "giftCards.initialBalance": "प्रारंभिक बैलेंस",
+    "giftCards.currentBalance": "वर्तमान बैलेंस",
+    "giftCards.status": "स्थिति",
+    "giftCards.purchasedBy": "द्वारा खरीदा गया",
+    "giftCards.redeemedBy": "द्वारा रिडीम किया गया",
+    "giftCards.transactions": "लेन-देन",
+    "languages.addLanguage": "भाषा जोड़ें",
+    "languages.code": "कोड",
+    "languages.name": "नाम",
+    "languages.nativeName": "स्थानीय नाम",
+    "languages.default": "डिफ़ॉल्ट",
+    "languages.setDefault": "डिफ़ॉल्ट सेट करें",
+    "languages.editLanguage": "भाषा संपादित करें",
+    "languages.deleteLanguage": "भाषा हटाएँ",
+    "translations.namespace": "नेमस्पेस",
+    "translations.key": "कुंजी",
+    "translations.value": "मान",
+    "translations.missing": "अनुपलब्ध",
+    "translations.verified": "सत्यापित",
+    "translations.edit": "संपादित करें",
+    "translations.save": "सहेजें",
+    "translations.importExport": "आयात / निर्यात",
+    "translations.import": "आयात",
+    "translations.export": "निर्यात",
+    "settings.title": "सेटिंग्स",
+    "settings.general": "सामान्य",
+    "settings.payment": "भुगतान",
+    "settings.email": "ईमेल",
+    "settings.notifications": "सूचनाएँ",
+    "settings.api": "API",
+    "logs.title": "गतिविधि लॉग",
+    "logs.filterAction": "क्रिया के अनुसार फ़िल्टर करें",
+    "logs.filterUser": "उपयोगकर्ता के अनुसार फ़िल्टर करें",
+    "logs.filterDate": "तिथि के अनुसार फ़िल्टर करें",
+    "logs.action": "क्रिया",
+    "logs.user": "उपयोगकर्ता",
+    "logs.details": "विवरण",
+    "logs.timestamp": "टाइमस्टैम्प",
+    "logs.ipAddress": "IP पता",
+    "nav.emailTemplates": "ईमेल टेम्पलेट्स",
+    "customers.status": "स्थिति",
+    "orders.filterStatus": "स्थिति के अनुसार फ़िल्टर करें",
+    "providers.status": "स्थिति",
+    "languages.rtl": "दाएँ-से-बाएँ",
+    "customers.orders": "ऑर्डर",
+    "providers.apiStatus": "API स्थिति",
+    "providers.editProvider": "प्रदाता संपादित करें",
+    "languages.enabled": "सक्रिय",
+    "settings.maintenance": "मेंटेनेंस मोड",
+
+
+  "admin.dashboard": "डैशबोर्ड",
+
+  "admin.orderManagement": "ऑर्डर प्रबंधन",
+  "admin.orders": "ऑर्डर",
+  "admin.customOrders": "कस्टम ऑर्डर",
+  "admin.topupOrders": "टॉप-अप ऑर्डर",
+
+  "admin.userManagement": "उपयोगकर्ता प्रबंधन",
+  "admin.customers": "ग्राहक",
+  "admin.kycVerification": "केवाईसी सत्यापन",
+
+  "admin.masterEsimPackages": "मास्टर eSIM पैकेज",
+  "admin.providers": "प्रदाता",
+  "admin.esimCatalog": "eSIM कैटलॉग",
+  "admin.topupPackages": "टॉप-अप पैकेज",
+  "admin.regions": "क्षेत्र",
+  "admin.countries": "देश",
+
+  "admin.marketing": "मार्केटिंग",
+  "admin.vouchers": "वाउचर",
+  "admin.giftCards": "गिफ्ट कार्ड",
+  "admin.referralProgram": "रेफरल प्रोग्राम",
+
+  "admin.supportSystem": "सपोर्ट सिस्टम",
+  "admin.support": "सपोर्ट",
+
+  "admin.inAppPurchases": "इन-ऐप खरीदारी",
+  "admin.priceBrackets": "प्राइस ब्रैकेट्स",
+
+  "admin.paymentGateways": "पेमेंट गेटवे",
+  "admin.gateways": "गेटवे",
+
+  "admin.alerts": "अलर्ट",
+  "admin.notifications": "नोटिफिकेशन",
+
+  "admin.reporting": "रिपोर्टिंग",
+  "admin.analyticsReports": "एनालिटिक्स और रिपोर्ट",
+  "admin.advancedAnalytics": "एडवांस्ड एनालिटिक्स",
+  "admin.reviews": "रिव्यू",
+
+  "admin.platformSetup": "प्लेटफॉर्म सेटअप",
+  "admin.settings": "सेटिंग्स",
+  "admin.currencies": "मुद्राएं",
+  "admin.failoverApi": "फेलओवर और API",
+  "admin.bannerManagement": "बैनर प्रबंधन",
+  "admin.pagesManagement": "पेज प्रबंधन",
+  "admin.faqManagement": "FAQ प्रबंधन",
+
+  "admin.internationalization": "अंतरराष्ट्रीयकरण",
+  "admin.languages": "भाषाएँ",
+  "admin.translations": "अनुवाद",
+
+  "admin.blog": "ब्लॉग",
+  "admin.apiDocs": "API डॉक्यूमेंटेशन",
+
+
+
+  
+  "admin.dashboard.title": "डैशबोर्ड",
+  "admin.dashboard.description": "वापसी पर स्वागत है! आज आपके eSIM मार्केटप्लेस में क्या हो रहा है देखें।",
+
+  "admin.dashboard.loadingDashboard": "डैशबोर्ड लोड हो रहा है...",
+
+  "admin.dashboard.totalRevenue": "कुल राजस्व",
+  "admin.dashboard.totalCost": "कुल लागत",
+  "admin.dashboard.costToProviders": "प्रोवाइडर्स की लागत",
+  "admin.dashboard.profit": "लाभ",
+
+  "admin.dashboard.totalOrders": "कुल ऑर्डर",
+  "admin.dashboard.totalEsims": "बेचे गए eSIM",
+
+  "admin.dashboard.customers": "ग्राहक",
+  "admin.dashboard.thisMonth": "इस महीने",
+
+  "admin.dashboard.activePackages": "सक्रिय पैकेज",
+  "admin.dashboard.packages": "पैकेज",
+
+  "admin.dashboard.totalTickets": "कुल टिकट",
+  "admin.dashboard.tickets": "टिकट",
+
+  "admin.dashboard.vsLastMonth": "पिछले महीने की तुलना में",
+
+  "admin.dashboard.revenueTrend": "राजस्व ट्रेंड",
+  "admin.dashboard.last6Months": "पिछले 6 महीनों का प्रदर्शन",
+
+  "admin.dashboard.orderStatus": "ऑर्डर स्थिति",
+  "admin.dashboard.distributionOverview": "वितरण अवलोकन",
+
+  "admin.dashboard.topDestinations": "शीर्ष गंतव्य",
+  "admin.dashboard.topDestinationsDesc": "देश के अनुसार सबसे लोकप्रिय पैकेज",
+
+  "admin.dashboard.orders": "ऑर्डर",
+  "admin.dashboard.viewAll": "सभी देखें",
+
+  "admin.dashboard.latestOrders": "नवीनतम ऑर्डर",
+  "admin.dashboard.latestOrdersDesc": "हाल ही में खरीदे गए eSIM",
+
+  "admin.dashboard.latestCustomers": "नवीनतम ग्राहक",
+  "admin.dashboard.latestCustomersDesc": "हाल ही में पंजीकृत उपयोगकर्ता",
+
+  "admin.dashboard.adminOrder": "एडमिन ऑर्डर",
+  "admin.dashboard.noName": "कोई नाम नहीं",
+
+  "admin.dashboard.joined": "जुड़े",
+
+  "admin.dashboard.noOrdersYet": "अभी तक कोई ऑर्डर नहीं",
+  "admin.dashboard.noOrdersDesc": "आपका मार्केटप्लेस तैयार है! पहले पैकेज जोड़ें और ग्राहकों के ऑर्डर का इंतजार करें।",
+
+  "admin.dashboard.managePackages": "पैकेज प्रबंधित करें",
+  "admin.dashboard.viewCustomers": "ग्राहक देखें",
+
+
+
+  
+  "admin.orders.title": "ऑर्डर प्रबंधन",
+  "admin.orders.description": "सभी eSIM ऑर्डर को प्रबंधित और ट्रैक करें",
+  "admin.orders.fetchPending": "लंबित प्राप्त करें",
+  "admin.orders.orderEsims": "eSIM ऑर्डर करें",
+  "admin.orders.exportOrders": "ऑर्डर एक्सपोर्ट करें",
+
+  "admin.orders.searchPlaceholder": "ईमेल, ऑर्डर ID या डेस्टिनेशन से खोजें...",
+  "admin.orders.filterByStatus": "स्थिति के अनुसार फ़िल्टर करें",
+  "admin.orders.allStatuses": "सभी स्थितियाँ",
+
+  "admin.orders.processing": "प्रोसेसिंग में",
+  "admin.orders.completed": "पूर्ण",
+  "admin.orders.failed": "विफल",
+  "admin.orders.cancelled": "रद्द",
+
+  "admin.orders.orders": "ऑर्डर",
+  "admin.orders.orderId": "ऑर्डर ID",
+  "admin.orders.customer": "ग्राहक",
+  "admin.orders.destination": "डेस्टिनेशन",
+  "admin.orders.package": "पैकेज",
+  "admin.orders.amount": "राशि",
+  "admin.orders.status": "स्थिति",
+
+  "admin.orders.loadingOrders": "ऑर्डर लोड हो रहे हैं...",
+  "admin.orders.noOrdersFound": "कोई ऑर्डर नहीं मिला",
+  "admin.orders.ordersWillAppear": "जब ग्राहक खरीदारी शुरू करेंगे तो ऑर्डर यहाँ दिखाई देंगे",
+
+  "admin.orders.notAssignedToCustomer": "ग्राहक को असाइन नहीं किया गया",
+
+  "admin.orders.viewEsim": "eSIM देखें",
+  "admin.orders.sendInstructions": "निर्देश भेजें",
+  "admin.orders.markAsCompleted": "पूर्ण के रूप में चिह्नित करें",
+  "admin.orders.deleteOrder": "ऑर्डर हटाएँ",
+  "admin.orders.deleteConfirm": "क्या आप वाकई इस ऑर्डर को हटाना चाहते हैं?",
+
+  "admin.orders.orderDetails": "ऑर्डर विवरण",
+  "admin.orders.completeInformation": "इस ऑर्डर की पूरी जानकारी",
+
+  "admin.orders.iccid": "ICCID",
+
+  "admin.orders.providerInfo": "प्रोवाइडर जानकारी",
+  "admin.orders.originalProvider": "मूल प्रोवाइडर",
+  "admin.orders.finalProvider": "अंतिम प्रोवाइडर",
+
+  "admin.orders.failover": "फेलओवर",
+  "admin.orders.failoverHistory": "फेलओवर इतिहास",
+
+
+
+  
+  "admin.customOrders.title": "कस्टम eSIM ऑर्डर",
+  "admin.customOrders.description": "ग्राहकों को प्री-परचेज्ड eSIM देखने और असाइन करने के लिए",
+  "admin.customOrders.button.orderMore": "और eSIM ऑर्डर करें",
+  "admin.customOrders.search.placeholder": "ऑर्डर ID, रिक्वेस्ट ID या डेस्टिनेशन से खोजें...",
+  "admin.customOrders.filter.status": "स्टेटस से फ़िल्टर करें",
+  "admin.customOrders.filter.allStatuses": "सभी स्टेटस",
+  "admin.customOrders.filter.pending": "लंबित",
+  "admin.customOrders.filter.processing": "प्रोसेस हो रहा है",
+  "admin.customOrders.filter.completed": "पूर्ण",
+  "admin.customOrders.filter.failed": "असफल",
+  "admin.customOrders.table.title": "सभी कस्टम ऑर्डर",
+  "admin.customOrders.table.description": "अनअसाइन्ड eSIM की पूरी सूची",
+  "admin.customOrders.table.orderId": "ऑर्डर ID",
+  "admin.customOrders.table.requestId": "रिक्वेस्ट ID",
+  "admin.customOrders.table.destination": "डेस्टिनेशन",
+  "admin.customOrders.table.package": "पैकेज",
+  "admin.customOrders.table.iccid": "ICCID",
+  "admin.customOrders.table.status": "स्टेटस",
+  "admin.customOrders.table.action": "एक्शन",
+  "admin.customOrders.table.na": "उपलब्ध नहीं",
+  "admin.customOrders.table.pending": "लंबित",
+  "admin.customOrders.table.processingStatus": "प्रोसेस हो रहा है...",
+  "admin.customOrders.loading": "ऑर्डर लोड हो रहे हैं...",
+  "admin.customOrders.empty.title": "कोई कस्टम ऑर्डर नहीं",
+  "admin.customOrders.empty.description": "ग्राहकों को असाइन करने के लिए eSIM ऑर्डर करें",
+  "admin.customOrders.button.orderEsims": "eSIM ऑर्डर करें",
+  "admin.customOrders.dialog.title": "ग्राहक को eSIM असाइन करें",
+  "admin.customOrders.dialog.description": "इस eSIM को असाइन करने के लिए ग्राहक चुनें",
+  "admin.customOrders.dialog.searchLabel": "ग्राहक खोजें",
+  "admin.customOrders.dialog.searchPlaceholder": "नाम, ईमेल या ग्राहक ID से खोजें...",
+  "admin.customOrders.dialog.cancel": "रद्द करें",
+  "admin.customOrders.dialog.assignButton": "eSIM असाइन करें",
+  "admin.customOrders.dialog.assigning": "असाइन किया जा रहा है...",
+  "admin.customOrders.table.assignedTo":"असाइन",
+
+
+  "admin.topups.title": "टॉप-अप प्रबंधन",
+  "admin.topups.description": "सभी टॉप-अप ऑर्डर प्रबंधित करें और राजस्व ट्रैक करें",
+  "admin.topups.exportCSV": "CSV निर्यात करें",
+  "admin.topups.totalTopUps": "कुल टॉप-अप",
+  "admin.topups.totalRevenue": "कुल राजस्व",
+  "admin.topups.totalCost": "कुल लागत",
+  "admin.topups.totalProfit": "कुल लाभ",
+  "admin.topups.searchPlaceholder": "ईमेल, ICCID या टॉप-अप ID से खोजें...",
+  "admin.topups.filterByStatus": "स्थिति के अनुसार फ़िल्टर करें",
+  "admin.topups.allStatuses": "सभी स्थितियाँ",
+  "admin.topups.pending": "लंबित",
+  "admin.topups.processing": "प्रोसेसिंग में",
+  "admin.topups.completed": "पूर्ण",
+  "admin.topups.failed": "असफल",
+  "admin.topups.topupId": "टॉप-अप ID",
+  "admin.topups.customer": "ग्राहक",
+  "admin.topups.iccid": "ICCID",
+  "admin.topups.package": "पैकेज",
+  "admin.topups.customerPrice": "ग्राहक मूल्य",
+  "admin.topups.airalosCost": "Airalo लागत",
+  "admin.topups.margin": "मार्जिन",
+  "admin.topups.profit": "लाभ",
+  "admin.topups.status": "स्थिति",
+  "admin.topups.date": "तारीख",
+  "admin.topups.loadingTopups": "टॉप-अप लोड हो रहे हैं...",
+  "admin.topups.noTopupsFound": "कोई टॉप-अप नहीं मिला",
+  "admin.topups.tryAdjustingFilters": "अपने फ़िल्टर समायोजित करने का प्रयास करें",
+  "admin.topups.topupsWillAppear": "टॉप-अप ऑर्डर यहाँ दिखाई देंगे",
+  "admin.topups.showing": "दिखा रहा है",
+  "admin.topups.to": "से",
+  "admin.topups.of": "में से",
+  "admin.topups.topups": "टॉप-अप",
+  "admin.topups.noData": "कोई डेटा नहीं",
+  "admin.topups.noTopupsToExport": "निर्यात करने के लिए कोई टॉप-अप नहीं है",
+  "admin.topups.exportSuccessful": "निर्यात सफल",
+  "admin.topups.topupsExportedToCSV": "{{count}} टॉप-अप CSV में निर्यात किए गए",
+  "admin.topups.exportFailed": "निर्यात विफल",
+  "admin.topups.failedToExport": "टॉप-अप निर्यात करने में विफल",
+
+
+
+  
+  "admin.customers.title": "ग्राहक प्रबंधन",
+  "admin.customers.description": "ग्राहक खातों को देखें और प्रबंधित करें",
+
+  "admin.customers.searchPlaceholder": "नाम, ईमेल या ग्राहक ID से खोजें...",
+
+  "admin.customers.totalCustomers": "कुल ग्राहक",
+  "admin.customers.activeCustomers": "सक्रिय ग्राहक",
+  "admin.customers.blockedCustomers": "ब्लॉक किए गए ग्राहक",
+  "admin.customers.deletedCustomers": "हटाए गए ग्राहक",
+
+  "admin.customers.table.customer": "ग्राहक",
+  "admin.customers.table.email": "ईमेल",
+  "admin.customers.table.status": "स्थिति",
+  "admin.customers.table.userStatus": "यूज़र स्थिति",
+  "admin.customers.table.orders": "ऑर्डर",
+  "admin.customers.table.esims": "eSIMs",
+  "admin.customers.table.created": "बनाया गया",
+  "admin.customers.table.actions": "क्रियाएँ",
+
+  "admin.customers.status.active": "सक्रिय",
+  "admin.customers.status.blocked": "ब्लॉक किया गया",
+  "admin.customers.status.deleted": "हटाया गया",
+
+  "admin.customers.dialog.title": "ग्राहक विवरण",
+  "admin.customers.dialog.description": "ग्राहक की जानकारी और गतिविधि देखें",
+
+  "admin.customers.tabs.overview": "अवलोकन",
+  "admin.customers.tabs.orders": "ऑर्डर",
+  "admin.customers.tabs.activity": "गतिविधि",
+
+  "admin.customers.overview.totalEsims": "कुल eSIMs",
+  "admin.customers.overview.activeEsims": "सक्रिय eSIMs",
+  "admin.customers.overview.failedEsims": "असफल",
+  "admin.customers.overview.totalOrders": "कुल ऑर्डर",
+
+  "admin.customers.orders.noOrders": "अभी तक कोई ऑर्डर नहीं",
+  "admin.customers.orders.noOrdersDesc": "इस ग्राहक ने अभी तक कोई खरीदारी नहीं की है",
+
+  "admin.customers.orders.orderId": "ऑर्डर ID",
+  "admin.customers.orders.price": "कीमत",
+  "admin.customers.orders.date": "तारीख",
+
+  "admin.customers.activity.accountCreated": "खाता बनाया गया",
+  "admin.customers.activity.verificationStatus": "वर्तमान सत्यापन स्थिति",
+
+  "admin.customers.activity.noActivity": "अभी तक कोई गतिविधि नहीं",
+  "admin.customers.activity.noActivityDesc": "ग्राहक की गतिविधि यहाँ दिखाई देगी",
+
+  "admin.customers.createCustomer": "ग्राहक बनाएं",
+  "admin.customers.exportCustomers": "ग्राहक एक्सपोर्ट करें",
+  "admin.customers.createNewCustomer": "नया ग्राहक बनाएं",
+  "admin.customers.addNewCustomer": "सिस्टम में नया ग्राहक जोड़ें",
+
+  "admin.customers.customerDetails": "ग्राहक विवरण",
+  "admin.customers.completeInformation": "इस ग्राहक की पूरी जानकारी",
+
+  "admin.customers.details": "विवरण",
+  "admin.customers.customerId": "ग्राहक ID",
+  "admin.customers.phone": "फ़ोन",
+  "admin.customers.phoneNumber": "फ़ोन नंबर",
+  "admin.customers.joined": "जुड़ा",
+  "admin.customers.joinedDate": "जुड़ने की तारीख",
+  "admin.customers.lastUpdated": "अंतिम अपडेट",
+  "admin.customers.address": "पता",
+
+  "admin.customers.notProvided": "उपलब्ध नहीं",
+
+  "admin.customers.verified": "सत्यापित",
+
+  "admin.customers.allKyc": "सभी KYC",
+  "admin.customers.approved": "स्वीकृत",
+  "admin.customers.submitted": "सबमिट किया गया",
+  "admin.customers.rejected": "अस्वीकृत",
+
+  "admin.customers.customers": "ग्राहक",
+  "admin.customers.noCustomersFound": "कोई ग्राहक नहीं मिला",
+  "admin.customers.customersWillAppear": "ग्राहक यहाँ दिखाई देंगे जब वे रजिस्टर करेंगे",
+
+  "admin.customers.loadingCustomers": "ग्राहक लोड हो रहे हैं...",
+
+  "admin.customers.updateSuccess": "ग्राहक सफलतापूर्वक अपडेट हुआ",
+  "admin.customers.failedToUpdate": "ग्राहक अपडेट करने में विफल",
+
+  "admin.customers.kycStatusUpdated": "ग्राहक का KYC स्टेटस सफलतापूर्वक अपडेट हुआ",
+  "admin.customers.failedToUpdateKyc": "KYC स्टेटस अपडेट करने में विफल",
+
+  "admin.customers.deleteCustomer": "ग्राहक हटाएँ",
+  "admin.customers.deleteTitle": "ग्राहक हटाएँ",
+  "admin.customers.deleteConfirm": "क्या आप वाकई इस ग्राहक को हटाना चाहते हैं? यह क्रिया वापस नहीं ली जा सकती।",
+  "admin.customers.deleteSuccess": "ग्राहक सफलतापूर्वक हटाया गया",
+  "admin.customers.failedToDelete": "ग्राहक हटाने में विफल",
+
+  "admin.customers.blockCustomer": "ग्राहक को ब्लॉक करें",
+  "admin.customers.unblockCustomer": "ग्राहक को अनब्लॉक करें",
+  "admin.customers.blockTitle": "ग्राहक को ब्लॉक करें",
+  "admin.customers.unblockTitle": "ग्राहक को अनब्लॉक करें",
+  "admin.customers.blockConfirm": "क्या आप वाकई इस ग्राहक को ब्लॉक करना चाहते हैं? उन्हें तुरंत लॉग आउट कर दिया जाएगा।",
+  "admin.customers.unblockConfirm": "क्या आप वाकई इस ग्राहक को अनब्लॉक करना चाहते हैं? उन्हें फिर से एक्सेस मिल जाएगा।",
+
+  "admin.customers.createSuccess": "ग्राहक सफलतापूर्वक बनाया गया",
+  "admin.customers.failedToCreate": "ग्राहक बनाने में विफल",
+  "admin.customers.emailExists": "इस ईमेल के साथ उपयोगकर्ता पहले से मौजूद है",
+
+  "admin.customers.exportSuccess": "एक्सपोर्ट सफल",
+  "admin.customers.exportedCustomers": "{{count}} ग्राहकों को CSV में एक्सपोर्ट किया गया",
+  "admin.customers.noCustomersToExport": "एक्सपोर्ट करने के लिए कोई ग्राहक नहीं है",
+  "admin.customers.blockedCustomer": "ब्लॉक किए गए ग्राहक",
+  "admin.customers.allStatuses": "सभी स्थितियाँ",
+  "admin.customers.accountStatus": "खाता स्थिति",
+  "admin.customers.kycStatus": "KYC स्थिति",
+  "admin.customers.pending": "लंबित",
+
+
+  
+  "admin.kyc.title": "KYC सत्यापन",
+  "admin.kyc.subtitle": "ग्राहक की पहचान दस्तावेज़ों की समीक्षा और सत्यापन करें",
+
+  "admin.kyc.option.hideRejected": "अस्वीकृत छिपाएँ",
+
+  "admin.kyc.stats.pendingReviews": "कार्रवाई की प्रतीक्षा",
+  "admin.kyc.stats.documentsAwaiting": "समीक्षा के लिए लंबित दस्तावेज़",
+
+  "admin.kyc.tabs.all": "सभी",
+  "admin.kyc.tabs.pending": "लंबित",
+  "admin.kyc.tabs.verified": "सत्यापित",
+  "admin.kyc.tabs.rejected": "अस्वीकृत",
+
+  "admin.kyc.loading": "सत्यापन अनुरोध लोड हो रहे हैं...",
+
+  "admin.kyc.status.pending": "लंबित",
+  "admin.kyc.status.verified": "सत्यापित",
+  "admin.kyc.status.rejected": "अस्वीकृत",
+
+  "admin.kyc.review": "समीक्षा",
+  "admin.kyc.approve": "सत्यापित करें",
+  "admin.kyc.reject": "अस्वीकृत करें",
+
+  "admin.kyc.noPendingTitle": "कोई लंबित अनुरोध नहीं!",
+  "admin.kyc.noPending": "इस फ़िल्टर से मेल खाने वाला कोई सत्यापन अनुरोध नहीं मिला",
+
+  "admin.kyc.dialog.title": "सत्यापन समीक्षा",
+  "admin.kyc.dialog.description": "उपयोगकर्ता की जानकारी के साथ जमा किए गए दस्तावेज़ की सावधानीपूर्वक जाँच करें",
+
+  "admin.kyc.dialog.customerName": "ग्राहक का नाम",
+  "admin.kyc.dialog.email": "ईमेल पता",
+  "admin.kyc.dialog.documentType": "दस्तावेज़ प्रकार",
+  "admin.kyc.dialog.phone": "फ़ोन",
+  "admin.kyc.dialog.submitted": "जमा करने की तारीख",
+  "admin.kyc.dialog.fileName": "दस्तावेज़ फ़ाइल",
+  "admin.kyc.dialog.notProvided": "प्रदान नहीं किया गया",
+
+  "admin.kyc.dialog.previewNote": "पूर्ण गोपनीयता और स्पष्टता सुनिश्चित करने के लिए कृपया दस्तावेज़ को नई सुरक्षित टैब में खोलें।",
+  "admin.kyc.dialog.viewDocument": "पूर्ण आकार में खोलें",
+  "admin.kyc.dialog.close": "बंद करें",
+
+  "admin.kyc.rejectDialog.title": "अस्वीकृति का कारण बताएं",
+  "admin.kyc.rejectDialog.description": "स्पष्ट रूप से बताएं कि यह दस्तावेज़ सत्यापन में क्यों असफल हुआ। यह नोट सीधे ग्राहक को भेजा जाएगा।",
+  "admin.kyc.rejectDialog.rejectionReason": "अस्वीकृति का कारण",
+  "admin.kyc.rejectDialog.placeholder": "उदाहरण: पासपोर्ट की फोटो धुंधली है और पढ़ने योग्य नहीं है। कृपया बेहतर गुणवत्ता में पुनः अपलोड करें।",
+  "admin.kyc.rejectDialog.cancel": "वापस जाएँ",
+  "admin.kyc.rejectDialog.confirmRejection": "अस्वीकृति की पुष्टि करें",
+  "admin.kyc.rejectDialog.rejecting": "प्रक्रिया जारी है...",
+
+  "admin.kyc.confirmApproveTitle": "KYC दस्तावेज़ सत्यापित करें",
+  "admin.kyc.confirmApproveDescription": "क्या आप सुनिश्चित हैं कि आप इस ग्राहक के पहचान दस्तावेज़ को सत्यापित करना चाहते हैं? इससे उनका प्रोफ़ाइल KYC सत्यापित हो जाएगा।",
+  "admin.kyc.confirmApproveAction": "दस्तावेज़ सत्यापित करें",
+
+  "admin.kyc.reasonRequiredTitle": "कारण आवश्यक है",
+  "admin.kyc.reasonRequiredDescription": "कृपया अस्वीकृति का कारण प्रदान करें",
+
+  "admin.kyc.approvedTitle": "KYC सत्यापित",
+  "admin.kyc.approvedDescription": "उपयोगकर्ता की पहचान सफलतापूर्वक सत्यापित हो गई है।",
+
+  "admin.kyc.rejectedTitle": "KYC अस्वीकृत",
+  "admin.kyc.rejectedDescription": "अस्वीकृति के कारण के साथ उपयोगकर्ता को सूचित कर दिया गया है।",
+
+  "admin.kyc.approvalFailedTitle": "सत्यापन विफल",
+  "admin.kyc.approvalFailedDescription": "KYC सत्यापित करने में विफल",
+
+  "admin.kyc.rejectionFailedTitle": "अस्वीकृति विफल",
+  "admin.kyc.rejectionFailedDescription": "KYC अस्वीकृत करने में विफल",
+
+
+
+
+  
+  "admin.providers.title": "प्रोवाइडर प्रबंधन",
+  "admin.providers.subtitle": "eSIM प्रोवाइडर्स को प्रबंधित करें, पैकेज सिंक करें और इंटीग्रेशन कॉन्फ़िगर करें",
+
+  "admin.providers.loading": "प्रोवाइडर्स लोड हो रहे हैं...",
+
+  "admin.providers.cardTitle": "प्रोवाइडर्स",
+  "admin.providers.cardDescription": "सभी eSIM प्रोवाइडर इंटीग्रेशन देखें और प्रबंधित करें",
+
+  "admin.providers.noProviders": "कोई प्रोवाइडर कॉन्फ़िगर नहीं है",
+
+  "admin.providers.runPriceComparison": "प्राइस तुलना चलाएँ",
+
+  "admin.providers.preferred": "प्राथमिक",
+
+  "admin.providers.enabled": "सक्रिय",
+  "admin.providers.disabled": "निष्क्रिय",
+
+  "admin.providers.never": "कभी नहीं",
+  "admin.providers.invalidDate": "अमान्य तारीख",
+
+  "admin.providers.sync": "सिंक",
+
+  "admin.providers.table.provider": "प्रोवाइडर",
+  "admin.providers.table.status": "स्थिति",
+  "admin.providers.table.apiHealth": "API स्थिति",
+  "admin.providers.table.lastSync": "आखिरी सिंक",
+  "admin.providers.table.packages": "पैकेज",
+  "admin.providers.table.syncInterval": "सिंक अंतराल",
+  "admin.providers.table.margin": "मार्जिन",
+  "admin.providers.table.actions": "क्रियाएँ",
+
+  "admin.providers.status.disabled": "निष्क्रिय",
+  "admin.providers.status.neverSynced": "कभी सिंक नहीं हुआ",
+  "admin.providers.status.healthy": "स्वस्थ",
+  "admin.providers.status.stale": "पुराना",
+
+  "admin.providers.syncCompletedTitle": "सिंक पूरा हुआ",
+  "admin.providers.syncCompletedDescription": "प्रोवाइडर के पैकेज सफलतापूर्वक सिंक्रोनाइज़ हो गए हैं।",
+
+  "admin.providers.syncFailedTitle": "सिंक विफल",
+  "admin.providers.syncFailedDescription": "प्रोवाइडर पैकेज सिंक करने में विफल।",
+
+  "admin.providers.priceComparisonCompleteTitle": "प्राइस तुलना पूरी हुई",
+  "admin.providers.priceComparisonCompleteDescription": "{{total}} पैकेज का विश्लेषण किया गया, {{best}} सबसे अच्छे कीमत वाले पैकेज मिले।",
+
+  "admin.providers.priceComparisonFailedTitle": "प्राइस तुलना विफल",
+  "admin.providers.priceComparisonFailedDescription": "प्राइस तुलना चलाने में विफल।",
+
+
+
+  
+  
+"admin.providers.config.title": "प्रदाता कॉन्फ़िगर करें",
+"admin.providers.config.description": "API सेटिंग्स, सिंक कॉन्फ़िगरेशन, वेबहुक और प्राइसिंग प्रबंधित करें",
+
+"admin.providers.tabs.api": "API",
+"admin.providers.tabs.sync": "सिंक",
+"admin.providers.tabs.webhook": "वेबहुक",
+"admin.providers.tabs.pricing": "प्राइसिंग",
+"admin.providers.tabs.preferred": "प्रेफर्ड",
+
+"admin.providers.apiSettings.title": "API सेटिंग्स",
+"admin.providers.apiSettings.description": "API कनेक्शन और रेट लिमिटिंग कॉन्फ़िगर करें। API कीज़ सुरक्षित रूप से Secrets में स्टोर की जाती हैं।",
+"admin.providers.apiBaseUrl": "API बेस URL",
+"admin.providers.apiRateLimit": "API रेट लिमिट (रिक्वेस्ट/घंटा)",
+"admin.providers.apiRateLimitDesc": "रेट लिमिटिंग से बचने के लिए प्रति घंटे अधिकतम API रिक्वेस्ट",
+"admin.providers.apiKeyConfig": "API की कॉन्फ़िगरेशन",
+
+"admin.providers.syncSettings.title": "सिंक सेटिंग्स",
+"admin.providers.syncSettings.description": "पैकेज सिंक्रोनाइज़ेशन और प्रदाता स्थिति कॉन्फ़िगर करें",
+"admin.providers.enableProvider": "प्रदाता सक्षम करें",
+"admin.providers.enableProviderDesc": "पैकेज सिंक और ऑर्डर के लिए इस प्रदाता को सक्षम या अक्षम करें",
+"admin.providers.syncInterval": "सिंक इंटरवल (मिनट)",
+"admin.providers.syncIntervalDesc": "इस प्रदाता से पैकेज कितनी बार सिंक किए जाएँ (मिनट में)",
+
+"admin.providers.webhook.title": "वेबहुक कॉन्फ़िगरेशन",
+"admin.providers.webhook.description": "रीयल-टाइम ऑर्डर और नोटिफिकेशन अपडेट के लिए वेबहुक कॉन्फ़िगर करें",
+"admin.providers.webhookEndpoints": "वेबहुक एंडपॉइंट्स",
+"admin.providers.copy": "कॉपी करें",
+
+"admin.providers.notifications.title": "नोटिफिकेशन सेटिंग्स",
+"admin.providers.notifications.description": "इस प्रदाता के लिए विशिष्ट नोटिफिकेशन प्रकार सक्षम या अक्षम करें",
+
+"admin.providers.notifications.lowData75": "लो डेटा अलर्ट (75% उपयोग)",
+"admin.providers.notifications.lowData75Desc": "जब 75% डेटा उपयोग हो जाए तब नोटिफिकेशन भेजें",
+
+"admin.providers.notifications.lowData90": "लो डेटा अलर्ट (90% उपयोग)",
+"admin.providers.notifications.lowData90Desc": "जब 90% डेटा उपयोग हो जाए तब नोटिफिकेशन भेजें",
+
+"admin.providers.notifications.expiring3Days": "जल्द समाप्त होने का अलर्ट (3 दिन)",
+"admin.providers.notifications.expiring3DaysDesc": "eSIM समाप्त होने से 3 दिन पहले नोटिफिकेशन भेजें",
+
+"admin.providers.notifications.expiring1Day": "समाप्ति अलर्ट (1 दिन)",
+"admin.providers.notifications.expiring1DayDesc": "eSIM समाप्त होने से 1 दिन पहले नोटिफिकेशन भेजें",
+
+"admin.providers.notifications.orderStatus": "ऑर्डर स्टेटस अपडेट",
+"admin.providers.notifications.orderStatusDesc": "ऑर्डर पूरा होने या असफल होने पर नोटिफिकेशन भेजें",
+
+"admin.providers.webhookSecret": "वेबहुक सीक्रेट",
+"admin.providers.webhookSecretDesc": "वेबहुक सिग्नेचर को वैलिडेट करने के लिए उपयोग की जाने वाली सीक्रेट की (HMAC-SHA256)",
+
+"admin.providers.supportedEvents": "समर्थित वेबहुक इवेंट्स",
+"admin.providers.event.orderStatus": "ऑर्डर स्टेटस अपडेट (पूरा, असफल)",
+"admin.providers.event.lowData": "लो डेटा नोटिफिकेशन",
+
+"admin.providers.pricing.title": "प्राइसिंग कॉन्फ़िगरेशन",
+"admin.providers.pricing.description": "इस प्रदाता के पैकेज के लिए प्राइसिंग मार्जिन कॉन्फ़िगर करें",
+"admin.providers.pricingMargin": "प्राइसिंग मार्जिन (%)",
+"admin.providers.pricingMarginDesc": "प्रदाता की बेस कीमत पर लागू प्रतिशत मार्कअप",
+"admin.providers.exampleCalculation": "उदाहरण गणना",
+
+"admin.providers.preferred.title": "प्रेफर्ड प्रदाता",
+"admin.providers.preferred.description": "ऑटो पैकेज चयन फॉलबैक के लिए प्रेफर्ड प्रदाता सेट करें",
+"admin.providers.preferredProvider": "प्रेफर्ड प्रदाता",
+"admin.providers.preferredProviderDesc": "जब ऑटो मोड में कई बेस्ट-प्राइस पैकेज मिलें, तो इस प्रदाता को प्राथमिकता दी जाएगी",
+
+"admin.providers.preferredHowWorks": "प्रेफर्ड प्रदाता कैसे काम करता है",
+"admin.providers.preferredHowWorksDesc": "ऑटो मोड में सिस्टम पहले सभी प्रदाताओं में सबसे कम कीमत वाले पैकेज ढूँढता है। यदि कई प्रदाता समान सबसे कम कीमत देते हैं, तो प्रेफर्ड प्रदाता के पैकेज अपने आप सक्षम हो जाते हैं।",
+
+"common.cancel": "रद्द करें",
+"common.saveChanges": "परिवर्तन सहेजें",
+"common.saving": "सहेजा जा रहा है...",
+
+
+  "admin.packages.title": "पैकेज प्रबंधन",
+  "admin.packages.description": "सभी प्रोवाइडर्स के यूनिफाइड पैकेज को प्राइसिंग और विज़िबिलिटी कंट्रोल के साथ प्रबंधित करें",
+
+  "admin.packages.stats.total": "कुल पैकेज",
+  "admin.packages.stats.enabled": "सक्रिय",
+  "admin.packages.stats.bestPrice": "सबसे अच्छी कीमत",
+  "admin.packages.stats.manualOverride": "मैनुअल ओवरराइड",
+
+  "admin.packages.table.title": "यूनिफाइड पैकेज",
+  "admin.packages.table.description": "प्रोवाइडर्स के बीच पैकेज की विज़िबिलिटी को फ़िल्टर और प्रबंधित करें",
+
+  "admin.packages.searchPlaceholder": "पैकेज खोजें...",
+
+  "admin.packages.filters.allProviders": "सभी प्रोवाइडर",
+  "admin.packages.filters.allTypes": "सभी प्रकार",
+  "admin.packages.filters.allPrices": "सभी कीमतें",
+  "admin.packages.filters.bestPriceOnly": "केवल सबसे अच्छी कीमत",
+  "admin.packages.filters.notBestPrice": "सबसे अच्छी कीमत नहीं",
+
+  "admin.packages.filters.local": "लोकल",
+  "admin.packages.filters.regional": "रीजनल",
+  "admin.packages.filters.global": "ग्लोबल",
+
+  "admin.packages.filters.defaultSort": "डिफ़ॉल्ट सॉर्ट",
+  "admin.packages.filters.priceLowToHigh": "कीमत: कम से ज़्यादा",
+  "admin.packages.filters.priceHighToLow": "कीमत: ज़्यादा से कम",
+
+  "admin.packages.filters.advanced": "एडवांस फ़िल्टर",
+  "admin.packages.filters.resetAll": "सभी रीसेट करें",
+
+  "admin.packages.filters.unlimitedData": "अनलिमिटेड डेटा",
+  "admin.packages.filters.popularPackages": "लोकप्रिय पैकेज",
+
+  "admin.packages.filters.packageType": "पैकेज प्रकार",
+
+  "admin.packages.filters.dataOnly": "केवल डेटा",
+  "admin.packages.filters.voiceOnly": "केवल वॉयस",
+  "admin.packages.filters.smsOnly": "केवल SMS",
+  "admin.packages.filters.voiceData": "वॉयस + डेटा",
+  "admin.packages.filters.voiceSms": "वॉयस + SMS",
+  "admin.packages.filters.dataSms": "डेटा + SMS",
+  "admin.packages.filters.allThree": "वॉयस + डेटा + SMS",
+
+  "admin.packages.table.index": "#",
+  "admin.packages.table.package": "पैकेज",
+  "admin.packages.table.provider": "प्रोवाइडर",
+  "admin.packages.table.location": "लोकेशन",
+  "admin.packages.table.type": "प्रकार",
+  "admin.packages.table.packageDetails": "पैकेज विवरण",
+  "admin.packages.table.pricing": "प्राइसिंग",
+  "admin.packages.table.status": "स्थिति",
+
+  "admin.packages.table.popular": "लोकप्रिय",
+  "admin.packages.table.recommend": "सिफारिश",
+  "admin.packages.table.bestValue": "सबसे अच्छा विकल्प",
+  "admin.packages.table.enabled": "सक्रिय",
+
+  "admin.packages.badges.popular": "लोकप्रिय",
+  "admin.packages.badges.recommended": "सिफारिश",
+  "admin.packages.badges.bestValue": "सबसे अच्छा विकल्प",
+  "admin.packages.badges.unlimited": "अनलिमिटेड",
+  "admin.packages.badges.bestPrice": "सबसे अच्छी कीमत",
+
+  "admin.packages.pricing.provider": "प्रोवाइडर",
+  "admin.packages.pricing.selling": "बिक्री मूल्य",
+  "admin.packages.pricing.margin": "मार्जिन",
+
+  "admin.packages.status.enabled": "सक्रिय",
+  "admin.packages.status.disabled": "निष्क्रिय",
+  "admin.packages.status.manual": "मैनुअल",
+
+  "admin.packages.empty": "आपके फ़िल्टर के अनुसार कोई पैकेज नहीं मिला",
+
+  "admin.packages.loading": "पैकेज लोड हो रहे हैं...",
+
+  "admin.packages.pagination.showing": "दिखा रहे हैं",
+  "admin.packages.pagination.to": "से",
+  "admin.packages.pagination.of": "में से",
+  "admin.packages.pagination.packages": "पैकेज",
+
+  "admin.packages.pagination.previous": "पिछला",
+  "admin.packages.pagination.next": "अगला",
+
+  "admin.packages.toast.updatedTitle": "पैकेज अपडेट हो गया",
+  "admin.packages.toast.updatedDesc": "पैकेज सेटिंग्स सफलतापूर्वक अपडेट हो गई हैं।",
+
+  "admin.packages.toast.updateFailedTitle": "अपडेट विफल",
+  "admin.packages.toast.updateFailedDesc": "पैकेज सेटिंग्स अपडेट करने में विफल।",
+
+
+
+  
+  "admin.topups.title2": "टॉपअप पैकेज",
+  "admin.topups.description2": "मौजूदा eSIM को रिचार्ज करने के लिए टॉपअप पैकेज प्रबंधित करें",
+
+  "admin.topups.stats.total": "कुल टॉपअप पैकेज",
+  "admin.topups.stats.airalo": "Airalo टॉपअप",
+  "admin.topups.stats.esimAccess": "eSIM Access टॉपअप",
+  "admin.topups.stats.esimGo": "eSIM Go टॉपअप",
+  "admin.topups.stats.maya": "Maya Mobile टॉपअप",
+
+  "admin.topups.sync.title": "टॉपअप सिंक स्थिति",
+  "admin.topups.sync.description": "सभी प्रोवाइडर्स से टॉपअप पैकेज सिंक करें। टॉपअप बेस पैकेज सिंक के बाद अपने-आप भी सिंक हो जाते हैं।",
+
+  "admin.topups.sync": "सिंक",
+  "admin.topups.onDemand": "मांग पर",
+
+  "admin.topups.lastSync": "अंतिम सिंक",
+  "admin.topups.never": "कभी नहीं",
+
+  "admin.topups.table.title": "सभी टॉपअप पैकेज",
+  "admin.topups.search": "टॉपअप खोजें...",
+
+  "admin.topups.filters.allProviders": "सभी प्रोवाइडर",
+
+  "admin.topups.empty": "कोई टॉपअप पैकेज नहीं मिला",
+  "admin.topups.trySearch": "कोई दूसरा खोज शब्द आज़माएँ",
+  "admin.topups.triggerSync": "टॉपअप पैकेज लाने के लिए सिंक ट्रिगर करें",
+
+  "admin.topups.table.titleCol": "शीर्षक",
+  "admin.topups.table.provider": "प्रोवाइडर",
+  "admin.topups.table.destination": "गंतव्य",
+  "admin.topups.table.data": "डेटा",
+  "admin.topups.table.validity": "वैधता",
+  "admin.topups.table.price": "कीमत",
+  "admin.topups.table.linked": "लिंक्ड",
+  "admin.topups.table.status": "स्थिति",
+
+  "admin.topups.linked": "लिंक्ड",
+  "admin.topups.unlinked": "अनलिंक्ड",
+
+  "admin.topups.active": "सक्रिय",
+  "admin.topups.inactive": "निष्क्रिय",
+
+
+
+  "admin.regions.title": "क्षेत्र",
+  "admin.regions.description": "बहु-देशीय क्षेत्रीय पैकेज प्रबंधित करें",
+
+  "admin.regions.syncRegions": "क्षेत्र सिंक करें",
+  "admin.regions.syncing": "सिंक हो रहा है...",
+
+  "admin.regions.totalRegions": "कुल क्षेत्र",
+  "admin.regions.activeRegions": "सक्रिय क्षेत्र",
+  "admin.regions.totalPackages": "कुल पैकेज",
+
+  "admin.regions.allRegions": "सभी क्षेत्र",
+  "admin.regions.searchPlaceholder": "क्षेत्र खोजें...",
+
+  "admin.regions.noRegions": "कोई क्षेत्र नहीं मिला",
+
+  "admin.regions.table.icon": "आइकन",
+  "admin.regions.table.name": "नाम",
+  "admin.regions.table.slug": "स्लग",
+  "admin.regions.table.countries": "देश",
+  "admin.regions.table.packages": "पैकेज",
+  "admin.regions.table.status": "स्थिति",
+  "admin.regions.table.actions": "क्रियाएँ",
+
+  "admin.regions.dialog.title": "क्षेत्र की छवि संपादित करें",
+  "admin.regions.uploadImage": "छवि अपलोड करें",
+
+  "admin.regions.imageFormats": "स्वीकृत प्रारूप: JPG, PNG, GIF, WebP, SVG (अधिकतम 5MB)",
+
+  "admin.regions.upload": "अपलोड",
+  "admin.regions.uploading": "अपलोड हो रहा है...",
+
+
+
+  
+  "admin.countries.title": "देश और क्षेत्र",
+  "admin.countries.description": "गंतव्य देशों और क्षेत्रों का प्रबंधन करें",
+
+  "admin.countries.syncCountries": "देश सिंक करें",
+  "admin.countries.syncing": "सिंक हो रहा है...",
+
+  "admin.countries.totalDestinations": "कुल गंतव्य",
+  "admin.countries.countries": "देश",
+  "admin.countries.territories": "क्षेत्र",
+  "admin.countries.totalPackages": "कुल पैकेज",
+
+  "admin.countries.allCountries": "सभी देश",
+  "admin.countries.searchPlaceholder": "देश खोजें...",
+
+  "admin.countries.allTypes": "सभी प्रकार",
+  "admin.countries.filterCountries": "देश",
+  "admin.countries.filterTerritories": "क्षेत्र",
+
+  "admin.countries.noCountries": "कोई देश नहीं मिला।",
+
+  "admin.countries.table.flag": "झंडा",
+  "admin.countries.table.icon": "आइकन",
+  "admin.countries.table.name": "नाम",
+  "admin.countries.table.code": "कोड",
+  "admin.countries.table.type": "प्रकार",
+  "admin.countries.table.packages": "पैकेज",
+  "admin.countries.table.status": "स्थिति",
+  "admin.countries.table.actions": "क्रियाएँ",
+
+  "admin.countries.country": "देश",
+  "admin.countries.territory": "क्षेत्र",
+
+  "admin.countries.dialog.title": "देश की छवि संपादित करें",
+  "admin.countries.uploadImage": "छवि अपलोड करें",
+  "admin.countries.imageFormats": "स्वीकृत फ़ॉर्मेट: JPG, PNG, GIF, WebP, SVG (अधिकतम 5MB)",
+
+  "admin.countries.upload": "अपलोड करें",
+  "admin.countries.uploading": "अपलोड हो रहा है...",
+
+
+
+  "admin.vouchers.title": "वाउचर प्रबंधन",
+  "admin.vouchers.description": "डिस्काउंट वाउचर बनाएं और प्रबंधित करें",
+
+  "admin.vouchers.create": "वाउचर बनाएं",
+  "admin.vouchers.createNew": "नया वाउचर बनाएं",
+
+  "admin.vouchers.total": "कुल वाउचर",
+  "admin.vouchers.active": "सक्रिय वाउचर",
+  "admin.vouchers.totalUsage": "कुल उपयोग",
+  "admin.vouchers.totalDiscount": "कुल दिया गया डिस्काउंट",
+
+  "admin.vouchers.search": "कोड या विवरण से खोजें...",
+  "admin.vouchers.allStatus": "सभी स्थिति",
+  "admin.vouchers.allTypes": "सभी प्रकार",
+
+  "admin.vouchers.status.active": "सक्रिय",
+  "admin.vouchers.status.inactive": "निष्क्रिय",
+  "admin.vouchers.status.expired": "समाप्त",
+
+  "admin.vouchers.type.percentage": "प्रतिशत",
+  "admin.vouchers.type.fixed": "निश्चित राशि",
+
+  "admin.vouchers.table.code": "कोड",
+  "admin.vouchers.table.discount": "छूट",
+  "admin.vouchers.table.usage": "उपयोग",
+  "admin.vouchers.table.validity": "वैधता",
+  "admin.vouchers.table.status": "स्थिति",
+  "admin.vouchers.table.actions": "कार्य",
+
+  "admin.vouchers.noVouchers": "कोई वाउचर नहीं मिला",
+  "admin.vouchers.loading": "वाउचर लोड हो रहे हैं...",
+
+  "admin.vouchers.details": "वाउचर विवरण",
+  "admin.vouchers.usageHistory": "उपयोग इतिहास",
+
+  "admin.vouchers.validFrom": "वैध प्रारंभ",
+  "admin.vouchers.validUntil": "वैध समाप्ति",
+
+  "admin.vouchers.minPurchase": "न्यूनतम खरीद",
+  "admin.vouchers.maxDiscount": "अधिकतम छूट",
+
+  "admin.vouchers.perUserLimit": "प्रति उपयोगकर्ता सीमा",
+  "admin.vouchers.firstTimeOnly": "केवल पहली बार ग्राहक",
+  "admin.vouchers.descriptionField": "विवरण",
+
+  "admin.vouchers.discountType": "छूट का प्रकार",
+  "admin.vouchers.discountValue": "छूट का मूल्य",
+
+  "admin.vouchers.minPurchaseAmount": "न्यूनतम खरीद राशि",
+  "admin.vouchers.maxDiscountCap": "अधिकतम छूट सीमा",
+
+  "admin.vouchers.totalUsageLimit": "कुल उपयोग सीमा",
+  "admin.vouchers.perUserLimitField": "प्रति उपयोगकर्ता सीमा",
+
+  "admin.vouchers.validFromField": "वैध प्रारंभ",
+  "admin.vouchers.validUntilField": "वैध समाप्ति",
+
+  "admin.vouchers.firstTimeCustomers": "केवल नए ग्राहक",
+  "admin.vouchers.stackable": "अन्य ऑफ़र के साथ उपयोग योग्य",
+
+  "admin.vouchers.generateCode": "कोड बनाएं",
+  "admin.vouchers.saving": "सहेजा जा रहा है...",
+
+  "admin.vouchers.update": "वाउचर अपडेट करें",
+  "admin.vouchers.createVoucher": "वाउचर बनाएं",
+  "admin.vouchers.createDescription": "नया डिस्काउंट वाउचर कोड बनाएं",
+  "admin.vouchers.code": "वाउचर कोड",
+
+
+
+  
+  "admin.giftCards.title": "गिफ्ट कार्ड प्रबंधन",
+  "admin.giftCards.description": "गिफ्ट कार्ड बनाएं और प्रबंधित करें",
+  
+  "admin.giftCards.bulkDialog.title": "थोक में गिफ्ट कार्ड बनाएं",
+  "admin.giftCards.bulkDialog.description": "प्रमोशन्स के लिए एक साथ कई गिफ्ट कार्ड बनाएं",
+  "admin.giftCards.bulkDialog.numberOfCards": "कार्डों की संख्या",
+  "admin.giftCards.bulkDialog.amountPerCard": "प्रत्येक कार्ड की राशि ($)",
+  "admin.giftCards.bulkDialog.generateButton": "{count} कार्ड बनाएं",
+  "admin.giftCards.bulkDialog.generating": "बनाया जा रहा है...",
+
+  "admin.giftCards.createDialog.title": "गिफ्ट कार्ड बनाएं",
+  "admin.giftCards.createDialog.description": "किसी ग्राहक या प्रमोशन के लिए नया गिफ्ट कार्ड बनाएं",
+  "admin.giftCards.createDialog.amount": "राशि ($)",
+  "admin.giftCards.createDialog.theme": "थीम",
+  "admin.giftCards.createDialog.recipientName": "प्राप्तकर्ता का नाम (वैकल्पिक)",
+  "admin.giftCards.createDialog.recipientEmail": "प्राप्तकर्ता ईमेल (वैकल्पिक)",
+  "admin.giftCards.createDialog.personalMessage": "व्यक्तिगत संदेश (वैकल्पिक)",
+  "admin.giftCards.createDialog.expiresOn": "समाप्ति तिथि",
+  "admin.giftCards.createDialog.createButton": "गिफ्ट कार्ड बनाएं",
+  "admin.giftCards.createDialog.creating": "बनाया जा रहा है...",
+
+  "admin.giftCards.cards.total": "कुल कार्ड",
+  "admin.giftCards.cards.active": "सक्रिय कार्ड",
+  "admin.giftCards.cards.totalValue": "कुल मूल्य",
+  "admin.giftCards.cards.redeemed": "भुनाए गए",
+  "admin.giftCards.cards.pendingDelivery": "प्रसवण शेष",
+
+  "admin.giftCards.search.placeholder": "कोड, ईमेल या नाम से खोजें...",
+  "admin.giftCards.filter.status": "स्थिति",
+  "admin.giftCards.filter.all": "सभी स्थितियां",
+  "admin.giftCards.filter.active": "सक्रिय",
+  "admin.giftCards.filter.used": "उपयोग किया गया",
+  "admin.giftCards.filter.expired": "समाप्त",
+  "admin.giftCards.filter.cancelled": "रद्द किया गया",
+
+  "admin.giftCards.table.code": "कोड",
+  "admin.giftCards.table.amountBalance": "राशि / शेष",
+  "admin.giftCards.table.recipient": "प्राप्तकर्ता",
+  "admin.giftCards.table.theme": "थीम",
+  "admin.giftCards.table.expires": "समाप्ति",
+  "admin.giftCards.table.status": "स्थिति",
+  "admin.giftCards.table.actions": "क्रियाएं",
+  "admin.giftCards.table.notAssigned": "असाइन नहीं किया गया",
+  "admin.giftCards.table.copySuccess": "कोड क्लिपबोर्ड में कॉपी किया गया",
+  "admin.giftCards.table.sendDelivery": "डिलीवरी ईमेल भेजें",
+
+  "admin.giftCards.viewDialog.title": "गिफ्ट कार्ड विवरण",
+  "admin.giftCards.viewDialog.tabs.details": "विवरण",
+  "admin.giftCards.viewDialog.tabs.transactions": "लेन-देन",
+  "admin.giftCards.viewDialog.label.code": "कोड",
+  "admin.giftCards.viewDialog.label.status": "स्थिति",
+  "admin.giftCards.viewDialog.label.originalAmount": "मूल राशि",
+  "admin.giftCards.viewDialog.label.currentBalance": "वर्तमान शेष",
+  "admin.giftCards.viewDialog.label.recipient": "प्राप्तकर्ता",
+  "admin.giftCards.viewDialog.label.theme": "थीम",
+  "admin.giftCards.viewDialog.label.created": "बनाया गया",
+  "admin.giftCards.viewDialog.label.expires": "समाप्ति",
+  "admin.giftCards.viewDialog.label.deliveryStatus": "डिलीवरी स्थिति",
+  "admin.giftCards.viewDialog.label.firstRedeemed": "पहली बार भुनाया गया",
+  "admin.giftCards.viewDialog.label.personalMessage": "व्यक्तिगत संदेश",
+  "admin.giftCards.viewDialog.noTransactions": "अभी तक कोई लेन-देन नहीं",
+
+
+
+
+
+  
+  "admin.referrals.title": "रेफरल प्रोग्राम",
+  "admin.referrals.settings": "सेटिंग्स",
+  "admin.referrals.referrals": "रेफरल",
+  "admin.referrals.analytics": "एनालिटिक्स",
+
+  "admin.referrals.settings.title": "रेफरल सेटिंग्स",
+  "admin.referrals.settings.enableProgram": "रेफरल प्रोग्राम सक्षम करें",
+  "admin.referrals.settings.rewardType": "रिवॉर्ड प्रकार",
+  "admin.referrals.settings.rewardValue": "रिवॉर्ड मूल्य",
+  "admin.referrals.settings.referredDiscount": "रेफर किए गए उपयोगकर्ता के लिए छूट",
+  "admin.referrals.settings.minOrderAmount": "न्यूनतम ऑर्डर राशि",
+  "admin.referrals.settings.expiryDays": "समाप्ति दिन",
+  "admin.referrals.settings.terms": "नियम और शर्तें",
+  "admin.referrals.settings.save": "सेटिंग्स सहेजें",
+
+  "admin.referrals.list.title": "रेफरल सूची",
+  "admin.referrals.list.search": "ईमेल या कोड से खोजें",
+  "admin.referrals.list.filterStatus": "स्थिति के अनुसार फ़िल्टर करें",
+  "admin.referrals.list.exportCSV": "CSV निर्यात करें",
+
+  "admin.referrals.table.referrer": "रेफर करने वाला",
+  "admin.referrals.table.referredUser": "रेफर किया गया उपयोगकर्ता",
+  "admin.referrals.table.code": "कोड",
+  "admin.referrals.table.status": "स्थिति",
+  "admin.referrals.table.reward": "रिवॉर्ड",
+  "admin.referrals.table.paid": "भुगतान किया गया",
+  "admin.referrals.table.date": "तारीख",
+  "admin.referrals.table.actions": "कार्रवाई",
+
+  "admin.referrals.status.pending": "लंबित",
+  "admin.referrals.status.completed": "पूर्ण",
+
+  "admin.referrals.actions.markPaid": "भुगतान किया हुआ चिह्नित करें",
+
+  "admin.referrals.empty.title": "कोई रेफरल नहीं मिला",
+  "admin.referrals.empty.description": "जब उपयोगकर्ता शेयर करना शुरू करेंगे तो रेफरल यहाँ दिखाई देंगे",
+
+  "admin.referrals.stats.totalReferrals": "कुल रेफरल",
+  "admin.referrals.stats.conversionRate": "कन्वर्ज़न दर",
+  "admin.referrals.stats.totalRewards": "कुल रिवॉर्ड",
+  "admin.referrals.stats.pendingPayouts": "लंबित भुगतान",
+
+  "admin.referrals.analytics.monthlyGrowth": "मासिक वृद्धि",
+  "admin.referrals.analytics.topReferrers": "शीर्ष रेफर करने वाले",
+  "admin.referrals.analytics.statusDistribution": "स्थिति वितरण",
+  "admin.referrals.analytics.avgReward": "औसत रिवॉर्ड",
+  "admin.referrals.analytics.mostActiveMonth": "सबसे सक्रिय महीना",
+
+
+
+  
+"common.success": "सफलता",
+"common.error": "त्रुटि",
+"common.loading": "सेव किया जा रहा है...",
+"admin.referrals.description": "अपने रेफरल प्रोग्राम को प्रबंधित और ट्रैक करें",
+"admin.referrals.settings.description": "रेफरल प्रोग्राम की सेटिंग्स कॉन्फ़िगर करें",
+
+"admin.referrals.enabled": "रेफरल प्रोग्राम सक्षम करें",
+"admin.referrals.enabledDescription": "रेफरल प्रोग्राम को सक्षम या अक्षम करें",
+
+"admin.referrals.rewardType": "रिवॉर्ड प्रकार",
+"admin.referrals.percentage": "प्रतिशत",
+"admin.referrals.fixedAmount": "निश्चित राशि",
+
+"admin.referrals.rewardValue": "रिवॉर्ड वैल्यू",
+"admin.referrals.referredDiscount": "रेफर किए गए उपयोगकर्ता की छूट",
+"admin.referrals.minOrderAmount": "न्यूनतम ऑर्डर राशि",
+"admin.referrals.expiryDays": "समाप्ति दिन",
+
+"admin.referrals.termsAndConditions": "नियम और शर्तें",
+"admin.referrals.termsPlaceholder": "नियम और शर्तें दर्ज करें...",
+
+"admin.referrals.saveSettings": "सेटिंग्स सेव करें",
+"admin.referrals.settingsSaved": "सेटिंग्स सफलतापूर्वक सेव हो गईं",
+"admin.referrals.saveFailed": "सेटिंग्स सेव करने में विफल",
+
+"admin.referrals.totalReferrals": "कुल रेफरल",
+"admin.referrals.conversionRate": "कन्वर्ज़न रेट",
+"admin.referrals.totalRewards": "कुल रिवॉर्ड",
+"admin.referrals.pendingPayouts": "लंबित भुगतान",
+
+"admin.referrals.referralList": "रेफरल सूची",
+"admin.referrals.exportCSV": "CSV एक्सपोर्ट करें",
+
+"admin.referrals.noReferrals": "कोई रेफरल नहीं मिला",
+"admin.referrals.adjustFilters": "अपने फ़िल्टर समायोजित करें",
+"admin.referrals.waitingForReferrals": "जब उपयोगकर्ता शेयर करना शुरू करेंगे तब रेफरल यहाँ दिखाई देंगे",
+
+"admin.referrals.markPaid": "भुगतान किया गया चिह्नित करें",
+"admin.referrals.markedPaid": "रेफरल को भुगतान किया हुआ चिह्नित किया गया",
+
+"admin.referrals.monthlyGrowth": "मासिक वृद्धि",
+"admin.referrals.trends": "समय के साथ रेफरल ट्रेंड",
+
+"admin.referrals.topReferrers": "शीर्ष रेफरर",
+"admin.referrals.topReferrersDescription": "सफल रेफरल के आधार पर शीर्ष 10 रेफरर",
+
+
+
+  
+  "admin.referrals.searchPlaceholder": "ईमेल या कोड से खोजें...",
+  "admin.referrals.filterStatus": "स्थिति के अनुसार फ़िल्टर",
+  "admin.referrals.allStatuses": "सभी स्थितियाँ",
+  "admin.referrals.pending": "लंबित",
+  "admin.referrals.completed": "पूर्ण",
+  "admin.referrals.noReferralsFound": "कोई रेफरल नहीं मिला",
+  "admin.referrals.unknown": "अज्ञात",
+  "admin.referrals.exportSuccess": "रेफरल CSV में निर्यात किए गए",
+
+  
+  "admin.referrals.noAnalytics": "कोई एनालिटिक्स डेटा उपलब्ध नहीं है",
+  "admin.referrals.avgReward": "औसत इनाम",
+  "admin.referrals.avgTimeToConvert": "कन्वर्ट होने का औसत समय",
+  "admin.referrals.mostActiveMonth": "सबसे सक्रिय महीना",
+  "admin.referrals.trendsOverTime": "समय के साथ रेफरल ट्रेंड",
+  "admin.referrals.topReferrersDesc": "सफल रेफरल के अनुसार शीर्ष 10 रेफरर",
+  "admin.referrals.statusDistribution": "स्थिति वितरण",
+  "admin.referrals.statusBreakdown": "रेफरल स्थिति का विभाजन",
+
+  "admin.priceBrackets.title": "प्राइस ब्रैकेट्स",
+  "admin.priceBrackets.description": "मोबाइल स्टोर्स के लिए प्राइसिंग टियर को मैनेज और जनरेट करें।",
+  "admin.priceBrackets.allowInAppPurchase": "इन-ऐप खरीदारी की अनुमति दें",
+  "admin.priceBrackets.configuration": "कॉन्फ़िगरेशन",
+  "admin.priceBrackets.configurationDesc": "नए टियर बनाने के लिए करेंसी और प्राइस इंटरवल सेट करें।",
+  "admin.priceBrackets.packagePrefix": "पैकेज प्रीफिक्स",
+  "admin.priceBrackets.currency": "करेंसी",
+  "admin.priceBrackets.priceStep": "प्राइस स्टेप",
+  "admin.priceBrackets.preview": "प्रीव्यू",
+  "admin.priceBrackets.generateSave": "जनरेट और सेव करें",
+  "admin.priceBrackets.generatedBrackets": "जनरेटेड ब्रैकेट्स",
+  "admin.priceBrackets.productId": "प्रोडक्ट आईडी",
+  "admin.priceBrackets.priceRange": "प्राइस रेंज",
+  "admin.priceBrackets.android": "एंड्रॉइड",
+  "admin.priceBrackets.apple": "एप्पल",
+  "admin.priceBrackets.status": "स्थिति",
+  "admin.priceBrackets.loading": "लोड हो रहा है...",
+  "admin.priceBrackets.noData": "कोई डेटा नहीं मिला।",
+  "admin.priceBrackets.active": "सक्रिय",
+  "admin.priceBrackets.inactive": "निष्क्रिय",
+  "admin.priceBrackets.previous": "पिछला",
+  "admin.priceBrackets.next": "अगला",
+  "admin.priceBrackets.page": "पेज",
+  "admin.priceBrackets.of": "का",
+  "admin.priceBrackets.previewBrackets": "ब्रैकेट्स प्रीव्यू",
+  "admin.priceBrackets.maxPackagesNote": "नोट: अधिकतम 800 पैकेज बनाए जा सकते हैं।",
+  "admin.priceBrackets.closePreview": "प्रीव्यू बंद करें",
+  "admin.priceBrackets.confirmGeneration": "जनरेशन की पुष्टि करें",
+  "admin.priceBrackets.confirmGenerationText": "क्या आप वाकई इन प्राइस ब्रैकेट्स को जनरेट करना चाहते हैं?",
+  "admin.priceBrackets.cancel": "रद्द करें",
+  "admin.priceBrackets.proceedGenerate": "जनरेट करने के लिए आगे बढ़ें",
+  "admin.priceBrackets.error": "त्रुटि",
+  "admin.priceBrackets.packagePrefixRequired": "पैकेज प्रीफिक्स आवश्यक है",
+  "admin.priceBrackets.prefixValidation": "प्रीफिक्स में केवल अक्षर, नंबर और अंडरस्कोर हो सकते हैं",
+
+
+  
+  "admin.paymentGateways.title": "पेमेंट गेटवे",
+  "admin.paymentGateways.description": "पेमेंट प्रोवाइडर्स और विकल्पों को कॉन्फ़िगर करें",
+  "admin.paymentGateways.addGateway": "गेटवे जोड़ें",
+  "admin.paymentGateways.configuredGateways": "कॉन्फ़िगर किए गए गेटवे",
+  "admin.paymentGateways.configuredGatewaysDesc": "हर पंक्ति एक यूज़र को दिखाई देने वाले पेमेंट विकल्प को दर्शाती है",
+  "admin.paymentGateways.provider": "प्रोवाइडर",
+  "admin.paymentGateways.displayName": "डिस्प्ले नाम",
+  "admin.paymentGateways.status": "स्थिति",
+  "admin.paymentGateways.actions": "एक्शन",
+  "admin.paymentGateways.noGateways": "कोई पेमेंट गेटवे नहीं जोड़ा गया",
+  "admin.paymentGateways.editGateway": "गेटवे संपादित करें",
+  "admin.paymentGateways.publicKey": "पब्लिक की",
+  "admin.paymentGateways.secretKey": "सीक्रेट की",
+  "admin.paymentGateways.supportedCurrencies": "समर्थित करेंसी",
+  "admin.paymentGateways.displayNamePlaceholder": "कार्ड / UPI / वॉलेट",
+  "admin.paymentGateways.selectProvider": "प्रोवाइडर चुनें",
+  "admin.paymentGateways.loadingCurrencies": "करेंसी लोड हो रही है...",
+  "admin.paymentGateways.selectCurrency": "कम से कम एक करेंसी चुनें",
+  "admin.paymentGateways.enabled": "सक्रिय",
+  "admin.paymentGateways.disabled": "निष्क्रिय",
+  "admin.paymentGateways.cancel": "रद्द करें",
+  "admin.paymentGateways.save": "सेव करें",
+  "admin.paymentGateways.validationError": "मान्यता त्रुटि",
+  "admin.paymentGateways.selectProviderError": "कृपया एक प्रोवाइडर चुनें",
+  "admin.paymentGateways.displayNameError": "कृपया डिस्प्ले नाम दर्ज करें",
+  "admin.paymentGateways.currencyError": "कृपया कम से कम एक समर्थित करेंसी चुनें",
+
+
+
+
+  "admin.notifications.title": "सूचनाएँ",
+  "admin.notifications.description": "सूचना इतिहास देखें और ग्राहकों को कस्टम सूचनाएँ भेजें",
+  "admin.notifications.button.new": "नई सूचना",
+  "admin.notifications.button.export": "CSV निर्यात करें",
+
+  "admin.notifications.stats.total": "कुल सूचनाएँ",
+  "admin.notifications.stats.unread": "अपठित",
+  "admin.notifications.stats.emailsSent": "भेजे गए ईमेल",
+  "admin.notifications.stats.emailsFailed": "ईमेल विफल",
+
+  "admin.notifications.filters.title": "फ़िल्टर",
+  "admin.notifications.filters.description": "प्रकार, स्थिति और ICCID के अनुसार सूचना इतिहास फ़िल्टर करें",
+  "admin.notifications.filters.source": "सूचना स्रोत",
+  "admin.notifications.filters.allSources": "सभी स्रोत",
+  "admin.notifications.filters.airaloWebhook": "Airalo वेबहुक",
+  "admin.notifications.filters.customNotification": "कस्टम सूचना",
+
+  "admin.notifications.filters.typeLabel": "सूचना प्रकार",
+  "admin.notifications.filters.allTypes": "सभी प्रकार",
+
+  "admin.notifications.filters.iccid": "ICCID",
+  "admin.notifications.filters.iccidPlaceholder": "ICCID से खोजें...",
+
+  "admin.notifications.filters.processingStatus": "प्रोसेसिंग स्थिति",
+  "admin.notifications.filters.processed": "प्रोसेस किया गया",
+  "admin.notifications.filters.notProcessed": "प्रोसेस नहीं किया गया",
+
+  "admin.notifications.filters.emailStatus": "ईमेल स्थिति",
+  "admin.notifications.filters.sent": "भेजा गया",
+  "admin.notifications.filters.notSent": "नहीं भेजा गया",
+
+  "admin.notifications.empty.title": "कोई सूचना नहीं मिली",
+  "admin.notifications.empty.description": "आपके वर्तमान फ़िल्टर से मेल खाने वाला कोई सूचना इतिहास नहीं मिला",
+
+  "admin.notifications.table.timestamp": "समय",
+  "admin.notifications.table.type": "प्रकार",
+  "admin.notifications.table.iccid": "ICCID",
+  "admin.notifications.table.processed": "प्रोसेस किया गया",
+  "admin.notifications.table.error": "त्रुटि",
+  "admin.notifications.table.actions": "क्रियाएँ",
+
+  "admin.notifications.button.viewDetails": "विवरण देखें",
+
+  "admin.notifications.badge.yes": "हाँ",
+  "admin.notifications.badge.no": "नहीं",
+  "admin.notifications.badge.none": "कोई नहीं",
+
+  "admin.notifications.type.lowData75": "कम डेटा 75%",
+  "admin.notifications.type.lowData90": "कम डेटा 90%",
+  "admin.notifications.type.expiring3Days": "3 दिन में समाप्त",
+  "admin.notifications.type.expiring1Day": "1 दिन में समाप्त",
+  "admin.notifications.type.custom": "कस्टम",
+
+  "admin.notifications.pagination.previous": "पिछला",
+  "admin.notifications.pagination.next": "अगला",
+  "admin.notifications.pagination.page": "पृष्ठ {{current}} / {{total}}",
+
+  "admin.notifications.details.title": "सूचना विवरण",
+  "admin.notifications.details.description": "विस्तृत वेबहुक payload और प्रोसेसिंग जानकारी",
+  "admin.notifications.details.timestamp": "समय",
+  "admin.notifications.details.type": "प्रकार",
+  "admin.notifications.details.iccid": "ICCID",
+  "admin.notifications.details.status": "स्थिति",
+  "admin.notifications.details.processed": "प्रोसेस किया गया",
+  "admin.notifications.details.notProcessed": "प्रोसेस नहीं किया गया",
+  "admin.notifications.details.emailSent": "ईमेल भेजा गया",
+  "admin.notifications.details.noEmail": "कोई ईमेल नहीं",
+  "admin.notifications.details.error": "त्रुटि",
+  "admin.notifications.details.webhookPayload": "वेबहुक Payload",
+
+  "admin.notifications.custom.title": "कस्टम सूचना भेजें",
+  "admin.notifications.custom.description": "अपने ग्राहकों को ब्रांडेड ईमेल सूचना भेजें",
+  "admin.notifications.custom.subject": "विषय",
+  "admin.notifications.custom.subjectPlaceholder": "महत्वपूर्ण अपडेट",
+
+  "admin.notifications.custom.message": "संदेश",
+  "admin.notifications.custom.messagePlaceholder": "अपना सूचना संदेश दर्ज करें...",
+
+  "admin.notifications.custom.sendTo": "भेजें",
+  "admin.notifications.custom.allCustomers": "सभी ग्राहक",
+  "admin.notifications.custom.singleCustomer": "एक ग्राहक",
+
+  "admin.notifications.custom.selectCustomer": "ग्राहक चुनें",
+  "admin.notifications.custom.chooseCustomer": "एक ग्राहक चुनें",
+
+  "admin.notifications.custom.deliveryMethods": "डिलीवरी तरीके",
+  "admin.notifications.custom.sendInApp": "इन-ऐप सूचना भेजें",
+
+  "admin.notifications.custom.methodRequired": "कम से कम एक डिलीवरी तरीका चुनना आवश्यक है",
+
+  "admin.notifications.custom.cancel": "रद्द करें",
+  "admin.notifications.custom.sending": "भेजा जा रहा है...",
+
+
+
+
+  "admin.analytics.loadingAnalytics":"एनालिटिक्स लोड हो रहा है...",
+"admin.analytics.title":"एनालिटिक्स और रिपोर्ट्स",
+"admin.analytics.description":"विस्तृत जानकारी और प्रदर्शन मेट्रिक्स",
+"admin.analytics.exportReport":"रिपोर्ट एक्सपोर्ट करें",
+"admin.analytics.totalRevenue":"कुल राजस्व",
+"admin.analytics.vsLastMonth":"पिछले महीने की तुलना में",
+"admin.analytics.totalOrders":"कुल ऑर्डर",
+"admin.analytics.totalEsims":"बेचे गए eSIM",
+"admin.analytics.totalCustomers":"कुल ग्राहक",
+"admin.analytics.newThisMonth":"इस महीने नए",
+"admin.analytics.paidToProviders":"प्रोवाइडर्स को भुगतान",
+"admin.analytics.profit":"लाभ:",
+"admin.analytics.providerPerformance":"प्रोवाइडर प्रदर्शन",
+"admin.analytics.providerPerformanceDesc":"प्रोवाइडर के अनुसार ऑर्डर और लागत",
+"admin.analytics.orders":"ऑर्डर",
+"admin.analytics.revenue":"राजस्व",
+"admin.analytics.cost":"लागत",
+"admin.analytics.profitLabel":"लाभ",
+"admin.analytics.revenueOverTime":"समय के साथ राजस्व",
+"admin.analytics.monthlyRevenueTrend":"मासिक राजस्व ट्रेंड",
+"admin.analytics.topDestinations":"राजस्व के अनुसार शीर्ष गंतव्य",
+"admin.analytics.highestEarning":"सबसे अधिक कमाई वाले बाजार",
+"admin.analytics.performanceSummary":"प्रदर्शन सारांश",
+"admin.analytics.keyMetrics":"मुख्य मेट्रिक्स और जानकारी",
+"admin.analytics.customerLifetimeValue":"ग्राहक जीवनकाल मूल्य",
+"admin.analytics.averagePerCustomer":"प्रति ग्राहक औसत",
+"admin.analytics.conversionRate":"कन्वर्ज़न रेट",
+"admin.analytics.ordersPerCustomer":"प्रति ग्राहक ऑर्डर",
+"admin.analytics.activePackageRate":"सक्रिय पैकेज दर",
+"admin.analytics.allPackagesAvailable":"सभी पैकेज उपलब्ध",
+
+
+
+"admin.analytics.pageTitle": "एनालिटिक्स डैशबोर्ड",
+  "admin.analytics.description2": "प्रदर्शन मीट्रिक्स और उपयोगकर्ता व्यवहार ट्रैक करें",
+
+  "admin.analytics.tabs.overview": "ओवरव्यू",
+  "admin.analytics.tabs.funnel": "फनल",
+  "admin.analytics.tabs.segments": "सेगमेंट्स",
+  "admin.analytics.tabs.abandoned": "छूटे हुए कार्ट",
+
+  "admin.analytics.totalRevenue2": "कुल राजस्व",
+  "admin.analytics.activeUsers": "सक्रिय उपयोगकर्ता (30 दिन)",
+  "admin.analytics.conversionRate2": "कन्वर्ज़न रेट",
+  "admin.analytics.avgOrderValue": "औसत ऑर्डर मूल्य",
+
+  "admin.analytics.conversionFunnel": "कन्वर्ज़न फनल",
+
+  "admin.analytics.customerSegments": "ग्राहक सेगमेंट",
+  "admin.analytics.users": "उपयोगकर्ता",
+  "admin.analytics.noSegments": "अभी तक कोई सेगमेंट नहीं बनाया गया",
+
+  "admin.analytics.abandonedCarts": "छूटे हुए कार्ट",
+  "admin.analytics.guest": "गेस्ट",
+  "admin.analytics.unknownPackage": "अज्ञात पैकेज",
+  "admin.analytics.reminderSent": "रिमाइंडर भेजा गया",
+  "admin.analytics.noReminder": "कोई रिमाइंडर नहीं",
+  "admin.analytics.noAbandonedCarts": "कोई छूटा हुआ कार्ट नहीं",
+
+
+
+
+
+  
+  "admin.reviews.title": "रिव्यू प्रबंधन",
+  "admin.reviews.description": "ग्राहक समीक्षाओं को प्रबंधित करें और गुणवत्ता बनाए रखें",
+  "admin.reviews.addReview": "रिव्यू जोड़ें",
+
+  "admin.reviews.totalReviews": "कुल रिव्यू",
+  "admin.reviews.pendingApproval": "लंबित स्वीकृति",
+  "admin.reviews.averageRating": "प्लेटफॉर्म औसत",
+  "admin.reviews.recentReviews": "हाल के (7 दिन)",
+
+  "admin.reviews.searchPlaceholder": "पैकेज नाम या ग्राहक ईमेल से खोजें...",
+  "admin.reviews.filterRating": "रेटिंग से फ़िल्टर करें",
+  "admin.reviews.allRatings": "सभी रेटिंग",
+
+  "admin.reviews.sortBy": "क्रमबद्ध करें",
+  "admin.reviews.sortNewest": "सबसे नया पहले",
+  "admin.reviews.sortOldest": "सबसे पुराना पहले",
+  "admin.reviews.sortHighRating": "सबसे अधिक रेटिंग",
+  "admin.reviews.sortLowRating": "सबसे कम रेटिंग",
+
+  "admin.reviews.pendingTab": "लंबित स्वीकृति",
+  "admin.reviews.approvedTab": "स्वीकृत",
+  "admin.reviews.allTab": "सभी रिव्यू",
+
+  "admin.reviews.verifiedPurchase": "सत्यापित खरीद",
+  "admin.reviews.approve": "स्वीकृत करें",
+  "admin.reviews.delete": "हटाएँ",
+
+  "admin.reviews.pros": "फायदे",
+  "admin.reviews.cons": "नुकसान",
+
+  "admin.reviews.noReviews": "कोई रिव्यू नहीं मिला",
+  "admin.reviews.noPendingReviews": "इस समय कोई लंबित रिव्यू नहीं है",
+  "admin.reviews.noFilteredReviews": "आपके फ़िल्टर से कोई रिव्यू मेल नहीं खाता",
+
+  "admin.reviews.previous": "पिछला",
+  "admin.reviews.next": "अगला",
+  "admin.reviews.page": "पेज",
+
+  "admin.reviews.addReviewTitle": "नया रिव्यू जोड़ें",
+  "admin.reviews.addReviewDescription": "किसी पैकेज और ग्राहक के लिए रिव्यू बनाएं",
+
+  "admin.reviews.package": "पैकेज",
+  "admin.reviews.customer": "ग्राहक",
+  "admin.reviews.rating": "रेटिंग",
+  "admin.reviews.reviewTitle": "शीर्षक",
+  "admin.reviews.comment": "टिप्पणी",
+
+  "admin.reviews.selectPackage": "पैकेज चुनें",
+  "admin.reviews.selectCustomer": "ग्राहक चुनें",
+
+  "admin.reviews.cancel": "रद्द करें",
+  "admin.reviews.createReview": "रिव्यू बनाएं",
+
+  "admin.reviews.deleteConfirmTitle": "क्या आप इस रिव्यू को हटाना चाहते हैं?",
+  "admin.reviews.deleteConfirmDescription": "यह क्रिया वापस नहीं की जा सकती",
+
+
+
+
+  "admin.settings.title": "वैश्विक सेटिंग्स",
+  "admin.settings.description": "सिस्टम-व्यापी सेटिंग्स कॉन्फ़िगर करें",
+
+  "admin.settings.generalTab": "सामान्य",
+  "admin.settings.currencyTab": "मुद्रा",
+  "admin.settings.smtpTab": "SMTP",
+
+  "admin.settings.success": "सफलता",
+  "admin.settings.error": "त्रुटि",
+  "admin.settings.settingsUpdatedSuccess": "सेटिंग्स सफलतापूर्वक अपडेट की गईं",
+  "admin.settings.failedToUpdateSettings": "सेटिंग्स अपडेट करने में विफल",
+
+  "admin.settings.validationError": "मान्यता त्रुटि",
+  "admin.settings.platformNameRequired": "प्लेटफ़ॉर्म का नाम आवश्यक है",
+  "admin.settings.general.platformName": "प्लेटफ़ॉर्म का नाम",
+  "admin.settings.general.platformTagline": "प्लेटफ़ॉर्म टैगलाइन",
+  "admin.settings.general.logo": "लोगो",
+  "admin.settings.general.favicon": "फेविकॉन",
+  "admin.settings.general.currency": "मुद्रा",
+  "admin.settings.general.copyright": "कॉपीराइट टेक्स्ट",
+  "admin.settings.general.save": "सामान्य सेटिंग्स सहेजें",
+  "admin.settings.smtp.save": "SMTP सेटिंग्स सहेजें",
+  "admin.paymentMethods.title": "भुगतान विधियां",
+  "admin.paymentMethods.description": "ग्राहकों के लिए उपलब्ध भुगतान विधियों को कॉन्फ़िगर करें",
+
+  "admin.paymentMethods.card": "क्रेडिट/डेबिट कार्ड",
+  "admin.paymentMethods.paypal": "पेपल",
+  "admin.paymentMethods.applePay": "एप्पल पे",
+  "admin.paymentMethods.googlePay": "गूगल पे",
+
+  "admin.paymentMethods.primaryMethod": "हमेशा सक्षम (प्राथमिक भुगतान विधि)",
+  "admin.paymentMethods.optionalMethod": "सक्षम या अक्षम किया जा सकता है",
+
+  "admin.paymentMethods.minimumAmount": "न्यूनतम राशि ($)",
+  "admin.paymentMethods.status": "स्थिति",
+
+  "admin.paymentMethods.enabled": "सक्षम",
+  "admin.paymentMethods.disabled": "अक्षम",
+
+  "admin.paymentMethods.instructions": "ग्राहकों के लिए निर्देश",
+  "admin.paymentMethods.instructionsPlaceholder": "ग्राहकों को दिखाए जाने वाले निर्देश दर्ज करें",
+
+  "admin.paymentMethods.saveButton": "भुगतान सेटिंग्स सहेजें",
+  "admin.paymentMethods.saving": "सहेजा जा रहा है...",
+  "admin.paymentMethods.saveSuccess": "भुगतान विधियों की सेटिंग्स सफलतापूर्वक सहेजी गईं",
+  "admin.paymentMethods.saveError": "भुगतान सेटिंग्स सहेजने में विफल",
+  "admin.settings.firebaseTab": "फ़ायरबेस",
+  "admin.settings.recaptchaTab": "reCAPTCHA",
+  "admin.settings.appStoresTab": "ऐप स्टोर्स",
+  "admin.settings.appearanceTab": "दिखावट",
+  "admin.settings.socialMediaTab": "सोशल मीडिया",
+  "admin.settings.seoTab": "SEO और मेटा",
+  "admin.settings.accountTab": "खाता और सुरक्षा",
+  "admin.settings.popupTab": "होमपेज पॉपअप",
+
+
+
+  
+  "admin.settings.smtp.title": "ईमेल कॉन्फ़िगरेशन",
+  "admin.settings.smtp.description": "ईमेल भेजने के लिए SMTP सेटिंग्स कॉन्फ़िगर करें (OTP कोड, ऑर्डर कन्फर्मेशन आदि)",
+
+  "admin.settings.smtp.host": "SMTP होस्ट",
+  "admin.settings.smtp.hostPlaceholder": "smtp.gmail.com",
+
+  "admin.settings.smtp.port": "SMTP पोर्ट",
+  "admin.settings.smtp.portPlaceholder": "587",
+
+  "admin.settings.smtp.username": "SMTP यूज़रनेम",
+  "admin.settings.smtp.usernamePlaceholder": "your-email@gmail.com",
+
+  "admin.settings.smtp.fromEmail": "SMTP फ्रॉम ईमेल",
+  "admin.settings.smtp.fromEmailPlaceholder": "noreply@yourdomain.com",
+  "admin.settings.smtp.fromEmailHelp": "यह ईमेल भेजने वाले के रूप में दिखाई देगा।",
+
+  "admin.settings.smtp.password": "SMTP पासवर्ड",
+  "admin.settings.smtp.passwordPlaceholder": "आपका ऐप पासवर्ड",
+  "admin.settings.smtp.passwordHelp": "Gmail के लिए App Password का उपयोग करें।",
+
+  "admin.settings.smtp.saving": "सेव किया जा रहा है...",
+  "admin.settings.smtp.saveSmtpSettings": "SMTP सेटिंग्स सेव करें",
+
+  "admin.settings.smtp.securityNote": "सुरक्षा नोट",
+  "admin.settings.smtp.securityNoteDescription": "SMTP क्रेडेंशियल्स सुरक्षित रूप से स्टोर किए जाते हैं। डेवलपमेंट मोड में ईमेल भेजने के बजाय कंसोल में लॉग किए जाते हैं।",
+
+  "admin.settings.smtp.quickSetupGuide": "त्वरित सेटअप गाइड",
+
+
+
+
+  
+  "admin.settings.ai.title": "AI-आधारित पैकेज चयन",
+  "admin.settings.ai.description": "कीमत, गुणवत्ता और प्रदाता की विश्वसनीयता को ध्यान में रखते हुए AI से सर्वश्रेष्ठ पैकेज चुनें",
+
+  "admin.settings.general.platformInfoTitle": "प्लेटफ़ॉर्म जानकारी",
+  "admin.settings.general.platformInfoDescription": "अपने प्लेटफ़ॉर्म की बेसिक जानकारी और ब्रांडिंग कॉन्फ़िगर करें",
+
+  "admin.settings.general.platformName2": "प्लेटफ़ॉर्म नाम",
+  "admin.settings.general.platformNamePlaceholder": "मेरा eSIM स्टोर",
+
+  "admin.settings.general.tagline": "टैगलाइन",
+  "admin.settings.general.taglinePlaceholder": "ग्लोबल कनेक्टिविटी को आसान बनाएं",
+
+  "admin.settings.general.email": "ईमेल",
+
+  "admin.settings.general.currency2": "डिफ़ॉल्ट करेंसी",
+  "admin.settings.general.currencyHelp": "प्लेटफ़ॉर्म सेटअप में करेंसी मैनेज करें।",
+
+  "admin.settings.general.logo2": "प्लेटफ़ॉर्म लोगो",
+  "admin.settings.general.darkLogo": "प्लेटफ़ॉर्म डार्क लोगो",
+
+  "admin.settings.general.packageModeTitle": "पैकेज चयन मोड",
+  "admin.settings.general.packageModeDescription": "कई प्रदाताओं से पैकेज कैसे सक्षम किए जाएँ यह कॉन्फ़िगर करें",
+
+  "admin.settings.general.autoMode": "ऑटो (सबसे अच्छा मूल्य)",
+  "admin.settings.general.autoModeDescription": "सभी प्रदाताओं में सबसे अच्छे मूल्य वाले पैकेज स्वतः सक्षम करें",
+
+  "admin.settings.general.manualMode": "मैनुअल चयन",
+  "admin.settings.general.manualModeDescription": "कौन से पैकेज सक्षम होंगे इस पर पूरा नियंत्रण",
+
+  "admin.settings.general.priceComparison": "मूल्य तुलना",
+  "admin.settings.general.manualControl": "मैनुअल नियंत्रण",
+
+
+
+
+
+  
+  "admin.settings.firebase.title": "Firebase कॉन्फ़िगरेशन",
+  "admin.settings.firebase.description": "Authentication, FCM और Storage के लिए Firebase क्रेडेंशियल्स कॉन्फ़िगर करें।",
+
+  "admin.settings.firebase.clientSettings": "क्लाइंट ऐप सेटिंग्स",
+  "admin.settings.firebase.adminSettings": "एडमिन SDK (सर्वर) सेटिंग्स",
+
+  "admin.settings.firebase.apiKey": "Firebase API Key",
+  "admin.settings.firebase.authDomain": "ऑथ डोमेन",
+  "admin.settings.firebase.projectId": "प्रोजेक्ट ID",
+  "admin.settings.firebase.storageBucket": "स्टोरेज बकेट",
+  "admin.settings.firebase.messagingSenderId": "मैसेजिंग सेंडर ID",
+  "admin.settings.firebase.appId": "ऐप ID",
+  "admin.settings.firebase.measurementId": "मेज़रमेंट ID",
+
+  "admin.settings.firebase.clientEmail": "क्लाइंट ईमेल",
+  "admin.settings.firebase.privateKey": "प्राइवेट की",
+
+  "admin.settings.firebase.adminDescription": "Google लॉगिन वेरिफिकेशन और पुश नोटिफिकेशन के लिए आवश्यक।",
+
+  "admin.settings.firebase.save": "Firebase सेटिंग्स सेव करें",
+  "admin.settings.firebase.saving": "सेव किया जा रहा है...",
+
+  "admin.settings.firebase.securityNote": "Firebase क्रेडेंशियल्स सुरक्षित रूप से स्टोर किए जाते हैं।",
+
+
+
+
+  
+  "admin.settings.recaptcha.title": "reCAPTCHA कॉन्फ़िगरेशन",
+  "admin.settings.recaptcha.description": "बॉट सुरक्षा के लिए Google reCAPTCHA क्रेडेंशियल्स कॉन्फ़िगर करें।",
+
+  "admin.settings.recaptcha.enable": "reCAPTCHA सक्षम करें",
+  "admin.settings.recaptcha.enableDescription": "लॉगिन और साइनअप को बॉट्स से सुरक्षित करें",
+
+  "admin.settings.recaptcha.siteKey": "Site Key",
+  "admin.settings.recaptcha.secretKey": "Secret Key",
+
+  "admin.settings.recaptcha.edit": "सेटिंग्स संपादित करें",
+  "admin.settings.recaptcha.save": "परिवर्तन सहेजें",
+  "admin.settings.recaptcha.cancel": "रद्द करें",
+  "admin.settings.recaptcha.saving": "सहेजा जा रहा है...",
+
+  "admin.settings.recaptcha.securityNote": "reCAPTCHA secret keys सुरक्षित रूप से स्टोर किए जाते हैं और केवल सर्वर-साइड वेरिफिकेशन के लिए उपयोग होते हैं।",
+
+
+
+
+  
+  "admin.settings.apps.title": "ऐप स्टोर्स कॉन्फ़िगरेशन",
+  "admin.settings.apps.description": "Apple App Store और Google Play इंटीग्रेशन के लिए क्रेडेंशियल्स कॉन्फ़िगर करें।",
+
+  "admin.settings.apps.appleSection": "Apple Store सेटिंग्स",
+  "admin.settings.apps.googleSection": "Google Play सेटिंग्स",
+
+  "admin.settings.apps.appId": "ऐप आईडी",
+  "admin.settings.apps.bundleId": "बंडल आईडी",
+  "admin.settings.apps.keyId": "की आईडी",
+  "admin.settings.apps.issuerId": "इश्यूअर आईडी",
+  "admin.settings.apps.sharedSecret": "शेयर्ड सीक्रेट",
+  "admin.settings.apps.privateKey": "प्राइवेट की (.p8 कंटेंट)",
+
+  "admin.settings.apps.packageName": "पैकेज नाम",
+  "admin.settings.apps.serviceAccountJson": "सर्विस अकाउंट JSON",
+
+  "admin.settings.apps.save": "ऐप स्टोर्स सेटिंग्स सेव करें",
+  "admin.settings.apps.saving": "सेव किया जा रहा है...",
+
+  "admin.settings.apps.securityNote": "ये क्रेडेंशियल्स आपके Google Play Console और App Store Connect अकाउंट्स तक एक्सेस देते हैं। इन्हें सुरक्षित रखें।",
+
+
+
+
+
+  "admin.settings.theme.livePreview": "लाइव प्रीव्यू",
+  "admin.settings.theme.previewDescription": "देखें कि आपकी रंग योजना विभिन्न कंपोनेंट्स पर कैसी दिखाई देती है",
+
+  "admin.settings.theme.colorTitle": "रंग अनुकूलन",
+  "admin.settings.theme.colorDescription": "अपने प्लेटफ़ॉर्म की रंग योजना को अनुकूलित करें",
+
+  "admin.settings.theme.primaryColor": "मुख्य रंग",
+  "admin.settings.theme.primaryColorDesc": "एप्लिकेशन में उपयोग होने वाला मुख्य ब्रांड रंग",
+
+  "admin.settings.theme.secondaryColor": "द्वितीयक रंग",
+  "admin.settings.theme.secondaryColorDesc": "ग्रेडिएंट और एक्सेंट के लिए पूरक रंग",
+
+  "admin.settings.theme.lightVariant": "हल्का संस्करण",
+  "admin.settings.theme.lightVariantDesc": "पृष्ठभूमि और होवर स्टेट के लिए हल्का शेड",
+
+  "admin.settings.theme.darkVariant": "गहरा संस्करण",
+  "admin.settings.theme.darkVariantDesc": "टेक्स्ट और बॉर्डर के लिए गहरा शेड",
+
+  "admin.settings.theme.typographyTitle": "टाइपोग्राफी सेटिंग्स",
+  "admin.settings.theme.typographyDescription": "हेडिंग और बॉडी टेक्स्ट के लिए फ़ॉन्ट चुनें",
+
+  "admin.settings.theme.saveTheme": "थीम सहेजें",
+  "admin.settings.theme.saving": "सहेजा जा रहा है...",
+  "admin.settings.theme.loading": "लोड हो रहा है...",
+  "admin.settings.theme.loadServer": "सर्वर से लोड करें",
+  "admin.settings.theme.reset": "डिफ़ॉल्ट पर रीसेट करें",
+
+  "admin.settings.theme.tipsTitle": "थीम सुझाव",
+"admin.settings.theme.tip1":"परिवर्तन पूरे प्लेटफ़ॉर्म पर तुरंत लागू हो जाते हैं",
+"admin.settings.theme.tip2":"रंग और फ़ॉन्ट को सुरक्षित रखने के लिए सर्वर पर सहेजें",
+"admin.settings.theme.tip3":"बेहतर एक्सेसिबिलिटी के लिए कॉन्ट्रास्ट रंगों का उपयोग करें",
+"admin.settings.theme.tip4":"लाइट और डार्क मोड दोनों में फ़ॉन्ट संयोजन जांचें",
+"admin.settings.theme.tip5":"चयन करने पर Google Fonts अपने आप लोड हो जाते हैं",
+
+
+
+
+ "admin.settings.social.website": "वेबसाइट URL",
+ "admin.settings.social.facebook": "फेसबुक",
+ "admin.settings.social.instagram": "इंस्टाग्राम",
+ "admin.settings.social.twitter": "ट्विटर / X",
+ "admin.settings.social.linkedin": "लिंक्डइन",
+ "admin.settings.social.youtube": "यूट्यूब",
+ "admin.settings.social.android": "एंड्रॉइड ऐप",
+ "admin.settings.social.ios": "आईओएस ऐप",
+
+ "admin.settings.social.save": "सोशल लिंक सहेजें",
+ "admin.settings.social.saving": "सहेजा जा रहा है...",
+
+ "admin.settings.social.info": "ये लिंक फ़ूटर, संपर्क पेज या मोबाइल ऐप में दिखाए जा सकते हैं.",
+ 
+  "admin.settings.social.title": "सोशल मीडिया लिंक",
+  "admin.settings.social.description": "वेबसाइट और सोशल मीडिया प्रोफ़ाइल लिंक प्रबंधित करें",
+
+
+  
+  "admin.settings.seo.title": "SEO और मेटा प्रबंधन",
+  "admin.settings.seo.description": "वैश्विक सर्च इंजन ऑप्टिमाइज़ेशन और सोशल शेयरिंग डिफ़ॉल्ट कॉन्फ़िगर करें",
+
+  "admin.settings.seo.defaultTitle": "डिफ़ॉल्ट मेटा शीर्षक",
+  "admin.settings.seo.titleSuffix": "शीर्षक प्रत्यय",
+  "admin.settings.seo.defaultKeywords": "डिफ़ॉल्ट कीवर्ड",
+  "admin.settings.seo.defaultDescription": "डिफ़ॉल्ट मेटा विवरण",
+  "admin.settings.seo.twitterHandle": "ट्विटर हैंडल",
+
+  "admin.settings.seo.titleHelp": "अनुशंसित: 50–60 अक्षर",
+  "admin.settings.seo.titleSuffixHelp": "सभी पेज शीर्षकों के अंत में जोड़ा जाएगा",
+  "admin.settings.seo.descriptionHelp": "अनुशंसित: 150–160 अक्षर",
+
+  "admin.settings.seo.ogImage": "डिफ़ॉल्ट शेयरिंग इमेज (OG Image)",
+  "admin.settings.seo.ogImageSize": "1200x630px अनुशंसित",
+
+  "admin.settings.seo.verification": "सर्च कंसोल सत्यापन",
+  "admin.settings.seo.googleVerification": "Google सत्यापन कोड",
+  "admin.settings.seo.bingVerification": "Bing सत्यापन कोड",
+
+  "admin.settings.seo.saving": "SEO सेटिंग्स सहेजी जा रही हैं...",
+  "admin.settings.seo.save": "SEO कॉन्फ़िगरेशन सहेजें",
+
+  "admin.settings.seo.serpPreview": "SERP पूर्वावलोकन",
+  "admin.settings.seo.serpDescription": "Google सर्च परिणामों में आपकी साइट कैसे दिखाई दे सकती है",
+
+  "admin.settings.seo.previewTitle": "ग्लोबल कनेक्टिविटी साइट",
+  "admin.settings.seo.previewDescription": "यह आपके मेटा विवरण का पूर्वावलोकन है। एक अच्छी तरह से लिखा गया विवरण सर्च परिणामों में क्लिक-थ्रू दर बढ़ा सकता है।",
+
+
+
+  
+ "admin.settings.account.title":"खाता और सुरक्षा",
+ "admin.settings.account.description":"अपने प्रमाणीकरण तरीकों और पासवर्ड नीतियों को प्रबंधित करें।",
+
+ "admin.settings.account.email":"ईमेल",
+ "admin.settings.account.currentPassword":"वर्तमान पासवर्ड",
+ "admin.settings.account.newPassword":"नया पासवर्ड",
+
+ "admin.settings.account.newEmail":"नया ईमेल",
+ "admin.settings.account.currentPasswordPlaceholder":"वर्तमान पासवर्ड दर्ज करें",
+ "admin.settings.account.newPasswordPlaceholder":"नया पासवर्ड (कम से कम 6 अक्षर)",
+
+ "admin.settings.account.update":"खाता अपडेट करें",
+ "admin.settings.account.saving":"सहेजा जा रहा है...",
+
+ "admin.settings.account.updated":"खाता सफलतापूर्वक अपडेट हो गया",
+
+
+
+ 
+  "admin.settings.popup.title": "होमपेज पॉपअप सेटिंग्स",
+  "admin.settings.popup.description": "होमपेज पर दिखने वाले प्रमोशनल पॉपअप को प्रबंधित करें",
+
+  "admin.settings.popup.enable": "पॉपअप सक्षम करें",
+  "admin.settings.popup.enableDescription": "होमपेज पॉपअप को चालू या बंद करें",
+
+  "admin.settings.popup.image": "पॉपअप इमेज",
+  "admin.settings.popup.noImage": "कोई इमेज नहीं",
+  "admin.settings.popup.imageHelp": "अनुशंसित अनुपात 3:4 है। यह इमेज होमपेज पॉपअप में दिखाई जाएगी।",
+
+  "admin.settings.popup.text": "पॉपअप टेक्स्ट",
+  "admin.settings.popup.textDescription": "इमेज के नीचे दिखाने के लिए वैकल्पिक टेक्स्ट।",
+  "admin.settings.popup.textPlaceholder": "जैसे: अपने अगले eSIM पर 20% छूट पाएं!",
+
+  "admin.settings.popup.code": "वैकल्पिक प्रोमो कोड",
+  "admin.settings.popup.codeDescription": "एक प्रोमो कोड जिसे उपयोगकर्ता पॉपअप से कॉपी कर सकते हैं।",
+  "admin.settings.popup.codePlaceholder": "जैसे: SUMMER2024",
+
+  "admin.settings.popup.save": "पॉपअप सेटिंग्स सहेजें",
+
+ 
+  "admin.currencies.title": "मुद्रा प्रबंधन",
+  "admin.currencies.description": "अपने प्लेटफॉर्म के लिए मुद्राओं और रूपांतरण दरों का प्रबंधन करें",
+
+  "admin.currencies.add": "मुद्रा जोड़ें",
+  "admin.currencies.listTitle": "मुद्राएँ",
+  "admin.currencies.listDescription": "सभी कीमतें USD में संग्रहीत होती हैं। रूपांतरण दरें USD से लक्षित मुद्रा के लिए गुणक होती हैं।",
+
+  "admin.currencies.empty": "कोई मुद्रा कॉन्फ़िगर नहीं की गई है। शुरू करने के लिए अपनी पहली मुद्रा जोड़ें।",
+
+  "admin.currencies.symbol": "प्रतीक",
+  "admin.currencies.code": "कोड",
+  "admin.currencies.name": "नाम",
+  "admin.currencies.rate": "रूपांतरण दर",
+  "admin.currencies.status": "स्थिति",
+  "admin.currencies.default": "डिफ़ॉल्ट",
+  "admin.currencies.actions": "कार्य",
+
+  "admin.currencies.setDefault": "डिफ़ॉल्ट सेट करें",
+
+  "admin.currencies.addTitle": "नई मुद्रा जोड़ें",
+  "admin.currencies.addDescription": "USD से रूपांतरण दर के साथ नई मुद्रा जोड़ें।",
+
+  "admin.currencies.update": "मुद्रा अपडेट करें",
+  "admin.currencies.updateDescription": "मुद्रा के विवरण और रूपांतरण दर को अपडेट करें।",
+
+  "admin.currencies.selectCurrency": "विश्व मुद्रा चुनें",
+  "admin.currencies.select": "मुद्रा चुनें...",
+  "admin.currencies.search": "मुद्रा खोजें...",
+  "admin.currencies.notFound": "कोई मुद्रा नहीं मिली।",
+
+  "admin.currencies.autoFill": "मुद्रा चुनने पर कोड, प्रतीक और नाम अपने आप भर जाएगा।",
+
+  "admin.currencies.rateHelp": "यह दर्ज करें कि इस मुद्रा की कितनी इकाइयाँ 1 USD के बराबर हैं",
+
+  "admin.currencies.currencyCode": "मुद्रा कोड",
+  "admin.currencies.currencyName": "मुद्रा नाम",
+  "admin.currencies.currencySymbol": "मुद्रा प्रतीक",
+  "admin.currencies.conversionRateUSD": "रूपांतरण दर (USD से)",
+
+  "admin.currencies.addSuccess": "मुद्रा सफलतापूर्वक जोड़ी गई",
+  "admin.currencies.updateSuccess": "मुद्रा सफलतापूर्वक अपडेट की गई",
+  "admin.currencies.deleteSuccess": "मुद्रा सफलतापूर्वक हटाई गई",
+
+  "admin.currencies.requiredFields": "कृपया सभी आवश्यक फ़ील्ड भरें",
+  "admin.currencies.rateValidation": "रूपांतरण दर एक सकारात्मक संख्या होनी चाहिए",
+
+  "admin.currencies.cancel": "रद्द करें",
+  "admin.currencies.save": "मुद्रा जोड़ें",
+  "admin.currencies.updateButton": "मुद्रा अपडेट करें",
+  "common.validationError": "मान्यकरण त्रुटि",
+  "common.updating": "अपडेट हो रहा है...",
+
+
+
+  
+  "admin.failover.title": "स्मार्ट फेलओवर सेटिंग्स",
+  "admin.failover.description": "जब प्रदाता असफल हो जाएँ तो ऑर्डर को स्वचालित रूप से अन्य प्रदाताओं पर रूट करने की सेटिंग करें",
+
+  "admin.failover.tabs.failover": "फेलओवर",
+  "admin.failover.tabs.providers": "प्रदाता प्राथमिकता",
+  "admin.failover.tabs.apiKeys": "API कुंजियाँ",
+
+  "admin.failover.configurationTitle": "स्मार्ट फेलओवर कॉन्फ़िगरेशन",
+  "admin.failover.configurationDescription": "जब कोई प्रदाता ऑर्डर पूरा करने में असफल हो जाता है, तो सिस्टम स्वचालित रूप से अन्य प्रदाताओं को आज़मा सकता है",
+
+  "admin.failover.enable": "स्मार्ट फेलओवर सक्षम करें",
+  "admin.failover.enableDescription": "जब मुख्य प्रदाता असफल हो जाए तो ऑर्डर को बैकअप प्रदाताओं पर स्वचालित रूप से भेजें",
+
+  "admin.failover.globalMargin": "ग्लोबल न्यूनतम मार्जिन (%)",
+  "admin.failover.globalMarginHelp": "फेलओवर प्रक्रिया जारी रखने के लिए आवश्यक न्यूनतम लाभ मार्जिन",
+
+  "admin.failover.maxAttempts": "अधिकतम फेलओवर प्रयास",
+  "admin.failover.maxAttemptsHelp": "हार मानने से पहले कितने वैकल्पिक प्रदाताओं को आज़माया जाए",
+
+  "admin.failover.howItWorksTitle": "फेलओवर कैसे काम करता है",
+
+  "admin.failover.step1": "पहले मुख्य प्रदाता को ऑर्डर भेजा जाता है",
+  "admin.failover.step2": "यदि वह असफल होता है, तो सिस्टम प्राथमिकता के अनुसार अन्य प्रदाताओं की जाँच करता है",
+  "admin.failover.step3": "केवल वे प्रदाता उपयोग किए जाते हैं जिनके पैकेज मार्जिन आवश्यकताओं को पूरा करते हैं",
+  "admin.failover.step4": "ऑर्डर पहले सफल प्रदाता को भेज दिया जाता है",
+  "admin.failover.step5": "सभी प्रयास एडमिन समीक्षा के लिए लॉग किए जाते हैं",
+
+  "admin.failover.providerPriorityTitle": "प्रदाता फेलओवर प्राथमिकता",
+  "admin.failover.providerPriorityDescription": "फेलओवर के दौरान किस प्रदाता को पहले आज़माया जाएगा यह क्रम निर्धारित करता है",
+
+  "admin.failover.table.priority": "प्राथमिकता",
+  "admin.failover.table.provider": "प्रदाता",
+  "admin.failover.table.status": "स्थिति",
+  "admin.failover.table.margin": "मार्जिन %",
+  "admin.failover.table.actions": "कार्य",
+
+  "admin.failover.provider.preferred": "पसंदीदा",
+  "admin.failover.provider.active": "सक्रिय",
+  "admin.failover.provider.disabled": "अक्षम",
+
+  "admin.failover.apiKeys.title": "बाहरी API कुंजियाँ",
+  "admin.failover.apiKeys.description": "बाहरी साझेदारों और मोबाइल ऐप्स के लिए API कुंजियों का प्रबंधन करें",
+
+  "admin.failover.apiKeys.create": "API कुंजी बनाएँ",
+  "admin.failover.apiKeys.createTitle": "नई API कुंजी बनाएँ",
+  "admin.failover.apiKeys.createDescription": "बाहरी इंटीग्रेशन के लिए नई API कुंजी उत्पन्न करें",
+
+  "admin.failover.apiKeys.name": "नाम",
+  "admin.failover.apiKeys.rateLimit": "रेट लिमिट (अनुरोध/दिन)",
+
+  "admin.failover.apiKeys.generate": "कुंजी उत्पन्न करें",
+  "admin.failover.apiKeys.done": "पूर्ण",
+
+  "admin.failover.apiKeys.warningTitle": "इन क्रेडेंशियल्स को अभी सुरक्षित रखें!",
+  "admin.failover.apiKeys.warningText": "यह सीक्रेट इस डायलॉग को बंद करने के बाद दोबारा नहीं दिखाया जाएगा",
+
+  "admin.failover.apiKeys.key": "API कुंजी",
+  "admin.failover.apiKeys.secret": "API सीक्रेट",
+
+  "admin.failover.apiKeys.empty": "अभी तक कोई API कुंजी नहीं बनाई गई है। शुरू करने के लिए \"API कुंजी बनाएँ\" पर क्लिक करें",
+
+  "admin.failover.apiKeys.table.name": "नाम",
+  "admin.failover.apiKeys.table.keyId": "कुंजी आईडी",
+  "admin.failover.apiKeys.table.status": "स्थिति",
+  "admin.failover.apiKeys.table.rateLimit": "रेट लिमिट",
+  "admin.failover.apiKeys.table.requests": "अनुरोध",
+  "admin.failover.apiKeys.table.lastUsed": "अंतिम उपयोग",
+  "admin.failover.apiKeys.table.actions": "कार्य",
+
+  "admin.failover.apiKeys.never": "कभी नहीं",
+
+  "admin.failover.apiKeys.deleteTitle": "API कुंजी हटाएँ?",
+  "admin.failover.apiKeys.deleteDescription": "इस कुंजी का उपयोग करने वाले सभी एप्लिकेशन की पहुँच स्थायी रूप से समाप्त हो जाएगी। यह क्रिया वापस नहीं ली जा सकती।",
+
+
+
+
+
+  "admin.tickets.title": "सपोर्ट टिकट्स",
+  "admin.tickets.description": "ग्राहक सपोर्ट टिकट्स और पूछताछ को मैनेज करें",
+
+  "admin.tickets.stats.open": "ओपन",
+  "admin.tickets.stats.inProgress": "प्रोग्रेस में",
+  "admin.tickets.stats.resolved": "रिज़ॉल्व्ड",
+  "admin.tickets.stats.urgent": "अर्जेंट",
+
+  "admin.tickets.search.placeholder": "टिकट खोजें...",
+
+  "admin.tickets.filter.allStatus": "सभी स्टेटस",
+  "admin.tickets.filter.allPriority": "सभी प्रायोरिटी",
+
+  "admin.tickets.status.open": "ओपन",
+  "admin.tickets.status.inProgress": "प्रोग्रेस में",
+  "admin.tickets.status.resolved": "रिज़ॉल्व्ड",
+  "admin.tickets.status.closed": "क्लोज़्ड",
+
+  "admin.tickets.priority.low": "लो",
+  "admin.tickets.priority.medium": "मीडियम",
+  "admin.tickets.priority.high": "हाई",
+  "admin.tickets.priority.urgent": "अर्जेंट",
+
+  "admin.tickets.loading": "टिकट लोड हो रहे हैं...",
+
+  "admin.tickets.empty.title": "कोई टिकट नहीं मिला",
+  "admin.tickets.empty.filtered": "अपनी खोज या फ़िल्टर बदलकर देखें",
+  "admin.tickets.empty.allResolved": "सभी सपोर्ट टिकट्स हल हो चुके हैं!",
+
+  "admin.tickets.pagination.page": "पेज",
+  "admin.tickets.pagination.of": "में से",
+  "admin.tickets.pagination.previous": "पिछला",
+  "admin.tickets.pagination.next": "अगला",
+
+  "admin.tickets.details.creator": "क्रिएटर",
+  "admin.tickets.details.details": "डिटेल्स",
+  "admin.tickets.details.description": "विवरण",
+
+  "admin.tickets.actions.refresh": "रिफ्रेश करें",
+  "admin.tickets.actions.deleteConfirm": "क्या आप इस टिकट को हटाना चाहते हैं?",
+
+  "admin.tickets.assign.unassigned": "अनअसाइंड",
+  "admin.tickets.assign.assignTo": "असाइन करें",
+
+  "admin.tickets.conversation.title": "कन्वर्सेशन",
+  "admin.tickets.conversation.noMessages": "अभी कोई मैसेज नहीं है",
+
+  "admin.tickets.reply.placeholder": "अपना जवाब लिखें...",
+  "admin.tickets.reply.internalNote": "इंटरनल नोट (यूज़र को दिखाई नहीं देगा)",
+
+  "admin.tickets.actions.resolve": "टिकट रिज़ॉल्व करें",
+
+  "admin.tickets.noSelection.title": "कोई टिकट चयनित नहीं",
+  "admin.tickets.noSelection.description": "डिटेल देखने के लिए एक टिकट चुनें",
+
+  "admin.tickets.dialog.createTitle": "नया टिकट बनाएं",
+  "admin.tickets.dialog.createDescription": "नया सपोर्ट टिकट सबमिट करें। हम जल्द ही आपसे संपर्क करेंगे।",
+
+  "admin.tickets.form.title": "टाइटल *",
+  "admin.tickets.form.description": "विवरण *",
+  "admin.tickets.form.priority": "प्रायोरिटी",
+
+  "admin.tickets.form.titlePlaceholder": "समस्या का संक्षिप्त विवरण",
+  "admin.tickets.form.descriptionPlaceholder": "समस्या का विस्तृत विवरण",
+
+  "admin.tickets.actions.cancel": "कैंसल",
+  "admin.tickets.actions.create": "टिकट बनाएं",
+  "admin.tickets.actions.creating": "बनाया जा रहा है...",
+
+  "admin.tickets.toast.success.create": "टिकट सफलतापूर्वक बनाया गया",
+  "admin.tickets.toast.error.create": "टिकट बनाने में विफल",
+
+  "admin.tickets.toast.success.update": "टिकट सफलतापूर्वक अपडेट हुआ",
+  "admin.tickets.toast.error.update": "टिकट अपडेट करने में विफल",
+
+  "admin.tickets.toast.success.delete": "टिकट सफलतापूर्वक हटाया गया",
+  "admin.tickets.toast.error.delete": "टिकट हटाने में विफल",
+
+  "admin.tickets.toast.success.message": "मैसेज सफलतापूर्वक भेजा गया",
+  "admin.tickets.toast.error.message": "मैसेज भेजने में विफल",
+
+  "admin.tickets.validation.required": "कृपया सभी आवश्यक फ़ील्ड भरें"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  },
+  "app": {
+    "Data Packages": "डेटा पैकेज",
+    "My eSims": "मेरे eSIM",
+    "My Profile": "मेरी प्रोफ़ाइल",
+    "welcome": "esimconnect में आपका स्वागत है",
+    "Points": "अंक",
+    "+ Top Up": "+ टॉप-अप",
+    "Internet": "इंटरनेट",
+    "Package detail": "पैकेज विवरण",
+    "SMS\nLeft": "SMS\nबचे",
+    "Calls\nLeft": "कॉल\nबचे",
+    "Quick Actions": "त्वरित कार्य",
+    "Data Pack": "डेटा पैक",
+    "Device ready": "डिवाइस तैयार",
+    "Refer & Earn": "रेफर करें और कमाएँ",
+    "Popular destinations": "लोकप्रिय गंतव्य",
+    "See All": "सभी देखें",
+    "Upload": "अपलोड करें",
+    "Identity Card": "आईडी दस्तावेज़ सामने का भाग",
+    "Identity Card No": "आईडी दस्तावेज़ नंबर",
+    "Address": "पता",
+    "Date of Birth (YYYY-MM-DD)": "जन्म तिथि (YYYY-MM-DD)",
+    "Complete KYC Form": "KYC फ़ॉर्म पूरा करें",
+    "Home": "होम",
+    "Packages": "पैकेज",
+    "Profile": "प्रोफ़ाइल",
+    "Full Name": "पूरा नाम",
+    "Instructions": "निर्देश",
+    "Please enter your full name": "कृपया अपना पूरा नाम दर्ज करें",
+    "Please enter your I-Card No": "कृपया अपना आईडी दस्तावेज़ नंबर दर्ज करें",
+    "Please enter your address": "कृपया अपना पता दर्ज करें",
+    "Please enter your DOB": "कृपया अपनी जन्म तिथि दर्ज करें",
+    "Device": "डिवाइस",
+    "Application Rejected": "सत्यापन अस्वीकृत",
+    "Application Pending": "सत्यापन लंबित",
+    "Complete Your KYC": "अपना KYC पूरा करें",
+    "Click on upload": "अपलोड पर क्लिक करें",
+    "Congratulations! Application Approved": "बधाई हो! सत्यापन स्वीकृत",
+    "Terms and conditions": "नियम और शर्तें",
+    "Privacy Policy": "गोपनीयता नीति",
+    "Choose data plan": "डेटा प्लान चुनें",
+    "Price": "कीमत",
+    "Validity": "वैधता",
+    "Data": "डेटा",
+    "No Packages available Currently": "इस समय कोई पैकेज उपलब्ध नहीं है",
+    "Retry": "फिर से प्रयास करें",
+    "Search data packs for 200+ countries....": "200+ गंतव्यों के लिए डेटा पैक खोजें...",
+    "Countries": "देश",
+    "Regions": "क्षेत्र",
+    "Continue": "जारी रखें",
+    "Or log in with": "या लॉग-इन करें",
+    "Continue With Google": "Google से जारी रखें",
+    "By continuing, you accept our ": "जारी रखने पर आप हमारी ",
+    " and the ": " और ",
+    "Didn't receive code? ": "कोड नहीं मिला? ",
+    "Call Not\nAvailable": "कॉल\nउपलब्ध नहीं",
+    "Min\nCalls Left": "कॉल मिनट\nबचे",
+    "SMS Not\nAvailable": "SMS\nउपलब्ध नहीं",
+    "Expired at {}": "समाप्ति तिथि {}",
+    "Order history": "ऑर्डर इतिहास",
+    "Language": "भाषा",
+    "Terms and Conditions": "नियम और शर्तें",
+    "Rate App": "ऐप को रेट करें",
+    "Logout": "लॉग-आउट",
+    "Logout...?": "लॉग-आउट...?",
+    "Are you sure you want to logout?": "क्या आप वाकई लॉग-आउट करना चाहते हैं?",
+    "Cancle": "रद्द करें",
+    "Click Here To Learn More": "और जानने के लिए यहाँ क्लिक करें",
+    "How it Work's": "यह कैसे काम करता है",
+    "Share your link": "अपना लिंक साझा करें",
+    "Share your referral code": "अपना रेफरल कोड साझा करें",
+    "Your referral code": "आपका रेफरल कोड",
+    "Share Now": "अब साझा करें",
+    "Orders History": "ऑर्डर इतिहास",
+    "No eSIM orders found.": "कोई eSIM ऑर्डर नहीं मिला।",
+    "Order Status": "ऑर्डर स्थिति",
+    "Package:": "पैकेज:",
+    "Validity:": "वैधता:",
+    "Price:": "कीमत:",
+    "Details:": "विवरण:",
+    "Ordered on:": "ऑर्डर किया गया: {}",
+    "Choose Your App Language": "ऐप की भाषा चुनें",
+    "Choose Data Plans": "डेटा प्लान चुनें",
+    "Popular Regional Plans": "लोकप्रिय क्षेत्रीय प्लान",
+    "Choose Your Top-Up": "अपना टॉप-अप चुनें",
+    "Buy Now": "अभी खरीदें",
+    "View": "देखें",
+    "Press again to exit": "बाहर निकलने के लिए फिर दबाएँ",
+    "Guide": "मार्गदर्शिका",
+    "Search Your Model Name": "अपने डिवाइस मॉडल को खोजें",
+    "Secure\nTransactions": "सुरक्षित\nलेन-देन",
+    "Instant\nActivation": "तुरंत\nसक्रियकरण",
+    "Top-Up\nAnytime": "कभी भी\nटॉप-अप",
+    "Popular eSIMs": "लोकप्रिय eSIM",
+    "My Orders": "मेरे ऑर्डर",
+    "Logout failed": "लॉग-आउट असफल",
+    "Account deleted successfully": "खाता सफलतापूर्वक हटाया गया",
+    "Deleting account failed": "खाता हटाने में विफल",
+    "coverage": "कवरेज: {}",
+    "Filter Options": "फ़िल्टर विकल्प",
+    "Unlimited Plans": "अनलिमिटेड प्लान",
+    "CANCEL": "रद्द करें",
+    "APPLY": "लागू करें",
+    "Notifications": "सूचनाएँ",
+    "No notifications found.": "कोई सूचना नहीं मिली।",
+    "Want_to": "क्या आप चाहते हैं",
+    "Delete": " हटाएँ ",
+    "your_account": "अपना खाता?",
+    "Are you sure you want to Delete your account ?": "क्या आप वाकई अपना खाता हटाना चाहते हैं?",
+    "Cancel": "रद्द करें",
+    "friend_bonus": "आपके दोस्त को {} बोनस मिलेगा",
+    "App Version": "ऐप संस्करण",
+    "Regional Plans": "क्षेत्रीय प्लान",
+    "Package": "पैकेज",
+    "iccid": "ICCID",
+    "Created on": "बनाया गया",
+    "Expires On": "समाप्त होगा",
+    "Activated On": "सक्रिय किया गया",
+    "eSim Status:": "eSIM स्थिति:",
+    "eSIM Instructions": "eSIM निर्देश",
+    "OverView": "सारांश",
+    "Tap to see all details": "सभी विवरण देखने के लिए टैप करें",
+    "eSIM Summary": "eSIM सारांश",
+    "ICCID:": "ICCID:",
+    "Matching ID:": "मिलान ID:",
+    "Status:": "स्थिति:",
+    "Remaining Data:": "शेष डेटा:",
+    "Activated On:": "सक्रिय किया गया:",
+    "Expires On:": "समाप्त होगा:",
+    "Finished On:": "समाप्त हुआ:",
+    "Order Details": "ऑर्डर विवरण",
+    "Manual Installation": "मैनुअल इंस्टॉलेशन",
+    "QR Code Installation": "QR कोड इंस्टॉलेशन",
+    "APN Details": "APN विवरण",
+    "Package Details": "पैकेज विवरण",
+    "Verify Email": "ईमेल सत्यापित करें",
+    "OTP Verification": "OTP सत्यापन",
+    "Enter the 4-digit code sent to ": "भेजा गया 4-अंकों का कोड दर्ज करें ",
+    " to verify your email.": " अपने ईमेल को सत्यापित करने के लिए।",
+    "Pan Card": "आईडी दस्तावेज़ पीछे का भाग",
+    "Resend": "दोबारा भेजें",
+    "Expired at ": "समाप्त होगा {}",
+    "Legal": "कानूनी",
+    "copy and send the code or press the Share Now button": "कोड कॉपी कर भेजें या \"अब साझा करें\" बटन दबाएँ",
+    "Device Compatibility": "डिवाइस अनुकूलता",
+    "Installation Guide": "इंस्टॉलेशन गाइड",
+    "No top-up options available.": "कोई टॉप-अप विकल्प उपलब्ध नहीं है।",
+    "Filter": "फ़िल्टर",
+    "KYC Status": "KYC स्थिति",
+    "Email": "ईमेल",
+    "Currency": "मुद्रा:",
+    "Failed to Get Currency": "मुद्रा प्राप्त करने में विफल",
+    "Select Currency": "मुद्रा चुनें",
+    "OK": "ठीक है",
+    "Country": "देश:",
+    "Failed to Get Countries": "देश प्राप्त करने में विफल",
+    "Select Country": "देश चुनें",
+    "Profile Updated Successfully": "प्रोफ़ाइल सफलतापूर्वक अपडेट हुई",
+    "Update Profile": "प्रोफ़ाइल अपडेट करें",
+    "Please fill all fields and select all images.": "कृपया सभी फ़ील्ड भरें और सभी चित्र चुनें।",
+    "Use the same DOB as on your identity card to avoid KYC rejection.": "KYC अस्वीकृति से बचने के लिए वही जन्म तिथि उपयोग करें जो आपके आईडी कार्ड पर है।",
+    "ID Card No": "आईडी कार्ड नंबर",
+    "Photo": "फ़ोटो",
+    "Customer Support": "ग्राहक सहायता",
+    "Refer and Earn": "रेफर करें और कमाएँ",
+    "Frequently Asked Questions": "अक्सर पूछे जाने वाले प्रश्न",
+    "Connect to Support": "सहायता से जुड़ें",
+    "Our customer support team is ready to help you with any issue you may have.": "हमारी ग्राहक सहायता टीम आपकी किसी भी समस्या में मदद के लिए तैयार है।",
+    "Still having an issue?": "अब भी समस्या है?",
+    "Order Ref": "ऑर्डर संदर्भ",
+    "Remaining Data": "शेष डेटा",
+    "Days": "दिन",
+    "Day": "दिन",
+    "Regional Plan Details": "क्षेत्रीय प्लान विवरण",
+    "Additional information": "अतिरिक्त जानकारी",
+    "Coverage Areas": "कवरेज क्षेत्र",
+    "Total MIN": "कुल मिनट",
+    "Total SMS": "कुल SMS",
+    "Plan details": "प्लान विवरण",
+    "Supported Countries": "समर्थित देश",
+    "OPERATOR": "ऑपरेटर",
+    "Is Unlimited": "अनलिमिटेड है",
+    "USAGE POLICY": "उपयोग नीति",
+    "Failed to delete notifications": "सूचनाएँ हटाने में विफल",
+    "Are you sure you want to Delete?": "क्या आप वाकई हटाना चाहते हैं?",
+    "'No orders found.": "'कोई ऑर्डर नहीं मिला।",
+    "Order Ref:": "ऑर्डर संदर्भ: {}",
+    "Data:": "डेटा:",
+    "Loading more orders...": "और ऑर्डर लोड हो रहे हैं...",
+    "Please enter a message": "कृपया संदेश दर्ज करें",
+    "Please enter a title": "कृपया शीर्षक दर्ज करें",
+    "Connected to support": "सहायता से जुड़ गया",
+    "Support Ticket": "सपोर्ट टिकट",
+    "Create New Ticket": "नया टिकट बनाएँ",
+    "Please provide description of your issue.": "कृपया अपनी समस्या का विवरण दें।",
+    "Loading messages...": "संदेश लोड हो रहे हैं...",
+    "Failed to load messages": "संदेश लोड नहीं हो सके",
+    "Sending...": "भेजा जा रहा है...",
+    "Failed to send": "भेजने में विफल",
+    "otp verification Failed": "OTP सत्यापन विफल",
+    "Invalid login": "अमान्य लॉगिन",
+    "Login failed:": "लॉगिन विफल:",
+    "Please enter an email": "कृपया ईमेल दर्ज करें",
+    "Please enter a valid email": "कृपया मान्य ईमेल दर्ज करें",
+    "Skip": "छोड़ें",
+    "Email is required to continue": "जारी रखने के लिए ईमेल आवश्यक है",
+    "Email Required": "ईमेल आवश्यक है",
+    "Google Sign-in failed or was cancelled": "Google साइन-इन विफल हुआ या रद्द कर दिया गया",
+    "Login": "लॉगिन",
+    "No countries available": "कोई देश उपलब्ध नहीं",
+    "countries": "देश",
+    "Country Code:": "देश कोड:",
+    "Please complete KYC first.": "कृपया पहले KYC पूरा करें।",
+    "Price low to high": "कीमत कम से ज़्यादा",
+    "Price high to low": "कीमत ज़्यादा से कम",
+    "Coverage Countries": "कवरेज देश {}",
+    "eSIM ID": "eSIM आईडी",
+    "Top Up": "टॉप-अप",
+    "Voice": "वॉइस",
+    "SMS": "SMS",
+    "Activated": "सक्रिय",
+    "Expires": "समाप्त",
+    "Basic Data Package": "बेसिक डेटा पैकेज",
+    "Valid for days": "{} दिनों के लिए मान्य",
+    "No top-up options available": "कोई टॉप-अप विकल्प उपलब्ध नहीं",
+    "Check back later for new packages": "नए पैकेज के लिए बाद में देखें",
+    "Destination": "गंतव्य",
+    "Unlimited Data": "अनलिमिटेड डेटा",
+    "Processing...": "प्रोसेस हो रहा है...",
+    "No notifications Yet": "अभी कोई सूचना नहीं",
+    "When you get notifications": "जब आपको सूचनाएँ मिलेंगी, वे यहाँ दिखाई देंगी",
+    "they'll appear here": "वे यहां दिखाई देंगी",
+    "Loading more...": "और लोड हो रहा है...",
+    "Success": "सफल",
+    "Error": "त्रुटि",
+    "Failed to load packages": "पैकेज लोड नहीं हो सके",
+    "No packages available": "कोई पैकेज उपलब्ध नहीं",
+    "Order Date:": "ऑर्डर तिथि:",
+    "QR Code not available for this eSIM": "इस eSIM के लिए QR कोड उपलब्ध नहीं",
+    "Activation Details:": "सक्रियकरण विवरण:",
+    "SM-DP+ Address:": "SM-DP+ पता:",
+    "Activation Code:": "सक्रियकरण कोड:",
+    "APN Type:": "APN प्रकार:",
+    "Scan this QR to activate the eSIM:": "eSIM सक्रिय करने के लिए इस QR को स्कैन करें:",
+    "Share QR Code URL": "QR कोड URL साझा करें",
+    "Enter details manually:": "विवरण मैन्युअली दर्ज करें:",
+    "Manual Code:": "मैनुअल कोड:",
+    "Could not launch Apple Installation URL": "Apple इंस्टॉलेशन URL नहीं खुल सका",
+    "Direct Apple Installation": "डायरेक्ट Apple इंस्टॉलेशन",
+    "Purchase an eSIM to see it here.": "यहाँ देखने के लिए eSIM खरीदें।",
+    "Order #": "ऑर्डर #{}",
+    "Provider ID": "प्रदाता आईडी",
+    "eSIM details not available": "eSIM विवरण उपलब्ध नहीं",
+    "android_qr_step_1": "सेटिंग्स > नेटवर्क और इंटरनेट > SIMs पर जाएँ",
+    "android_qr_step_2": "डाउनलोड ए SIM या eSIM जोड़ें पर टैप करें",
+    "android_qr_step_3": "\"Scan QR Code\" या \"Use QR code\" पर टैप करें",
+    "android_qr_step_4": "कैमरा नीचे दिए गए QR कोड पर रखें",
+    "android_qr_step_5": "स्क्रीन पर दिए निर्देशों का पालन करें",
+    "android_qr_step_6": "eSIM का नाम दें (वैकल्पिक) और \"Done\" पर टैप करें",
+    "android_manual_step_1": "सेटिंग्स > नेटवर्क और इंटरनेट > SIMs पर जाएँ",
+    "android_manual_step_2": "\"Download a SIM\" या \"Add eSIM\" पर टैप करें",
+    "android_manual_step_3": "\"Enter code manually\" चुनें",
+    "android_manual_step_4": "नीचे दिया गया एक्टिवेशन कोड दर्ज करें",
+    "android_manual_step_5": "स्क्रीन निर्देशों का पालन करें",
+    "android_manual_step_6": "eSIM का नाम दें (वैकल्पिक) और \"Done\" पर टैप करें",
+    "ios_qr_step_1": "सेटिंग्स > सेल्युलर पर जाएँ",
+    "ios_qr_step_2": "\"Add Cellular Plan\" पर टैप करें",
+    "ios_qr_step_5": "स्क्रीन निर्देशों का पालन करें",
+    "ios_qr_step_6": "eSIM का नाम दें (वैकल्पिक) और \"Done\" पर टैप करें",
+    "ios_manual_step_1": "सेटिंग्स > सेल्युलर पर जाएँ",
+    "ios_manual_step_2": "\"Add Cellular Plan\" पर टैप करें",
+    "ios_manual_step_3": "\"Enter Details Manually\" पर टैप करें",
+    "ios_manual_step_4": "SM-DP+ पता और एक्टिवेशन कोड दर्ज करें",
+    "ios_manual_step_5": "स्क्रीन निर्देशों का पालन करें",
+    "ios_manual_step_6": "eSIM का नाम दें (वैकल्पिक) और \"Done\" पर टैप करें",
+    "Name is Required": "नाम आवश्यक है",
+    "Please Select Currency": "कृपया मुद्रा चुनें",
+    "Please Select Country": "कृपया देश चुनें",
+    "Phone Number": "फोन नंबर",
+    "Enter phone number": "फोन नंबर दर्ज करें",
+    "Please enter phone number": "कृपया फोन नंबर दर्ज करें",
+    "Plan Details": "प्लान विवरण",
+    "Additional Information": "अतिरिक्त जानकारी",
+    "PROVIDER": "प्रदाता",
+    "IS UNLIMITED": "अनलिमिटेड है",
+    "PACKAGE TYPE": "पैकेज प्रकार",
+    "COVERAGE": "कवरेज",
+    "SPECIAL": "विशेष",
+    "PACKAGE ID": "पैकेज आईडी",
+    "Country Code": "देश कोड",
+    "Coverage:": "कवरेज:",
+    "Payment Summary": "भुगतान सारांश",
+    "Subtotal": "उप-योग",
+    "Voucher Discount ": "वाउचर छूट ",
+    "Referral Discount ": "रेफरल छूट ",
+    "Gift Card": "गिफ्ट कार्ड",
+    "Offer Discount": "ऑफर छूट",
+    "Total": "कुल",
+    "Select Payment Method": "भुगतान विधि चुनें",
+    "No payment gateways available": "कोई भुगतान गेटवे उपलब्ध नहीं",
+    "Pay": "भुगतान करें {}",
+    "Checkout Screen": "चेकआउट स्क्रीन",
+    "Error: ": "त्रुटि: {}",
+    "Coverage Information": "कवरेज जानकारी",
+    "Primary Destination": "मुख्य गंतव्य",
+    "Regional Coverage": "क्षेत्रीय कवरेज",
+    "countries/regions": "देश/क्षेत्र",
+    "QR Code URL:": "QR कोड URL: {}",
+    "Submit KYC Form": "KYC फ़ॉर्म जमा करें",
+    "ESim TYPE": "eSIM प्रकार",
+    "All notifications deleted successfully": "सभी सूचनाएँ सफलतापूर्वक हटाई गईं",
+    "Continue with Google": "Google से जारी रखें",
+    "ios_qr_step_3": "\"Scan QR Code\" पर टैप करें",
+    "Apply Offer": "ऑफर लागू करें",
+    "Enter code": "कोड दर्ज करें",
+    "Enter Voucher Code": "वाउचर कोड दर्ज करें",
+    "Enter Referral Code": "रेफरल कोड दर्ज करें",
+    "Voucher Code": "वाउचर कोड",
+    "Referral Code": "रेफरल कोड",
+    "Verify": "सत्यापित करें",
+    "Code:": "कोड: {}",
+    "Discount:": "छूट: {}",
+    "Choose how you want to pay": "भुगतान का तरीका चुनें",
+    "No payment methods available": "कोई भुगतान तरीका उपलब्ध नहीं",
+    "Payment Method": "भुगतान विधि",
+    "Payment": "भुगतान",
+    "Cancel Payment?": "भुगतान रद्द करें?",
+    "No": "नहीं",
+    "Yes": "हाँ",
+    "Cancel Payment": "भुगतान रद्द करें",
+    "Contact Details": "संपर्क विवरण",
+    "Enter your email address": "अपना ईमेल दर्ज करें",
+    "Enter amount": "राशि दर्ज करें",
+    "Create Gift Card": "गिफ्ट कार्ड बनाएँ",
+    "Gift Card Conversion": "गिफ्ट कार्ड रूपांतरण",
+    "You Earn": "आप कमाते हैं",
+    "Friend Joins": "दोस्त जुड़ता है",
+    "Share Code": "कोड साझा करें",
+    "Send your referral code": "अपना रेफरल कोड दोस्तों और परिवार को भेजें",
+    "How It Works": "यह कैसे काम करता है",
+    "Total Referrals": "कुल रेफरल",
+    "Earning": "कमाई",
+    "Share this code with your friends and earn rewards when they join.": "यह कोड दोस्तों से साझा करें और उनके जुड़ने पर इनाम पाएँ।",
+    "Use my referral code": "मेरा रेफरल कोड उपयोग करें",
+    "and get a discount on your first eSIM purchase!\n\n": "और अपनी पहली eSIM खरीद पर छूट पाएँ!\n\n",
+    "Invite Friends & Earn": "दोस्तों को बुलाएँ और कमाएँ",
+    "History": "इतिहास",
+    "Referral code copied": "रेफरल कोड कॉपी हुआ",
+    "Create": "बनाएँ",
+    "Copy Gift Card Code": "गिफ्ट कार्ड कोड कॉपी करें",
+    "Close": "बंद करें",
+    "Date:": "तारीख:",
+    "Created:": "बनाया गया:",
+    "Used By:": "द्वारा उपयोग किया गया:",
+    "apple_email_missing": "Apple ने आपका ईमेल नहीं दिया। जारी रखने के लिए दर्ज करें:",
+    "Voucher": "वाउचर",
+    "Do you want to cancel the payment?": "क्या आप भुगतान रद्द करना चाहते हैं?",
+    "You earn a reward": "पहली खरीद के बाद आपको इनाम मिलेगा। आप इसे गिफ्ट कार्ड में बदलकर eSIM या टॉप-अप में उपयोग कर सकते हैं। इसे दोस्तों और परिवार से भी साझा कर सकते हैं।",
+    "Download the app from Google Play:\n": "Google Play से ऐप डाउनलोड करें:\n",
+    "Data+Call+SMS": "डेटा+कॉल+SMS",
+    "Unlimited": "अनलिमिटेड",
+    "Forgot Password ?": "पासवर्ड भूल गए?",
+    "From": "से",
+    "Submitted": "जमा किया गया",
+    "devices supported": "समर्थित डिवाइस",
+    "Loading devices...": "डिवाइस लोड हो रहे हैं...",
+    "Search devices...": "डिवाइस खोजें...",
+    "KYC Form Submitted Successfully!": "KYC फ़ॉर्म सफलतापूर्वक जमा हुआ!",
+    "Submit": "जमा करें",
+    "Delete Account": "खाता हटाएँ",
+    "friend_signup_offer": "आपके लिंक से साइन-अप करने और रेफरल कोड उपयोग करने वाला हर दोस्त अपनी पहली खरीद पर {} की छूट पाएगा",
+    "Start your KYC to enjoy full benefits.": "पूरा लाभ पाने के लिए KYC शुरू करें",
+    "Use the same Name as on your identity card to avoid KYC rejection.": "KYC अस्वीकृति से बचने के लिए वही नाम उपयोग करें जो आपके आईडी कार्ड पर है।",
+    "No eSIMs found.": "कोई eSIM नहीं मिला।",
+    "Continue with Apple": "Apple से जारी रखें",
+    "Enter your email to manage your eSIM": "अपने eSIM को प्रबंधित करने के लिए ईमेल दर्ज करें",
+    "Order Information": "ऑर्डर जानकारी",
+    "ios_qr_step_4": "कैमरा QR कोड पर रखें",
+    "Referral": "रेफरल",
+    "They sign up": "वे आपके रेफरल कोड से साइन-अप कर छूट पाते हैं",
+    "This action will permanently delete your account and remove all associated data to confirm click on Delete.": "यह क्रिया आपके खाते को स्थायी रूप से हटा देगी और सभी संबंधित डेटा मिटा देगी। पुष्टि करने के लिए \"हटाएँ\" पर क्लिक करें।",
+    "Referral History": "रेफरल इतिहास",
+    "COMPLETED": "पूर्ण",
+    "Referrals": "रेफरल",
+    "Gift Cards": "गिफ्ट कार्ड",
+    "No Referrals Yet": "अभी तक कोई रेफरल नहीं",
+    "Your referral history will appear here": "आपका रेफरल इतिहास यहाँ दिखाई देगा",
+    "PENDING": "लंबित",
+    "Reward": "इनाम",
+    "Date": "तारीख",
+    "No Gift Cards": "कोई गिफ्ट कार्ड नहीं",
+    "our gift card history will appear here": "आपका गिफ्ट कार्ड इतिहास यहाँ दिखाई देगा",
+    "ACTIVE": "सक्रिय",
+    "USED": "उपयोग किया गया",
+    "Gift Card Code": "गिफ्ट कार्ड कोड",
+    "Code copied to clipboard": "कोड क्लिपबोर्ड में कॉपी किया गया",
+    "Gift Card Code!": "गिफ्ट कार्ड कोड!",
+    "Amount": "राशि",
+    "Code": "कोड",
+    "Download our app": "हमारा ऐप डाउनलोड करें",
+    "Enjoy your gift!": "अपने गिफ्ट का आनंद लें!",
+    "Created": "बनाया गया",
+    "Go Back": "वापस जाएँ",
+    "Something went wrong": "कुछ गलत हो गया",
+    "Review": "समीक्षा",
+    "Review Order": "ऑर्डर की समीक्षा करें",
+    "Share your experience with this order": "इस ऑर्डर के साथ अपना अनुभव साझा करें",
+    "How would you rate this order?": "आप इस ऑर्डर को कैसे रेट करेंगे?",
+    "Review Title": "समीक्षा शीर्षक",
+    "e.g., Great product, excellent service": "जैसे, बढ़िया उत्पाद, शानदार सेवा",
+    "Detailed Review": "विस्तृत समीक्षा",
+    "Share more details about your experience...": "अपने अनुभव के बारे में और विवरण साझा करें...",
+    "Your review was submitted successfully.": "आपकी समीक्षा सफलतापूर्वक सबमिट हो गई है।",
+    "Submit Review": "समीक्षा सबमिट करें",
+    "Poor": "खराब",
+    "Fair": "ठीक-ठाक",
+    "Good": "अच्छा",
+    "Very Good": "बहुत अच्छा",
+    "Excellent": "उत्कृष्ट",
+    "Refer a friend and get for you and your friend. It’s a win-win!": "एक दोस्त को रेफर करें और आपको व आपके दोस्त दोनों को {} मिलेंगे। यह दोनों के लिए फायदेमंद है!"
+  }
+}

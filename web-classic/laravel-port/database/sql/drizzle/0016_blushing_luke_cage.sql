@@ -1,0 +1,1 @@
+ALTER TABLE "price_brackets" ADD COLUMN "currency" text NOT NULL;

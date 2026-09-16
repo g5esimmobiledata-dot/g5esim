@@ -1,0 +1,3528 @@
+{
+  "common": {
+    "button.cancel": "Cancel",
+    "button.submit": "Submit",
+    "button.save": "Save",
+    "button.close": "Close",
+    "button.confirm": "Confirm",
+    "button.back": "Back",
+    "button.next": "Next",
+    "button.previous": "Previous",
+    "button.continue": "Continue",
+    "button.delete": "Delete",
+    "button.edit": "Edit",
+    "button.view": "View",
+    "button.search": "Search",
+    "button.filter": "Filter",
+    "button.reset": "Reset",
+    "button.apply": "Apply",
+    "button.download": "Download",
+    "button.upload": "Upload",
+    "button.copy": "Copy",
+    "button.share": "Share",
+    "button.refresh": "Refresh",
+    "button.loadMore": "Load More",
+    "button.showAll": "Show All",
+    "button.showLess": "Show Less",
+    "button.tryAgain": "Try Again",
+    "button.learnMore": "Learn More",
+    "button.getStarted": "Get Started",
+    "button.signIn": "Sign In",
+    "button.signUp": "Sign Up",
+    "button.signOut": "Sign Out",
+    "button.addToCart": "Add to Cart",
+    "button.buyNow": "Buy Now",
+    "button.checkout": "Checkout",
+    "form.email": "Email",
+    "form.password": "Password",
+    "form.confirmPassword": "Confirm Password",
+    "form.name": "Name",
+    "form.firstName": "First Name",
+    "form.lastName": "Last Name",
+    "form.phone": "Phone Number",
+    "form.address": "Address",
+    "form.city": "City",
+    "form.country": "Country",
+    "form.zipCode": "Zip/Postal Code",
+    "form.message": "Message",
+    "form.subject": "Subject",
+    "form.required": "Required",
+    "form.optional": "Optional",
+    "validation.required": "This field is required",
+    "validation.email": "Please enter a valid email address",
+    "validation.minLength": "Must be at least {min} characters",
+    "validation.maxLength": "Must be less than {max} characters",
+    "validation.passwordMatch": "Passwords do not match",
+    "validation.invalidPhone": "Please enter a valid phone number",
+    "validation.invalidFormat": "Invalid format",
+    "status.active": "Active",
+    "status.inactive": "Inactive",
+    "status.pending": "Pending",
+    "status.completed": "Completed",
+    "status.failed": "Failed",
+    "status.cancelled": "Cancelled",
+    "status.processing": "Processing",
+    "status.expired": "Expired",
+    "status.new": "New",
+    "status.used": "Used",
+    "status.available": "Available",
+    "table.actions": "Actions",
+    "table.date": "Date",
+    "table.amount": "Amount",
+    "table.status": "Status",
+    "table.description": "Description",
+    "table.noData": "No data available",
+    "pagination.page": "Page",
+    "pagination.of": "of",
+    "pagination.showing": "Showing",
+    "pagination.items": "items",
+    "pagination.first": "First",
+    "pagination.last": "Last",
+    "message.success": "Operation completed successfully",
+    "message.error": "An error occurred. Please try again.",
+    "message.loading": "Loading...",
+    "message.saving": "Saving...",
+    "message.saved": "Changes saved successfully",
+    "message.deleted": "Successfully deleted",
+    "message.copied": "Copied to clipboard",
+    "message.noResults": "No results found",
+    "message.confirmDelete": "Are you sure you want to delete this item?",
+    "date.today": "Today",
+    "date.yesterday": "Yesterday",
+    "date.tomorrow": "Tomorrow",
+    "date.days": "days",
+    "date.hours": "hours",
+    "date.minutes": "minutes",
+    "date.ago": "ago",
+    "currency.total": "Total",
+    "currency.subtotal": "Subtotal",
+    "currency.tax": "Tax",
+    "currency.discount": "Discount",
+    "currency.free": "Free",
+    "button.spanish": "Español",
+
+
+    
+  "common.date": "ቀን",
+  "common.actions": "እርምጃዎች",
+  "common.days": "ቀናት",
+  "common.pending": "በመጠባበቅ ላይ",
+  "common.available": "ይገኛል",
+  "common.global": "ዓለም አቀፍ",
+  "common.unassigned": "አልተመደበም",
+  "common.na": "አይተገበርም",
+  "common.success": "ስኬት",
+  "common.error": "ስህተት",
+  "common.noData": "ምንም ውሂብ የለም",
+  "common.tryAdjustingFilters": "ፊልተሮችን ቀይር ተመልከት",
+  "common.showing": "በማሳየት ላይ",
+  "common.to": "እስከ",
+  "common.of": "ከ",
+  "common.viewDetails": "ዝርዝር ይመልከቱ"
+
+  },
+  "website": {
+    "nav.home": "Home",
+    "nav.destinations": "Destinations",
+    "nav.regions": "Regions",
+    "nav.packages": "Packages",
+    "nav.compare": "Compare",
+    "nav.howItWorks": "How It Works",
+    "nav.support": "Support",
+    "nav.help": "Help Center",
+    "nav.faq": "FAQ",
+    "nav.about": "About Us",
+    "nav.contact": "Contact",
+    "nav.myAccount": "My Account",
+    "nav.myEsims": "My eSIMs",
+    "nav.orders": "Orders",
+    "nav.profile": "Profile",
+    "nav.settings": "Settings",
+    "nav.referrals": "Referrals",
+    "nav.giftCards": "Gift Cards",
+    "home.hero.title": "Stay Connected Anywhere in the World",
+    "home.hero.subtitle": "Get instant mobile data with eSIM. No physical SIM card needed.",
+    "home.hero.cta": "Browse eSIM Packages",
+    "home.hero.search": "Search destinations...",
+    "home.features.title": "Why Choose eSIMConnect?",
+    "home.features.instant": "Instant Activation",
+    "home.features.instantDesc": "Get your eSIM activated within minutes",
+    "home.features.global": "Global Coverage",
+    "home.features.globalDesc": "Available in 200+ countries and regions",
+    "home.features.affordable": "Affordable Plans",
+    "home.features.affordableDesc": "Save up to 90% compared to roaming charges",
+    "home.features.noRoaming": "No Roaming Fees",
+    "home.features.noRoamingDesc": "Use data without worrying about extra charges",
+    "home.destinations.title": "Popular Destinations",
+    "home.destinations.subtitle": "Browse our most popular travel destinations",
+    "home.destinations.viewAll": "View All Destinations",
+    "home.regions.title": "Regional Plans",
+    "home.regions.subtitle": "One eSIM for multiple countries",
+    "home.howItWorks.title": "How It Works",
+    "home.howItWorks.step1": "Choose Your Plan",
+    "home.howItWorks.step1Desc": "Select a data package for your destination",
+    "home.howItWorks.step2": "Install eSIM",
+    "home.howItWorks.step2Desc": "Scan the QR code to install your eSIM",
+    "home.howItWorks.step3": "Connect & Go",
+    "home.howItWorks.step3Desc": "Activate when you arrive and enjoy data",
+    "home.testimonials.title": "What Our Customers Say",
+    "footer.company": "Company",
+    "footer.support": "Support",
+    "footer.legal": "Legal",
+    "footer.social": "Follow Us",
+    "footer.newsletter": "Subscribe to our newsletter",
+    "footer.newsletterPlaceholder": "Enter your email",
+    "footer.subscribe": "Subscribe",
+    "footer.copyright": "All rights reserved.",
+    "footer.terms": "Terms of Service",
+    "footer.privacy": "Privacy Policy",
+    "footer.cookies": "Cookie Policy",
+    "destinations.title": "All Destinations",
+    "destinations.subtitle": "Find the perfect eSIM package for your trip",
+    "destinations.search": "Search destinations...",
+    "destinations.filter.all": "All",
+    "destinations.filter.popular": "Popular",
+    "destinations.filter.europe": "Europe",
+    "destinations.filter.asia": "Asia",
+    "destinations.filter.americas": "Americas",
+    "destinations.filter.africa": "Africa",
+    "destinations.filter.oceania": "Oceania",
+    "destinations.packagesFrom": "From",
+    "destinations.viewPackages": "View Packages",
+    "package.data": "Data",
+    "package.validity": "Validity",
+    "package.days": "days",
+    "package.price": "Price",
+    "package.provider": "Provider",
+    "package.coverage": "Coverage",
+    "package.networks": "Networks",
+    "package.features": "Features",
+    "package.unlimited": "Unlimited",
+    "package.topup": "Top-up Available",
+    "package.hotspot": "Hotspot/Tethering",
+    "package.calls": "Calls Included",
+    "package.sms": "SMS Included",
+    "package.activationPolicy": "Activation Policy",
+    "package.buyNow": "Buy Now",
+    "package.compareWith": "Compare with Others",
+    "package.similar": "Similar Packages",
+    "checkout.title": "Checkout",
+    "checkout.summary": "Order Summary",
+    "checkout.contact": "Contact Information",
+    "checkout.payment": "Payment Method",
+    "checkout.promoCode": "Promo Code",
+    "checkout.applyCode": "Apply",
+    "checkout.codeApplied": "Code Applied!",
+    "checkout.invalidCode": "Invalid code",
+    "checkout.subtotal": "Subtotal",
+    "checkout.discount": "Discount",
+    "checkout.total": "Total",
+    "checkout.payNow": "Pay Now",
+    "checkout.processing": "Processing...",
+    "checkout.secure": "Secure Payment",
+    "checkout.guestCheckout": "Continue as Guest",
+    "checkout.createAccount": "Create Account",
+    "checkout.haveAccount": "Already have an account?",
+    "install.title": "Installation Guide",
+    "install.step1": "Go to Settings > Cellular",
+    "install.step2": "Select Add eSIM or Add Cellular Plan",
+    "install.step3": "Scan the QR code or enter details manually",
+    "install.qrCode": "Scan QR Code",
+    "install.manual": "Manual Installation",
+    "install.compatible": "Device Compatibility",
+    "install.checkDevice": "Check if your device supports eSIM",
+    "install.notCompatible": "Your device may not be compatible",
+    "install.tips": "Installation Tips",
+    "support.title": "Help & Support",
+    "support.subtitle": "How can we help you today?",
+    "support.searchHelp": "Search help articles...",
+    "support.categories": "Categories",
+    "support.getStarted": "Getting Started",
+    "support.troubleshooting": "Troubleshooting",
+    "support.billing": "Billing & Payments",
+    "support.account": "Account & Profile",
+    "support.contactUs": "Contact Us",
+    "support.liveChat": "Live Chat",
+    "support.email": "Email Support",
+    "support.response": "Response within 24 hours",
+    "error.404.title": "Page Not Found",
+    "error.404.message": "Sorry, the page you are looking for does not exist.",
+    "error.500.title": "Server Error",
+    "error.500.message": "Something went wrong. Please try again later.",
+    "error.goHome": "Go to Homepage",
+    "compatibleDevices.title": "Compatible Devices",
+    "compatibleDevices.description": "Check if your device supports eSIM technology",
+    "compatibleDevices.howToCheck": "How to Check eSIM Support",
+    "compatibleDevices.iphoneUsers": "iPhone Users",
+    "compatibleDevices.iphoneInstructions": "Go to Settings > Cellular/Mobile Data > Add Cellular Plan. If you see this option, your iPhone supports eSIM.",
+    "compatibleDevices.androidUsers": "Android Users",
+    "compatibleDevices.androidInstructions": "Dial *#06# to see your IMEI. If you see an EID number, your device supports eSIM.",
+    "compatibleDevices.compatibleDevicesList": "Compatible Devices List",
+    "compatibleDevices.apple": "Apple",
+    "compatibleDevices.samsung": "Samsung",
+    "compatibleDevices.google": "Google",
+    "compatibleDevices.other": "Other Manufacturers",
+
+    "home.hero.trustBadge": "4.7/5 ደረጃ ከ500K+ ውርዶች ጋር",
+    "home.hero.headline.prefix": "ዓለም አቀፍ",
+    "home.hero.headline.suffix": "ለሕይወት",
+    "home.hero.rotating.anywhere": "በማንኛውም ቦታ",
+    "home.hero.rotating.traveling": "በጉዞ ላይ",
+    "home.hero.rotating.abroad": "በውጭ አገር",
+    "home.hero.rotating.roaming": "ያለ ሮሚንግ",
+    "home.hero.dataVoice": "ዳታ + ድምፅ",
+    "home.hero.magicSim": "Magic SIM ይገኛል",
+    "home.search.country": "አገር",
+    "home.search.region": "ክልል",
+    "home.search.searching": "በመፈለግ ላይ...",
+    "home.search.noResults": "ውጤት አልተገኘም",
+    "home.search.popular": "ታዋቂ",
+    "home.search.from": "ከ",
+
+    "features.section1.title": "ዓለም አቀፍ eSIM ግንኙነት በቀላሉ",
+    "features.section1.subtitle": "eSIM በደቂቃዎች ውስጥ ያዘጋጁ። መዳረሻዎን ይምረጡ፣ ወዲያውኑ ያንቁ እና ያለ አካል ሲም ካርድ ዓለም አቀፍ ተገናኝተው ይቆዩ።",
+    "features.section1.button": "አሁን ጀምር",
+    "features.section1.feature1": "በQR ኮድ ፈጣን eSIM ማንቃት",
+    "features.section1.feature2": "በ150+ አገሮች ፈጣን ዳታ",
+    "features.section1.feature3": "ያለ አካል ሲም ወይም የሮሚንግ ክፍያ",
+
+    "features.section2.title": "ፈጣን እና ደህንነቱ የተጠበቀ ክፍያ",
+    "features.section2.button": "ክፍያ ቀጥል",
+    "features.section2.feature1": "በዲቢት ካርድ፣ ክሬዲት ካርድ ወይም ዋሌት ክፍያ",
+    "features.section2.feature2": "100% የተመሰጠረ እና ደህንነቱ የተጠበቀ ግብይት",
+    "features.section2.feature3": "ክፍያ በኋላ ወዲያውኑ ማረጋገጫ",
+    "features.section2.feature4": "የአካል ሲም ወይም ማቅረብ አያስፈልግም",
+
+    "features.section3.title": "የደንበኛ ድጋፍ",
+    "features.section3.button": "አግኙን",
+    "features.section3.feature1": "24/7 አገልግሎት",
+    "features.section3.feature2": "በብዙ ቋንቋ ድጋፍ",
+    "features.section3.feature3": "ፈጣን ምላሽ",
+
+    "banner.plans": "እቅዶች",
+    "banner.title": "ዓለም አቀፍ ለመጓዝ ዝግጁ?",
+    "banner.subtitle": "ከመብረርዎ በፊት ተገናኝተው ይቆዩ!",
+    "banner.description1": "የእርስዎን",
+    "banner.esimToday": "eSIM ዛሬ ይግዙ",
+    "banner.description2": "እና ሲደርሱ ያንቁ። የአካባቢ ሲም መፈለግ ወይም ውድ የሮሚንግ ክፍያ አያስፈልግም። ከ",
+    "banner.description3": "— በጥበብ ይጓዙ፣",
+    "banner.stayConnected": "ተገናኝተው ይቆዩ",
+    "banner.button": "መዳረሻዎችን ይመልከቱ",
+    "banner.feature1": "ፈጣን ማንቃት",
+    "banner.feature2": "የአካል ሲም አያስፈልግም",
+
+    "subscription.plans": "እቅዶች",
+    "subscription.title": "30+ ቀናት በውጭ አገር?",
+    "subscription.subtitle": "ተመዝግበው ገንዘብ ይቆጥቡ!",
+    "subscription.description1": "የእኛ",
+    "subscription.highlight": "ወርሃዊ እና ዓመታዊ",
+    "subscription.description2": "እቅዶች ዓለም አቀፍ ግንኙነት ይሰጣሉ። ከ",
+    "subscription.description3": "— ትልቅ እቅድ ይዘው፣",
+    "subscription.highlight2": "ትንሽ ይክፈሉ",
+    "subscription.button": "እቅዶችን ይመልከቱ",
+    "subscription.feature1": "160 መዳረሻዎች",
+    "subscription.feature2": "ማንኛውም ጊዜ ይሰርዙ",
+
+    "agency.title": "በፈጣን eSIM ማንቃት ዓለም አቀፍ ተገናኝተው ይቆዩ",
+    "agency.button": "እቅዶችን ይመልከቱ",
+    "agency.description1": "ያልተቋረጠ",
+    "agency.globalConnectivity": "ዓለም አቀፍ ግንኙነት",
+    "agency.description2": "በፈጣን eSIM መፍትሄዎቻችን ይሞክሩ። የአካል ሲም አያስፈልግም፣ QR ኮድ ብቻ ይስኩ እና በሰከንዶች ይገናኙ።",
+    "agency.circleText": "ፈጣን • ማንቃት • 190+ አገሮች • ድጋፍ •",
+    "agency.imageAlt1": "በብዙ መሳሪያዎች ዓለም አቀፍ eSIM",
+    "agency.imageAlt2": "eSIM ማንቃት የሚያሳይ መሳሪያ",
+
+    "compare.whyChoose": "ለምን እኛ?",
+    "compare.others": "ሌሎች",
+    "compare.trust": "ለምን {{siteName}} የታመነ እንደሆነ ይመልከቱ",
+    "compare.features": "ባህሪያት እና ጥቅሞች",
+    "compare.bestChoice": "ምርጥ ምርጫ",
+    "compare.competitors": "ተወዳዳሪዎች",
+    "compare.getStarted": "አሁን ጀምር",
+    "compare.premiumFeatures": "10+ ፕሪሚየም ባህሪያት — ያለ ተጨማሪ ክፍያ",
+
+    "compare.affordability": "ተመጣጣኝ ዋጋ",
+    "compare.cheaper": "40% ቀላል ዋጋ",
+    "compare.expensive": "ውድ",
+    "compare.globalSim": "ዓለም አቀፍ ሲም ከ",
+    "compare.lifetime": "የሕይወት ሙሉ ትክክለኛነት",
+    "compare.topup": "በማንኛውም አገር መሙላት",
+    "compare.addData": "በማንኛውም ጊዜ ዳታ መጨመር",
+    "compare.transparency": "ግልፅ የአጠቃቀም ፖሊሲ",
+    "compare.esimPhysical": "eSIM እና የአካል ሲም",
+    "compare.gbUnlimited": "GB እና ያልተገደበ እቅድ",
+    "compare.voiceSms": "ድምፅ እና SMS ይካተታል",
+    "compare.regulatory": "የአካባቢ ህጋዊ መስፈርት",
+    "compare.localPlans": "USA & Canada አካባቢ እቅዶች",
+    "compare.some": "አንዳንድ",
+
+    "compare.costSavings": "የዋጋ ቅናሽ",
+    "compare.transparencyStat": "ግልፅነት",
+    "compare.extraFeatures": "ተጨማሪ ባህሪያት",
+
+    "home.testimonials.titlee": "{{siteName}} ስለሚነገሩ የተጓዦች አስተያየቶች",
+    "home.testimonials.viewAll": "ሁሉንም መዳረሻዎች ይመልከቱ",
+
+    "home.testimonials.t1": "በጃፓን ጉዞዬ ወቅት {{siteName}} ተጠቀምኩ እና ከደረስኩ በኋላ በፍጥነት ሰራ። ማቀናበር 2 ደቂቃ ብቻ ወሰደ እና ዳታው ፈጣን ነበር።",
+    "home.testimonials.t2": "በጣም ቀላል መጫን እና የሮሚንግ ክፍያ የለም። በአውሮፓ ጉዞዬ ሁሉ ተገናኝቼ ቆይቻለሁ።",
+    "home.testimonials.t3": "ወደ ታይላንድ ከመጓዝ በፊት እቅዴን መስመር ላይ ገዛሁ። QR ኮድ ወዲያውኑ ደረሰ እና ግንኙነቱ ፈጣን ነበር።",
+    "home.testimonials.t4": "ሁሉም ነገር በጣም ቀላል እንደሆነ አስደነቀኝ። {{siteName}} የአካባቢ ሲም ከመግዛት አዳነኝ።",
+    "home.testimonials.t5": "ሌሎች eSIM ሞክሮች አሉኝ፣ ግን {{siteName}} በጣም ቀላል ነበር። የደንበኛ ድጋፍ ፈጣን ነበር።",
+    "home.testimonials.t6": "በፈረንሳይ፣ ቤልጅየም እና ኢጣሊያ በአንድ እቅድ ተጠቀምኩ። ምልክቱ ጠንካራ ነበር።",
+
+    "footer.global": "ዓለም አቀፍ",
+    "footer.description": "በ175+ አገሮች ውስጥ የሚገኙ የeSIM እና SIM ካርዶችን በተመጣጣኝ ዋጋ የሚያቀርብ የጉዞ ግንኙነት አገልግሎት።",
+
+    "footer.topDestinations": "ታዋቂ መዳረሻዎች",
+    "footer.resources": "ምንጮች",
+    "footer.pages": "ገፆች",
+
+    "footer.whatIsEsim": "eSIM ምንድነው",
+    "footer.aboutUs": "ስለ እኛ",
+    "footer.contactUs": "ያግኙን",
+    "footer.destinations": "መዳረሻዎች",
+
+    "footer.blog": "ብሎግ",
+    "footer.faq": "የሚጠየቁ ጥያቄዎች",
+    "footer.supportTicket": "የድጋፍ ቲኬት",
+    "footer.helpCenter": "የእገዛ ማዕከል",
+
+    "footer.rights": "ሁሉም መብቶች የተጠበቁ ናቸው።",
+
+    "faq.loading": "ՀՏՀ-ները բեռնվում են...",
+    "faq.viewMore": "Տեսնել ավելին",
+
+    "home.faq.title": "Հաճախ տրվող հարցեր ճանապարհորդական eSIM-ների մասին",
+
+    "home.faq.support.label": "Աջակցություն",
+    "home.faq.support.title": "Պետք է՞ ավելի շատ օգնություն",
+    "home.faq.support.description": "Չե՞ք գտնում այն, ինչ փնտրում եք։ Մեր աջակցման թիմը հասանելի է էլ․փոստով կամ չաթով՝ օգնելու կարգավորման և խնդիրների լուծման հարցերում։",
+    "home.faq.support.button": "Այցելել օգնության կենտրոն",
+
+
+    "home.benefits.title": "Որոնք են eSIM-ի առավելությունները",
+
+    "home.benefits.convenience.title": "Հարմարություն",
+    "home.benefits.convenience.description": "Ակտիվացրեք նոր պլան ցանկացած ժամանակ՝ առանց խանութ այցելելու կամ ֆիզիկական SIM քարտ սպասելու։",
+
+    "home.benefits.security.title": "Անվտանգություն",
+    "home.benefits.security.description": "eSIM-ը կապված է ձեր սարքին, ուստի եթե ձեր հեռախոսը կորչի կամ գողացվի, ձեր տվյալները կմնան պաշտպանված։",
+
+    "home.benefits.flexibility.title": "Ճկունություն",
+    "home.benefits.flexibility.description": "Պահեք մի քանի տվյալների պլան մեկ սարքի վրա և հեշտությամբ փոխեք ցանցերը ճանապարհորդելիս։",
+
+    "home.benefits.noRoaming.title": "Ռոումինգի վճարներ չկան",
+    "home.benefits.noRoaming.description": "Օգտագործեք տեղական տվյալներ մատչելի գներով որտեղ էլ գնաք՝ առանց անսպասելի վճարների։",
+
+    "home.benefits.sustainability.title": "Կայունություն",
+    "home.benefits.sustainability.description": "Նվազեցրեք պլաստիկ թափոնները և խուսափեք ավանդական SIM քարտերի վնասներից։",
+
+    "home.benefits.cta": "Տեսնել բոլոր ուղղությունները",
+
+
+
+    "esim.hero.badge": "Ճանապարհորդական կապի ապագան",
+    "esim.hero.title": "Ի՞նչ է eSIM-ը",
+    "esim.hero.description": "eSIM-ը թվային SIM քարտ է, որը ներկառուցված է ձեր հեռախոսում։ Պարզապես սկանավորեք QR կոդը և միացեք ինտերնետին ավելի քան 190 երկրներում։",
+
+    "esim.hero.points.save": "Խնայեք մինչև 90% ռոումինգի վճարներից",
+    "esim.hero.points.instant": "Ակտիվացում անմիջապես QR կոդի միջոցով",
+    "esim.hero.points.dual": "Պահեք ձեր հիմնական համարը ակտիվ",
+
+    "esim.hero.cta.buy": "Ստացեք ձեր eSIM-ը",
+    "esim.hero.cta.compatibility": "Ստուգել համատեղելիությունը",
+
+    "esim.how.title": "Ինչպես է աշխատում eSIM-ը",
+    "esim.how.description": "Միացեք ընդամենը 4 պարզ քայլով։",
+
+    "esim.benefits.title": "Ինչու ընտրել eSIM",
+    "esim.benefits.description": "Վայելեք ճանապարհորդական կապի ապագան։",
+
+    "esim.compare.title": "eSIM vs ավանդական SIM",
+    "esim.compare.description": "Տեսեք ինչու է eSIM-ը ավելի լավ ընտրություն։",
+
+    "esim.compatibility.title": "Ձեր սարքը համատեղելի՞ է",
+    "esim.compatibility.description": "2018-ից հետո սարքերի մեծ մասը աջակցում է eSIM։",
+    "esim.compatibility.cta": "Տեսնել ամբողջ ցանկը",
+
+    "esim.cta.title": "Պատրա՞ստ եք փորձել eSIM",
+    "esim.cta.description": "Միացեք միլիոնավոր ճանապարհորդներին։",
+    "esim.cta.plans": "Տեսնել eSIM պլանները",
+    "esim.cta.learn": "Իմանալ ավելին",
+
+
+    "esim.benefits.instant.title": "ወዲያውኑ አክቲቬሽን",
+"esim.benefits.instant.desc": "በጥቂት ሰከንዶች ውስጥ ይገናኙ። QR ኮድ ይስካኑ እና ወዲያውኑ ዳታ መጠቀም ይጀምሩ።",
+
+"esim.benefits.save.title": "ገንዘብ ይቆጥቡ",
+"esim.benefits.save.desc": "በሮሚንግ ክፍያ እስከ 90% ድረስ ይቆጥቡ። የሚፈልጉትን ዳታ ብቻ ይክፈሉ።",
+
+"esim.benefits.global.title": "ዓለም አቀፍ ካቨሬጅ",
+"esim.benefits.global.desc": "በ190+ አገሮች ውስጥ ይሰራል። ለብዙ መዳረሻዎች አንድ eSIM።",
+
+"esim.benefits.number.title": "ቁጥርዎን ይጠብቁ",
+"esim.benefits.number.desc": "ዋና ቁጥርዎ ንቁ ይቆያል። WhatsApp እና iMessage መደበኛ ሁኔታ ይጠቀሙ።",
+
+"esim.benefits.management.title": "ቀላል አስተዳደር",
+"esim.benefits.management.desc": "ፊዚካል SIM ሳይቀይሩ ፕላኖችን ወዲያውኑ ይቀይሩ።",
+
+"esim.benefits.profiles.title": "ብዙ ፕሮፋይሎች",
+"esim.benefits.profiles.desc": "ብዙ eSIM ፕሮፋይሎችን ያከማቹ። ለተደጋጋሚ ተጓዦች ተስማሚ ነው።",
+
+
+"esim.how.purchase.title": "eSIM ይግዙ",
+"esim.how.purchase.desc": "መዳረሻዎን እና የዳታ ፕላን ይምረጡ። ግዢውን በጥቂት ሰከንዶች ውስጥ ያጠናቅቁ።",
+
+"esim.how.scan.title": "QR ኮድ ይስካኑ",
+"esim.how.scan.desc": "QR ኮድን በኢሜይል ይቀበሉ እና በስልክዎ ካሜራ ይስካኑት።",
+
+"esim.how.install.title": "eSIM ይጫኑ",
+"esim.how.install.desc": "በስክሪኑ ላይ ያሉትን ቀላል መመሪያዎች ይከተሉ። መጫኑ ከ2 ደቂቃ በታች ይወስዳል።",
+
+"esim.how.connect.title": "ይገናኙ",
+"esim.how.connect.desc": "የዳታ ሮሚንግን ያብሩ እና ወዲያውኑ ኢንተርኔት መጠቀም ይጀምሩ።",
+
+
+"esim.compare.activation": "የአክቲቬሽን ጊዜ",
+"esim.compare.activation.traditional": "ሰዓታት (መደብር መፈለግ፣ መጠበቅ)",
+"esim.compare.activation.esim": "ወዲያውኑ (QR ስካን)",
+
+"esim.compare.cost": "ወጪ",
+"esim.compare.cost.traditional": "$50-100/ቀን ሮሚንግ",
+"esim.compare.cost.esim": "$5-20/ሳምንት",
+
+"esim.compare.setup": "ማቀናበር",
+"esim.compare.setup.traditional": "መደብር መጎብኘት፣ ፓስፖርት ያስፈልጋል",
+"esim.compare.setup.esim": "መስመር ላይ፣ ከቤት",
+
+"esim.compare.number": "የመጀመሪያ ቁጥር መጠበቅ",
+"esim.compare.number.traditional": "አይ (SIM መቀየር)",
+"esim.compare.number.esim": "አዎ (ድርብ SIM)",
+
+"esim.compare.countries": "ብዙ አገሮች",
+"esim.compare.countries.traditional": "በየጊዜው አዲስ SIM መግዛት",
+"esim.compare.countries.esim": "የክልል ፕላኖች ይገኛሉ",
+
+
+"esim.devices.iphone": "iPhone XS/XR እና ከዚያ በኋላ የመጡ ሞዴሎች",
+"esim.devices.samsung": "Samsung Galaxy S20 እና ከዚያ በኋላ የመጡ ሞዴሎች",
+"esim.devices.pixel": "Google Pixel 3 እና ከዚያ በኋላ የመጡ ሞዴሎች",
+"esim.devices.ipad": "iPad Pro (2018+), iPad Air (2019+)",
+"esim.devices.galaxywatch": "Samsung Galaxy Watch",
+"esim.devices.applewatch": "Apple Watch Series 3+",
+
+
+"about.hero.rating": "4.9/5 ከ50,000+ ተጓዦች",
+"about.hero.title1": "ዓለምን ዙሩ",
+"about.hero.title2": "የተገናኙ ይቆዩ",
+"about.hero.desc": "ውድ የሮሚንግ ክፍያዎችን ለማስወገድ እና ለሁሉም ተጓዦች ዓለም አቀፍ ግንኙነትን ቀላል፣ የሚያስችል እና ፈጣን ለማድረግ ተልዕኳችን ነው።",
+"about.hero.cta.plans": "የ eSIM ፕላኖችን ይመልከቱ",
+"about.hero.cta.how": "እንዴት እንደሚሰራ",
+
+"about.stats.title": "በዓለም ዙሪያ በሚሊዮኖች የታመነ",
+"about.stats.subtitle": "ወደ ብልህ ግንኙነት የተለወጡ ተጓዦችን ይቀላቀሉ",
+"about.stats.countries": "አገሮች",
+"about.stats.users": "ደስተኛ ተጠቃሚዎች",
+"about.stats.uptime": "Uptime",
+"about.stats.support": "ድጋፍ",
+
+"about.badges.noFees": "ምንም የተሰወረ ክፍያ የለም",
+"about.badges.instant": "ወዲያውኑ አክቲቬሽን",
+"about.badges.support": "ድጋፍ",
+
+"about.story.title": "የእኛ ታሪክ",
+"about.story.desc": "በ2020 ዓ.ም. መስራችን ወደ ፓሪስ ሲደርስ ከአየር ማረፊያው ከመውጣቱ በፊት €50 የሮሚንግ ክፍያ ከፈለ። ከዚያ በኋላ አካባቢያዊ SIM ካርድ መፈለግ፣ በረዥም መስመሮች መጠበቅ እና የአክቲቬሽን መዘግየቶች መታገል ተከተለ።",
+
+"about.story.problem.title": "ችግሩ",
+"about.story.problem.item1": "ውድ የሮሚንግ ክፍያዎች ($50-100/ቀን)",
+"about.story.problem.item2": "በአየር ማረፊያ ረዥም መስመሮች ለአካባቢያዊ SIM ካርዶች",
+"about.story.problem.item3": "የተወሳሰቡ የአክቲቬሽን ሂደቶች",
+"about.story.problem.item4": "ዋና የስልክ ቁጥርዎን ማጣት",
+
+"about.story.solution.title": "መፍትሄያችን",
+"about.story.solution.item1": "ከሮሚንግ ጋር ሲነጻጸር እስከ 90% ይቆጥቡ",
+"about.story.solution.item2": "በ5 ሰከንድ ውስጥ ወዲያውኑ አክቲቬሽን",
+"about.story.solution.item3": "ምንም SIM ካርድ የለም፣ መጠበቅ የለም፣ ችግር የለም",
+"about.story.solution.item4": "ዋና ቁጥርዎን ንቁ ያድርጉ",
+
+"about.story.highlight": "ዛሬ ከ50 ሚሊዮን በላይ ተጓዦችን በ190+ አገሮች ውስጥ እንዲገናኙ አግዘናል። ምንም የሮሚንግ ክፍያ የለም። ምንም መጠበቅ የለም። ብቻ ወዲያውኑ ግንኙነት።",
+
+"about.features.title": "ለምን ይምረጡ",
+"about.features.subtitle": "ለአለም አቀፍ ተጓዦች በጣም የሚታመን እና ዋጋ ተመጣጣኝ eSIM አገልግሎት ገንብተናል",
+
+"about.features.instant.title": "ወዲያውኑ አክቲቬሽን",
+"about.features.instant.desc": "በጥቂት ሰከንዶች ውስጥ ይገናኙ። መጠበቅ የለም፣ ችግር የለም። ብቻ ይስካኑ እና ይጀምሩ።",
+
+"about.features.save.title": "እስከ 90% ይቆጥቡ",
+"about.features.save.desc": "ውድ የሮሚንግ ክፍያዎችን ይሰናበቱ። የሚፈልጉትን ብቻ ይክፈሉ።",
+
+"about.features.number.title": "ቁጥርዎን ይጠብቁ",
+"about.features.number.desc": "WhatsApp፣ iMessage እና ሁሉንም መተግበሪያዎች በዋና ቁጥርዎ ይጠቀሙ።",
+
+"about.features.global.title": "ዓለም አቀፍ ካቨሬጅ",
+"about.features.global.desc": "ለብዙ አገሮች አንድ eSIM። ለክልል ወይም ለዓለም ጉዞ ተስማሚ።",
+
+"about.features.secure.title": "ደህንነቱ የተጠበቀ እና የሚታመን",
+"about.features.secure.desc": "99.9% uptime ያለው የኢንተርፕራይዝ ደረጃ ደህንነት በዓለም ዙሪያ።",
+
+"about.features.easy.title": "ቀላል አጠቃቀም",
+"about.features.easy.desc": "ያውርዱ፣ QR ኮድ ይስካኑ እና ይገናኙ። ቴክኒክ እውቀት አያስፈልግም።",
+
+"about.timeline.title": "ጉዞአችን",
+"about.timeline.subtitle": "ከቀላል ሀሳብ ጀምሮ ሚሊዮኖች ተጓዦችን ለመርዳት",
+
+"about.timeline.start.title": "መጀመሪያ",
+"about.timeline.start.desc": "በቀላል ሀሳብ ጀመረ፦ ለተጓዦች ውድ የሮሚንግ ክፍያዎችን ማስወገድ።",
+
+"about.timeline.launch.title": "የመጀመሪያ 10 አገሮች",
+"about.timeline.launch.desc": "በ10 ታዋቂ መዳረሻዎች ላይ ጀምረን የመጀመሪያ ተጓዦቻችንን ገንዘብ እንዲቆጥቡ አግዘናል።",
+
+"about.timeline.expand.title": "ዓለም አቀፍ መስፋፋት",
+"about.timeline.expand.desc": "150+ አገሮች ደርሰን ከታላላቅ ቴሌኮም ኦፕሬተሮች ጋር ተባብረናል።",
+
+"about.timeline.leader.title": "የኢንዱስትሪ መሪ",
+"about.timeline.leader.desc": "190+ አገሮች እና ሚሊዮኖች ተጓዦች በዓለም ዙሪያ ተገናኝተዋል።",
+
+"about.values.title": "ዋና እሴቶቻችን",
+"about.values.subtitle": "የምንሰራበትን ሁሉ የሚመሩ መርሆዎች",
+
+"about.values.customer.title": "ደንበኛ በመጀመሪያ",
+"about.values.customer.desc": "እያንዳንዱ ውሳኔ በአንድ ጥያቄ ይጀምራል፦ ይህ ለተጓዦቻችን እንዴት ይጠቅማል?",
+
+"about.values.transparency.title": "ግልጽነት",
+"about.values.transparency.desc": "ምንም የተሰወረ ክፍያ የለም። ምንም ድንገት የለም። የምታዩት ትክክለኛው የምትከፍሉት ነው።",
+
+"about.values.innovation.title": "ፈጠራ",
+"about.values.innovation.desc": "ምርጥ የግንኙነት ተሞክሮ ለመስጠት አገልግሎታችንን ሁልጊዜ እናሻሽላለን።",
+
+"about.values.reliable.title": "ታማኝነት",
+"about.values.reliable.desc": "99.9% uptime እና ድጋፍ። በሚያስፈልጋችሁ ጊዜ እዚህ ነን።",
+
+"about.cta.title": "በብልህነት ለመጓዝ ዝግጁ ነዎት?",
+"about.cta.desc": "በዓለም ዙሪያ የተገናኙ 50 ሚሊዮን ተጓዦችን ይቀላቀሉ",
+"about.cta.plans": "የ eSIM ፕላኖችን ይመልከቱ",
+"about.cta.contact": "ያግኙን",
+
+"about.story.problem": "ችግሩ",
+
+"about.story.highlight.before": "ዛሬ ከ",
+"about.story.highlight.users": "50 ሚሊዮን ተጓዦች",
+"about.story.highlight.middle": "በላይ እንዲገናኙ አግዘናል በ",
+"about.story.highlight.countries": "190+ አገሮች",
+"about.story.highlight.line1": "ምንም የሮሚንግ ክፍያ የለም።",
+"about.story.highlight.line2": "ምንም መጠበቅ የለም።",
+"about.story.highlight.line3": "ብቻ ወዲያውኑ ግንኙነት።",
+
+"nav.whatIsEsim": "eSIM ምንድነው?",
+"nav.aboutUs": "ስለ እኛ",
+"nav.resources": "ሀብቶች",
+"nav.helpCenter": "የድጋፍ ቲኬት",
+"nav.helpCenterExternal": "የእገዛ ማዕከል",
+"nav.blog": "ብሎግ",
+"nav.faqs": "የተደጋጋሚ ጥያቄዎች",
+"nav.pages": "ገፆች",
+"nav.noPages": "ምንም ገፆች አልተገኙም",
+"nav.supportedDevices": "የሚደገፉ መሳሪያዎች",
+"nav.seePacks": "ፓኬጆችን ይመልከቱ",
+"nav.signIn": "ግባ",
+"nav.signOut": "ውጣ",
+
+"nav.menu": "ሜኑ",
+"nav.theme": "ገጽታ",
+"nav.currency": "ምንዛሬ",
+"nav.notifications": "ማሳወቂያዎች",
+"nav.myOrders": "ትዕዛዞቼ",
+"common.button.selectLanguage": "ቋንቋ ይምረጡ",
+
+"account.settings": "የመለያ ቅንብሮች",
+"account.title": "መለያ",
+
+"account.info.title": "የመለያ መረጃ",
+"account.info.desc": "የግል መረጃዎችዎን ያስተዳድሩ",
+
+"account.esim.title": "የእኔ eSIM ዝርዝሮች",
+"account.esim.desc": "የእርስዎን eSIM ፕሮፋይሎች ያስተዳድሩ",
+
+"account.orders.title": "የትዕዛዝ ታሪክ",
+"account.orders.desc": "የግዢ ታሪክዎን ይመልከቱ",
+
+"account.kyc.title": "KYC ማረጋገጫ",
+"account.kyc.desc": "መለያዎን ያረጋግጡ",
+
+"account.referrals.title": "ሪፈራሎች",
+"account.referrals.desc": "ሪፈራሎችን ያግኙ",
+
+"account.support.title": "የደንበኛ ድጋፍ",
+"account.support.desc": "እገዛ እና ድጋፍ ያግኙ",
+
+
+"account.giftcards.title": "የስጦታ ካርዶች",
+"account.giftcards.desc": "የስጦታ ካርዶችዎን ያስተዳድሩ",
+
+"common.home": "መነሻ",
+
+  "profile.title": "መገለጫዬ",
+  "profile.description": "የመለያዎን መረጃ እና ቅንብሮች ያስተዳድሩ",
+
+  "profile.profileUpdated": "መገለጫ ተዘምኗል",
+  "profile.profileUpdatedDesc": "የመገለጫዎ መረጃ በተሳካ ሁኔታ ተቀምጧል።",
+
+  "profile.preferencesUpdated": "ምርጫዎች ተዘምነዋል",
+  "profile.preferencesUpdatedDesc": "የማሳወቂያ ምርጫዎችዎ በተሳካ ሁኔታ ተቀምጠዋል።",
+
+  "profile.updateFailed": "ማዘመን አልተሳካም",
+  "profile.notificationUpdateFailed": "የማሳወቂያ ምርጫዎችን ማዘመን አልተሳካም",
+
+  "profile.accountOverview": "የመለያ አጠቃላይ እይታ",
+  "profile.accountOverviewDesc": "የመለያዎ ሁኔታ እና የማረጋገጫ መረጃ",
+
+  "profile.noNameSet": "ስም አልተቀመጠም",
+
+  "profile.kycVerification": "KYC ማረጋገጫ",
+  "profile.kycVerificationDesc": "የመታወቂያ ማረጋገጫ ሁኔታ",
+
+  "profile.kycPending": "በመጠባበቅ ላይ",
+  "profile.kycSubmitted": "ተልኳል",
+  "profile.kycApproved": "ተፈቅዷል",
+  "profile.kycVerified": "ተረጋግጧል",
+  "profile.kycRejected": "ተከልክሏል",
+
+  "profile.submitKYC": "KYC ላክ",
+  "profile.viewStatus": "ሁኔታ ይመልከቱ",
+  "profile.kycRejectionReason": "የKYC መከልከል ምክንያት",
+
+  "profile.profileInfo": "የመገለጫ መረጃ",
+  "profile.profileInfoDesc": "የግል መረጃዎን ያዘምኑ",
+
+  "profile.fullName": "ሙሉ ስም",
+  "profile.namePlaceholder": "አበበ ተስፋዬ",
+
+  "profile.phoneNumber": "ስልክ ቁጥር",
+  "profile.phonePlaceholder": "+251 900 000 000",
+
+  "profile.address": "አድራሻ",
+  "profile.addressPlaceholder": "123 ዋና መንገድ፣ ከተማ፣ አገር",
+
+  "profile.country": "አገር",
+  "profile.selectCountry": "አገር ይምረጡ",
+
+  "profile.currency": "ምንዛሬ",
+  "profile.selectCurrency": "ምንዛሬ ይምረጡ",
+
+  "profile.saving": "በመቀመጥ ላይ...",
+  "profile.saveChanges": "ለውጦችን አስቀምጥ",
+
+  "profile.notificationPreferences": "የማሳወቂያ ምርጫዎች",
+  "profile.notificationPreferencesDesc": "ስለ eSIM የሚደርሱ ማሳወቂያዎችን እንዴት እንደሚቀበሉ ያስተዳድሩ",
+
+  "profile.lowDataAlerts": "ዝቅተኛ ዳታ ማሳወቂያ",
+  "profile.lowDataAlertsDesc": "eSIM የዳታ አጠቃቀም 75% ወይም 90% ሲደርስ የኢሜይል ማሳወቂያ ይቀበሉ",
+
+  "profile.expiryAlerts": "የመጨረሻ ጊዜ ማሳወቂያ",
+  "profile.expiryAlertsDesc": "eSIM ከሚያበቃ በፊት (3 ቀን እና 1 ቀን በፊት) ማሳወቂያ ይቀበሉ",
+
+  "profile.notificationInfo": "እነዚህ ማሳወቂያዎች የዳታ አጠቃቀምዎን ለመቆጣጠር እና የአገልግሎት መቋረጥን ለመከላከል ይረዱዎታል። እነዚህን ምርጫዎች በማንኛውም ጊዜ መቀየር ይችላሉ።",
+
+  "profile.quickActions": "ፈጣን እርምጃዎች",
+  "profile.viewMyOrders": "ትዕዛዞቼን ይመልከቱ",
+  "profile.contactSupport": "ድጋፍን ያግኙ",
+
+  "common.cancel": "ሰርዝ",
+
+
+  "myEsims.title": "የእኔ eSIMዎች",
+  "myEsims.description": "ንቁ eSIM ፓኬጆችዎን እና የዳታ አጠቃቀምዎን ያስተዳድሩ",
+  "myEsims.loading": "የእርስዎ eSIM በመጫን ላይ...",
+  "myEsims.noEsims": "እስካሁን eSIM የለም",
+  "myEsims.noEsimsDesc": "የመጀመሪያዎን eSIM ለመጀመር ፓኬጅ ይግዙ",
+  "myEsims.browsePackages": "ፓኬጆችን ይመልከቱ",
+  "myEsims.installationInstructions": "የመጫኛ መመሪያዎች",
+  "myEsims.followSteps": "eSIMዎን ለማግበር እነዚህን ደረጃዎች ይከተሉ",
+  "myEsims.scanQrCode": "QR ኮድ ይስካኑ",
+  "myEsims.activationDetails": "የማግበር ዝርዝሮች",
+  "myEsims.copy": "ቅዳ",
+  "myEsims.copied": "ተቀድቷል",
+  "myEsims.smdpAddress": "SM-DP+ አድራሻ",
+  "myEsims.activationCode": "የማግበር ኮድ",
+  "myEsims.completePayment": "ክፍያን ጨርስ",
+  "myEsims.purchaseTopup": "Top-Up ይግዙ",
+  "myEsims.securelyPay": "Top-Up ክፍያዎን በደህና ይክፈሉ",
+  "myEsims.addMoreData": "ወደ eSIMዎ ተጨማሪ ዳታ ያክሉ",
+  "myEsims.backToPackages": "ወደ ፓኬጆች ተመለስ",
+  "myEsims.select": "ይምረጡ",
+  "myEsims.noTopupPackages": "የTop-Up ፓኬጆች አይገኙም",
+  "myEsims.daysValidity": "የቀናት ትክክለኛነት",
+  "myEsims.dataUsed": "የተጠቀሰ ዳታ",
+  "myEsims.used": "ተጠቀሰ",
+  "myEsims.remaining": "የቀረ",
+  "myEsims.validUntil": "እስከ",
+  "myEsims.setup": "ማዘጋጀት",
+  "myEsims.topUp": "Top-Up",
+  "myEsims.active": "ንቁ",
+  "myEsims.expired": "ያለፈ",
+  "myEsims.inactive": "ያልነቃ",
+  "myEsims.processingPayment": "ክፍያ በሂደት ላይ...",
+  "myEsims.payAmount": "${{amount}} ይክፈሉ",
+  "myEsims.paymentFailed": "ክፍያ አልተሳካም",
+  "myEsims.topupSuccessful": "Top-Up ተሳክቷል!",
+  "myEsims.topupSuccessfulDesc": "ተጨማሪ ዳታ ወደ eSIMዎ ተጨምሯል",
+  "myEsims.topupFailed": "Top-Up አልተሳካም",
+  "myEsims.topupFailedDesc": "ክፍያው ተሳክቷል ነገር ግን Top-Up መፍጠር አልተሳካም። እባክዎ ድጋፍን ያግኙ።",
+  "myEsims.purchaseFailed": "ግዢ አልተሳካም",
+  "myEsims.purchaseFailedDesc": "Top-Up መግዛት አልተሳካም",
+  "myEsims.initializePaymentFailed": "ክፍያ መጀመር አልተሳካም",
+
+  "esim.installationInstructions": "የመጫኛ መመሪያዎች",
+  "esim.followSteps": "eSIMዎን ለማግበር እነዚህን ደረጃዎች ይከተሉ",
+  "esim.scanQr": "QR ኮድ ይስካኑ",
+
+  "esim.activationDetails": "የማግበር ዝርዝሮች",
+  "esim.smdpAddress": "SM-DP+ አድራሻ",
+  "esim.activationCode": "የማግበር ኮድ",
+
+  "common.copy": "ቅዳ",
+  "common.copied": "ተቀድቷል",
+  "common.android": "Android",
+  "common.ios": "iOS",
+
+
+
+  "esim.android.step1": "ወደ Settings > Network & Internet > SIMs ይሂዱ",
+  "esim.android.step2": "«Download a SIM instead» ወይም «Add eSIM» ላይ ይጫኑ",
+  "esim.android.step3": "«Scan QR Code» ወይም «Use QR code» ይምረጡ",
+  "esim.android.step4": "ካሜራዎን ከታች ባለው QR ኮድ ላይ ያመልክቱ",
+  "esim.android.step5": "eSIM ለማግበር በስክሪኑ ላይ የሚታዩትን መመሪያዎች ይከተሉ",
+  "esim.android.step6": "eSIMዎን ስም ይስጡ (አማራጭ) እና «Done» ይጫኑ",
+
+  "esim.ios.step1": "ወደ Settings > Cellular ይሂዱ",
+  "esim.ios.step2": "«Add Cellular Plan» ይጫኑ",
+  "esim.ios.step3": "«Scan QR Code» ይጫኑ",
+  "esim.ios.step4": "ካሜራዎን ከታች ባለው QR ኮድ ላይ ያመልክቱ",
+  "esim.ios.step5": "eSIM ለማግበር በስክሪኑ ላይ የሚታዩትን መመሪያዎች ይከተሉ",
+  "esim.ios.step6": "eSIMዎን ስም ይስጡ (አማራጭ) እና «Done» ይጫኑ",
+
+
+  
+  "myOrders.esimManagement": "የ eSIM አስተዳደር",
+  "myOrders.qrCode": "QR ኮድ",
+  "myOrders.scanQr": "QR ኮድ ይስካኑ",
+  "myOrders.scanQrDesc": "eSIM ለመጫን ይህን QR በስልክዎ ይስካኑ",
+
+  "myOrders.details": "ዝርዝሮች",
+  "myOrders.installation": "መጫን",
+  "myOrders.usage": "አጠቃቀም",
+  "myOrders.topups": "Top-Up",
+
+  "myOrders.esimInformation": "የ eSIM መረጃ",
+  "myOrders.packageDetails": "የፓኬጅ ዝርዝሮች",
+  "myOrders.orderDetails": "የትዕዛዝ ዝርዝሮች",
+
+  "myOrders.iccid": "ICCID",
+  "myOrders.status": "ሁኔታ",
+  "myOrders.created": "የተፈጠረበት",
+  "myOrders.activated": "የተነቃቃ",
+  "myOrders.expires": "የሚያበቃበት",
+
+  "myOrders.packageName": "የፓኬጅ ስም",
+  "myOrders.packageId": "የፓኬጅ መለያ",
+  "myOrders.data": "ዳታ",
+  "myOrders.validity": "ትክክለኛነት",
+  "myOrders.price": "ዋጋ",
+  "myOrders.operator": "ኦፕሬተር",
+
+  "myOrders.customerPrice": "የደንበኛ ዋጋ",
+  "myOrders.airaloCost": "የ Airalo ዋጋ",
+
+  "myOrders.qrInstallation": "በ QR ኮድ መጫን",
+  "myOrders.scanQrDesc2": "eSIM ለመጫን ይህን QR ኮድ በመሣሪያዎ ይስካኑ",
+  "myOrders.manualActivationCode": "Manual አክቲቬሽን ኮድ",
+
+  "myOrders.installationSteps": "የመጫኛ እርምጃዎች",
+  "myOrders.deviceCompatibility": "የመሣሪያ ተስማሚነት",
+  "myOrders.compatible": "ተስማሚ",
+  "myOrders.notCompatible": "አይተስማማም",
+
+  "myOrders.dataUsage": "የዳታ አጠቃቀም",
+  "myOrders.dataUsed": "የተጠቀሰ ዳታ",
+  "myOrders.remaining": "የቀረ",
+  "myOrders.validUntil": "የሚሰራ እስከ",
+
+  "myOrders.callsMessages": "ጥሪዎች እና መልዕክቶች",
+  "myOrders.voice": "ድምጽ",
+  "myOrders.sms": "SMS",
+
+  "myOrders.availableTopups": "ያሉ የTop-Up ፓኬጆች",
+  "myOrders.applyTopup": "Top-Up ያመልክቱ",
+  "myOrders.noTopups": "ለዚህ eSIM የTop-Up ፓኬጅ የለም",
+
+  "myOrders.qrNotAvailable": "QR አይገኝም",
+  "myOrders.qrNotAvailableDesc": "QR ኮድ አልተገኘም",
+  "myOrders.qrError": "የQR ስህተት",
+  "myOrders.qrErrorDesc": "QR ኮድ መጫን አልተቻለም",
+
+  "myOrders.title": "የኔ ትዕዛዞች",
+  "myOrders.description": "የእርስዎን ንቁ eSIM ፓኬጆች እና የዳታ አጠቃቀም ያስተዳድሩ",
+
+
+
+  
+  "kyc.title": "የመታወቂያ ማረጋገጫ (KYC)",
+  "kyc.description": "የመለያዎን ደህንነት ለማረጋገጥ መታወቂያዎን ያረጋግጡ",
+
+  "kyc.loading": "በመጫን ላይ...",
+
+  "kyc.verificationStatus": "የማረጋገጫ ሁኔታ",
+  "kyc.verificationStatusDesc": "የKYC ማረጋገጫዎ የአሁኑ ሁኔታ",
+
+  "kyc.verificationApproved": "ማረጋገጫ ተፈቅዷል",
+  "kyc.identityVerified": "መለያዎ ተረጋግጧል",
+  "kyc.verificationRejected": "ማረጋገጫ ተቀባይነት አላገኘም",
+  "kyc.underReview": "በምርመራ ላይ",
+  "kyc.verificationPending": "ማረጋገጫ በመጠበቅ ላይ",
+
+  "kyc.approvedDesc": "መለያዎ በተሳካ ሁኔታ ተረጋግጧል",
+  "kyc.verifiedDesc": "መለያዎ በተሳካ ሁኔታ ተረጋግጧል",
+  "kyc.rejectedDesc": "እባክዎ አዲስ ሰነዶች ያቅርቡ",
+  "kyc.submittedDesc": "ቡድናችን ሰነዶችዎን በማረጋገጥ ላይ ነው",
+  "kyc.pendingDesc": "ለማረጋገጥ ሰነዶችዎን ያቅርቡ",
+
+  "kyc.status.pending": "አልተላከም",
+  "kyc.status.approved": "ተፈቅዷል",
+  "kyc.status.verified": "ተረጋግጧል",
+  "kyc.status.rejected": "ተቀባይነት አላገኘም",
+  "kyc.status.submitted": "ተልኳል",
+
+  "kyc.rejectionReason": "የመክፈቻ ምክንያት",
+
+  "kyc.uploadDocuments": "ሰነዶችን ያቅርቡ",
+  "kyc.uploadDocumentsDesc": "የመንግስት የተሰጠ መታወቂያዎን ግልጽ ፎቶ ወይም ስካን ያቅርቡ",
+
+  "kyc.documentType": "የሰነድ አይነት",
+  "kyc.selectDocumentType": "የሰነድ አይነት ይምረጡ",
+
+  "kyc.passport": "ፓስፖርት",
+  "kyc.nationalId": "የብሔራዊ መታወቂያ ካርድ",
+  "kyc.driversLicense": "የመኪና ፍቃድ",
+  "kyc.proofOfAddress": "የመኖሪያ ማረጋገጫ",
+
+  "kyc.uploadFile": "ፋይል ያቅርቡ",
+  "kyc.clickToUpload": "ለመስቀል ይጫኑ",
+  "kyc.orDragAndDrop": "ወይም ይጎትቱ እና ይተዉ",
+  "kyc.fileFormat": "PNG, JPG, PDF እስከ 10MB",
+
+  "kyc.removeFile": "ፋይል አስወግድ",
+
+  "kyc.fileTooLarge": "ፋይሉ ትልቅ ነው",
+  "kyc.fileTooLargeDesc": "እባክዎ ከ10MB በታች ያለ ፋይል ይምረጡ",
+
+  "kyc.missingInformation": "መረጃ አልተሞላም",
+  "kyc.missingInformationDesc": "እባክዎ የሰነድ አይነት እና ፋይል ይምረጡ",
+
+  "kyc.documentUploaded": "ሰነድ ተልኳል",
+  "kyc.documentUploadedDesc": "የKYC ሰነድዎ ለምርመራ ተልኳል",
+
+  "kyc.uploadFailed": "መስቀል አልተሳካም",
+  "kyc.uploadFailedDesc": "ሰነድ መስቀል አልተሳካም",
+
+  "kyc.documentRequirements": "የሰነድ መስፈርቶች:",
+  "kyc.requirement1": "የመንግስት የተሰጠ መታወቂያ መሆን አለበት",
+  "kyc.requirement2": "ፎቶው ግልጽ እና የሚነበብ መሆን አለበት",
+  "kyc.requirement3": "የሰነዱ ሁሉም ጠርዞች መታየት አለባቸው",
+  "kyc.requirement4": "ጽሑፉን የሚሸፍን ብርሃን ወይም ጥላ መኖር የለበትም",
+
+  "kyc.submitForReview": "ለምርመራ ያቅርቡ",
+  "kyc.uploading": "በመስቀል ላይ...",
+
+  "kyc.submittedDocuments": "የተላኩ ሰነዶች",
+  "kyc.submittedDocumentsDesc": "ለማረጋገጫ ያቀረቧቸው ሰነዶች",
+  "kyc.uploaded": "ተልኳል",
+
+
+
+  "giftcards.metaTitle": "የስጦታ ካርዶች - ኮኔክቲቪቲን ይስጡ",
+    "giftcards.metaDescription": "በ eSIM የስጦታ ካርዶች ዓለም አቀፍ ኮኔክቲቪቲን ይስጡ። ለተጓዦች እና ለርቀት ሰራተኞች ተስማሚ ነው።",
+
+    "giftcards.perfectGift": "ለተጓዦች ተስማሚ ስጦታ",
+    "giftcards.title1": "የ",
+    "giftcards.title2": "ኮኔክቲቪቲ ስጦታ ይስጡ",
+    "giftcards.subtitle": "ለጓደኞችና ለቤተሰብ የስጦታ ካርድ ይላኩ። ለተጓዦች፣ ለርቀት ሰራተኞች እና በዓለም አቀፍ ሁኔታ መገናኘት ለሚፈልጉ ሰዎች ተስማሚ ነው።",
+    "giftcards.history": "የስጦታ ካርድ ታሪክ ይመልከቱ",
+
+    "giftcards.instantDelivery": "ፈጣን መላኪያ",
+    "giftcards.emailDelivery": "በሰከንዶች ውስጥ በኢሜይል ይላካል",
+    "giftcards.countries": "200+ አገሮች",
+    "giftcards.worldwide": "በዓለም አቀፍ ይሰራል",
+    "giftcards.neverExpires": "መቼም አይያልፍም",
+    "giftcards.useAnytime": "በማንኛውም ጊዜ ይጠቀሙ",
+    "giftcards.anyAmount": "ማንኛውም መጠን",
+    "giftcards.range": "ከ $10 እስከ $500",
+
+    "giftcards.purchaseTitle": "የስጦታ ካርድ ይግዙ",
+    "giftcards.purchaseDesc": "መጠን ይምረጡ እና ስጦታዎን ያብጁ",
+
+    "giftcards.selectAmount": "መጠን ይምረጡ",
+    "giftcards.customAmount": "ወይም የተለየ መጠን ያስገቡ",
+    "giftcards.recipientName": "የተቀባይ ስም",
+    "giftcards.recipientEmail": "የተቀባይ ኢሜይል",
+    "giftcards.personalMessage": "የግል መልእክት (አማራጭ)",
+
+    "giftcards.paymentMethod": "የክፍያ ዘዴ",
+    "giftcards.continuePayment": "ወደ ክፍያ ቀጥል",
+
+    "giftcards.preview": "ቅድመ እይታ",
+    "giftcards.howItWorks": "እንዴት ይሰራል",
+
+    "giftcards.step1": "መጠን ይምረጡ ወይም የተለየ መጠን ያስገቡ",
+    "giftcards.step2": "የተቀባይ መረጃ እና መልእክት ያክሉ",
+    "giftcards.step3": "ደህንነቱ የተጠበቀ ክፍያ ያጠናቅቁ",
+    "giftcards.step4": "ተቀባዩ የስጦታ ካርዱን በኢሜይል ወዲያውኑ ይቀበላል",
+    "giftcards.step5": "ለማንኛውም eSIM ፓኬጅ ሊጠቀሙበት ይችላሉ",
+
+    "giftcards.completePurchase": "ግዢዎን ያጠናቅቁ",
+    "giftcards.back": "ተመለስ",
+
+    "giftcards.faqTitle": "በተደጋጋሚ የሚጠየቁ ጥያቄዎች",
+
+    "giftcards.faq1q": "የስጦታ ካርዶች እንዴት ይላካሉ?",
+    "giftcards.faq1a": "የስጦታ ካርዶች በእርስዎ የሰጡት የኢሜይል አድራሻ ወዲያውኑ በኢሜይል ይላካሉ።",
+
+    "giftcards.faq2q": "የስጦታ ካርዶች ይያልፋሉ?",
+    "giftcards.faq2a": "አይ፣ የስጦታ ካርዶች መቼም አይያልፉም እና በማንኛውም ጊዜ ሊጠቀሙባቸው ይችላሉ።",
+
+    "giftcards.faq3q": "አንድ የስጦታ ካርድ ለብዙ ግዢዎች ሊጠቀም ይችላል?",
+    "giftcards.faq3a": "አዎ! የስጦታ ካርድ ቀሪ ሂሳብ እስኪያልቅ ድረስ ለብዙ ግዢዎች ሊጠቀም ይችላል።",
+
+    "giftcards.faq4q": "ግዢዬ ከካርዱ ቀሪ ሂሳብ በላይ ከሆነ ምን ይሆናል?",
+    "giftcards.faq4a": "የቀረውን መጠን በማንኛውም የተደገፈ የክፍያ ዘዴ መክፈል ይችላሉ።",
+
+
+    "blog.metaTitle": "የ eSIM ጉዞ ብሎግ - ምክሮች፣ መመሪያዎች እና የመዳረሻ መረጃ",
+    "blog.metaDescription": "የ eSIM መመሪያዎች፣ የመዳረሻ ምክሮች እና ለዲጂታል ኖማዶች ምንጮችን ለማግኘት የጉዞ ብሎጋችንን ያስሱ። በዓለም ዙሪያ ሲጓዙ እንዴት እንደሚገናኙ ይማሩ።",
+    "blog.ogTitle": "የ eSIM ጉዞ ብሎግ - ምክሮች እና መመሪያዎች",
+    "blog.ogDescription": "ለዲጂታል ኖማዶች እና ለተጓዦች የጉዞ ምክሮች፣ የ eSIM መመሪያዎች እና የመዳረሻ መረጃዎች።",
+
+    "blog.badge": "የጉዞ መመሪያዎች እና ምክሮች",
+    "blog.title": "የ eSIM ጉዞ ብሎግ",
+    "blog.description": "በ eSIM በመጠቀም በዓለም ዙሪያ እንዴት እንደሚገናኙ የጉዞ ምክሮች፣ የመዳረሻ መመሪያዎች እና የባለሙያ ምክሮችን ያግኙ።",
+    "blog.search": "ጽሑፎች፣ መዳረሻዎች፣ መመሪያዎች ፈልግ...",
+
+    "blog.articles": "ጽሑፎች",
+    "blog.thisPage": "ይህ ገጽ",
+
+    "blog.previous": "ቀዳሚ",
+    "blog.next": "ቀጣይ",
+    "blog.page": "ገጽ",
+    "blog.of": "ከ",
+
+    "blog.noArticles": "ምንም ጽሑፍ አልተገኘም",
+    "blog.noArticlesDesc": "ፍለጋዎን ይቀይሩ ወይም ሁሉንም ጽሑፎች ይመልከቱ።",
+    "blog.clearSearch": "ፍለጋን አጥፋ",
+
+    "blog.draft": "ድራፍት",
+
+
+  "login.welcome": "እንኳን ደህና መጡ",
+  "login.subtitle": "ወደ መለያዎ ይግቡ ወይም አዲስ መለያ ይፍጠሩ",
+
+  "login.signin": "ግባ",
+  "login.signup": "መዝግብ",
+
+  "login.email": "ኢሜይል",
+  "login.password": "የይለፍ ቃል",
+  "login.forgotPassword": "የይለፍ ቃል ረሱ?",
+
+  "login.signingIn": "በመግባት ላይ...",
+  "login.signInButton": "ግባ",
+
+  "login.noAccount": "መለያ የለዎትም?",
+  "login.createAccount": "መለያ ፍጠር",
+
+  "login.enterEmail": "ለመጀመር ኢሜይልዎን ያስገቡ",
+  "login.verifyEmail": "ኢሜይል አረጋግጥ",
+  "login.completeSetup": "ማቀናበር ጨርስ",
+
+  "login.fullName": "ሙሉ ስም",
+  "login.confirmPassword": "የይለፍ ቃል አረጋግጥ",
+
+  "login.creatingAccount": "መለያ በመፍጠር ላይ...",
+  "login.createAccountButton": "መለያ ፍጠር",
+
+  "login.resetPassword": "የይለፍ ቃል ዳግም አቀና",
+  "login.sendResetCode": "የዳግም ማቀናበሪያ ኮድ ላክ",
+
+  "login.verificationCode": "የማረጋገጫ ኮድ",
+  "login.verifyEmailButton": "ኢሜይል አረጋግጥ",
+
+  "login.orContinue": "ወይም በዚህ ቀጥል",
+  "login.continueGoogle": "በGoogle ቀጥል",
+
+  "login.backHome": "ወደ መነሻ ተመለስ",
+
+  "login.stayConnected": "በማንኛውም ቦታ ተገናኝተው ይቆዩ",
+  "login.joinMillions": "በeSIM ያለማቋረጥ ግንኙነት የሚጠቀሙ ሚሊዮኖች ተጓዦችን ይቀላቀሉ",
+
+  "login.globalCoverage": "ዓለም አቀፍ ክብር",
+  "login.globalCoverageDesc": "በ190+ አገሮች ውስጥ የሞባይል ዳታ ይጠቀሙ",
+
+  "login.instantActivation": "ፈጣን አንቀሳቃሽ",
+  "login.instantActivationDesc": "በQR ኮድ ማቀናበር በሰከንዶች ውስጥ ተገናኝ",
+
+  "login.secureReliable": "ደህንነት ያለው እና ታማኝ",
+  "login.secureReliableDesc": "ለዳታዎ የኢንተርፕራይዝ ደረጃ ደህንነት",
+
+  "login.support247": "24/7 ድጋፍ",
+  "login.support247Desc": "ቡድናችን ሁልጊዜ ለመርዳት ዝግጁ ነው",
+
+  "login.trustedTravelers": "በ2M+ ተጓዦች የታመነ",
+
+  "login.signinDesc": "ኢሜይልዎን እና የይለፍ ቃልዎን ያስገቡ",
+  "login.enterPassword": "የይለፍ ቃልዎን ያስገቡ",
+  "login.setNewPassword": "አዲስ የይለፍ ቃል ያቀና",
+  "login.sending": "በመላክ ላይ...",
+  "login.enterEmailStart": "ለመጀመር ኢሜይልዎን ያስገቡ",
+
+  "login.enterEmailReset": "የዳግም ማቀናበሪያ ኮድ ለመቀበል ኢሜይልዎን ያስገቡ",
+  "login.enterCodePassword": "ወደ {{email}} የተላከውን ኮድ እና አዲሱን የይለፍ ቃልዎን ያስገቡ",
+  "login.rememberPassword": "የይለፍ ቃልዎን ያስታውሳሉ?"
+
+
+
+
+
+
+  },
+  "userPanel": {
+    "dashboard.title": "Dashboard",
+    "dashboard.welcome": "Welcome back!",
+    "dashboard.activeEsims": "Active eSIMs",
+    "dashboard.totalOrders": "Total Orders",
+    "dashboard.recentActivity": "Recent Activity",
+    "dashboard.quickActions": "Quick Actions",
+    "dashboard.buyNewEsim": "Buy New eSIM",
+    "dashboard.topUp": "Top Up",
+    "dashboard.viewUsage": "View Usage",
+    "esims.title": "My eSIMs",
+    "esims.active": "Active",
+    "esims.expired": "Expired",
+    "esims.all": "All",
+    "esims.noEsims": "No eSIMs yet",
+    "esims.buyFirst": "Buy your first eSIM to get started",
+    "esims.viewDetails": "View Details",
+    "esims.install": "Install",
+    "esims.topUp": "Top Up",
+    "esims.usage": "Data Usage",
+    "esims.remaining": "Remaining",
+    "esims.expiresIn": "Expires in",
+    "esims.qrCode": "QR Code",
+    "esims.manualCodes": "Manual Codes",
+    "esims.iccid": "ICCID",
+    "esims.activationCode": "Activation Code",
+    "orders.title": "My Orders",
+    "orders.all": "All Orders",
+    "orders.completed": "Completed",
+    "orders.pending": "Pending",
+    "orders.noOrders": "No orders yet",
+    "orders.orderNumber": "Order #",
+    "orders.orderDate": "Order Date",
+    "orders.orderStatus": "Status",
+    "orders.orderTotal": "Total",
+    "orders.viewDetails": "View Details",
+    "orders.trackOrder": "Track Order",
+    "orders.downloadReceipt": "Download Receipt",
+    "orders.requestRefund": "Request Refund",
+    "profile.title": "Profile",
+    "profile.personalInfo": "Personal Information",
+    "profile.email": "Email Address",
+    "profile.name": "Full Name",
+    "profile.phone": "Phone Number",
+    "profile.country": "Country",
+    "profile.language": "Preferred Language",
+    "profile.currency": "Preferred Currency",
+    "profile.saveChanges": "Save Changes",
+    "profile.changePassword": "Change Password",
+    "profile.currentPassword": "Current Password",
+    "profile.newPassword": "New Password",
+    "profile.confirmPassword": "Confirm New Password",
+    "profile.updatePassword": "Update Password",
+    "settings.title": "Settings",
+    "settings.notifications": "Notification Preferences",
+    "settings.emailNotifications": "Email Notifications",
+    "settings.pushNotifications": "Push Notifications",
+    "settings.marketingEmails": "Marketing Emails",
+    "settings.orderUpdates": "Order Updates",
+    "settings.usageAlerts": "Usage Alerts",
+    "settings.security": "Security",
+    "settings.twoFactor": "Two-Factor Authentication",
+    "settings.sessions": "Active Sessions",
+    "settings.deleteAccount": "Delete Account",
+    "settings.deleteWarning": "This action cannot be undone",
+    "referrals.howItWorks": "እንዴት ይሰራል",
+"referrals.subtitle": "ጓደኞችን ይጋብዙ እና ሽልማት ያግኙ",
+"referrals.copyLink": "ሊንኩን ቅጂ ያድርጉ",
+"referrals.shareVia": "በዚህ ያጋሩ",
+"referrals.linkCopied": "የሪፈራል ሊንክ ተቀይሯል!",
+"referrals.totalReferrals": "ጠቅላላ ሪፈራሎች",
+"referrals.successfulReferrals": "የተሳካ ሪፈራሎች",
+"referrals.totalEarnings": "ጠቅላላ ገቢ",
+"referrals.referralHistory": "የሪፈራል ታሪክ",
+"referrals.referredUser": "የተጋበዘ ተጠቃሚ",
+"referrals.status": "ሁኔታ",
+"referrals.rewardAmount": "ሽልማት",
+"referrals.date": "ቀን",
+"referrals.pending": "በመጠበቅ ላይ",
+"referrals.completed": "ተጠናቋል",
+"referrals.step1Title": "ኮድዎን ያጋሩ",
+"referrals.step2Title": "እነሱ ይመዝገባሉ",
+"referrals.step3Title": "እርስዎ ሽልማት ያግኛሉ",
+"referrals.step3Desc": "ለእያንዳንዱ የተሳካ ሪፈራል {{reward}} ሽልማት ያግኙ",
+"referrals.termsAndConditions": "ውሎች እና ሁኔታዎች",
+"referrals.haveReferralCode": "የሪፈራል ኮድ አለዎት?",
+"referrals.enterCode": "የሪፈራል ኮድ ያስገቡ",
+"referrals.applyCode": "ኮድ ያመልክቱ",
+"referrals.codeApplied": "የሪፈራል ኮድ ተግባራዊ ሆኗል! {{discount}}% ቅናሽ ያገኛሉ",
+"referrals.invalidCode": "የማይሰራ ወይም ያልተገባ ሪፈራል ኮድ",
+"referrals.youveBeenReferred": "ተጋብዘዋል! ይመዝገቡ እና {{discount}}% ቅናሽ ያግኙ",
+"referrals.convertToGiftCard": "ገቢዎን ወደ ጊፍት ካርድ ይቀይሩ",
+"referrals.step1Desc": "የራስዎን ልዩ የሪፈራል ኮድ ከጓደኞች ጋር ያጋሩ",
+"referrals.step2Desc": "ጓደኛዎ ይመዝገባል እና የመጀመሪያ ግዢውን ያደርጋል",
+    "giftCards.title": "Gift Cards",
+    "giftCards.myCards": "My Gift Cards",
+    "giftCards.balance": "Balance",
+    "giftCards.redeemCode": "Redeem a Code",
+    "giftCards.enterCode": "Enter Code",
+    "giftCards.redeem": "Redeem",
+    "giftCards.buyGiftCard": "Buy a Gift Card",
+    "giftCards.purchaseHistory": "Purchase History",
+    "giftCards.usageHistory": "Usage History",
+    "notifications.title": "Notifications",
+    "notifications.all": "All",
+    "notifications.unread": "Unread",
+    "notifications.markRead": "Mark as Read",
+    "notifications.markAllRead": "Mark All as Read",
+    "notifications.noNotifications": "No notifications",
+    "notifications.clearAll": "Clear All",
+    "support.title": "Support",
+    "support.newTicket": "Create New Ticket",
+    "support.myTickets": "My Tickets",
+    "support.ticketSubject": "Subject",
+    "support.ticketCategory": "Category",
+    "support.ticketMessage": "Message",
+    "support.submitTicket": "Submit Ticket",
+    "support.ticketStatus": "Status",
+    "support.reply": "Reply",
+    "support.closeTicket": "Close Ticket",
+    "auth.login": "Sign In",
+    "auth.loginSubtitle": "Welcome back! Sign in to your account",
+    "auth.emailLogin": "Sign in with Email",
+    "auth.passwordLogin": "Sign in with Password",
+    "auth.sendOtp": "Send Verification Code",
+    "auth.enterOtp": "Enter Verification Code",
+    "auth.verifyOtp": "Verify",
+    "auth.resendOtp": "Resend Code",
+    "auth.forgotPassword": "የይለፍ ቃል ረስተዋል?",
+    "auth.resetPassword": "Reset Password",
+    "auth.noAccount": "Don't have an account?",
+    "auth.createAccount": "Create Account",
+    "auth.haveAccount": "Already have an account?",
+    "auth.loginHere": "Sign in here"
+  },
+  "adminPanel": {
+    "nav.dashboard": "Dashboard",
+    "nav.customers": "Customers",
+    "nav.orders": "Orders",
+    "nav.packages": "Packages",
+    "nav.topupPackages": "Topup Packages",
+    "nav.unifiedCatalog": "Unified Catalog",
+    "nav.providers": "Providers",
+    "nav.pricing": "Pricing",
+    "nav.vouchers": "Vouchers",
+    "nav.giftCards": "Gift Cards",
+    "nav.referrals": "Referrals",
+    "nav.notifications": "Notifications",
+    "nav.emailTemplates": "Email Templates",
+    "nav.content": "Content",
+    "nav.settings": "Settings",
+    "nav.languages": "Languages",
+    "nav.translations": "Translations",
+    "nav.activityLogs": "Activity Logs",
+    "nav.reports": "Reports",
+    "dashboard.title": "Admin Dashboard",
+    "dashboard.totalRevenue": "Total Revenue",
+    "dashboard.totalOrders": "Total Orders",
+    "dashboard.totalCustomers": "Total Customers",
+    "dashboard.activeEsims": "Active eSIMs",
+    "dashboard.revenueChart": "Revenue Overview",
+    "dashboard.ordersChart": "Orders Overview",
+    "dashboard.recentOrders": "Recent Orders",
+    "dashboard.topDestinations": "Top Destinations",
+    "dashboard.providerStats": "Provider Statistics",
+    "customers.title": "Customers",
+    "customers.search": "Search customers...",
+    "customers.filter": "Filter",
+    "customers.addCustomer": "Add Customer",
+    "customers.name": "Name",
+    "customers.email": "Email",
+    "customers.phone": "Phone",
+    "customers.status": "Status",
+    "customers.orders": "Orders",
+    "customers.totalSpent": "Total Spent",
+    "customers.joinDate": "Join Date",
+    "customers.lastActive": "Last Active",
+    "customers.viewDetails": "View Details",
+    "customers.editCustomer": "Edit Customer",
+    "customers.deleteCustomer": "Delete Customer",
+    "orders.title": "Orders",
+    "orders.search": "Search orders...",
+    "orders.filterStatus": "Filter by Status",
+    "orders.filterProvider": "Filter by Provider",
+    "orders.filterDate": "Filter by Date",
+    "orders.orderId": "Order ID",
+    "orders.customer": "Customer",
+    "orders.package": "Package",
+    "orders.provider": "Provider",
+    "orders.amount": "Amount",
+    "orders.status": "Status",
+    "orders.date": "Date",
+    "orders.viewDetails": "View Details",
+    "orders.processRefund": "Process Refund",
+    "orders.resendEsim": "Resend eSIM",
+    "orders.cancelOrder": "Cancel Order",
+    "packages.title": "Packages",
+    "packages.search": "Search packages...",
+    "packages.filterProvider": "Filter by Provider",
+    "packages.filterDestination": "Filter by Destination",
+    "packages.syncNow": "Sync Now",
+    "packages.lastSync": "Last Synced",
+    "packages.packageName": "Package Name",
+    "packages.data": "Data",
+    "packages.validity": "Validity",
+    "packages.wholesalePrice": "Wholesale Price",
+    "packages.retailPrice": "Retail Price",
+    "packages.margin": "Margin",
+    "packages.active": "Active",
+    "packages.editPackage": "Edit Package",
+    "providers.title": "Providers",
+    "providers.addProvider": "Add Provider",
+    "providers.name": "Provider Name",
+    "providers.status": "Status",
+    "providers.apiStatus": "API Status",
+    "providers.packageCount": "Packages",
+    "providers.orderCount": "Orders",
+    "providers.defaultMargin": "Default Margin",
+    "providers.priority": "Priority",
+    "providers.testConnection": "Test Connection",
+    "providers.editProvider": "Edit Provider",
+    "pricing.title": "Pricing",
+    "pricing.globalMargin": "Global Margin",
+    "pricing.providerMargins": "Provider Margins",
+    "pricing.destinationMargins": "Destination Margins",
+    "pricing.packageOverrides": "Package Overrides",
+    "pricing.saveChanges": "Save Changes",
+    "vouchers.title": "Vouchers",
+    "vouchers.createVoucher": "Create Voucher",
+    "vouchers.code": "Voucher Code",
+    "vouchers.type": "Type",
+    "vouchers.discountType": "Discount Type",
+    "vouchers.discountValue": "Discount Value",
+    "vouchers.usageLimit": "Usage Limit",
+    "vouchers.usedCount": "Times Used",
+    "vouchers.validFrom": "Valid From",
+    "vouchers.validUntil": "Valid Until",
+    "vouchers.status": "Status",
+    "vouchers.editVoucher": "Edit Voucher",
+    "vouchers.deleteVoucher": "Delete Voucher",
+    "giftCards.title": "Gift Cards",
+    "giftCards.createGiftCard": "Create Gift Card",
+    "giftCards.code": "Card Code",
+    "giftCards.initialBalance": "Initial Balance",
+    "giftCards.currentBalance": "Current Balance",
+    "giftCards.status": "Status",
+    "giftCards.purchasedBy": "Purchased By",
+    "giftCards.redeemedBy": "Redeemed By",
+    "giftCards.transactions": "Transactions",
+    "languages.title": "Languages",
+    "languages.addLanguage": "Add Language",
+    "languages.code": "Code",
+    "languages.name": "Name",
+    "languages.nativeName": "Native Name",
+    "languages.rtl": "Right-to-Left",
+    "languages.enabled": "Enabled",
+    "languages.default": "Default",
+    "languages.setDefault": "Set as Default",
+    "languages.editLanguage": "Edit Language",
+    "languages.deleteLanguage": "Delete Language",
+    "translations.title": "Translations",
+    "translations.namespace": "Namespace",
+    "translations.key": "Key",
+    "translations.value": "Value",
+    "translations.missing": "Missing",
+    "translations.verified": "Verified",
+    "translations.edit": "Edit",
+    "translations.save": "Save",
+    "translations.importExport": "Import/Export",
+    "translations.import": "Import",
+    "translations.export": "Export",
+    "settings.title": "Settings",
+    "settings.general": "General",
+    "settings.payment": "Payment",
+    "settings.email": "Email",
+    "settings.notifications": "Notifications",
+    "settings.api": "API",
+    "settings.maintenance": "Maintenance Mode",
+    "logs.title": "Activity Logs",
+    "logs.filterAction": "Filter by Action",
+    "logs.filterUser": "Filter by User",
+    "logs.filterDate": "Filter by Date",
+    "logs.action": "Action",
+    "logs.user": "User",
+    "logs.details": "Details",
+    "logs.timestamp": "Timestamp",
+    "logs.ipAddress": "IP Address",
+
+
+  "admin.dashboard": "ዳሽቦርድ",
+
+  "admin.orderManagement": "የትዕዛዝ አስተዳደር",
+  "admin.orders": "ትዕዛዞች",
+  "admin.customOrders": "ብጁ ትዕዛዞች",
+  "admin.topupOrders": "የሙሉ መሙላት ትዕዛዞች",
+
+  "admin.userManagement": "የተጠቃሚ አስተዳደር",
+  "admin.customers": "ደንበኞች",
+  "admin.kycVerification": "KYC ማረጋገጫ",
+
+  "admin.masterEsimPackages": "ዋና eSIM ፓኬጆች",
+  "admin.providers": "አቅራቢዎች",
+  "admin.esimCatalog": "eSIM ካታሎግ",
+  "admin.topupPackages": "የመሙላት ፓኬጆች",
+  "admin.regions": "ክልሎች",
+  "admin.countries": "አገሮች",
+
+  "admin.marketing": "ማርኬቲንግ",
+  "admin.vouchers": "ቫውቸሮች",
+  "admin.giftCards": "የስጦታ ካርዶች",
+  "admin.referralProgram": "የማጣቀሻ ፕሮግራም",
+
+  "admin.supportSystem": "የድጋፍ ስርዓት",
+  "admin.support": "ድጋፍ",
+
+  "admin.inAppPurchases": "በመተግበሪያ ውስጥ ግዢዎች",
+  "admin.priceBrackets": "የዋጋ ክልሎች",
+
+  "admin.paymentGateways": "የክፍያ ጌትዌይዎች",
+  "admin.gateways": "ጌትዌይዎች",
+
+  "admin.alerts": "ማስጠንቀቂያዎች",
+  "admin.notifications": "ማሳወቂያዎች",
+
+  "admin.reporting": "ሪፖርት",
+  "admin.analyticsReports": "አናሊቲክስ እና ሪፖርቶች",
+  "admin.advancedAnalytics": "የላቀ አናሊቲክስ",
+  "admin.reviews": "ግምገማዎች",
+
+  "admin.platformSetup": "የፕላትፎርም ማቀናበር",
+  "admin.settings": "ቅንብሮች",
+  "admin.currencies": "ምንዛሬዎች",
+  "admin.failoverApi": "Failover እና API",
+  "admin.bannerManagement": "የባነር አስተዳደር",
+  "admin.pagesManagement": "የገጽ አስተዳደር",
+  "admin.faqManagement": "FAQ አስተዳደር",
+
+  "admin.internationalization": "ኢንተርናሽናላይዜሽን",
+  "admin.languages": "ቋንቋዎች",
+  "admin.translations": "ትርጉሞች",
+
+  "admin.blog": "ብሎግ",
+  "admin.apiDocs": "API ሰነዶች",
+
+
+  "admin.dashboard.title": "ዳሽቦርድ",
+  "admin.dashboard.description": "እንኳን ደህና መጡ! ዛሬ በእርስዎ eSIM ገበያ ላይ የሚካሄዱት ነገሮች እነሆ።",
+
+  "admin.dashboard.loadingDashboard": "ዳሽቦርድ በመጫን ላይ...",
+
+  "admin.dashboard.totalRevenue": "ጠቅላላ ገቢ",
+  "admin.dashboard.totalCost": "ጠቅላላ ወጪ",
+  "admin.dashboard.costToProviders": "ለአቅራቢዎች ወጪ",
+  "admin.dashboard.profit": "ትርፍ",
+
+  "admin.dashboard.totalOrders": "ጠቅላላ ትዕዛዞች",
+  "admin.dashboard.totalEsims": "የተሸጡ eSIM",
+
+  "admin.dashboard.customers": "ደንበኞች",
+  "admin.dashboard.thisMonth": "በዚህ ወር",
+
+  "admin.dashboard.activePackages": "ንቁ ፓኬጆች",
+  "admin.dashboard.packages": "ፓኬጆች",
+
+  "admin.dashboard.totalTickets": "ጠቅላላ ቲኬቶች",
+  "admin.dashboard.tickets": "ቲኬቶች",
+
+  "admin.dashboard.vsLastMonth": "ከባለፈው ወር ጋር",
+
+  "admin.dashboard.revenueTrend": "የገቢ አዝማሚያ",
+  "admin.dashboard.last6Months": "ያለፉት 6 ወራት አፈጻጸም",
+
+  "admin.dashboard.orderStatus": "የትዕዛዝ ሁኔታ",
+  "admin.dashboard.distributionOverview": "የስርጭት እይታ",
+
+  "admin.dashboard.topDestinations": "ከፍተኛ መዳረሻዎች",
+  "admin.dashboard.topDestinationsDesc": "በአገር የታወቁ ፓኬጆች",
+
+  "admin.dashboard.orders": "ትዕዛዞች",
+  "admin.dashboard.viewAll": "ሁሉን ይመልከቱ",
+
+  "admin.dashboard.latestOrders": "የቅርብ ትዕዛዞች",
+  "admin.dashboard.latestOrdersDesc": "የቅርብ ጊዜ eSIM ግዢዎች",
+
+  "admin.dashboard.latestCustomers": "አዲስ ደንበኞች",
+  "admin.dashboard.latestCustomersDesc": "በቅርቡ የተመዘገቡ ተጠቃሚዎች",
+
+  "admin.dashboard.adminOrder": "የአድሚን ትዕዛዝ",
+  "admin.dashboard.noName": "ስም የለም",
+
+  "admin.dashboard.joined": "ተቀላቀለ",
+
+  "admin.dashboard.noOrdersYet": "እስካሁን ትዕዛዝ የለም",
+  "admin.dashboard.noOrdersDesc": "ገበያዎ ዝግጁ ነው! ፓኬጆች ያክሉ እና የመጀመሪያ ትዕዛዞችን ይጠብቁ።",
+
+  "admin.dashboard.managePackages": "ፓኬጆችን ያስተዳድሩ",
+  "admin.dashboard.viewCustomers": "ደንበኞችን ይመልከቱ",
+
+
+  
+  "admin.orders.title": "የትዕዛዝ አስተዳደር",
+  "admin.orders.description": "ሁሉንም eSIM ትዕዛዞች ማስተዳደር እና መከታተል",
+  "admin.orders.fetchPending": "ተጠባባቂ ማምጣት",
+  "admin.orders.orderEsims": "eSIM ይዘዙ",
+  "admin.orders.exportOrders": "ትዕዛዞችን ላክ",
+  "admin.orders.searchPlaceholder": "በኢሜይል፣ ትዕዛዝ ID ወይም መዳረሻ ፈልግ...",
+  "admin.orders.filterByStatus": "በሁኔታ ያጣሩ",
+  "admin.orders.allStatuses": "ሁሉም ሁኔታዎች",
+  "admin.orders.processing": "በሂደት ላይ",
+  "admin.orders.completed": "ተጠናቋል",
+  "admin.orders.failed": "አልተሳካም",
+  "admin.orders.cancelled": "ተሰርዟል",
+  "admin.orders.orders": "ትዕዛዞች",
+  "admin.orders.orderId": "የትዕዛዝ ID",
+  "admin.orders.customer": "ደንበኛ",
+  "admin.orders.destination": "መዳረሻ",
+  "admin.orders.package": "ፓኬጅ",
+  "admin.orders.amount": "መጠን",
+  "admin.orders.status": "ሁኔታ",
+  "admin.orders.loadingOrders": "ትዕዛዞች በመጫን ላይ...",
+  "admin.orders.noOrdersFound": "ምንም ትዕዛዝ አልተገኘም",
+  "admin.orders.ordersWillAppear": "ደንበኞች መግዛት ሲጀምሩ ትዕዛዞች እዚህ ይታያሉ",
+  "admin.orders.notAssignedToCustomer": "ለደንበኛ አልተመደበም",
+  "admin.orders.viewEsim": "eSIM ይመልከቱ",
+  "admin.orders.sendInstructions": "መመሪያዎችን ላክ",
+  "admin.orders.markAsCompleted": "እንደተጠናቀቀ ምልክት ያድርጉ",
+  "admin.orders.deleteOrder": "ትዕዛዝ ሰርዝ",
+  "admin.orders.deleteConfirm": "ይህን ትዕዛዝ ለማጥፋት እርግጠኛ ነዎት?",
+  "admin.orders.orderDetails": "የትዕዛዝ ዝርዝሮች",
+  "admin.orders.completeInformation": "ስለዚህ ትዕዛዝ ሙሉ መረጃ",
+  "admin.orders.iccid": "ICCID",
+  "admin.orders.providerInfo": "የአቅራቢ መረጃ",
+  "admin.orders.originalProvider": "የመጀመሪያ አቅራቢ",
+  "admin.orders.finalProvider": "የመጨረሻ አቅራቢ",
+  "admin.orders.failover": "ፌይሎቨር",
+  "admin.orders.failoverHistory": "የፌይሎቨር ታሪክ",
+
+
+
+  "admin.customOrders.title": "የተበጀ eSIM ትዕዛዞች",
+"admin.customOrders.description": "ቀድሞ የተገዙ eSIMዎችን ለደንበኞች ማየት እና መመደብ",
+"admin.customOrders.button.orderMore": "ተጨማሪ eSIM ይዘዙ",
+"admin.customOrders.search.placeholder": "በትዕዛዝ ID፣ በጥያቄ ID ወይም በመዳረሻ ፈልግ...",
+"admin.customOrders.filter.status": "በሁኔታ ማጣራት",
+"admin.customOrders.filter.allStatuses": "ሁሉም ሁኔታዎች",
+"admin.customOrders.filter.pending": "በመጠባበቅ ላይ",
+"admin.customOrders.filter.processing": "በሂደት ላይ",
+"admin.customOrders.filter.completed": "ተጠናቋል",
+"admin.customOrders.filter.failed": "አልተሳካም",
+"admin.customOrders.table.title": "ሁሉም የተበጀ eSIM ትዕዛዞች",
+"admin.customOrders.table.description": "ያልተመደቡ eSIMዎች ሙሉ ዝርዝር",
+"admin.customOrders.table.orderId": "የትዕዛዝ ID",
+"admin.customOrders.table.requestId": "የጥያቄ ID",
+"admin.customOrders.table.destination": "መዳረሻ",
+"admin.customOrders.table.package": "ፓኬጅ",
+"admin.customOrders.table.iccid": "ICCID",
+"admin.customOrders.table.status": "ሁኔታ",
+"admin.customOrders.table.action": "እርምጃ",
+"admin.customOrders.table.na": "የለም",
+"admin.customOrders.table.pending": "በመጠባበቅ ላይ",
+"admin.customOrders.table.processingStatus": "በሂደት ላይ...",
+"admin.customOrders.loading": "ትዕዛዞች በመጫን ላይ...",
+"admin.customOrders.empty.title": "ምንም የተበጀ eSIM ትዕዛዝ የለም",
+"admin.customOrders.empty.description": "ለደንበኞች ለመመደብ eSIM ይዘዙ",
+"admin.customOrders.button.orderEsims": "eSIM ይዘዙ",
+"admin.customOrders.dialog.title": "eSIM ለደንበኛ መመደብ",
+"admin.customOrders.dialog.description": "ይህን eSIM ለመመደብ ደንበኛ ይምረጡ",
+"admin.customOrders.dialog.searchLabel": "ደንበኛ ፈልግ",
+"admin.customOrders.dialog.searchPlaceholder": "በስም፣ ኢሜይል ወይም የደንበኛ ID ፈልግ...",
+"admin.customOrders.dialog.cancel": "ይቅር",
+"admin.customOrders.dialog.assignButton": "eSIM መመደብ",
+"admin.customOrders.dialog.assigning": "በመመደብ ላይ...",
+"admin.customOrders.table.assignedTo": "ለማን ተመደበ",
+
+
+  "admin.topups.title": "የTop-Up አስተዳደር",
+  "admin.topups.description": "ሁሉንም የTop-Up ትዕዛዞች ያስተዳድሩ እና ገቢን ይከታተሉ",
+  "admin.topups.exportCSV": "CSV ወደ ውጭ አውጣ",
+  "admin.topups.totalTopUps": "ጠቅላላ Top-Ups",
+  "admin.topups.totalRevenue": "ጠቅላላ ገቢ",
+  "admin.topups.totalCost": "ጠቅላላ ወጪ",
+  "admin.topups.totalProfit": "ጠቅላላ ትርፍ",
+  "admin.topups.searchPlaceholder": "በኢሜይል፣ ICCID ወይም Topup ID ይፈልጉ...",
+  "admin.topups.filterByStatus": "በሁኔታ ይምረጡ",
+  "admin.topups.allStatuses": "ሁሉም ሁኔታዎች",
+  "admin.topups.pending": "በመጠባበቅ ላይ",
+  "admin.topups.processing": "በሂደት ላይ",
+  "admin.topups.completed": "ተጠናቋል",
+  "admin.topups.failed": "አልተሳካም",
+  "admin.topups.topupId": "Topup ID",
+  "admin.topups.customer": "ደንበኛ",
+  "admin.topups.iccid": "ICCID",
+  "admin.topups.package": "ፓኬጅ",
+  "admin.topups.customerPrice": "የደንበኛ ዋጋ",
+  "admin.topups.airalosCost": "የAiralo ወጪ",
+  "admin.topups.margin": "ማርጅን",
+  "admin.topups.profit": "ትርፍ",
+  "admin.topups.status": "ሁኔታ",
+  "admin.topups.date": "ቀን",
+  "admin.topups.loadingTopups": "Top-Ups በመጫን ላይ...",
+  "admin.topups.noTopupsFound": "Top-Ups አልተገኙም",
+  "admin.topups.tryAdjustingFilters": "እባክዎን ፊልተሮችዎን ያስተካክሉ",
+  "admin.topups.topupsWillAppear": "የTop-Up ትዕዛዞች እዚህ ይታያሉ",
+  "admin.topups.showing": "በማሳየት ላይ",
+  "admin.topups.to": "እስከ",
+  "admin.topups.of": "ከ",
+  "admin.topups.topups": "Top-Ups",
+  "admin.topups.noData": "ምንም ውሂብ የለም",
+  "admin.topups.noTopupsToExport": "ለመላክ Top-Ups የሉም",
+  "admin.topups.exportSuccessful": "መላክ ተሳክቷል",
+  "admin.topups.topupsExportedToCSV": "{{count}} Top-Ups ወደ CSV ተላኩ",
+  "admin.topups.exportFailed": "መላክ አልተሳካም",
+  "admin.topups.failedToExport": "Top-Ups መላክ አልተሳካም",
+
+
+  "admin.customers.title": "የደንበኞች አስተዳደር",
+"admin.customers.description": "የደንበኞች መለያዎችን ይመልከቱ እና ያስተዳድሩ",
+
+"admin.customers.searchPlaceholder": "በስም፣ ኢሜይል ወይም የደንበኛ ID ይፈልጉ...",
+
+"admin.customers.totalCustomers": "ጠቅላላ ደንበኞች",
+"admin.customers.activeCustomers": "ንቁ ደንበኞች",
+"admin.customers.blockedCustomers": "የታገዱ ደንበኞች",
+"admin.customers.deletedCustomers": "የተሰረዙ ደንበኞች",
+
+"admin.customers.table.customer": "ደንበኛ",
+"admin.customers.table.email": "ኢሜይል",
+"admin.customers.table.status": "ሁኔታ",
+"admin.customers.table.userStatus": "የተጠቃሚ ሁኔታ",
+"admin.customers.table.orders": "ትዕዛዞች",
+"admin.customers.table.esims": "eSIMs",
+"admin.customers.table.created": "የተፈጠረ",
+"admin.customers.table.actions": "እርምጃዎች",
+
+"admin.customers.status.active": "ንቁ",
+"admin.customers.status.blocked": "የታገደ",
+"admin.customers.status.deleted": "የተሰረዘ",
+
+"admin.customers.dialog.title": "የደንበኛ ዝርዝር",
+"admin.customers.dialog.description": "የደንበኛ መረጃ እና እንቅስቃሴ ይመልከቱ",
+
+"admin.customers.tabs.overview": "አጠቃላይ እይታ",
+"admin.customers.tabs.orders": "ትዕዛዞች",
+"admin.customers.tabs.activity": "እንቅስቃሴ",
+
+"admin.customers.overview.totalEsims": "ጠቅላላ eSIMs",
+"admin.customers.overview.activeEsims": "ንቁ eSIMs",
+"admin.customers.overview.failedEsims": "ያልተሳኩ",
+"admin.customers.overview.totalOrders": "ጠቅላላ ትዕዛዞች",
+
+"admin.customers.orders.noOrders": "እስካሁን ምንም ትዕዛዝ የለም",
+"admin.customers.orders.noOrdersDesc": "ይህ ደንበኛ እስካሁን ምንም ግዢ አላደረገም",
+
+"admin.customers.orders.orderId": "የትዕዛዝ ID",
+"admin.customers.orders.price": "ዋጋ",
+"admin.customers.orders.date": "ቀን",
+
+"admin.customers.activity.accountCreated": "መለያ ተፈጥሯል",
+"admin.customers.activity.verificationStatus": "የአሁኑ የማረጋገጫ ሁኔታ",
+
+"admin.customers.activity.noActivity": "እስካሁን ምንም እንቅስቃሴ የለም",
+"admin.customers.activity.noActivityDesc": "የደንበኛ እንቅስቃሴ እዚህ ይታያል",
+
+"admin.customers.createCustomer": "ደንበኛ ፍጠር",
+"admin.customers.exportCustomers": "ደንበኞችን ኤክስፖርት አድርግ",
+"admin.customers.createNewCustomer": "አዲስ ደንበኛ ፍጠር",
+"admin.customers.addNewCustomer": "አዲስ ደንበኛ ወደ ሲስተሙ ጨምር",
+
+"admin.customers.customerDetails": "የደንበኛ ዝርዝሮች",
+"admin.customers.completeInformation": "የዚህ ደንበኛ ሙሉ መረጃ",
+
+"admin.customers.details": "ዝርዝሮች",
+"admin.customers.customerId": "የደንበኛ ID",
+"admin.customers.phone": "ስልክ",
+"admin.customers.phoneNumber": "የስልክ ቁጥር",
+"admin.customers.joined": "ተቀላቀለ",
+"admin.customers.joinedDate": "የተቀላቀለበት ቀን",
+"admin.customers.lastUpdated": "የመጨረሻ ዝማኔ",
+"admin.customers.address": "አድራሻ",
+
+"admin.customers.notProvided": "አልተሰጠም",
+
+"admin.customers.verified": "የተረጋገጠ",
+
+"admin.customers.allKyc": "ሁሉም KYC",
+"admin.customers.approved": "የተፈቀደ",
+"admin.customers.submitted": "ተልኳል",
+"admin.customers.rejected": "ውድቅ ተደርጓል",
+
+"admin.customers.customers": "ደንበኞች",
+"admin.customers.noCustomersFound": "ምንም ደንበኞች አልተገኙም",
+"admin.customers.customersWillAppear": "ደንበኞች ሲመዘገቡ እዚህ ይታያሉ",
+
+"admin.customers.loadingCustomers": "ደንበኞች እየተጫኑ ነው...",
+
+"admin.customers.updateSuccess": "ደንበኛ በተሳካ ሁኔታ ተዘምኗል",
+"admin.customers.failedToUpdate": "ደንበኛን ማዘመን አልተሳካም",
+
+"admin.customers.kycStatusUpdated": "የደንበኛ KYC ሁኔታ በተሳካ ሁኔታ ተዘምኗል",
+"admin.customers.failedToUpdateKyc": "የKYC ሁኔታ ማዘመን አልተሳካም",
+
+"admin.customers.deleteCustomer": "ደንበኛ ሰርዝ",
+"admin.customers.deleteTitle": "ደንበኛ ሰርዝ",
+"admin.customers.deleteConfirm": "እርግጠኛ ነዎት ይህን ደንበኛ ለማጥፋት? ይህ እርምጃ እንደገና ሊመለስ አይችልም።",
+"admin.customers.deleteSuccess": "ደንበኛ በተሳካ ሁኔታ ተሰርዟል",
+"admin.customers.failedToDelete": "ደንበኛን ማጥፋት አልተሳካም",
+
+"admin.customers.blockCustomer": "ደንበኛን አግድ",
+"admin.customers.unblockCustomer": "ደንበኛን እንደገና ክፈት",
+"admin.customers.blockTitle": "ደንበኛን አግድ",
+"admin.customers.unblockTitle": "ደንበኛን እንደገና ክፈት",
+"admin.customers.blockConfirm": "እርግጠኛ ነዎት ይህን ደንበኛ ለማገድ? እሱ ወዲያውኑ ከስርዓቱ ይወገዳል።",
+"admin.customers.unblockConfirm": "እርግጠኛ ነዎት ይህን ደንበኛ ለመክፈት? እሱ እንደገና መዳረሻ ያገኛል።",
+
+"admin.customers.createSuccess": "ደንበኛ በተሳካ ሁኔታ ተፈጥሯል",
+"admin.customers.failedToCreate": "ደንበኛ መፍጠር አልተሳካም",
+"admin.customers.emailExists": "በዚህ ኢሜይል ያለ ተጠቃሚ አስቀድሞ አለ",
+
+"admin.customers.exportSuccess": "ኤክስፖርት በተሳካ ሁኔታ ተከናውኗል",
+"admin.customers.exportedCustomers": "{{count}} ደንበኞች ወደ CSV ተኤክስፖርተዋል",
+"admin.customers.noCustomersToExport": "ለኤክስፖርት ምንም ደንበኞች የሉም",
+"admin.customers.blockedCustomer": "የታገደ ደንበኛ",
+
+"admin.customers.allStatuses": "ሁሉም ሁኔታዎች",
+"admin.customers.accountStatus": "የመለያ ሁኔታ",
+"admin.customers.kycStatus": "የKYC ሁኔታ",
+"admin.customers.pending": "በመጠባበቅ ላይ",
+
+
+
+  "admin.kyc.title": "የKYC ማረጋገጫ",
+  "admin.kyc.subtitle": "የደንበኛ መታወቂያ ሰነዶችን ይመርምሩ እና ያረጋግጡ",
+
+  "admin.kyc.option.hideRejected": "የተከለከሉትን ደብቅ",
+
+  "admin.kyc.stats.pendingReviews": "የሚጠብቁ እርምጃዎች",
+  "admin.kyc.stats.documentsAwaiting": "ማረጋገጫ የሚጠብቁ ሰነዶች",
+
+  "admin.kyc.tabs.all": "ሁሉም",
+  "admin.kyc.tabs.pending": "በመጠባበቅ ላይ",
+  "admin.kyc.tabs.verified": "ተረጋግጧል",
+  "admin.kyc.tabs.rejected": "ተከልክሏል",
+
+  "admin.kyc.loading": "የማረጋገጫ ጥያቄዎችን በመጫን ላይ...",
+
+  "admin.kyc.status.pending": "በመጠባበቅ ላይ",
+  "admin.kyc.status.verified": "ተረጋግጧል",
+  "admin.kyc.status.rejected": "ተከልክሏል",
+
+  "admin.kyc.review": "ይመርምሩ",
+  "admin.kyc.approve": "ያረጋግጡ",
+  "admin.kyc.reject": "ውድቅ አድርግ",
+
+  "admin.kyc.noPendingTitle": "ምንም የሚጠብቅ የለም!",
+  "admin.kyc.noPending": "ከዚህ ማጣሪያ ጋር የሚመሳሰሉ የማረጋገጫ ጥያቄዎች አልተገኙም",
+
+  "admin.kyc.dialog.title": "የማረጋገጫ ግምገማ",
+  "admin.kyc.dialog.description": "የተላከውን ሰነድ ከተጠቃሚው መረጃ ጋር በጥንቃቄ ይመርምሩ",
+
+  "admin.kyc.dialog.customerName": "የደንበኛ ስም",
+  "admin.kyc.dialog.email": "ኢሜይል",
+  "admin.kyc.dialog.documentType": "የሰነድ አይነት",
+  "admin.kyc.dialog.phone": "ስልክ",
+  "admin.kyc.dialog.submitted": "የተላከበት ቀን",
+  "admin.kyc.dialog.fileName": "የሰነድ ፋይል",
+  "admin.kyc.dialog.notProvided": "አልተሰጠም",
+
+  "admin.kyc.dialog.previewNote": "ሙሉ ግልጽነት እና ደህንነት ለማረጋገጥ ሰነዱን በአዲስ የደህንነት ታብ ውስጥ ይክፈቱ እና ይመርምሩ።",
+  "admin.kyc.dialog.viewDocument": "በሙሉ መጠን ክፈት",
+  "admin.kyc.dialog.close": "ዝጋ",
+
+  "admin.kyc.rejectDialog.title": "የመከልከል ምክንያት ይግለጹ",
+  "admin.kyc.rejectDialog.description": "ይህ ሰነድ ለምን ማረጋገጫውን እንደማያሟላ በግልጽ ይግለጹ። ይህ ማስታወሻ በቀጥታ ወደ ደንበኛው ይላካል።",
+  "admin.kyc.rejectDialog.rejectionReason": "የመከልከል ምክንያት",
+  "admin.kyc.rejectDialog.placeholder": "ምሳሌ፦ የፓስፖርት ፎቶው ጭጋግ ነው እና ማንበብ አይቻልም። እባክዎ ጥራት ያለው ፎቶ እንደገና ይስቀሉ።",
+  "admin.kyc.rejectDialog.cancel": "ተመለስ",
+  "admin.kyc.rejectDialog.confirmRejection": "መከልከልን አረጋግጥ",
+  "admin.kyc.rejectDialog.rejecting": "በሂደት ላይ...",
+
+  "admin.kyc.confirmApproveTitle": "የKYC ሰነድ ያረጋግጡ",
+  "admin.kyc.confirmApproveDescription": "ይህን የደንበኛ መታወቂያ ሰነድ ማረጋገጥ እንደሚፈልጉ እርግጠኛ ነዎት? ይህ ፕሮፋይሉን እንደ KYC የተረጋገጠ ያሳያል።",
+  "admin.kyc.confirmApproveAction": "ሰነዱን ያረጋግጡ",
+
+  "admin.kyc.reasonRequiredTitle": "ምክንያት ያስፈልጋል",
+  "admin.kyc.reasonRequiredDescription": "እባክዎ የመከልከል ምክንያት ያቅርቡ",
+
+  "admin.kyc.approvedTitle": "KYC ተረጋግጧል",
+  "admin.kyc.approvedDescription": "የተጠቃሚው መለያ በተሳካ ሁኔታ ተረጋግጧል።",
+
+  "admin.kyc.rejectedTitle": "KYC ተከልክሏል",
+  "admin.kyc.rejectedDescription": "ተጠቃሚው ከመከልከል ምክንያቱ ጋር ተገናኝቷል።",
+
+  "admin.kyc.approvalFailedTitle": "ማረጋገጫ አልተሳካም",
+  "admin.kyc.approvalFailedDescription": "KYC ማረጋገጥ አልተቻለም",
+
+  "admin.kyc.rejectionFailedTitle": "መከልከል አልተሳካም",
+  "admin.kyc.rejectionFailedDescription": "KYC መከልከል አልተቻለም",
+
+
+
+  
+  "admin.providers.title": "የአቅራቢዎች አስተዳደር",
+  "admin.providers.subtitle": "የeSIM አቅራቢዎችን ያስተዳድሩ፣ ፓኬጆችን ያስማሙ እና ኢንቲግሬሽኖችን ያቀናብሩ",
+
+  "admin.providers.loading": "አቅራቢዎችን በመጫን ላይ...",
+
+  "admin.providers.cardTitle": "አቅራቢዎች",
+  "admin.providers.cardDescription": "ሁሉንም የeSIM አቅራቢ ኢንቲግሬሽኖች ይመልከቱ እና ያስተዳድሩ",
+
+  "admin.providers.noProviders": "ምንም አቅራቢ አልተቀናበረም",
+
+  "admin.providers.runPriceComparison": "የዋጋ ንፅፅር አስኪድ",
+
+  "admin.providers.preferred": "ተመራጭ",
+
+  "admin.providers.enabled": "ነቅቷል",
+  "admin.providers.disabled": "ተሰናክሏል",
+
+  "admin.providers.never": "አትክል",
+  "admin.providers.invalidDate": "የማይሰራ ቀን",
+
+  "admin.providers.sync": "አስማም",
+
+  "admin.providers.table.provider": "አቅራቢ",
+  "admin.providers.table.status": "ሁኔታ",
+  "admin.providers.table.apiHealth": "የAPI ጤና",
+  "admin.providers.table.lastSync": "የመጨረሻ ማስማማት",
+  "admin.providers.table.packages": "ፓኬጆች",
+  "admin.providers.table.syncInterval": "የማስማማት ጊዜ ክፍተት",
+  "admin.providers.table.margin": "ማርጂን",
+  "admin.providers.table.actions": "እርምጃዎች",
+
+  "admin.providers.status.disabled": "ተሰናክሏል",
+  "admin.providers.status.neverSynced": "አስማም አልተደረገም",
+  "admin.providers.status.healthy": "ጤናማ",
+  "admin.providers.status.stale": "ያረጀ",
+
+  "admin.providers.syncCompletedTitle": "ማስማማት ተጠናቀቀ",
+  "admin.providers.syncCompletedDescription": "የአቅራቢው ፓኬጆች በተሳካ ሁኔታ ተስማሙ።",
+
+  "admin.providers.syncFailedTitle": "ማስማማት አልተሳካም",
+  "admin.providers.syncFailedDescription": "የአቅራቢ ፓኬጆችን ማስማማት አልተቻለም።",
+
+  "admin.providers.priceComparisonCompleteTitle": "የዋጋ ንፅፅር ተጠናቀቀ",
+  "admin.providers.priceComparisonCompleteDescription": "{{total}} ፓኬጆች ተመርመሩ፣ {{best}} በጣም ጥሩ ዋጋ ያላቸው ፓኬጆች ተገኙ።",
+
+  "admin.providers.priceComparisonFailedTitle": "የዋጋ ንፅፅር አልተሳካም",
+  "admin.providers.priceComparisonFailedDescription": "የዋጋ ንፅፅር ማስኬድ አልተቻለም።",
+
+
+
+"admin.providers.config.title": "አቅራቢ አዋቅር",
+"admin.providers.config.description": "የAPI ቅንብሮችን፣ ሲንክ ኮንፊግሬሽንን፣ ዌብሁኮችን እና ዋጋ አዋቅርን አስተዳድር",
+
+"admin.providers.tabs.api": "API",
+"admin.providers.tabs.sync": "ሲንክ",
+"admin.providers.tabs.webhook": "ዌብሁክ",
+"admin.providers.tabs.pricing": "ዋጋ",
+"admin.providers.tabs.preferred": "የሚመረጥ",
+
+"admin.providers.apiSettings.title": "የAPI ቅንብሮች",
+"admin.providers.apiSettings.description": "የAPI ግንኙነት እና የሬት ሊሚት አዋቅር። የAPI ቁልፎች በSecrets ውስጥ በደህና ይቀመጣሉ።",
+"admin.providers.apiBaseUrl": "የAPI መሠረት URL",
+"admin.providers.apiRateLimit": "የAPI ሬት ሊሚት (ጥያቄ/ሰዓት)",
+"admin.providers.apiRateLimitDesc": "ሬት ሊሚት እንዳይደርስ በሰዓት ውስጥ የሚፈቀዱ ከፍተኛ የAPI ጥያቄዎች",
+"admin.providers.apiKeyConfig": "የAPI ቁልፍ ኮንፊግሬሽን",
+
+"admin.providers.syncSettings.title": "የሲንክ ቅንብሮች",
+"admin.providers.syncSettings.description": "የፓኬጅ ሲንክሮናይዜሽን እና የአቅራቢ ሁኔታ አዋቅር",
+"admin.providers.enableProvider": "አቅራቢን አንቃ",
+"admin.providers.enableProviderDesc": "ይህን አቅራቢ ለፓኬጅ ሲንክ እና ለትዕዛዞች አንቃ ወይም አጥፋ",
+"admin.providers.syncInterval": "የሲንክ ክፍተት (ደቂቃ)",
+"admin.providers.syncIntervalDesc": "ከዚህ አቅራቢ ፓኬጆች ምን ያህል ጊዜ እንዲሰናከሉ (በደቂቃ)",
+
+"admin.providers.webhook.title": "የዌብሁክ ኮንፊግሬሽን",
+"admin.providers.webhook.description": "ለእውነተኛ ጊዜ የትዕዛዝ እና የማሳወቂያ አዘምኖች ዌብሁኮችን አዋቅር",
+"admin.providers.webhookEndpoints": "የዌብሁክ ኤንድፖይንቶች",
+"admin.providers.copy": "ቅዳ",
+
+"admin.providers.notifications.title": "የማሳወቂያ ቅንብሮች",
+"admin.providers.notifications.description": "ለዚህ አቅራቢ የተወሰኑ የማሳወቂያ አይነቶችን አንቃ ወይም አጥፋ",
+
+"admin.providers.notifications.lowData75": "ዝቅተኛ ዳታ ማሳወቂያ (75% ተጠቃሚ)",
+"admin.providers.notifications.lowData75Desc": "75% ዳታ ሲጠቀም ማሳወቂያ ላክ",
+
+"admin.providers.notifications.lowData90": "ዝቅተኛ ዳታ ማሳወቂያ (90% ተጠቃሚ)",
+"admin.providers.notifications.lowData90Desc": "90% ዳታ ሲጠቀም ማሳወቂያ ላክ",
+
+"admin.providers.notifications.expiring3Days": "በቅርቡ የሚያልቅ ማሳወቂያ (3 ቀናት)",
+"admin.providers.notifications.expiring3DaysDesc": "eSIM ከሚያልቅ 3 ቀናት በፊት ማሳወቂያ ላክ",
+
+"admin.providers.notifications.expiring1Day": "የሚያልቅ ማሳወቂያ (1 ቀን)",
+"admin.providers.notifications.expiring1DayDesc": "eSIM ከሚያልቅ 1 ቀን በፊት ማሳወቂያ ላክ",
+
+"admin.providers.notifications.orderStatus": "የትዕዛዝ ሁኔታ ማሳወቂያ",
+"admin.providers.notifications.orderStatusDesc": "ትዕዛዞች ሲጠናቀቁ ወይም ሲከሽፉ ማሳወቂያ ላክ",
+
+"admin.providers.webhookSecret": "የዌብሁክ ሚስጥር",
+"admin.providers.webhookSecretDesc": "የዌብሁክ ፊርማዎችን ለማረጋገጥ የሚጠቀም ሚስጥር ቁልፍ (HMAC-SHA256)",
+
+"admin.providers.supportedEvents": "የሚደገፉ የዌብሁክ ክስተቶች",
+"admin.providers.event.orderStatus": "የትዕዛዝ ሁኔታ አዘምኖች (ተጠናቀቀ፣ አልተሳካም)",
+"admin.providers.event.lowData": "ዝቅተኛ ዳታ ማሳወቂያዎች",
+
+"admin.providers.pricing.title": "የዋጋ ኮንፊግሬሽን",
+"admin.providers.pricing.description": "ለዚህ አቅራቢ ፓኬጆች የዋጋ ማርጂን አዋቅር",
+"admin.providers.pricingMargin": "የዋጋ ማርጂን (%)",
+"admin.providers.pricingMarginDesc": "በአቅራቢው መሠረታዊ ዋጋ ላይ የሚጨመር መቶኛ ጭማሪ",
+"admin.providers.exampleCalculation": "የምሳሌ ሂሳብ",
+
+"admin.providers.preferred.title": "የሚመረጥ አቅራቢ",
+"admin.providers.preferred.description": "ለአውቶ ፓኬጅ ምርጫ እንደ ዋና አቅራቢ አዘጋጅ",
+"admin.providers.preferredProvider": "የሚመረጥ አቅራቢ",
+"admin.providers.preferredProviderDesc": "አውቶ ሞድ ብዙ የተመሳሳይ ዋጋ ፓኬጆችን ካገኘ ይህ አቅራቢ ይመረጣል",
+
+"admin.providers.preferredHowWorks": "የሚመረጥ አቅራቢ እንዴት ይሰራል",
+"admin.providers.preferredHowWorksDesc": "በአውቶ ሞድ ስርዓቱ መጀመሪያ ከሁሉም አቅራቢዎች መካከል በጣም ዝቅተኛ ዋጋ ያላቸውን ፓኬጆች ይፈልጋል። ከዚያ በኋላ ብዙ አቅራቢዎች ተመሳሳይ ዋጋ ካቀረቡ የሚመረጠው አቅራቢ ፓኬጆች በራስ-ሰር ይነቃሉ።",
+
+"common.cancel": "ሰርዝ",
+"common.saveChanges": "ለውጦችን አስቀምጥ",
+"common.saving": "በማስቀመጥ ላይ...",
+
+
+
+"admin.packages.title": "የፓኬጅ አስተዳደር",
+"admin.packages.description": "ከሁሉም አቅራቢዎች የተቀናጀ ፓኬጆችን በዋጋ እና በታይነት ቁጥጥር አስተዳድር",
+
+"admin.packages.stats.total": "ጠቅላላ ፓኬጆች",
+"admin.packages.stats.enabled": "የተነቁ",
+"admin.packages.stats.bestPrice": "በጣም ጥሩ ዋጋ",
+"admin.packages.stats.manualOverride": "በእጅ መቀየር",
+
+"admin.packages.table.title": "የተቀናጀ ፓኬጆች",
+"admin.packages.table.description": "በአቅራቢዎች መካከል የፓኬጆችን ታይነት ማጣራት እና ማስተዳደር",
+
+"admin.packages.searchPlaceholder": "ፓኬጆችን ፈልግ...",
+
+"admin.packages.filters.allProviders": "ሁሉም አቅራቢዎች",
+"admin.packages.filters.allTypes": "ሁሉም አይነቶች",
+"admin.packages.filters.allPrices": "ሁሉም ዋጋዎች",
+"admin.packages.filters.bestPriceOnly": "በጣም ጥሩ ዋጋ ብቻ",
+"admin.packages.filters.notBestPrice": "በጣም ጥሩ ዋጋ አይደለም",
+
+"admin.packages.filters.local": "አካባቢያዊ",
+"admin.packages.filters.regional": "ክልላዊ",
+"admin.packages.filters.global": "ዓለም አቀፍ",
+
+"admin.packages.filters.defaultSort": "ነባሪ መደርደሪያ",
+"admin.packages.filters.priceLowToHigh": "ዋጋ: ከዝቅተኛ ወደ ከፍተኛ",
+"admin.packages.filters.priceHighToLow": "ዋጋ: ከከፍተኛ ወደ ዝቅተኛ",
+
+"admin.packages.filters.advanced": "የላቀ ማጣሪያዎች",
+"admin.packages.filters.resetAll": "ሁሉንም እንደገና አስጀምር",
+
+"admin.packages.filters.unlimitedData": "ያልተገደበ ዳታ",
+"admin.packages.filters.popularPackages": "ታዋቂ ፓኬጆች",
+
+"admin.packages.filters.packageType": "የፓኬጅ አይነት",
+
+"admin.packages.filters.dataOnly": "ዳታ ብቻ",
+"admin.packages.filters.voiceOnly": "ድምጽ ብቻ",
+"admin.packages.filters.smsOnly": "SMS ብቻ",
+"admin.packages.filters.voiceData": "ድምጽ + ዳታ",
+"admin.packages.filters.voiceSms": "ድምጽ + SMS",
+"admin.packages.filters.dataSms": "ዳታ + SMS",
+"admin.packages.filters.allThree": "ድምጽ + ዳታ + SMS",
+
+"admin.packages.table.index": "#",
+"admin.packages.table.package": "ፓኬጅ",
+"admin.packages.table.provider": "አቅራቢ",
+"admin.packages.table.location": "አካባቢ",
+"admin.packages.table.type": "አይነት",
+"admin.packages.table.packageDetails": "የፓኬጅ ዝርዝሮች",
+"admin.packages.table.pricing": "ዋጋ",
+"admin.packages.table.status": "ሁኔታ",
+
+"admin.packages.table.popular": "ታዋቂ",
+"admin.packages.table.recommend": "የተመከረ",
+"admin.packages.table.bestValue": "በጣም ጥሩ አማራጭ",
+"admin.packages.table.enabled": "የተነቃ",
+
+"admin.packages.badges.popular": "ታዋቂ",
+"admin.packages.badges.recommended": "የተመከረ",
+"admin.packages.badges.bestValue": "በጣም ጥሩ አማራጭ",
+"admin.packages.badges.unlimited": "ያልተገደበ",
+"admin.packages.badges.bestPrice": "በጣም ጥሩ ዋጋ",
+
+"admin.packages.pricing.provider": "አቅራቢ",
+"admin.packages.pricing.selling": "የሽያጭ ዋጋ",
+"admin.packages.pricing.margin": "ማርጂን",
+
+"admin.packages.status.enabled": "የተነቃ",
+"admin.packages.status.disabled": "የተዘጋ",
+"admin.packages.status.manual": "በእጅ",
+
+"admin.packages.empty": "ከማጣሪያዎችዎ ጋር የሚዛመዱ ፓኬጆች አልተገኙም",
+
+"admin.packages.loading": "ፓኬጆች በመጫን ላይ...",
+
+"admin.packages.pagination.showing": "በማሳየት ላይ",
+"admin.packages.pagination.to": "እስከ",
+"admin.packages.pagination.of": "ከ",
+"admin.packages.pagination.packages": "ፓኬጆች",
+
+"admin.packages.pagination.previous": "ቀዳሚ",
+"admin.packages.pagination.next": "ቀጣይ",
+
+"admin.packages.toast.updatedTitle": "ፓኬጅ ተዘምኗል",
+"admin.packages.toast.updatedDesc": "የፓኬጁ ቅንብሮች በተሳካ ሁኔታ ተዘምነዋል።",
+
+"admin.packages.toast.updateFailedTitle": "ማዘመን አልተሳካም",
+"admin.packages.toast.updateFailedDesc": "የፓኬጁን ቅንብሮች ማዘመን አልተሳካም።",
+
+
+
+
+  "admin.topups.title2": "የቶፕአፕ ፓኬጆች",
+  "admin.topups.description2": "ነባር eSIMዎችን ለመሙላት የቶፕአፕ ፓኬጆችን ያስተዳድሩ",
+
+  "admin.topups.stats.total": "ጠቅላላ የቶፕአፕ ፓኬጆች",
+  "admin.topups.stats.airalo": "የAiralo ቶፕአፕ",
+  "admin.topups.stats.esimAccess": "የeSIM Access ቶፕአፕ",
+  "admin.topups.stats.esimGo": "የeSIM Go ቶፕአፕ",
+  "admin.topups.stats.maya": "የMaya Mobile ቶፕአፕ",
+
+  "admin.topups.sync.title": "የቶፕአፕ ሲንክ ሁኔታ",
+  "admin.topups.sync.description": "ከሁሉም ፕሮቫይደሮች የቶፕአፕ ፓኬጆችን ሲንክ ያድርጉ። ቶፕአፖች ከመሠረታዊ ፓኬጅ ሲንክ በኋላ በራሳቸው ይሲንካሉ።",
+
+  "admin.topups.sync": "ሲንክ",
+  "admin.topups.onDemand": "በጥያቄ",
+
+  "admin.topups.lastSync": "የመጨረሻ ሲንክ",
+  "admin.topups.never": "አይደለም",
+
+  "admin.topups.table.title": "ሁሉም የቶፕአፕ ፓኬጆች",
+  "admin.topups.search": "ቶፕአፕ ፈልግ...",
+
+  "admin.topups.filters.allProviders": "ሁሉም ፕሮቫይደሮች",
+
+  "admin.topups.empty": "ምንም የቶፕአፕ ፓኬጅ አልተገኘም",
+  "admin.topups.trySearch": "ሌላ የፍለጋ ቃል ይሞክሩ",
+  "admin.topups.triggerSync": "የቶፕአፕ ፓኬጆችን ለማምጣት ሲንክ ያስጀምሩ",
+
+  "admin.topups.table.titleCol": "ርዕስ",
+  "admin.topups.table.provider": "ፕሮቫይደር",
+  "admin.topups.table.destination": "መዳረሻ",
+  "admin.topups.table.data": "ዳታ",
+  "admin.topups.table.validity": "የቆይታ ጊዜ",
+  "admin.topups.table.price": "ዋጋ",
+  "admin.topups.table.linked": "የተገናኘ",
+  "admin.topups.table.status": "ሁኔታ",
+
+  "admin.topups.linked": "የተገናኘ",
+  "admin.topups.unlinked": "ያልተገናኘ",
+
+  "admin.topups.active": "ንቁ",
+  "admin.topups.inactive": "አልተነቃ",
+
+
+
+  
+  "admin.regions.title": "ክልሎች",
+  "admin.regions.description": "በብዙ አገሮች የሚጠቀሙ የክልል ፓኬጆችን ያስተዳድሩ",
+
+  "admin.regions.syncRegions": "ክልሎችን ማመሳሰል",
+  "admin.regions.syncing": "በማመሳሰል ላይ...",
+
+  "admin.regions.totalRegions": "ጠቅላላ ክልሎች",
+  "admin.regions.activeRegions": "ንቁ ክልሎች",
+  "admin.regions.totalPackages": "ጠቅላላ ፓኬጆች",
+
+  "admin.regions.allRegions": "ሁሉም ክልሎች",
+  "admin.regions.searchPlaceholder": "ክልሎችን ፈልግ...",
+
+  "admin.regions.noRegions": "ምንም ክልል አልተገኘም",
+
+  "admin.regions.table.icon": "አይኮን",
+  "admin.regions.table.name": "ስም",
+  "admin.regions.table.slug": "ስላግ",
+  "admin.regions.table.countries": "አገሮች",
+  "admin.regions.table.packages": "ፓኬጆች",
+  "admin.regions.table.status": "ሁኔታ",
+  "admin.regions.table.actions": "እርምጃዎች",
+
+  "admin.regions.dialog.title": "የክልል ምስል አርትዕ",
+  "admin.regions.uploadImage": "ምስል ይስቀሉ",
+
+  "admin.regions.imageFormats": "የሚፈቀዱ ፎርማቶች: JPG, PNG, GIF, WebP, SVG (ከፍተኛ 5MB)",
+
+  "admin.regions.upload": "ስቀል",
+  "admin.regions.uploading": "በመስቀል ላይ...",
+
+
+
+  
+  "admin.countries.title": "አገሮች እና ክልሎች",
+  "admin.countries.description": "የመዳረሻ አገሮችን እና ክልሎችን ያስተዳድሩ",
+
+  "admin.countries.syncCountries": "አገሮችን አስመሳሰል",
+  "admin.countries.syncing": "በመስራት ላይ...",
+
+  "admin.countries.totalDestinations": "ጠቅላላ መዳረሻዎች",
+  "admin.countries.countries": "አገሮች",
+  "admin.countries.territories": "ክልሎች",
+  "admin.countries.totalPackages": "ጠቅላላ ፓኬጆች",
+
+  "admin.countries.allCountries": "ሁሉም አገሮች",
+  "admin.countries.searchPlaceholder": "አገሮችን ይፈልጉ...",
+
+  "admin.countries.allTypes": "ሁሉም አይነቶች",
+  "admin.countries.filterCountries": "አገሮች",
+  "admin.countries.filterTerritories": "ክልሎች",
+
+  "admin.countries.noCountries": "ምንም አገር አልተገኘም።",
+
+  "admin.countries.table.flag": "ባንዲራ",
+  "admin.countries.table.icon": "አይኮን",
+  "admin.countries.table.name": "ስም",
+  "admin.countries.table.code": "ኮድ",
+  "admin.countries.table.type": "አይነት",
+  "admin.countries.table.packages": "ፓኬጆች",
+  "admin.countries.table.status": "ሁኔታ",
+  "admin.countries.table.actions": "እርምጃዎች",
+
+  "admin.countries.country": "አገር",
+  "admin.countries.territory": "ክልል",
+
+  "admin.countries.dialog.title": "የአገር ምስል አርትዕ",
+  "admin.countries.uploadImage": "ምስል አስገባ",
+  "admin.countries.imageFormats": "የተፈቀዱ ፎርማቶች: JPG, PNG, GIF, WebP, SVG (ከፍተኛ 5MB)",
+
+  "admin.countries.upload": "አስገባ",
+  "admin.countries.uploading": "በመስቀል ላይ...",
+
+
+
+  
+  "admin.vouchers.title": "የቫውቸር አስተዳደር",
+  "admin.vouchers.description": "የቅናሽ ቫውቸሮችን ይፍጠሩ እና ያስተዳድሩ",
+
+  "admin.vouchers.create": "ቫውቸር ፍጠር",
+  "admin.vouchers.createNew": "አዲስ ቫውቸር ፍጠር",
+
+  "admin.vouchers.total": "ጠቅላላ ቫውቸሮች",
+  "admin.vouchers.active": "ንቁ ቫውቸሮች",
+  "admin.vouchers.totalUsage": "ጠቅላላ አጠቃቀም",
+  "admin.vouchers.totalDiscount": "ጠቅላላ የተሰጠ ቅናሽ",
+
+  "admin.vouchers.search": "በኮድ ወይም መግለጫ ፈልግ...",
+  "admin.vouchers.allStatus": "ሁሉም ሁኔታ",
+  "admin.vouchers.allTypes": "ሁሉም አይነት",
+
+  "admin.vouchers.status.active": "ንቁ",
+  "admin.vouchers.status.inactive": "ዝግ",
+  "admin.vouchers.status.expired": "ያለፈ",
+
+  "admin.vouchers.type.percentage": "መቶኛ",
+  "admin.vouchers.type.fixed": "ቋሚ መጠን",
+
+  "admin.vouchers.table.code": "ኮድ",
+  "admin.vouchers.table.discount": "ቅናሽ",
+  "admin.vouchers.table.usage": "አጠቃቀም",
+  "admin.vouchers.table.validity": "የሚሰራበት ጊዜ",
+  "admin.vouchers.table.status": "ሁኔታ",
+  "admin.vouchers.table.actions": "እርምጃዎች",
+
+  "admin.vouchers.noVouchers": "ምንም ቫውቸር አልተገኘም",
+  "admin.vouchers.loading": "ቫውቸሮች በመጫን ላይ...",
+
+  "admin.vouchers.details": "የቫውቸር ዝርዝሮች",
+  "admin.vouchers.usageHistory": "የአጠቃቀም ታሪክ",
+
+  "admin.vouchers.validFrom": "የሚጀምርበት ቀን",
+  "admin.vouchers.validUntil": "የሚያበቃበት ቀን",
+
+  "admin.vouchers.minPurchase": "ዝቅተኛ ግዢ",
+  "admin.vouchers.maxDiscount": "ከፍተኛ ቅናሽ",
+
+  "admin.vouchers.perUserLimit": "በአንድ ተጠቃሚ ገደብ",
+  "admin.vouchers.firstTimeOnly": "ለአዲስ ደንበኞች ብቻ",
+  "admin.vouchers.descriptionField": "መግለጫ",
+
+  "admin.vouchers.discountType": "የቅናሽ አይነት",
+  "admin.vouchers.discountValue": "የቅናሽ መጠን",
+
+  "admin.vouchers.minPurchaseAmount": "ዝቅተኛ የግዢ መጠን",
+  "admin.vouchers.maxDiscountCap": "ከፍተኛ የቅናሽ ገደብ",
+
+  "admin.vouchers.totalUsageLimit": "ጠቅላላ የአጠቃቀም ገደብ",
+  "admin.vouchers.perUserLimitField": "በአንድ ተጠቃሚ ገደብ",
+
+  "admin.vouchers.validFromField": "የሚጀምርበት ቀን",
+  "admin.vouchers.validUntilField": "የሚያበቃበት ቀን",
+
+  "admin.vouchers.firstTimeCustomers": "ለአዲስ ደንበኞች ብቻ",
+  "admin.vouchers.stackable": "ከሌሎች ቅናሾች ጋር ሊጠቀም ይችላል",
+
+  "admin.vouchers.generateCode": "ኮድ ፍጠር",
+  "admin.vouchers.saving": "በማስቀመጥ ላይ...",
+
+  "admin.vouchers.update": "ቫውቸር አዘምን",
+  "admin.vouchers.createVoucher": "ቫውቸር ፍጠር",
+  "admin.vouchers.createDescription": "አዲስ የቅናሽ ቫውቸር ኮድ ፍጠር",
+   "admin.vouchers.code": "የቫውቸር ኮድ",
+
+
+
+
+   
+  "admin.giftCards.title": "የስጦታ ካርድ አስተዳደር",
+  "admin.giftCards.description": "የስጦታ ካርዶችን ፍጠር እና አስተዳድር",
+
+  "admin.giftCards.bulkDialog.title": "በብዛት የስጦታ ካርዶች ፍጠር",
+  "admin.giftCards.bulkDialog.description": "ለፕሮሞሽኖች በአንድ ጊዜ ብዙ የስጦታ ካርዶችን ፍጠር",
+  "admin.giftCards.bulkDialog.numberOfCards": "የካርዶች ብዛት",
+  "admin.giftCards.bulkDialog.amountPerCard": "በካርድ የሚሰጥ መጠን ($)",
+  "admin.giftCards.bulkDialog.generateButton": "{count} ካርዶች ፍጠር",
+  "admin.giftCards.bulkDialog.generating": "በመፍጠር ላይ...",
+
+  "admin.giftCards.createDialog.title": "የስጦታ ካርድ ፍጠር",
+  "admin.giftCards.createDialog.description": "ለደንበኛ ወይም ለፕሮሞሽን አዲስ የስጦታ ካርድ ፍጠር",
+  "admin.giftCards.createDialog.amount": "መጠን ($)",
+  "admin.giftCards.createDialog.theme": "ገጽታ",
+  "admin.giftCards.createDialog.recipientName": "የተቀባይ ስም (አማራጭ)",
+  "admin.giftCards.createDialog.recipientEmail": "የተቀባይ ኢሜይል (አማራጭ)",
+  "admin.giftCards.createDialog.personalMessage": "የግል መልዕክት (አማራጭ)",
+  "admin.giftCards.createDialog.expiresOn": "የሚያበቃበት ቀን",
+  "admin.giftCards.createDialog.createButton": "የስጦታ ካርድ ፍጠር",
+  "admin.giftCards.createDialog.creating": "በመፍጠር ላይ...",
+
+  "admin.giftCards.cards.total": "ጠቅላላ ካርዶች",
+  "admin.giftCards.cards.active": "ንቁ ካርዶች",
+  "admin.giftCards.cards.totalValue": "ጠቅላላ ዋጋ",
+  "admin.giftCards.cards.redeemed": "የተጠቀሙ",
+  "admin.giftCards.cards.pendingDelivery": "መላክ በመጠባበቅ ላይ",
+
+  "admin.giftCards.search.placeholder": "በኮድ፣ ኢሜይል ወይም ስም ፈልግ...",
+  "admin.giftCards.filter.status": "ሁኔታ",
+  "admin.giftCards.filter.all": "ሁሉም ሁኔታዎች",
+  "admin.giftCards.filter.active": "ንቁ",
+  "admin.giftCards.filter.used": "የተጠቀሙ",
+  "admin.giftCards.filter.expired": "ያበቃ",
+  "admin.giftCards.filter.cancelled": "የተሰረዘ",
+
+  "admin.giftCards.table.code": "ኮድ",
+  "admin.giftCards.table.amountBalance": "መጠን / ቀሪ ሂሳብ",
+  "admin.giftCards.table.recipient": "ተቀባይ",
+  "admin.giftCards.table.theme": "ገጽታ",
+  "admin.giftCards.table.expires": "የሚያበቃበት",
+  "admin.giftCards.table.status": "ሁኔታ",
+  "admin.giftCards.table.actions": "እርምጃዎች",
+  "admin.giftCards.table.notAssigned": "አልተመደበም",
+  "admin.giftCards.table.copySuccess": "ኮድ ወደ ክሊፕቦርድ ተቀድቷል",
+  "admin.giftCards.table.sendDelivery": "የመላኪያ ኢሜይል ላክ",
+
+  "admin.giftCards.viewDialog.title": "የስጦታ ካርድ ዝርዝሮች",
+  "admin.giftCards.viewDialog.tabs.details": "ዝርዝሮች",
+  "admin.giftCards.viewDialog.tabs.transactions": "ግብይቶች",
+  "admin.giftCards.viewDialog.label.code": "ኮድ",
+  "admin.giftCards.viewDialog.label.status": "ሁኔታ",
+  "admin.giftCards.viewDialog.label.originalAmount": "የመጀመሪያ መጠን",
+  "admin.giftCards.viewDialog.label.currentBalance": "አሁን ያለ ቀሪ ሂሳብ",
+  "admin.giftCards.viewDialog.label.recipient": "ተቀባይ",
+  "admin.giftCards.viewDialog.label.theme": "ገጽታ",
+  "admin.giftCards.viewDialog.label.created": "የተፈጠረ",
+  "admin.giftCards.viewDialog.label.expires": "የሚያበቃበት",
+  "admin.giftCards.viewDialog.label.deliveryStatus": "የመላኪያ ሁኔታ",
+  "admin.giftCards.viewDialog.label.firstRedeemed": "መጀመሪያ ጥቅም ላይ የዋለ",
+  "admin.giftCards.viewDialog.label.personalMessage": "የግል መልዕክት",
+  "admin.giftCards.viewDialog.noTransactions": "እስካሁን ምንም ግብይት የለም",
+
+
+
+  
+"common.success": "ስኬት",
+"common.error": "ስህተት",
+"common.loading": "በማስቀመጥ ላይ...",
+
+"admin.referrals.title": "የሪፈራል ፕሮግራም",
+"admin.referrals.description": "የሪፈራል ፕሮግራምዎን ያስተዳድሩ እና ይከታተሉ",
+
+"admin.referrals.settings": "ቅንብሮች",
+"admin.referrals.referrals": "ሪፈራሎች",
+"admin.referrals.analytics": "ትንታኔ",
+
+"admin.referrals.settings.title": "የሪፈራል ቅንብሮች",
+"admin.referrals.settings.description": "የሪፈራል ፕሮግራም ቅንብሮችን ያዋቅሩ",
+
+"admin.referrals.enabled": "የሪፈራል ፕሮግራም አንቃ",
+"admin.referrals.enabledDescription": "የሪፈራል ፕሮግራሙን አንቃ ወይም አጥፋ",
+
+"admin.referrals.rewardType": "የሽልማት አይነት",
+"admin.referrals.percentage": "መቶኛ",
+"admin.referrals.fixedAmount": "ቋሚ መጠን",
+
+"admin.referrals.rewardValue": "የሽልማት ዋጋ",
+"admin.referrals.referredDiscount": "ለተጠቃሚ የሚሰጥ ቅናሽ",
+"admin.referrals.minOrderAmount": "ዝቅተኛ የትዕዛዝ መጠን",
+"admin.referrals.expiryDays": "የማብቂያ ቀናት",
+
+"admin.referrals.termsAndConditions": "ውሎች እና ሁኔታዎች",
+"admin.referrals.termsPlaceholder": "ውሎች እና ሁኔታዎችን ያስገቡ...",
+
+"admin.referrals.saveSettings": "ቅንብሮችን አስቀምጥ",
+"admin.referrals.settingsSaved": "ቅንብሮች በተሳካ ሁኔታ ተቀምጠዋል",
+"admin.referrals.saveFailed": "ቅንብሮችን ማስቀመጥ አልተሳካም",
+
+"admin.referrals.totalReferrals": "ጠቅላላ ሪፈራሎች",
+"admin.referrals.conversionRate": "የመቀየሪያ መጠን",
+"admin.referrals.totalRewards": "ጠቅላላ ሽልማቶች",
+"admin.referrals.pendingPayouts": "በመጠበቅ ላይ ያሉ ክፍያዎች",
+
+"admin.referrals.referralList": "የሪፈራል ዝርዝር",
+"admin.referrals.exportCSV": "CSV ወደ ውጭ ላክ",
+
+"admin.referrals.noReferrals": "ምንም ሪፈራል አልተገኘም",
+"admin.referrals.adjustFilters": "እባክዎ ፊልተሮችዎን ያስተካክሉ",
+"admin.referrals.waitingForReferrals": "ተጠቃሚዎች ማጋራት ሲጀምሩ ሪፈራሎች እዚህ ይታያሉ",
+
+"admin.referrals.markPaid": "እንደ ተከፍሏል ምልክት አድርግ",
+"admin.referrals.markedPaid": "ሪፈራል እንደ ተከፍሏል ተመዝግቧል",
+
+"admin.referrals.monthlyGrowth": "ወርሃዊ እድገት",
+"admin.referrals.trends": "በጊዜ ላይ የሪፈራል አዝማሚያዎች",
+
+"admin.referrals.topReferrers": "ከፍተኛ ሪፈራር",
+"admin.referrals.topReferrersDescription": "በተሳካ ሪፈራሎች መሠረት ከፍተኛ 10 ሪፈራር",
+
+  "admin.referrals.searchPlaceholder": "በኢሜይል ወይም በኮድ ፈልግ...",
+  "admin.referrals.filterStatus": "በሁኔታ አጣራ",
+  "admin.referrals.allStatuses": "ሁሉም ሁኔታዎች",
+  "admin.referrals.pending": "በመጠበቅ ላይ",
+  "admin.referrals.completed": "ተጠናቋል",
+
+  "admin.referrals.noReferralsFound": "ምንም ሪፈራል አልተገኘም",
+
+  "admin.referrals.table.referrer": "ሪፈራር",
+  "admin.referrals.table.referredUser": "የተሪፈረ ተጠቃሚ",
+  "admin.referrals.table.code": "ኮድ",
+  "admin.referrals.table.status": "ሁኔታ",
+  "admin.referrals.table.reward": "ሽልማት",
+  "admin.referrals.table.paid": "ተከፍሏል",
+  "admin.referrals.table.date": "ቀን",
+  "admin.referrals.table.actions": "እርምጃዎች",
+
+  "admin.referrals.unknown": "ያልታወቀ",
+  "admin.referrals.exportSuccess": "ሪፈራሎች ወደ CSV ተላኩ",
+
+  "admin.referrals.noAnalytics": "የትንታኔ ውሂብ አልተገኘም",
+  "admin.referrals.avgReward": "አማካይ ሽልማት",
+  "admin.referrals.avgTimeToConvert": "አማካይ የመቀየር ጊዜ",
+  "admin.referrals.mostActiveMonth": "በጣም ንቁ ወር",
+  "admin.referrals.trendsOverTime": "በጊዜ ላይ የሪፈራል አዝማሚያ",
+  "admin.referrals.topReferrersDesc": "በስኬታማ ሪፈራሎች ላይ የተመሰረቱ ከፍተኛ 10 ሪፈራሮች",
+  "admin.referrals.statusDistribution": "የሁኔታ ስርጭት",
+  "admin.referrals.statusBreakdown": "የሪፈራል ሁኔታ ትንታኔ",
+
+
+
+  
+  "admin.priceBrackets.title": "የዋጋ ክልሎች",
+  "admin.priceBrackets.description": "ለሞባይል መደብሮች የዋጋ ደረጃዎችን ያስተዳድሩ እና ይፍጠሩ።",
+  "admin.priceBrackets.allowInAppPurchase": "የመተግበሪያ ውስጥ ግዢን ፍቀድ",
+  "admin.priceBrackets.configuration": "ኮንፊግሬሽን",
+  "admin.priceBrackets.configurationDesc": "አዲስ ደረጃዎችን ለመፍጠር ምንዛሬን እና የዋጋ ክፍተትን ያቀናብሩ።",
+  "admin.priceBrackets.packagePrefix": "የፓኬጅ ቅድመ ቃል",
+  "admin.priceBrackets.currency": "ምንዛሬ",
+  "admin.priceBrackets.priceStep": "የዋጋ እርምጃ",
+  "admin.priceBrackets.preview": "ቅድመ እይታ",
+  "admin.priceBrackets.generateSave": "ፍጠር እና አስቀምጥ",
+  "admin.priceBrackets.generatedBrackets": "የተፈጠሩ ክልሎች",
+  "admin.priceBrackets.productId": "የምርት መለያ",
+  "admin.priceBrackets.priceRange": "የዋጋ ክልል",
+  "admin.priceBrackets.android": "አንድሮይድ",
+  "admin.priceBrackets.apple": "አፕል",
+  "admin.priceBrackets.status": "ሁኔታ",
+  "admin.priceBrackets.loading": "በመጫን ላይ...",
+  "admin.priceBrackets.noData": "ምንም ውሂብ አልተገኘም።",
+  "admin.priceBrackets.active": "ንቁ",
+  "admin.priceBrackets.inactive": "ያልተነቃ",
+  "admin.priceBrackets.previous": "ቀዳሚ",
+  "admin.priceBrackets.next": "ቀጣይ",
+  "admin.priceBrackets.page": "ገፅ",
+  "admin.priceBrackets.of": "ከ",
+  "admin.priceBrackets.previewBrackets": "የክልሎች ቅድመ እይታ",
+  "admin.priceBrackets.maxPackagesNote": "ማስታወሻ፡ ከፍተኛው 800 ፓኬጅ ብቻ ሊፈጠሩ ይችላሉ።",
+  "admin.priceBrackets.closePreview": "ቅድመ እይታን ዝጋ",
+  "admin.priceBrackets.confirmGeneration": "ፍጠራን አረጋግጥ",
+  "admin.priceBrackets.confirmGenerationText": "እነዚህን የዋጋ ክልሎች ለመፍጠር እርግጠኛ ነዎት?",
+  "admin.priceBrackets.cancel": "ሰርዝ",
+  "admin.priceBrackets.proceedGenerate": "ለመፍጠር ቀጥል",
+  "admin.priceBrackets.error": "ስህተት",
+  "admin.priceBrackets.packagePrefixRequired": "የፓኬጅ ቅድመ ቃል ያስፈልጋል",
+  "admin.priceBrackets.prefixValidation": "ቅድመ ቃሉ ፊደሎች፣ ቁጥሮች እና አንደርስኮር ብቻ ሊያካትት ይችላል",
+
+
+
+  
+  "admin.paymentGateways.title": "የክፍያ መድረኮች",
+  "admin.paymentGateways.description": "የክፍያ አቅራቢዎችን እና አማራጮችን ያቀናብሩ",
+  "admin.paymentGateways.addGateway": "መድረክ ጨምር",
+  "admin.paymentGateways.configuredGateways": "የተቀናበሩ መድረኮች",
+  "admin.paymentGateways.configuredGatewaysDesc": "እያንዳንዱ ረድፍ ለተጠቃሚው የሚታይ የክፍያ አማራጭን ይወክላል",
+  "admin.paymentGateways.provider": "አቅራቢ",
+  "admin.paymentGateways.displayName": "የማሳያ ስም",
+  "admin.paymentGateways.status": "ሁኔታ",
+  "admin.paymentGateways.actions": "እርምጃዎች",
+  "admin.paymentGateways.noGateways": "ምንም የክፍያ መድረክ አልተጨመረም",
+  "admin.paymentGateways.editGateway": "መድረክ አርትዕ",
+  "admin.paymentGateways.publicKey": "የህዝብ ቁልፍ",
+  "admin.paymentGateways.secretKey": "የሚስጥር ቁልፍ",
+  "admin.paymentGateways.supportedCurrencies": "የሚደገፉ ምንዛሬዎች",
+  "admin.paymentGateways.displayNamePlaceholder": "ካርድ / UPI / ዋሌት",
+  "admin.paymentGateways.selectProvider": "አቅራቢ ይምረጡ",
+  "admin.paymentGateways.loadingCurrencies": "ምንዛሬዎች በመጫን ላይ...",
+  "admin.paymentGateways.selectCurrency": "ቢያንስ አንድ ምንዛሬ ይምረጡ",
+  "admin.paymentGateways.enabled": "ነቅቷል",
+  "admin.paymentGateways.disabled": "ተሰናክሏል",
+  "admin.paymentGateways.cancel": "ሰርዝ",
+  "admin.paymentGateways.save": "አስቀምጥ",
+  "admin.paymentGateways.validationError": "የማረጋገጫ ስህተት",
+  "admin.paymentGateways.selectProviderError": "እባክዎ አቅራቢ ይምረጡ",
+  "admin.paymentGateways.displayNameError": "እባክዎ የማሳያ ስም ያስገቡ",
+  "admin.paymentGateways.currencyError": "እባክዎ ቢያንስ አንድ የሚደገፍ ምንዛሬ ይምረጡ",
+
+
+
+  "admin.notifications.title": "ማስታወቂያዎች",
+  "admin.notifications.description": "የማስታወቂያ ታሪክን ይመልከቱ እና ለደንበኞች የተበጁ ማስታወቂያዎችን ይላኩ",
+  "admin.notifications.button.new": "አዲስ ማስታወቂያ",
+  "admin.notifications.button.export": "CSV አውጣ",
+
+  "admin.notifications.stats.total": "ጠቅላላ ማስታወቂያዎች",
+  "admin.notifications.stats.unread": "ያልተነበቡ",
+  "admin.notifications.stats.emailsSent": "የተላኩ ኢሜይሎች",
+  "admin.notifications.stats.emailsFailed": "ያልተሳኩ ኢሜይሎች",
+
+  "admin.notifications.filters.title": "ማጣሪያዎች",
+  "admin.notifications.filters.description": "የማስታወቂያ ታሪክን በአይነት፣ በሁኔታ እና ICCID ያጣሩ",
+  "admin.notifications.filters.source": "የማስታወቂያ ምንጭ",
+  "admin.notifications.filters.allSources": "ሁሉም ምንጮች",
+  "admin.notifications.filters.airaloWebhook": "Airalo Webhook",
+  "admin.notifications.filters.customNotification": "የተበጀ ማስታወቂያ",
+
+  "admin.notifications.filters.typeLabel": "የማስታወቂያ አይነት",
+  "admin.notifications.filters.allTypes": "ሁሉም አይነቶች",
+
+  "admin.notifications.filters.iccid": "ICCID",
+  "admin.notifications.filters.iccidPlaceholder": "በ ICCID ይፈልጉ...",
+
+  "admin.notifications.filters.processingStatus": "የሂደት ሁኔታ",
+  "admin.notifications.filters.processed": "ተሰርቷል",
+  "admin.notifications.filters.notProcessed": "አልተሰራም",
+
+  "admin.notifications.filters.emailStatus": "የኢሜይል ሁኔታ",
+  "admin.notifications.filters.sent": "ተልኳል",
+  "admin.notifications.filters.notSent": "አልተላከም",
+
+  "admin.notifications.empty.title": "ማስታወቂያ አልተገኘም",
+  "admin.notifications.empty.description": "ከአሁኑ ማጣሪያዎችዎ ጋር የሚጣጣም የማስታወቂያ ታሪክ የለም",
+
+  "admin.notifications.table.timestamp": "ጊዜ",
+  "admin.notifications.table.type": "አይነት",
+  "admin.notifications.table.iccid": "ICCID",
+  "admin.notifications.table.processed": "ተሰርቷል",
+  "admin.notifications.table.error": "ስህተት",
+  "admin.notifications.table.actions": "እርምጃዎች",
+
+  "admin.notifications.button.viewDetails": "ዝርዝር ይመልከቱ",
+
+  "admin.notifications.badge.yes": "አዎ",
+  "admin.notifications.badge.no": "አይ",
+  "admin.notifications.badge.none": "የለም",
+
+  "admin.notifications.type.lowData75": "ዝቅተኛ ዳታ 75%",
+  "admin.notifications.type.lowData90": "ዝቅተኛ ዳታ 90%",
+  "admin.notifications.type.expiring3Days": "በ3 ቀናት ይያበቃል",
+  "admin.notifications.type.expiring1Day": "በ1 ቀን ይያበቃል",
+  "admin.notifications.type.custom": "የተበጀ",
+
+  "admin.notifications.pagination.previous": "ያለፈ",
+  "admin.notifications.pagination.next": "ቀጣይ",
+  "admin.notifications.pagination.page": "ገጽ {{current}} ከ {{total}}",
+
+  "admin.notifications.details.title": "የማስታወቂያ ዝርዝር",
+  "admin.notifications.details.description": "ዝርዝር webhook payload እና የሂደት መረጃ",
+  "admin.notifications.details.timestamp": "ጊዜ",
+  "admin.notifications.details.type": "አይነት",
+  "admin.notifications.details.iccid": "ICCID",
+  "admin.notifications.details.status": "ሁኔታ",
+  "admin.notifications.details.processed": "ተሰርቷል",
+  "admin.notifications.details.notProcessed": "አልተሰራም",
+  "admin.notifications.details.emailSent": "ኢሜይል ተልኳል",
+  "admin.notifications.details.noEmail": "ኢሜይል የለም",
+  "admin.notifications.details.error": "ስህተት",
+  "admin.notifications.details.webhookPayload": "Webhook Payload",
+
+  "admin.notifications.custom.title": "የተበጀ ማስታወቂያ ላክ",
+  "admin.notifications.custom.description": "ለደንበኞችዎ የብራንድ የኢሜይል ማስታወቂያ ይላኩ",
+  "admin.notifications.custom.subject": "ርዕስ",
+  "admin.notifications.custom.subjectPlaceholder": "አስፈላጊ ዝማኔ",
+
+  "admin.notifications.custom.message": "መልእክት",
+  "admin.notifications.custom.messagePlaceholder": "የማስታወቂያ መልእክትዎን ያስገቡ...",
+
+  "admin.notifications.custom.sendTo": "ወደ ማን እንዲላክ",
+  "admin.notifications.custom.allCustomers": "ሁሉም ደንበኞች",
+  "admin.notifications.custom.singleCustomer": "አንድ ደንበኛ",
+
+  "admin.notifications.custom.selectCustomer": "ደንበኛ ይምረጡ",
+  "admin.notifications.custom.chooseCustomer": "አንድ ደንበኛ ይምረጡ",
+
+  "admin.notifications.custom.deliveryMethods": "የመላኪያ ዘዴዎች",
+  "admin.notifications.custom.sendInApp": "በመተግበሪያ ውስጥ ማስታወቂያ ላክ",
+
+  "admin.notifications.custom.methodRequired": "ቢያንስ አንድ የመላኪያ ዘዴ መመርጥ ያስፈልጋል",
+
+  "admin.notifications.custom.cancel": "ሰርዝ",
+  "admin.notifications.custom.sending": "በመላክ ላይ...",
+
+
+
+
+
+
+"admin.analytics.loadingAnalytics":"ትንታኔ በመጫን ላይ...",
+"admin.analytics.title":"ትንታኔ እና ሪፖርቶች",
+"admin.analytics.description":"ዝርዝር ግንዛቤዎች እና የአፈፃፀም መለኪያዎች",
+"admin.analytics.exportReport":"ሪፖርት ላክ",
+"admin.analytics.totalRevenue":"ጠቅላላ ገቢ",
+"admin.analytics.vsLastMonth":"ከባለፈው ወር ጋር ሲነጻጸር",
+"admin.analytics.totalOrders":"ጠቅላላ ትዕዛዞች",
+"admin.analytics.totalEsims":"የተሸጡ eSIM",
+"admin.analytics.totalCustomers":"ጠቅላላ ደንበኞች",
+"admin.analytics.newThisMonth":"በዚህ ወር አዲስ",
+"admin.analytics.paidToProviders":"ለአቅራቢዎች የተከፈለ",
+"admin.analytics.profit":"ትርፍ:",
+"admin.analytics.providerPerformance":"የአቅራቢ አፈፃፀም",
+"admin.analytics.providerPerformanceDesc":"በአቅራቢ የተመዘገቡ ትዕዛዞች እና ወጪዎች",
+"admin.analytics.orders":"ትዕዛዞች",
+"admin.analytics.revenue":"ገቢ",
+"admin.analytics.cost":"ወጪ",
+"admin.analytics.profitLabel":"ትርፍ",
+"admin.analytics.revenueOverTime":"ገቢ በጊዜ ሂደት",
+"admin.analytics.monthlyRevenueTrend":"የወርሃዊ ገቢ አቅጣጫ",
+"admin.analytics.topDestinations":"በገቢ ላይ ከፍተኛ መዳረሻዎች",
+"admin.analytics.highestEarning":"ከፍተኛ ገቢ ያላቸው ገበያዎች",
+"admin.analytics.performanceSummary":"የአፈፃፀም ማጠቃለያ",
+"admin.analytics.keyMetrics":"ቁልፍ መለኪያዎች እና ግንዛቤዎች",
+"admin.analytics.customerLifetimeValue":"የደንበኛ የሕይወት ዋጋ",
+"admin.analytics.averagePerCustomer":"በደንበኛ የሚሆነ አማካይ",
+"admin.analytics.conversionRate":"የቀየር መጠን",
+"admin.analytics.ordersPerCustomer":"በደንበኛ ትዕዛዞች",
+"admin.analytics.activePackageRate":"የንቁ ፓኬጅ መጠን",
+"admin.analytics.allPackagesAvailable":"ሁሉም ፓኬጅ ይገኛሉ",
+
+
+
+"admin.analytics.pageTitle": "የትንታኔ ዳሽቦርድ",
+  "admin.analytics.description2": "የአፈፃፀም መለኪያዎችን እና የተጠቃሚ ባህሪን ይከታተሉ",
+
+  "admin.analytics.tabs.overview": "አጠቃላይ እይታ",
+  "admin.analytics.tabs.funnel": "ፋነል",
+  "admin.analytics.tabs.segments": "ሴግመንቶች",
+  "admin.analytics.tabs.abandoned": "የተተዉ ካርቶች",
+
+  "admin.analytics.totalRevenue2": "ጠቅላላ ገቢ",
+  "admin.analytics.activeUsers": "ንቁ ተጠቃሚዎች (30 ቀናት)",
+  "admin.analytics.conversionRate2": "የመቀየር መጠን",
+  "admin.analytics.avgOrderValue": "አማካይ የትዕዛዝ ዋጋ",
+
+  "admin.analytics.conversionFunnel": "የመቀየር ፋነል",
+
+  "admin.analytics.customerSegments": "የደንበኛ ሴግመንቶች",
+  "admin.analytics.users": "ተጠቃሚዎች",
+  "admin.analytics.noSegments": "እስካሁን ምንም ሴግመንት አልተፈጠረም",
+
+  "admin.analytics.abandonedCarts": "የተተዉ ካርቶች",
+  "admin.analytics.guest": "እንግዳ",
+  "admin.analytics.unknownPackage": "ያልታወቀ ፓኬጅ",
+  "admin.analytics.reminderSent": "ማስታወሻ ተልኳል",
+  "admin.analytics.noReminder": "ማስታወሻ የለም",
+  "admin.analytics.noAbandonedCarts": "የተተዉ ካርቶች የሉም",
+
+
+
+
+  "admin.reviews.title": "የግምገማ አስተዳደር",
+  "admin.reviews.description": "የደንበኞች ግምገማዎችን ያስተዳድሩ እና የጥራት ደረጃዎችን ይጠብቁ",
+  "admin.reviews.addReview": "ግምገማ ጨምር",
+
+  "admin.reviews.totalReviews": "ጠቅላላ ግምገማዎች",
+  "admin.reviews.pendingApproval": "በመጠባበቅ ላይ",
+  "admin.reviews.averageRating": "የመድረኩ አማካይ ደረጃ",
+  "admin.reviews.recentReviews": "የቅርብ (7 ቀናት)",
+
+  "admin.reviews.searchPlaceholder": "በፓኬጅ ስም ወይም በደንበኛ ኢሜይል ይፈልጉ...",
+  "admin.reviews.filterRating": "በደረጃ ያጣሩ",
+  "admin.reviews.allRatings": "ሁሉም ደረጃዎች",
+
+  "admin.reviews.sortBy": "መደርደር በ",
+  "admin.reviews.sortNewest": "አዲሱ መጀመሪያ",
+  "admin.reviews.sortOldest": "አሮጌው መጀመሪያ",
+  "admin.reviews.sortHighRating": "ከፍተኛ ደረጃ",
+  "admin.reviews.sortLowRating": "ዝቅተኛ ደረጃ",
+
+  "admin.reviews.pendingTab": "በመጠባበቅ ላይ",
+  "admin.reviews.approvedTab": "የተፈቀደ",
+  "admin.reviews.allTab": "ሁሉም ግምገማዎች",
+
+  "admin.reviews.verifiedPurchase": "የተረጋገጠ ግዢ",
+  "admin.reviews.approve": "ፍቀድ",
+  "admin.reviews.delete": "ሰርዝ",
+
+  "admin.reviews.pros": "ጥሩ ጎኖች",
+  "admin.reviews.cons": "መጥፎ ጎኖች",
+
+  "admin.reviews.noReviews": "ምንም ግምገማ አልተገኘም",
+  "admin.reviews.noPendingReviews": "አሁን በመጠባበቅ ላይ ያሉ ግምገማዎች የሉም",
+  "admin.reviews.noFilteredReviews": "ከፍልተሮችዎ ጋር የሚዛመዱ ግምገማዎች የሉም",
+
+  "admin.reviews.previous": "ቀዳሚ",
+  "admin.reviews.next": "ቀጣይ",
+  "admin.reviews.page": "ገጽ",
+
+  "admin.reviews.addReviewTitle": "አዲስ ግምገማ ጨምር",
+  "admin.reviews.addReviewDescription": "ለአንድ ፓኬጅ እና ደንበኛ ግምገማ ፍጠር",
+
+  "admin.reviews.package": "ፓኬጅ",
+  "admin.reviews.customer": "ደንበኛ",
+  "admin.reviews.rating": "ደረጃ",
+  "admin.reviews.reviewTitle": "ርዕስ",
+  "admin.reviews.comment": "አስተያየት",
+
+  "admin.reviews.selectPackage": "ፓኬጅ ይምረጡ",
+  "admin.reviews.selectCustomer": "ደንበኛ ይምረጡ",
+
+  "admin.reviews.cancel": "ሰርዝ",
+  "admin.reviews.createReview": "ግምገማ ፍጠር",
+
+  "admin.reviews.deleteConfirmTitle": "ይህን ግምገማ ማጥፋት ይፈልጋሉ?",
+  "admin.reviews.deleteConfirmDescription": "ይህ እርምጃ መመለስ አይቻልም",
+
+
+
+
+
+
+  
+  "admin.settings.smtp.title": "የኢሜይል ቅንብር",
+  "admin.settings.smtp.description": "ኢሜይሎችን ለመላክ SMTP ቅንብሮችን ያዋቅሩ (OTP ኮዶች፣ የትዕዛዝ ማረጋገጫዎች ወዘተ)",
+
+  "admin.settings.smtp.host": "SMTP አስተናጋጅ",
+  "admin.settings.smtp.hostPlaceholder": "smtp.gmail.com",
+
+  "admin.settings.smtp.port": "SMTP ፖርት",
+  "admin.settings.smtp.portPlaceholder": "587",
+
+  "admin.settings.smtp.username": "SMTP የተጠቃሚ ስም",
+  "admin.settings.smtp.usernamePlaceholder": "your-email@gmail.com",
+
+  "admin.settings.smtp.fromEmail": "SMTP የላኪ ኢሜይል",
+  "admin.settings.smtp.fromEmailPlaceholder": "noreply@yourdomain.com",
+  "admin.settings.smtp.fromEmailHelp": "ይህ ኢሜይል እንደ ላኪ ይታያል።",
+
+  "admin.settings.smtp.password": "SMTP የይለፍ ቃል",
+  "admin.settings.smtp.passwordPlaceholder": "የመተግበሪያ የይለፍ ቃል",
+  "admin.settings.smtp.passwordHelp": "ለ Gmail የApp Password ይጠቀሙ።",
+
+  "admin.settings.smtp.saving": "በማስቀመጥ ላይ...",
+  "admin.settings.smtp.saveSmtpSettings": "SMTP ቅንብሮችን አስቀምጥ",
+
+  "admin.settings.smtp.securityNote": "የደህንነት ማስታወሻ",
+  "admin.settings.smtp.securityNoteDescription": "SMTP መረጃዎች በደህንነት ይቀመጣሉ። በdevelopment mode ኢሜይሎች ከመላክ ይልቅ console ላይ ይታያሉ።",
+
+  "admin.settings.smtp.quickSetupGuide": "ፈጣን የማዋቀር መመሪያ",
+
+
+
+  
+  "admin.settings.ai.title": "በAI የተጠናከረ የፓኬጅ ምርጫ",
+  "admin.settings.ai.description": "AI በመጠቀም ዋጋ፣ ጥራት እና የአቅራቢ ታማኝነትን በመመርመር ምርጥ ፓኬጅ ይምረጡ",
+
+  "admin.settings.general.platformInfoTitle": "የመድረክ መረጃ",
+  "admin.settings.general.platformInfoDescription": "የመድረክዎን መሰረታዊ መረጃ እና ምርት መለያ ያዋቅሩ",
+
+  "admin.settings.general.platformName": "የመድረክ ስም",
+  "admin.settings.general.platformNamePlaceholder": "የእኔ eSIM መደብር",
+
+  "admin.settings.general.tagline": "መለያ ሐረግ",
+  "admin.settings.general.taglinePlaceholder": "ዓለም አቀፍ ግንኙነት ቀላል ተደርጎ",
+
+  "admin.settings.general.email": "ኢሜይል",
+
+  "admin.settings.general.currency": "ነባሪ ገንዘብ",
+  "admin.settings.general.currencyHelp": "ገንዘቦችን በፕላትፎርም ማቀናበሪያ ያስተዳድሩ.",
+
+  "admin.settings.general.logo": "የፕላትፎርም ሎጎ",
+  "admin.settings.general.darkLogo": "የፕላትፎርም ጨለማ ሎጎ",
+
+  "admin.settings.general.packageModeTitle": "የፓኬጅ ምርጫ ሁኔታ",
+  "admin.settings.general.packageModeDescription": "ፓኬጆች ከብዙ አቅራቢዎች እንዴት እንደሚመረጡ ያዋቅሩ",
+
+  "admin.settings.general.autoMode": "ራስ-ሰር (ምርጥ ዋጋ)",
+  "admin.settings.general.autoModeDescription": "ከሁሉም አቅራቢዎች በምርጥ ዋጋ ያሉ ፓኬጆችን በራስ-ሰር ያነቃ.",
+
+  "admin.settings.general.manualMode": "Manual ምርጫ",
+  "admin.settings.general.manualModeDescription": "የተነቃ ፓኬጆችን ሙሉ ቁጥጥር.",
+
+  "admin.settings.general.priceComparison": "የዋጋ ንጽጽር",
+  "admin.settings.general.manualControl": "Manual ቁጥጥር",
+
+
+
+
+  
+  "admin.settings.firebase.title": "የFirebase ቅንብር",
+  "admin.settings.firebase.description": "ለAuthentication፣ FCM እና Storage የFirebase መረጃዎችን ያዋቅሩ",
+
+  "admin.settings.firebase.clientSettings": "የClient App ቅንብሮች",
+  "admin.settings.firebase.adminSettings": "Admin SDK (Server) ቅንብሮች",
+
+  "admin.settings.firebase.apiKey": "Firebase API Key",
+  "admin.settings.firebase.authDomain": "Auth Domain",
+  "admin.settings.firebase.projectId": "Project ID",
+  "admin.settings.firebase.storageBucket": "Storage Bucket",
+  "admin.settings.firebase.messagingSenderId": "Messaging Sender ID",
+  "admin.settings.firebase.appId": "App ID",
+  "admin.settings.firebase.measurementId": "Measurement ID",
+
+  "admin.settings.firebase.clientEmail": "Client Email",
+  "admin.settings.firebase.privateKey": "Private Key",
+
+  "admin.settings.firebase.adminDescription": "ለGoogle Login ማረጋገጫ እና Push Notifications ያስፈልጋል",
+
+  "admin.settings.firebase.save": "Firebase ቅንብሮችን አስቀምጥ",
+  "admin.settings.firebase.saving": "በማስቀመጥ ላይ...",
+
+  "admin.settings.firebase.securityNote": "የFirebase መረጃዎች በደህንነት ይቀመጣሉ",
+
+
+
+
+
+  
+  "admin.settings.recaptcha.title": "የreCAPTCHA ቅንብር",
+  "admin.settings.recaptcha.description": "ለbot መከላከያ Google reCAPTCHA መረጃዎችን ያዋቅሩ",
+
+  "admin.settings.recaptcha.enable": "reCAPTCHA አንቃ",
+  "admin.settings.recaptcha.enableDescription": "Login እና Signup ከbots ይጠብቁ",
+
+  "admin.settings.recaptcha.siteKey": "Site Key",
+  "admin.settings.recaptcha.secretKey": "Secret Key",
+
+  "admin.settings.recaptcha.edit": "ቅንብሮችን አርትዕ",
+  "admin.settings.recaptcha.save": "ለውጦችን አስቀምጥ",
+  "admin.settings.recaptcha.cancel": "ሰርዝ",
+  "admin.settings.recaptcha.saving": "በማስቀመጥ ላይ...",
+
+  "admin.settings.recaptcha.securityNote": "reCAPTCHA secret keys በደህንነት ይቀመጣሉ",
+
+
+
+
+
+  
+  "admin.settings.apps.title": "የApp Stores ቅንብር",
+  "admin.settings.apps.description": "ለApple App Store እና Google Play ውህደት መረጃዎችን ያዋቅሩ",
+
+  "admin.settings.apps.appleSection": "የApple Store ቅንብሮች",
+  "admin.settings.apps.googleSection": "የGoogle Play ቅንብሮች",
+
+  "admin.settings.apps.appId": "App ID",
+  "admin.settings.apps.bundleId": "Bundle ID",
+  "admin.settings.apps.keyId": "Key ID",
+  "admin.settings.apps.issuerId": "Issuer ID",
+  "admin.settings.apps.sharedSecret": "Shared Secret",
+  "admin.settings.apps.privateKey": "Private Key (.p8)",
+
+  "admin.settings.apps.packageName": "Package Name",
+  "admin.settings.apps.serviceAccountJson": "Service Account JSON",
+
+  "admin.settings.apps.save": "የApp Stores ቅንብሮችን አስቀምጥ",
+  "admin.settings.apps.saving": "በማስቀመጥ ላይ...",
+
+  "admin.settings.apps.securityNote": "እነዚህ መረጃዎች ወደ Google Play Console እና App Store Connect መዳረሻ ይሰጣሉ።",
+
+
+
+
+  
+"admin.settings.theme.livePreview":"ቀጥታ ቅድመ እይታ",
+"admin.settings.theme.previewDescription":"የቀለም እቅድዎ በክፍሎች ላይ እንዴት እንደሚታይ ይመልከቱ",
+
+"admin.settings.theme.colorTitle":"የቀለም ማቀናበሪያ",
+"admin.settings.theme.colorDescription":"የመድረክዎን የቀለም እቅድ ያበጁ",
+
+"admin.settings.theme.primaryColor":"ዋና ቀለም",
+"admin.settings.theme.primaryColorDesc":"በመተግበሪያው ውስጥ የሚጠቀሙት ዋና የምርት ቀለም",
+
+"admin.settings.theme.secondaryColor":"ሁለተኛ ቀለም",
+"admin.settings.theme.secondaryColorDesc":"ለግራዲየንት እና ማስጌጫዎች የሚጠቅም",
+
+"admin.settings.theme.lightVariant":"ቀላል ክርክር",
+"admin.settings.theme.lightVariantDesc":"ለጀርባ እና hover ሁኔታዎች",
+
+"admin.settings.theme.darkVariant":"ጨለማ ክርክር",
+"admin.settings.theme.darkVariantDesc":"ለጽሑፍ እና ድንበሮች",
+
+"admin.settings.theme.typographyTitle":"የፎንት ቅንብሮች",
+"admin.settings.theme.typographyDescription":"ለርዕሶች እና ጽሑፍ ፎንቶችን ይምረጡ",
+
+"admin.settings.theme.saveTheme":"ገጽታ አስቀምጥ",
+"admin.settings.theme.saving":"በማስቀመጥ ላይ...",
+"admin.settings.theme.loading":"በመጫን ላይ...",
+"admin.settings.theme.loadServer":"ከሰርቨር ጫን",
+"admin.settings.theme.reset":"ነባሪ አድርግ",
+
+"admin.settings.theme.tipsTitle":"የገጽታ ምክሮች",
+
+
+
+"admin.settings.theme.tip1":"ለውጦች በመድረኩ ሁሉ በፍጥነት ይተገበራሉ",
+"admin.settings.theme.tip2":"ቀለሞችን እና ፎንቶችን ለማስቀመጥ በሰርቨር ላይ አስቀምጥ",
+"admin.settings.theme.tip3":"ለተሻለ ተደራሽነት ተቃራኒ ቀለሞችን ይጠቀሙ",
+"admin.settings.theme.tip4":"በብርሃን እና ጨለማ ሁኔታ ውስጥ የፎንት ጥምሮችን ይፈትሹ",
+"admin.settings.theme.tip5":"Google Fonts ሲመረጡ በራስ-ሰር ይጫናሉ",
+
+
+
+
+ "admin.settings.social.website": "የድር ጣቢያ URL",
+ "admin.settings.social.facebook": "ፌስቡክ",
+ "admin.settings.social.instagram": "ኢንስታግራም",
+ "admin.settings.social.twitter": "ትዊተር / X",
+ "admin.settings.social.linkedin": "ሊንክዲን",
+ "admin.settings.social.youtube": "ዩቱብ",
+ "admin.settings.social.android": "Android መተግበሪያ",
+ "admin.settings.social.ios": "iOS መተግበሪያ",
+
+ "admin.settings.social.save": "የማህበራዊ አገናኞችን አስቀምጥ",
+ "admin.settings.social.saving": "በማስቀመጥ ላይ...",
+
+ "admin.settings.social.info": "እነዚህ አገናኞች በfooter፣ contact page ወይም mobile app ላይ ሊታዩ ይችላሉ.",
+ 
+  "admin.settings.social.title": "የማህበራዊ ሚዲያ አገናኞች",
+  "admin.settings.social.description": "የድር ጣቢያ እና የማህበራዊ ሚዲያ መገለጫ አገናኞችን አስተዳድር",
+
+
+
+
+  
+"admin.settings.seo.defaultTitle":"ነባሪ የሜታ ርዕስ",
+"admin.settings.seo.titleSuffix":"የርዕስ ቅጥ",
+"admin.settings.seo.defaultKeywords":"ነባሪ ቁልፍ ቃላት",
+"admin.settings.seo.defaultDescription":"ነባሪ የሜታ መግለጫ",
+"admin.settings.seo.twitterHandle":"የትዊተር መለያ",
+
+"admin.settings.seo.titleHelp":"የተመከረ: 50-60 ቁምፊዎች",
+"admin.settings.seo.titleSuffixHelp":"ወደ ገጽ ርዕሶች መጨረሻ ይጨመራል",
+"admin.settings.seo.descriptionHelp":"የተመከረ: 150-160 ቁምፊዎች",
+
+"admin.settings.seo.ogImage":"ነባሪ የመጋራት ምስል (OG Image)",
+"admin.settings.seo.ogImageSize":"1200x630px የተመከረ",
+
+"admin.settings.seo.verification":"Search Console ማረጋገጫ",
+"admin.settings.seo.googleVerification":"Google ማረጋገጫ ኮድ",
+"admin.settings.seo.bingVerification":"Bing ማረጋገጫ ኮድ",
+
+"admin.settings.seo.saving":"SEO ቅንብሮችን በማስቀመጥ ላይ...",
+"admin.settings.seo.save":"SEO ቅንብር አስቀምጥ",
+
+"admin.settings.seo.serpPreview":"SERP ቅድመ እይታ",
+"admin.settings.seo.serpDescription":"ጣቢያዎ በGoogle ውጤቶች ላይ እንዴት እንደሚታይ",
+
+"admin.settings.seo.previewTitle":"Global Connectivity ድር ጣቢያ",
+"admin.settings.seo.previewDescription":"ይህ የሜታ መግለጫዎ ቅድመ እይታ ነው።",
+
+
+
+
+
+ "admin.settings.account.title":"መለያ እና ደህንነት",
+ "admin.settings.account.description":"የማረጋገጫ ዘዴዎችን እና የይለፍ ቃል ፖሊሲዎችን ያስተዳድሩ።",
+
+ "admin.settings.account.email":"ኢሜይል",
+ "admin.settings.account.currentPassword":"የአሁኑ የይለፍ ቃል",
+ "admin.settings.account.newPassword":"አዲስ የይለፍ ቃል",
+
+ "admin.settings.account.newEmail":"አዲስ ኢሜይል",
+ "admin.settings.account.currentPasswordPlaceholder":"የአሁኑን የይለፍ ቃል ያስገቡ",
+ "admin.settings.account.newPasswordPlaceholder":"አዲስ የይለፍ ቃል (ቢያንስ 6 ቁምፊ)",
+
+ "admin.settings.account.update":"መለያ አዘምን",
+ "admin.settings.account.saving":"በማስቀመጥ ላይ...",
+
+ "admin.settings.account.updated":"መለያ በተሳካ ሁኔታ ተዘምኗል",
+
+
+
+
+
+ 
+ "admin.settings.popup.title":"የመነሻ ገጽ ፖፕአፕ ቅንብሮች",
+ "admin.settings.popup.description":"በመነሻ ገጽ ላይ የሚታይ የፕሮሞሽን ፖፕአፕን ያስተዳድሩ",
+
+ "admin.settings.popup.enable":"ፖፕአፕ አንቃ",
+ "admin.settings.popup.enableDescription":"የመነሻ ገጽ ፖፕአፕን አንቃ ወይም አጥፋ",
+
+ "admin.settings.popup.image":"የፖፕአፕ ምስል",
+ "admin.settings.popup.noImage":"ምንም ምስል የለም",
+ "admin.settings.popup.imageHelp":"3:4 መጠን ይመከራል።",
+
+ "admin.settings.popup.text":"የፖፕአፕ ጽሑፍ",
+ "admin.settings.popup.textDescription":"በምስሉ በታች የሚታይ አማራጭ ጽሑፍ።",
+ "admin.settings.popup.textPlaceholder":"ምሳ. በቀጣይ eSIM 20% ቅናሽ!",
+
+ "admin.settings.popup.code":"አማራጭ ፕሮሞ ኮድ",
+ "admin.settings.popup.codeDescription":"ተጠቃሚዎች ከፖፕአፕ የሚቀዱት ኮድ።",
+ "admin.settings.popup.codePlaceholder":"ምሳ. SUMMER2024",
+
+ "admin.settings.popup.save":"የፖፕአፕ ቅንብሮችን አስቀምጥ",
+
+
+ 
+ 
+  "admin.currencies.title": "የገንዘብ አይነቶች አስተዳደር",
+  "admin.currencies.description": "ለፕላትፎርምዎ የገንዘብ አይነቶችን እና የመቀየሪያ መጠኖችን ያስተዳድሩ",
+
+  "admin.currencies.add": "የገንዘብ አይነት አክል",
+  "admin.currencies.listTitle": "የገንዘብ አይነቶች",
+  "admin.currencies.listDescription": "ሁሉም ዋጋዎች በ USD ውስጥ ይቀመጣሉ። የመቀየሪያ መጠኖች USD ወደ የታሰበው ምንዛሬ የሚያመለክቱ መባዮች ናቸው።",
+
+  "admin.currencies.empty": "ምንም የገንዘብ አይነት አልተዘጋጀም። ለመጀመር የመጀመሪያውን ይጨምሩ።",
+
+  "admin.currencies.symbol": "ምልክት",
+  "admin.currencies.code": "ኮድ",
+  "admin.currencies.name": "ስም",
+  "admin.currencies.rate": "የመቀየሪያ መጠን",
+  "admin.currencies.status": "ሁኔታ",
+  "admin.currencies.default": "ነባሪ",
+  "admin.currencies.actions": "እርምጃዎች",
+
+  "admin.currencies.setDefault": "ነባሪ አድርግ",
+
+  "admin.currencies.addTitle": "አዲስ የገንዘብ አይነት አክል",
+  "admin.currencies.addDescription": "ከ USD የመቀየሪያ መጠን ጋር አዲስ የገንዘብ አይነት ያክሉ",
+
+  "admin.currencies.update": "የገንዘብ አይነት አዘምን",
+  "admin.currencies.updateDescription": "የገንዘብ አይነቱን ዝርዝር እና የመቀየሪያ መጠኑን አዘምን",
+
+  "admin.currencies.selectCurrency": "ዓለም አቀፍ ምንዛሬ ይምረጡ",
+  "admin.currencies.select": "ምንዛሬ ይምረጡ...",
+  "admin.currencies.search": "ምንዛሬ ፈልግ...",
+  "admin.currencies.notFound": "ምንም ምንዛሬ አልተገኘም።",
+
+  "admin.currencies.autoFill": "ምንዛሬ ሲመርጡ ኮድ፣ ምልክት እና ስም በራስ-ሰር ይሞላል",
+
+  "admin.currencies.rateHelp": "1 USD ከዚህ ምንዛሬ ስንት ክፍል እንደሚሆን ያስገቡ",
+
+  "admin.currencies.currencyCode": "የምንዛሬ ኮድ",
+  "admin.currencies.currencyName": "የምንዛሬ ስም",
+  "admin.currencies.currencySymbol": "የምንዛሬ ምልክት",
+  "admin.currencies.conversionRateUSD": "የመቀየሪያ መጠን (ከ USD)",
+
+  "admin.currencies.addSuccess": "ምንዛሬ በተሳካ ሁኔታ ታክሏል",
+  "admin.currencies.updateSuccess": "ምንዛሬ በተሳካ ሁኔታ ተዘምኗል",
+  "admin.currencies.deleteSuccess": "ምንዛሬ በተሳካ ሁኔታ ተሰርዟል",
+
+  "admin.currencies.requiredFields": "እባክዎ ሁሉንም አስፈላጊ መስኮች ይሙሉ",
+  "admin.currencies.rateValidation": "የመቀየሪያ መጠን አዎንታዊ ቁጥር መሆን አለበት",
+
+  "admin.currencies.cancel": "ይቅር",
+  "admin.currencies.save": "ምንዛሬ አክል",
+  "admin.currencies.updateButton": "ምንዛሬ አዘምን",
+  "common.validationError": "የማረጋገጫ ስህተት",
+  "common.updating": "በመዘመን ላይ...",
+
+
+
+
+
+  "admin.failover.title": "የስማርት ፌልኦቨር ቅንብሮች",
+  "admin.failover.description": "አቅራቢዎች ሲሳኩ ትዕዛዞችን በራስ-ሰር ወደ ሌሎች አቅራቢዎች ለመላክ ቅንብሮችን ያዘጋጁ",
+
+  "admin.failover.tabs.failover": "ፌልኦቨር",
+  "admin.failover.tabs.providers": "የአቅራቢ ቅድሚያ",
+  "admin.failover.tabs.apiKeys": "API ቁልፎች",
+
+  "admin.failover.configurationTitle": "የስማርት ፌልኦቨር ኮንፊግሬሽን",
+  "admin.failover.configurationDescription": "አንድ አቅራቢ ትዕዛዝን ማሟላት ካልቻለ ሲሆን ሲስተሙ በራስ-ሰር ሌሎች አማራጭ አቅራቢዎችን ሊሞክር ይችላል",
+
+  "admin.failover.enable": "ስማርት ፌልኦቨርን አንቃ",
+  "admin.failover.enableDescription": "ዋና አቅራቢ ካልተሳካ ትዕዛዞችን በራስ-ሰር ወደ ተጠባባቂ አቅራቢዎች ላክ",
+
+  "admin.failover.globalMargin": "ዓለም አቀፍ ዝቅተኛ ማርጂን (%)",
+  "admin.failover.globalMarginHelp": "ፌልኦቨር እንዲቀጥል የሚፈለገው ዝቅተኛ የትርፍ መጠን",
+
+  "admin.failover.maxAttempts": "ከፍተኛ የፌልኦቨር ሙከራዎች",
+  "admin.failover.maxAttemptsHelp": "ከመተው በፊት ስንት አማራጭ አቅራቢዎች እንዲሞከሩ",
+
+  "admin.failover.howItWorksTitle": "ፌልኦቨር እንዴት ይሰራል",
+
+  "admin.failover.step1": "መጀመሪያ ዋናው አቅራቢ ትዕዛዙን ይቀበላል",
+  "admin.failover.step2": "ካልተሳካ ሲሆን ሲስተሙ በቅድሚያ መሠረት ሌሎች አቅራቢዎችን ይመርምራል",
+  "admin.failover.step3": "የማርጂን መስፈርቶችን የሚያሟሉ አቅራቢዎች ብቻ ይጠቀማሉ",
+  "admin.failover.step4": "ትዕዛዙ ለመጀመሪያ የተሳካ አቅራቢ ይላካል",
+  "admin.failover.step5": "ሁሉም ሙከራዎች ለአድሚን ምርመራ ይመዘገባሉ",
+
+  "admin.failover.providerPriorityTitle": "የአቅራቢ ፌልኦቨር ቅድሚያ",
+  "admin.failover.providerPriorityDescription": "በፌልኦቨር ጊዜ የሚሞከረውን አቅራቢ ቅደም ተከተል ይወስናል",
+
+  "admin.failover.table.priority": "ቅድሚያ",
+  "admin.failover.table.provider": "አቅራቢ",
+  "admin.failover.table.status": "ሁኔታ",
+  "admin.failover.table.margin": "ማርጂን %",
+  "admin.failover.table.actions": "እርምጃዎች",
+
+  "admin.failover.provider.preferred": "ተመራጭ",
+  "admin.failover.provider.active": "ንቁ",
+  "admin.failover.provider.disabled": "ተሰናክሏል",
+
+  "admin.failover.apiKeys.title": "የውጭ API ቁልፎች",
+  "admin.failover.apiKeys.description": "ለውጭ አጋሮች እና ሞባይል መተግበሪያዎች API ቁልፎችን አስተዳድር",
+
+  "admin.failover.apiKeys.create": "API ቁልፍ ፍጠር",
+  "admin.failover.apiKeys.createTitle": "አዲስ API ቁልፍ ፍጠር",
+  "admin.failover.apiKeys.createDescription": "ለውጭ ኢንተግሬሽኖች አዲስ API ቁልፍ ፍጠር",
+
+  "admin.failover.apiKeys.name": "ስም",
+  "admin.failover.apiKeys.rateLimit": "የጥያቄ ገደብ (ጥያቄ/ቀን)",
+
+  "admin.failover.apiKeys.generate": "ቁልፍ ፍጠር",
+  "admin.failover.apiKeys.done": "ተጠናቋል",
+
+  "admin.failover.apiKeys.warningTitle": "እባክዎ እነዚህን መረጃዎች አሁን ያስቀምጡ!",
+  "admin.failover.apiKeys.warningText": "ይህ ምስጢር ይህን መስኮት ከዘጉ በኋላ እንደገና አይታይም",
+
+  "admin.failover.apiKeys.key": "API ቁልፍ",
+  "admin.failover.apiKeys.secret": "API ምስጢር",
+
+  "admin.failover.apiKeys.empty": "እስካሁን ምንም API ቁልፍ አልተፈጠረም። \"API ቁልፍ ፍጠር\" በመጫን ይጀምሩ",
+
+  "admin.failover.apiKeys.table.name": "ስም",
+  "admin.failover.apiKeys.table.keyId": "የቁልፍ ID",
+  "admin.failover.apiKeys.table.status": "ሁኔታ",
+  "admin.failover.apiKeys.table.rateLimit": "ገደብ",
+  "admin.failover.apiKeys.table.requests": "ጥያቄዎች",
+  "admin.failover.apiKeys.table.lastUsed": "መጨረሻ ጊዜ ተጠቀመ",
+  "admin.failover.apiKeys.table.actions": "እርምጃዎች",
+
+  "admin.failover.apiKeys.never": "አልተጠቀመም",
+
+  "admin.failover.apiKeys.deleteTitle": "API ቁልፍ ሰርዝ?",
+  "admin.failover.apiKeys.deleteDescription": "ይህ ቁልፍ የሚጠቀሙ ሁሉንም መተግበሪያዎች መዳረሻ በቋሚነት ያጥፋል። ይህ እርምጃ መመለስ አይቻልም",
+
+
+
+
+
+  "admin.tickets.status.closed": "ዝግ",
+
+  "admin.tickets.filter.allPriority": "ሁሉም ቅድሚያዎች",
+  "admin.tickets.priority.low": "ዝቅተኛ",
+  "admin.tickets.priority.medium": "መካከለኛ",
+  "admin.tickets.priority.high": "ከፍተኛ",
+  "admin.tickets.priority.urgent": "አስቸኳይ",
+
+  "admin.tickets.loading": "ቲኬቶች በመጫን ላይ...",
+
+  "admin.tickets.empty.title": "ምንም ቲኬት አልተገኘም",
+  "admin.tickets.empty.filtered": "እባክዎ ፍለጋዎን ወይም ማጣሪያዎችን ያስተካክሉ",
+  "admin.tickets.empty.allResolved": "ሁሉም የድጋፍ ቲኬቶች ተፈትተዋል!",
+
+  "admin.tickets.pagination.page": "ገጽ",
+  "admin.tickets.pagination.of": "ከ",
+  "admin.tickets.pagination.previous": "ቀዳሚ",
+  "admin.tickets.pagination.next": "ቀጣይ",
+
+  "admin.tickets.actions.refresh": "አዘምን",
+  "admin.tickets.actions.resolve": "ቲኬቱን ፍታ",
+  "admin.tickets.actions.cancel": "ሰርዝ",
+  "admin.tickets.actions.create": "ቲኬት ፍጠር",
+  "admin.tickets.actions.creating": "በመፍጠር ላይ...",
+
+  "admin.tickets.details.creator": "ፈጣሪ",
+  "admin.tickets.details.details": "ዝርዝሮች",
+  "admin.tickets.details.description": "መግለጫ",
+
+  "admin.tickets.form.status": "ሁኔታ",
+  "admin.tickets.form.priority": "ቅድሚያ",
+  "admin.tickets.form.title": "ርዕስ *",
+  "admin.tickets.form.description": "መግለጫ *",
+  "admin.tickets.form.titlePlaceholder": "የችግሩ አጭር መግለጫ",
+  "admin.tickets.form.descriptionPlaceholder": "የችግሩ ዝርዝር መግለጫ",
+
+  "admin.tickets.assign.assignTo": "ለማን መመደብ",
+  "admin.tickets.assign.unassigned": "አልተመደበም",
+
+  "admin.tickets.conversation.title": "ውይይት",
+  "admin.tickets.conversation.noMessages": "እስካሁን መልዕክቶች የሉም",
+
+  "admin.tickets.reply.placeholder": "መልስዎን ይፃፉ...",
+  "admin.tickets.reply.internalNote": "ውስጣዊ ማስታወሻ (ለተጠቃሚ አይታይም)",
+
+  "admin.tickets.noSelection.title": "ምንም ቲኬት አልተመረጠም",
+  "admin.tickets.noSelection.description": "ዝርዝሮችን ለማየት ከዝርዝሩ ቲኬት ይምረጡ",
+
+  "admin.tickets.dialog.createTitle": "አዲስ ቲኬት ፍጠር",
+  "admin.tickets.dialog.createDescription": "አዲስ የድጋፍ ቲኬት ያቅርቡ። በተቻለ ፍጥነት እንመልስልዎታለን።",
+
+  "admin.tickets.toast.success.title": "ተሳክቷል",
+  "admin.tickets.toast.success.create": "ቲኬቱ በተሳካ ሁኔታ ተፈጥሯል",
+
+  "admin.tickets.toast.error.title": "ስህተት",
+  "admin.tickets.toast.error.create": "ቲኬት መፍጠር አልተሳካም",
+
+  "admin.tickets.validation.title": "የማረጋገጫ ስህተት",
+  "admin.tickets.validation.required": "እባክዎ ሁሉንም አስፈላጊ መስኮች ይሙሉ"
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  },
+  "app": {
+    "Data Packages": "የዳታ ፓኬጆች",
+    "My eSims": "የእኔ eSIMs",
+    "My Profile": "የእኔ መገለጫ",
+    "welcome": "ወደ esimconnect እንኳን በደህና መጡ",
+    "Points": "ነጥቦች",
+    "+ Top Up": "+ መሙላት",
+    "Internet": "ኢንተርኔት",
+    "Package detail": "የፓኬጅ ዝርዝር",
+    "SMS\nLeft": "SMS\nቀሪ",
+    "Calls\nLeft": "ጥሪዎች\nቀሪ",
+    "Quick Actions": "ፈጣን እርምጃዎች",
+    "Data Pack": "የዳታ ፓክ",
+    "Device ready": "መሣሪያ ዝግጁ",
+    "Refer & Earn": "ጓደኛ ጋብዝ እና ያግኙ",
+    "Popular destinations": "ታዋቂ መዳረሻዎች",
+    "See All": "ሁሉን ይመልከቱ",
+    "Upload": "ጫን",
+    "Pan Card": "የመታወቂያ ሰነድ ጀርባ",
+    "Identity Card": "የመታወቂያ ሰነድ ፊት",
+    "Identity Card No": "የመታወቂያ ሰነድ ቁጥር",
+    "Address": "አድራሻ",
+    "Date of Birth (YYYY-MM-DD)": "የትውልድ ቀን (YYYY-MM-DD)",
+    "Complete KYC Form": "የKYC ፎርም ያጠናቅቁ",
+    "Submit KYC Form": "የKYC ፎርም ያስገቡ",
+    "KYC Form Submitted Successfully!": "የKYC ፎርም በተሳካ ሁኔታ ተልኳል!",
+    "Home": "መነሻ",
+    "Packages": "ፓኬጆች",
+    "Profile": "መገለጫ",
+    "Full Name": "ሙሉ ስም",
+    "Instructions": "መመሪያዎች",
+    "Please enter your full name": "እባክዎ ሙሉ ስምዎን ያስገቡ",
+    "Please enter your I-Card No": "እባክዎ የመታወቂያ ቁጥርዎን ያስገቡ",
+    "Please enter your address": "እባክዎ አድራሻዎን ያስገቡ",
+    "Please enter your DOB": "እባክዎ የትውልድ ቀንዎን ያስገቡ",
+    "Device": "መሣሪያ",
+    "Application Rejected": "ማረጋገጫ ተቀባይነት አልተሰጠውም",
+    "Application Pending": "ማረጋገጫ በመጠባበቅ ላይ",
+    "Complete Your KYC": "የKYC ማረጋገጫዎን ያጠናቅቁ",
+    "Click on upload": "ጫን ላይ ይጫኑ",
+    "Congratulations! Application Approved": "እንኳን ደስ አለዎት! ማረጋገጫ ተፈቅዷል",
+    "Start your KYC to enjoy full benefits.": "ሁሉንም ጥቅሞች ለማግኘት የKYC ማረጋገጫዎን ይጀምሩ።",
+    "Refer a friend and get for you and your friend. It’s a win-win!": "ጓደኛ ጋብዝ እና {} ለእርስዎና ለጓደኛዎ ያግኙ። ሁለቱም ይጠቅማሉ!",
+    "Terms and conditions": "ውሎች እና ሁኔታዎች",
+    "Privacy Policy": "የግላዊነት ፖሊሲ",
+    "Price": "ዋጋ",
+    "Validity": "የሚሰራበት ጊዜ",
+    "Data": "ዳታ",
+    "No Packages available Currently": "አሁን ምንም ፓኬጅ አይገኝም",
+    "Retry": "እንደገና ሞክር",
+    "Search data packs for 200+ countries....": "ለ200+ መዳረሻዎች የዳታ ፓኬጆችን ይፈልጉ...",
+    "Countries": "አገር",
+    "Regions": "ክልሎች",
+    "Continue": "ቀጥል",
+    "Or log in with": "ወይም በዚህ ይግቡ",
+    "Continue With Google": "በGoogle ይቀጥሉ",
+    "By continuing, you accept our ": "በመቀጠል የእኛን ትቀበላለህ ",
+    " and the ": " እና ",
+    "Didn't receive code? ": "ኮድ አልደረሰም? ",
+    "Resend": "እንደገና ላክ",
+    "Submit": "አስገባ",
+    "Call Not\nAvailable": "ጥሪ\nአይገኝም",
+    "Min\nCalls Left": "የጥሪ ደቂቃዎች\nቀሪ",
+    "SMS Not\nAvailable": "SMS\nአይገኝም",
+    "Expired at ": "የሚያበቃበት {}",
+    "Order history": "የትዕዛዝ ታሪክ",
+    "Language": "ቋንቋ",
+    "Legal": "ህጋዊ",
+    "Terms and Conditions": "ውሎች እና ሁኔታዎች",
+    "Rate App": "መተግበሪያን ደረጃ ስጥ",
+    "Logout": "ውጣ",
+    "Logout...?": "ውጣ...?",
+    "Are you sure you want to logout?": "እርግጠኛ ነህ መውጣት ትፈልጋለህ?",
+    "Click Here To Learn More": "ተጨማሪ ለመማር እዚህ ጠቅ ያድርጉ",
+    "How it Work's": "እንዴት ይሰራል",
+    "Share your link": "አገናኝዎን አጋራ",
+    "copy and send the code or press the Share Now button": "ኮዱን ቅጂ አድርገው ይላኩ ወይም \"አሁን አጋራ\" ይጫኑ",
+    "Share your referral code": "የሪፈራል ኮድዎን አጋራ",
+    "Your referral code": "የእርስዎ ሪፈራል ኮድ",
+    "Share Now": "አሁን አጋራ",
+    "Orders History": "የትዕዛዝ ታሪክ",
+    "No eSIM orders found.": "ምንም eSIM ትዕዛዝ አልተገኘም።",
+    "Order Status": "የትዕዛዝ ሁኔታ",
+    "Package:": "ፓኬጅ:",
+    "Validity:": "የሚሰራበት:",
+    "Price:": "ዋጋ:",
+    "Details:": "ዝርዝሮች:",
+    "Ordered on:": "የታዘዘበት: {}",
+    "Choose Your App Language": "የመተግበሪያ ቋንቋዎን ይምረጡ",
+    "Choose Data Plans": "የዳታ ፕላኖችን ይምረጡ",
+    "Popular Regional Plans": "ታዋቂ የክልል ፕላኖች",
+    "Choose Your Top-Up": "መሙላትዎን ይምረጡ",
+    "Buy Now": "አሁን ይግዙ",
+    "View": "ይመልከቱ",
+    "Press again to exit": "ለመውጣት እንደገና ይጫኑ",
+    "Guide": "መመሪያ",
+    "Search Your Model Name": "የመሣሪያ ሞዴልዎን ይፈልጉ",
+    "Device Compatibility": "የመሣሪያ ተኳኋኝነት",
+    "Delete Account": "መለያ ሰርዝ",
+    "Secure\nTransactions": "ደህንነቱ የተጠበቀ\nግብይቶች",
+    "Instant\nActivation": "ፈጣን\nአክቲቬሽን",
+    "Top-Up\nAnytime": "መሙላት\nበማንኛውም ጊዜ",
+    "Popular eSIMs": "ታዋቂ eSIMs",
+    "My Orders": "የእኔ ትዕዛዞች",
+    "Logout failed": "መውጣት አልተሳካም",
+    "Account deleted successfully": "መለያው በተሳካ ሁኔታ ተሰርዟል",
+    "Deleting account failed": "መለያ መሰረዝ አልተሳካም",
+    "coverage": "ሽፋን: {}",
+    "Filter Options": "የማጣሪያ አማራጮች",
+    "Unlimited Plans": "ያልተገደቡ ፕላኖች",
+    "CANCEL": "ሰርዝ",
+    "APPLY": "ተግብር",
+    "Notifications": "ማሳወቂያዎች",
+    "No notifications found.": "ምንም ማሳወቂያ አልተገኘም።",
+    "Want_to": "ትፈልጋለህ",
+    "Delete": " ሰርዝ ",
+    "your_account": "መለያዎን?",
+    "Are you sure you want to Delete your account ?": "እርግጠኛ ነህ መለያዎን መሰረዝ ትፈልጋለህ?",
+    "Profile Updated Successfully": "መገለጫው በተሳካ ሁኔታ ተዘምኗል",
+    "OK": "እሺ",
+    "This action will permanently delete your account and remove all associated data to confirm click on Delete.": "ይህ እርምጃ መለያዎን በቋሚነት ይሰርዛል እና ሁሉንም ተያያዥ ውሂብ ያስወግዳል። ለማረጋገጥ \"ሰርዝ\" ይጫኑ።",
+    "Cancel": "ይቅር",
+    "friend_bonus": "ጓደኛዎ {} ቦነስ ያገኛል",
+    "friend_signup_offer": "በእርስዎ አገናኝ የሚመዝገብ እያንዳንዱ ጓደኛ እና የሪፈራል ኮድዎን የሚጠቀም {} ቅናሽ በመጀመሪያ ግዢው ያገኛል",
+    "Regional Plans": "የክልል ፕላኖች",
+    "App Version": "የመተግበሪያ ስሪት",
+    "Package": "ፓኬጅ",
+    "iccid": "ICCID",
+    "Created on": "የተፈጠረበት",
+    "Expires On": "የሚያበቃበት",
+    "Activated On": "የተነቃበት",
+    "eSim Status:": "የeSIM ሁኔታ:",
+    "eSIM Instructions": "የeSIM መመሪያዎች",
+    "OverView": "አጠቃላይ እይታ",
+    "Tap to see all details": "ሁሉንም ዝርዝሮች ለማየት ይጫኑ",
+    "eSIM Summary": "የeSIM ማጠቃለያ",
+    "ICCID:": "ICCID:",
+    "Matching ID:": "ተመሳሳይ ID:",
+    "Status:": "ሁኔታ:",
+    "Remaining Data:": "የቀረ ዳታ:",
+    "Activated On:": "የተነቃበት:",
+    "Expires On:": "የሚያበቃበት:",
+    "Finished On:": "የተጠናቀቀበት:",
+    "Order Details": "የትዕዛዝ ዝርዝሮች",
+    "Manual Installation": "በእጅ መጫን",
+    "QR Code Installation": "QR ኮድ መጫን",
+    "APN Details": "የAPN ዝርዝሮች",
+    "Package Details": "የፓኬጅ ዝርዝሮች",
+    "Installation Guide": "የመጫኛ መመሪያ",
+    "Verify Email": "ኢሜይል አረጋግጥ",
+    "OTP Verification": "OTP ማረጋገጫ",
+    "Enter the 4-digit code sent to ": "ወደ የተላከውን 4 አሃዝ ኮድ ያስገቡ ",
+    " to verify your email.": " ኢሜይልዎን ለማረጋገጥ።",
+    "No top-up options available.": "ምንም የመሙላት አማራጭ አይገኝም።",
+    "Filter": "ማጣሪያ",
+    "KYC Status": "የKYC ሁኔታ",
+    "Email": "ኢሜይል",
+    "Currency": "ምንዛሬ:",
+    "Failed to Get Currency": "ምንዛሬ ማግኘት አልተሳካም",
+    "Select Currency": "ምንዛሬ ይምረጡ",
+    "Country": "አገር:",
+    "Failed to Get Countries": "አገሮችን ማግኘት አልተሳካም",
+    "Select Country": "አገር ይምረጡ",
+    "Update Profile": "መገለጫ አዘምን",
+    "Please fill all fields and select all images.": "እባክዎ ሁሉንም መስኮች ይሙሉ እና ሁሉንም ምስሎች ይምረጡ።",
+    "Use the same Name as on your identity card to avoid KYC rejection.": "የKYC እርምጃ እንዳይከለክል በመታወቂያዎ ላይ ያለውን ተመሳሳይ ስም ይጠቀሙ።",
+    "Use the same DOB as on your identity card to avoid KYC rejection.": "የKYC እርምጃ እንዳይከለክል በመታወቂያዎ ላይ ያለውን ተመሳሳይ የትውልድ ቀን ይጠቀሙ።",
+    "ID Card No": "የመታወቂያ ቁጥር",
+    "Photo": "ፎቶ",
+    "Customer Support": "የደንበኛ ድጋፍ",
+    "Refer and Earn": "ጓደኛ ጋብዝ እና ያግኙ",
+    "Frequently Asked Questions": "ተደጋጋሚ ጥያቄዎች",
+    "Connect to Support": "ከድጋፍ ጋር ይገናኙ",
+    "Our customer support team is ready to help you with any issue you may have.": "የደንበኛ ድጋፍ ቡድናችን ያለዎትን ማንኛውንም ችግኝ ለመርዳት ዝግጁ ነው።",
+    "Still having an issue?": "አሁንም ችግኝ አለ?",
+    "No eSIMs found.": "ምንም eSIM አልተገኘም።",
+    "Order Ref": "የትዕዛዝ ማጣቀሻ",
+    "Remaining Data": "የቀረ ዳታ",
+    "Days": "ቀናት",
+    "Day": "ቀን",
+    "Regional Plan Details": "የክልል ፕላን ዝርዝሮች",
+    "Coverage Areas": "የሽፋን አካባቢዎች",
+    "Total MIN": "ጠቅላላ ደቂቃ",
+    "Total SMS": "ጠቅላላ SMS",
+    "Plan details": "የፕላን ዝርዝሮች",
+    "Supported Countries": "የሚደገፉ አገሮች",
+    "OPERATOR": "ኦፕሬተር",
+    "Is Unlimited": "ያልተገደበ ነው",
+    "USAGE POLICY": "የአጠቃቀም ፖሊሲ",
+    "ESim TYPE": "የeSIM አይነት",
+    "Failed to delete notifications": "ማሳወቂያዎችን መሰረዝ አልተሳካም",
+    "All notifications deleted successfully": "ሁሉም ማሳወቂያዎች በተሳካ ሁኔታ ተሰርዘዋል",
+    "Are you sure you want to Delete?": "እርግጠኛ ነህ መሰረዝ ትፈልጋለህ?",
+    "'No orders found.": "'ምንም ትዕዛዝ አልተገኘም።",
+    "Order Ref:": "የትዕዛዝ ማጣቀሻ: {}",
+    "Data:": "ዳታ:",
+    "Loading more orders...": "ተጨማሪ ትዕዛዞች በመጫን ላይ...",
+    "Please enter a message": "እባክዎ መልእክት ያስገቡ",
+    "Please enter a title": "እባክዎ ርዕስ ያስገቡ",
+    "Connected to support": "ከድጋፍ ጋር ተገናኝቷል",
+    "Support Ticket": "የድጋፍ ቲኬት",
+    "Create New Ticket": "አዲስ ቲኬት ፍጠር",
+    "Please provide description of your issue.": "እባክዎ የችግኝዎን መግለጫ ያቅርቡ።",
+    "Loading messages...": "መልእክቶች በመጫን ላይ...",
+    "Failed to load messages": "መልእክቶችን መጫን አልተሳካም",
+    "Sending...": "በመላክ ላይ...",
+    "Failed to send": "መላክ አልተሳካም",
+    "otp verification Failed": "OTP ማረጋገጫ አልተሳካም",
+    "Invalid login": "ልክ ያልሆነ መግቢያ",
+    "Login failed:": "መግቢያ አልተሳካም:",
+    "Please enter an email": "እባክዎ ኢሜይል ያስገቡ",
+    "Please enter a valid email": "እባክዎ ትክክለኛ ኢሜይል ያስገቡ",
+    "Continue with Google": "በGoogle ይቀጥሉ",
+    "Continue with Apple": "በApple ይቀጥሉ",
+    "Skip": "ዝለል",
+    "Email is required to continue": "ለመቀጠል ኢሜይል ያስፈልጋል",
+    "Email Required": "ኢሜይል ያስፈልጋል",
+    "apple_email_missing": "Apple ኢሜይልዎን አልሰጠም። ለመቀጠል እባክዎ ያስገቡ:",
+    "Google Sign-in failed or was cancelled": "Google መግቢያ አልተሳካም ወይም ተሰርዟል",
+    "Enter your email to manage your eSIM": "eSIMዎን ለማስተዳደር ኢሜይልዎን ያስገቡ",
+    "Login": "ግባ",
+    "No countries available": "ምንም አገር አይገኝም",
+    "countries": "አገሮች",
+    "Country Code:": "የአገር ኮድ:",
+    "Please complete KYC first.": "እባክዎ መጀመሪያ KYC ያጠናቅቁ።",
+    "Price low to high": "ዋጋ ከዝቅ ወደ ከፍ",
+    "Price high to low": "ዋጋ ከከፍ ወደ ዝቅ",
+    "Coverage Countries": "የሽፋን አገሮች {}",
+    "eSIM ID": "eSIM መለያ",
+    "Top Up": "መሙላት",
+    "Voice": "ድምፅ",
+    "SMS": "SMS",
+    "Activated": "ተነቅቷል",
+    "Expires": "ያበቃል",
+    "Basic Data Package": "መሰረታዊ የዳታ ፓኬጅ",
+    "Valid for days": "ለ {} ቀናት የሚሰራ",
+    "No top-up options available": "ምንም የመሙላት አማራጭ አይገኝም",
+    "Check back later for new packages": "ለአዳዲስ ፓኬጆች በኋላ ይመለሱ",
+    "Destination": "መዳረሻ",
+    "Unlimited Data": "ያልተገደበ ዳታ",
+    "Processing...": "በሂደት ላይ...",
+    "No notifications Yet": "እስካሁን ማሳወቂያ የለም",
+    "When you get notifications": "ማሳወቂያዎችን ሲቀበሉ እዚህ ይታያሉ",
+    "Loading more...": "ተጨማሪ በመጫን ላይ...",
+    "Success": "ተሳክቷል",
+    "Error": "ስህተት",
+    "Failed to load packages": "ፓኬጆችን መጫን አልተሳካም",
+    "No packages available": "ምንም ፓኬጅ አይገኝም",
+    "Order Information": "የትዕዛዝ መረጃ",
+    "Order Date:": "የትዕዛዝ ቀን:",
+    "QR Code URL:": "የQR ኮድ URL: {}",
+    "QR Code not available for this eSIM": "ለዚህ eSIM QR ኮድ አይገኝም",
+    "Activation Details:": "የአክቲቬሽን ዝርዝሮች:",
+    "SM-DP+ Address:": "SM-DP+ አድራሻ:",
+    "Activation Code:": "የአክቲቬሽን ኮድ:",
+    "APN Type:": "የAPN አይነት:",
+    "Scan this QR to activate the eSIM:": "eSIMን ለማንቃት ይህን QR ይቃኙ:",
+    "Share QR Code URL": "የQR ኮድ URL አጋራ",
+    "Enter details manually:": "ዝርዝሮችን በእጅ ያስገቡ:",
+    "Manual Code:": "የእጅ ኮድ:",
+    "Could not launch Apple Installation URL": "የApple መጫኛ URL ማስጀመር አልተቻለም",
+    "Direct Apple Installation": "ቀጥታ Apple መጫን",
+    "Purchase an eSIM to see it here.": "እዚህ ለማየት eSIM ይግዙ።",
+    "Order #": "ትዕዛዝ #{}",
+    "Provider ID": "የአቅራቢ መለያ",
+    "eSIM details not available": "የeSIM ዝርዝሮች አይገኙም",
+    "android_qr_step_1": "ወደ Settings > Network & Internet > SIMs ይሂዱ",
+    "android_qr_step_2": "Download a SIM instead ወይም Add eSIM ይጫኑ",
+    "android_qr_step_3": "\"Scan QR Code\" ወይም \"Use QR code\" ይጫኑ",
+    "android_qr_step_4": "ካሜራዎን ከታች ያለው ወደ QR ኮድ ያመሩ",
+    "android_qr_step_5": "eSIMን ለማንቃት የሚታዩትን መመሪያዎች ይከተሉ",
+    "android_qr_step_6": "eSIMዎን ስም ይስጡ (አማራጭ) እና \"Done\" ይጫኑ",
+    "android_manual_step_1": "ወደ Settings > Network & Internet > SIMs ይሂዱ",
+    "android_manual_step_2": "\"Download a SIM instead\" ወይም \"Add eSIM\" ይጫኑ",
+    "android_manual_step_3": "\"Enter code manually\" ይምረጡ",
+    "android_manual_step_4": "ከታች ያለውን የአክቲቬሽን ኮድ ያስገቡ",
+    "android_manual_step_5": "eSIMን ለማንቃት የሚታዩትን መመሪያዎች ይከተሉ",
+    "android_manual_step_6": "eSIMዎን ስም ይስጡ (አማራጭ) እና \"Done\" ይጫኑ",
+    "ios_qr_step_1": "ወደ Settings > Cellular ይሂዱ",
+    "ios_qr_step_2": "\"Add Cellular Plan\" ይጫኑ",
+    "ios_qr_step_3": "\"Scan QR Code\" ይጫኑ",
+    "ios_qr_step_4": "ካሜራዎን ከታች ያለው ወደ QR ኮድ ያመሩ",
+    "ios_qr_step_5": "eSIMን ለማንቃት የሚታዩትን መመሪያዎች ይከተሉ",
+    "ios_qr_step_6": "eSIMዎን ስም ይስጡ (አማራጭ) እና \"Done\" ይጫኑ",
+    "ios_manual_step_1": "ወደ Settings > Cellular ይሂዱ",
+    "ios_manual_step_2": "\"Add Cellular Plan\" ይጫኑ",
+    "ios_manual_step_3": "\"Enter Details Manually\" ይጫኑ",
+    "ios_manual_step_4": "SM-DP+ አድራሻን እና የአክቲቬሽን ኮድን ያስገቡ",
+    "ios_manual_step_5": "eSIMን ለማንቃት የሚታዩትን መመሪያዎች ይከተሉ",
+    "Choose how you want to pay": "እንዴት መክፈል እንደሚፈልጉ ይምረጡ",
+    "ios_manual_step_6": "eSIMዎን ስም ይስጡ (አማራጭ) እና \"Done\" ይጫኑ",
+    "Name is Required": "ስም ያስፈልጋል",
+    "Please Select Currency": "እባክዎ ምንዛሬ ይምረጡ",
+    "Please Select Country": "እባክዎ አገር ይምረጡ",
+    "Phone Number": "ስልክ ቁጥር",
+    "Enter phone number": "ስልክ ቁጥር ያስገቡ",
+    "Please enter phone number": "እባክዎ ስልክ ቁጥር ያስገቡ",
+    "Plan Details": "የፕላን ዝርዝሮች",
+    "Additional Information": "ተጨማሪ መረጃ",
+    "PROVIDER": "አቅራቢ",
+    "IS UNLIMITED": "ያልተገደበ",
+    "PACKAGE TYPE": "የፓኬጅ አይነት",
+    "COVERAGE": "ሽፋን",
+    "SPECIAL": "ልዩ",
+    "PACKAGE ID": "የፓኬጅ መለያ",
+    "Country Code": "የአገር ኮድ",
+    "Coverage:": "ሽፋን:",
+    "Payment Summary": "የክፍያ ማጠቃለያ",
+    "Subtotal": "ንዑስ ድምር",
+    "Voucher Discount ": "የቫውቸር ቅናሽ ",
+    "Referral Discount ": "የሪፈራል ቅናሽ ",
+    "Gift Card": "ጊፍት ካርድ",
+    "Offer Discount": "የአቅርቦት ቅናሽ",
+    "Total": "ጠቅላላ",
+    "Select Payment Method": "የክፍያ ዘዴ ይምረጡ",
+    "No payment gateways available": "ምንም የክፍያ ጌትዌይ አይገኝም",
+    "Pay": "ክፈል {}",
+    "Checkout Screen": "የቼክአውት ማያ",
+    "Error: ": "ስህተት: {}",
+    "Coverage Information": "የሽፋን መረጃ",
+    "Primary Destination": "ዋና መዳረሻ",
+    "Regional Coverage": "የክልል ሽፋን",
+    "countries/regions": "አገሮች/ክልሎች",
+    "Apply Offer": "አቅርቦት ተግብር",
+    "Voucher": "ቫውቸር",
+    "Referral": "ሪፈራል",
+    "Enter code": "ኮድ ያስገቡ",
+    "Enter Voucher Code": "የቫውቸር ኮድ ያስገቡ",
+    "Enter Referral Code": "የሪፈራል ኮድ ያስገቡ",
+    "Voucher Code": "የቫውቸር ኮድ",
+    "Referral Code": "የሪፈራል ኮድ",
+    "Verify": "አረጋግጥ",
+    "Code:": "ኮድ: {}",
+    "Discount:": "ቅናሽ: {}",
+    "No payment methods available": "ምንም የክፍያ ዘዴ አይገኝም",
+    "Payment Method": "የክፍያ ዘዴ",
+    "Payment": "ክፍያ",
+    "Cancel Payment?": "ክፍያ ሰርዝ?",
+    "Do you want to cancel the payment?": "ክፍያውን ማሰርዝ ትፈልጋለህ?",
+    "No": "አይ",
+    "Yes": "አዎ",
+    "Cancel Payment": "ክፍያ ሰርዝ",
+    "Contact Details": "የእውቂያ ዝርዝሮች",
+    "Enter your email address": "ኢሜይል አድራሻዎን ያስገቡ",
+    "Enter amount": "መጠን ያስገቡ",
+    "Create Gift Card": "ጊፍት ካርድ ፍጠር",
+    "Gift Card Conversion": "የጊፍት ካርድ መቀየር",
+    "You Earn": "እርስዎ ያገኛሉ",
+    "You earn a reward": "ከመጀመሪያ ግዢያቸው በኋላ ሽልማት ያገኛሉ። ይህን ሽልማት ወደ ጊፍት ካርድ መቀየር እና eSIM ወይም መሙላት ሲገዙ መጠቀም ይችላሉ። እንዲሁም ይህን ጊፍት ካርድ ከጓደኞችዎ እና ከቤተሰብዎ ጋር መጋራት ይችላሉ።",
+    "Friend Joins": "ጓደኛ ይቀላቀላል",
+    "They sign up": "በእርስዎ ሪፈራል ኮድ ይመዝገባሉ እና eSIM ሲገዙ ቅናሽ ያገኛሉ።",
+    "Share Code": "ኮድ አጋራ",
+    "Send your referral code": "የሪፈራል ኮድዎን ለጓደኞችዎ እና ለቤተሰብዎ ይላኩ።",
+    "How It Works": "እንዴት ይሰራል",
+    "Total Referrals": "ጠቅላላ ሪፈራሎች",
+    "Earning": "ገቢ",
+    "Share this code with your friends and earn rewards when they join.": "ይህን ኮድ ከጓደኞችዎ ጋር ያጋሩ እና ሲቀላቀሉ ሽልማት ያግኙ።",
+    "Use my referral code": "የእኔን ሪፈራል ኮድ ይጠቀሙ",
+    "and get a discount on your first eSIM purchase!\n\n": "እና በመጀመሪያዎ የeSIM ግዢ ላይ ቅናሽ ያግኙ!\n\n",
+    "Download the app from Google Play:\n": "መተግበሪያውን ከGoogle Play ያውርዱ:\n",
+    "Invite Friends & Earn": "ጓደኞችን ጋብዝ እና ያግኙ",
+    "History": "ታሪክ",
+    "Referral code copied": "የሪፈራል ኮድ ተቀድቷል",
+    "Create": "ፍጠር",
+    "Copy Gift Card Code": "የጊፍት ካርድ ኮድ ቅጂ አድርግ",
+    "Close": "ዝጋ",
+    "Date:": "ቀን:",
+    "Created:": "የተፈጠረ:",
+    "Used By:": "የተጠቀመበት:",
+    "Data+Call+SMS": "ዳታ+ጥሪ+SMS",
+    "Unlimited": "ያልተገደበ",
+    "Forgot Password ?": "የይለፍ ቃል ረሳህ?",
+    "From": "ከ",
+    "Submitted": "ተልኳል",
+    "devices supported": "የሚደገፉ መሣሪያዎች",
+    "Loading devices...": "መሣሪያዎች በመጫን ላይ...",
+    "Search devices...": "መሣሪያዎችን ይፈልጉ..."
+  }
+}

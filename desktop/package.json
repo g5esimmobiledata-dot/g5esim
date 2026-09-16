@@ -1,0 +1,81 @@
+{
+  "name": "g5esim-desktop-wrapper",
+  "version": "1.1.8",
+  "description": "Open-source Electron desktop app for the G5eSIM web portal.",
+  "author": "G5eSIM Mobile",
+  "license": "MIT",
+  "main": "main.cjs",
+  "private": false,
+  "homepage": "https://g5esim.mobile",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g5esimmobiledata-dot/g5esim.git",
+    "directory": "desktop"
+  },
+  "scripts": {
+    "start": "electron .",
+    "check": "node --check main.cjs && node --check preload.cjs",
+    "build:win": "electron-builder --win nsis --x64",
+    "build:portable": "electron-builder --win portable --x64",
+    "build:mac": "electron-builder --mac dmg --arm64 --x64"
+  },
+  "devDependencies": {
+    "electron": "^42.3.0",
+    "electron-builder": "^26.8.1"
+  },
+  "build": {
+    "appId": "mobile.g5esim.desktop",
+    "productName": "G5 eSIM Desktop",
+    "electronVersion": "42.3.0",
+    "artifactName": "${productName} Setup ${version}.${ext}",
+    "npmRebuild": false,
+    "nodeGypRebuild": false,
+    "buildDependenciesFromSource": false,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "privacy.html",
+      "offline.html",
+      "g5-admin-logo.png",
+      "desktop-config.json",
+      "icon.ico",
+      "package.json",
+      "README.md",
+      "LICENSE"
+    ],
+    "extraResources": [
+      {
+        "from": "desktop-config.json",
+        "to": "desktop-config.json"
+      }
+    ],
+    "win": {
+      "icon": "icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "G5 eSIM Desktop"
+    },
+    "mac": {
+      "category": "public.app-category.utilities",
+      "target": [
+        "dmg"
+      ]
+    }
+  }
+}

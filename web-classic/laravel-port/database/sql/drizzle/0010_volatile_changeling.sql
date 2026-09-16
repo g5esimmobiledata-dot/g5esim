@@ -1,0 +1,1 @@
+ALTER TABLE "orders" ADD COLUMN "esim_status" text;

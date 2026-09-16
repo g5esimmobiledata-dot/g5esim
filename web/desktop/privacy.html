@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G5 eSIM Admin</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --accent: #2563eb;
+        --bg: #e9ebf7;
+        --text: #111827;
+        --muted: #4b5563;
+        --panel: #ffffff;
+        --border: #c7cad8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Poppins, Inter, "Segoe UI", Arial, sans-serif;
+      }
+
+      body:not(.ready) main {
+        opacity: 0;
+      }
+
+      main {
+        min-height: 100vh;
+        padding: clamp(32px, 5vw, 72px) clamp(40px, 8vw, 128px);
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        transition: opacity 120ms ease;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(36px, 4.4vw, 58px);
+        font-weight: 300;
+        letter-spacing: 0;
+      }
+
+      .brand {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 8px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      .brand-logo {
+        width: min(210px, 16vw);
+        max-height: 96px;
+        object-fit: contain;
+      }
+
+      .card {
+        width: min(100%, 1320px);
+        border-radius: 24px;
+        background: var(--panel);
+        padding: clamp(28px, 3.2vw, 52px);
+        box-shadow: 0 24px 80px rgba(15, 23, 42, 0.08);
+      }
+
+      h2 {
+        margin: 0 0 22px;
+        font-size: clamp(24px, 2.35vw, 34px);
+        line-height: 1.2;
+      }
+
+      .body {
+        white-space: pre-wrap;
+        font-size: clamp(16px, 1.2vw, 21px);
+        line-height: 1.55;
+      }
+
+      .links {
+        margin-top: 26px;
+        font-size: clamp(14px, 1.05vw, 17px);
+        line-height: 1.55;
+        color: var(--muted);
+      }
+
+      .links button {
+        border: 0;
+        background: transparent;
+        color: var(--accent);
+        padding: 0;
+        font: inherit;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .credentials,
+      .choices,
+      .offline {
+        margin-top: 30px;
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 22px;
+        background: #f8fafc;
+      }
+
+      .credentials-title,
+      .choices-title {
+        margin: 0 0 14px;
+        color: var(--muted);
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .credential-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .credential-box {
+        border-radius: 12px;
+        background: #fff;
+        border: 1px solid #e2e8f0;
+        padding: 14px 16px;
+      }
+
+      .label {
+        display: block;
+        margin-bottom: 6px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .value {
+        overflow-wrap: anywhere;
+        font-family: "Cascadia Mono", Consolas, monospace;
+        font-size: 20px;
+      }
+
+      .choices {
+        display: none;
+      }
+
+      .choices.visible {
+        display: block;
+      }
+
+      .choice-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 14px 0;
+        border-top: 1px solid #e2e8f0;
+      }
+
+      .choice-row:first-of-type {
+        border-top: 0;
+      }
+
+      .choice-text {
+        font-size: 18px;
+        color: var(--muted);
+      }
+
+      .switch {
+        width: 58px;
+        height: 32px;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: #e5e7eb;
+        position: relative;
+        flex: 0 0 auto;
+        cursor: pointer;
+      }
+
+      .switch::after {
+        content: "";
+        width: 26px;
+        height: 26px;
+        border-radius: 999px;
+        background: #fff;
+        position: absolute;
+        top: 2px;
+        left: 3px;
+        box-shadow: 0 2px 8px rgba(15, 23, 42, 0.22);
+        transition: left 160ms ease;
+      }
+
+      .switch.active {
+        background: var(--accent);
+        border-color: var(--accent);
+      }
+
+      .switch.active::after {
+        left: 27px;
+      }
+
+      .offline {
+        border-color: #f59e0b;
+        background: #fffbeb;
+        color: #92400e;
+        font-size: 15px;
+      }
+
+      .backend-label {
+        width: min(100%, 1320px);
+        text-align: center;
+        color: #4b5563;
+        font-family: Poppins, Inter, "Segoe UI", Arial, sans-serif;
+        font-size: clamp(16px, 1.25vw, 22px);
+        font-weight: 600;
+        letter-spacing: 0;
+      }
+
+      .actions {
+        margin-top: auto;
+        display: flex;
+        justify-content: flex-end;
+        gap: 18px;
+        flex-wrap: wrap;
+      }
+
+      .btn {
+        min-width: 170px;
+        border: 2px solid #4b5563;
+        border-radius: 999px;
+        background: transparent;
+        color: var(--text);
+        padding: 16px 28px;
+        font-size: 23px;
+        line-height: 1;
+        cursor: pointer;
+      }
+
+      .btn.primary {
+        border-color: var(--accent);
+        background: var(--accent);
+        color: #fff;
+      }
+
+      .btn:focus-visible,
+      .links button:focus-visible,
+      .switch:focus-visible {
+        outline: 4px solid color-mix(in srgb, var(--accent), transparent 65%);
+        outline-offset: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="topbar">
+        <h1 id="title">Your data and privacy</h1>
+        <div class="brand">
+          <img class="brand-logo" src="./g5-admin-logo.png" alt="G5 eSIM Admin" />
+        </div>
+      </div>
+
+      <section class="card">
+        <h2 id="cardTitle">We value your privacy</h2>
+        <div id="body" class="body">Loading privacy settings...</div>
+        <div class="links">
+          By using this app, you agree to the
+          <button id="termsLink" type="button">Terms</button>
+          and
+          <button id="privacyLink" type="button">Privacy Policy</button>.
+        </div>
+
+        <div id="offlineNotice" class="offline" hidden></div>
+
+        <div id="credentials" class="credentials" hidden>
+          <p class="credentials-title">Admin backend login</p>
+          <div class="credential-grid">
+            <div class="credential-box">
+              <span class="label">Username</span>
+              <span id="adminUsername" class="value"></span>
+            </div>
+            <div class="credential-box">
+              <span class="label">Password</span>
+              <span id="adminPassword" class="value"></span>
+            </div>
+          </div>
+        </div>
+
+        <div id="choices" class="choices">
+          <p class="choices-title">Privacy choices</p>
+          <div class="choice-row">
+            <div>
+              <strong>Required data</strong>
+              <div class="choice-text">Needed to load the admin backend and keep the session secure.</div>
+            </div>
+            <button type="button" class="switch active" aria-label="Required data enabled"></button>
+          </div>
+          <div class="choice-row">
+            <div>
+              <strong>Optional diagnostics</strong>
+              <div class="choice-text">Helps improve reliability and support. You can decline this optional data.</div>
+            </div>
+            <button id="optionalSwitch" type="button" class="switch active" aria-label="Optional diagnostics enabled"></button>
+          </div>
+        </div>
+      </section>
+
+      <div class="backend-label">G5eSIM Admin Backend</div>
+
+      <div class="actions">
+        <button id="manageBtn" class="btn" type="button">Manage choices</button>
+        <button id="declineBtn" class="btn" type="button">Decline optional data</button>
+        <button id="acceptBtn" class="btn primary" type="button">Accept all</button>
+      </div>
+    </main>
+
+    <script>
+      const state = {
+        config: null,
+        choicesVisible: false,
+        optionalData: true,
+      };
+
+      function setText(id, value) {
+        document.getElementById(id).textContent = value || "";
+      }
+
+      function setAccent(color) {
+        if (/^#[0-9a-f]{6}$/i.test(color || "")) {
+          document.documentElement.style.setProperty("--accent", color);
+        }
+      }
+
+      function toggleChoices(force) {
+        state.choicesVisible = typeof force === "boolean" ? force : !state.choicesVisible;
+        document.getElementById("choices").classList.toggle("visible", state.choicesVisible);
+      }
+
+      function setOptionalData(value) {
+        state.optionalData = value;
+        document.getElementById("optionalSwitch").classList.toggle("active", value);
+      }
+
+      async function rememberConsent(optionalData) {
+        if (window.g5Desktop.setPrivacyConsent) {
+          await window.g5Desktop.setPrivacyConsent({ optionalData });
+        }
+      }
+
+      async function openAdmin(optionalData) {
+        await rememberConsent(true);
+        await window.g5Desktop.openAdmin();
+      }
+
+      function bindExternalLink(id, url) {
+        document.getElementById(id).addEventListener("click", () => {
+          if (url) window.g5Desktop.openExternal(url);
+        });
+      }
+
+      async function init() {
+        const config = await window.g5Desktop.getPrivacyConfig();
+        state.config = config;
+
+        setAccent(config.accentColor);
+        setText("title", config.title || "Your data and privacy");
+        setText("cardTitle", config.cardTitle || "We value your privacy");
+        setText("body", config.body || "");
+        document.getElementById("manageBtn").hidden = true;
+        setText("declineBtn", "Exit");
+        setText("acceptBtn", "Accept all");
+
+        bindExternalLink("termsLink", config.termsUrl);
+        bindExternalLink("privacyLink", config.privacyUrl);
+
+        if (config.offline) {
+          const notice = document.getElementById("offlineNotice");
+          notice.hidden = false;
+          notice.textContent = `Connection notice: live backend settings could not be loaded (${config.error || "offline"}). Full admin functionality requires internet/server access.`;
+        }
+
+        if (config.showCredentials) {
+          document.getElementById("credentials").hidden = false;
+          setText("adminUsername", config.adminUsername || "Not configured");
+          setText("adminPassword", config.adminPassword || "Not configured");
+        }
+
+        document.getElementById("optionalSwitch").addEventListener("click", () => {
+          setOptionalData(!state.optionalData);
+        });
+        document.getElementById("manageBtn").addEventListener("click", () => toggleChoices());
+        document.getElementById("declineBtn").addEventListener("click", () => window.g5Desktop.closeApp());
+        document.getElementById("acceptBtn").addEventListener("click", () => openAdmin(true));
+        document.body.classList.add("ready");
+      }
+
+      init().catch((error) => {
+        setText("body", `Failed to initialize desktop privacy screen.\n\n${error.message || error}`);
+        document.body.classList.add("ready");
+      });
+    </script>
+  </body>
+</html>

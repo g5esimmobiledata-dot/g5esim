@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Checkout</title>
+
+<style>
+  * {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+  }
+
+  body {
+    margin: 0;
+    background: #000;
+  }
+
+  /* iPhone canvas */
+  .phone {
+    width: 390px;
+    height: 844px;
+    margin: 0 auto;
+    background: #8a8a8a;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Header */
+  .header {
+    height: 96px;
+    background: #0a1e78;
+    color: rgba(255,255,255,0.85);
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    font-size: 20px;
+  }
+
+  .header span {
+    font-size: 24px;
+    margin-right: 8px;
+  }
+
+  /* Checkout background */
+  .content {
+    height: calc(100% - 96px);
+    position: relative;
+  }
+
+  .review-text {
+    position: absolute;
+    right: 24px;
+    top: 40%;
+    color: #fff;
+    font-size: 22px;
+    text-align: right;
+    opacity: 0.85;
+  }
+
+  /* Blur overlay */
+  .iap-blur {
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(8px);
+    background: rgba(0,0,0,0.25);
+    z-index: 10;
+  }
+
+  /* Bottom sheet */
+  .iap-sheet {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 14px;
+    z-index: 11;
+  }
+
+  .iap-card {
+    background: #1c1c1e;
+    border-radius: 26px;
+    padding: 18px;
+    color: #fff;
+    box-shadow: 0 30px 60px rgba(0,0,0,.6);
+  }
+
+  /* Header row */
+  .iap-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .iap-header h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .iap-close {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #2c2c2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  /* Product */
+  .iap-product {
+    display: flex;
+    gap: 12px;
+    margin-top: 14px;
+  }
+
+  .iap-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background: #2c2c2e;
+  }
+
+  .iap-info {
+    flex: 1;
+  }
+
+  .iap-title {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .iap-price {
+    float: right;
+  }
+
+  .iap-sub {
+    font-size: 14px;
+    color: #a1a1a6;
+    margin-top: 2px;
+  }
+
+  .iap-amount {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .iap-divider {
+    height: 1px;
+    background: #2c2c2e;
+    margin: 14px 0;
+  }
+
+  .iap-note,
+  .iap-account {
+    font-size: 13px;
+    color: #a1a1a6;
+    line-height: 1.4;
+  }
+
+  /* Confirm section */
+  .iap-confirm {
+    margin-top: 22px;
+    text-align: center;
+    color: #8e8e93;
+    font-size: 14px;
+  }
+
+  .iap-confirm-icon {
+    width: 46px;
+    height: 46px;
+    margin: 0 auto 8px;
+    border-radius: 50%;
+    border: 2px solid #0a84ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0a84ff;
+    font-size: 20px;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="phone">
+
+  <!-- HEADER -->
+  <div class="header">
+    <span>‹</span> Checkout Screen
+  </div>
+
+  <!-- CHECKOUT BODY -->
+  <div class="content">
+    <div class="review-text">
+      Review<br/>Purchase
+    </div>
+  </div>
+
+  <% if (showIap) { %>
+
+  <!-- BLUR -->
+  <div class="iap-blur"></div>
+
+  <!-- IAP SHEET -->
+  <div class="iap-sheet">
+    <div class="iap-card">
+
+      <div class="iap-header">
+        <h3>Sandbox</h3>
+        <div class="iap-close">×</div>
+      </div>
+
+      <div class="iap-product">
+        <div class="iap-icon"></div>
+
+        <div class="iap-info">
+          <div class="iap-title">
+            <%= product.name %>
+            <span class="iap-price"><%= product.currency %> <%= product.price %></span>
+          </div>
+
+          <div class="iap-sub">
+            <%= appName %> – <%= product.description %>
+          </div>
+
+          <div class="iap-sub">In-App Purchase</div>
+        </div>
+      </div>
+
+      <div class="iap-amount">
+        <%= product.currency %> <%= product.price %>
+      </div>
+
+      <div class="iap-divider"></div>
+
+      <div class="iap-note">
+        For testing purposes only. You will not be charged for confirming this purchase.
+      </div>
+
+      <div class="iap-account">
+        Account: test@example.test
+      </div>
+
+      <div class="iap-confirm">
+        <div class="iap-confirm-icon">↩</div>
+        Confirm with Side Button
+      </div>
+
+    </div>
+  </div>
+
+  <% } %>
+
+</div>
+
+</body>
+</html>

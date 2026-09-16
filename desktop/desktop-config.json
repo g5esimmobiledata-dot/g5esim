@@ -1,0 +1,11 @@
+{
+  "appName": "G5 eSIM Desktop",
+  "apiBaseUrl": "https://g5esim.mobile",
+  "adminUrl": "https://g5esim.mobile/admin/login?desktop=1",
+  "userLoginUrl": "https://g5esim.mobile/login?desktop=1&role=user&redirect=%2Faccount%2Fdashboard",
+  "agentLoginUrl": "https://g5esim.mobile/login?desktop=1&role=agent&redirect=%2Faccount%2Fdashboard",
+  "resellerLoginUrl": "https://g5esim.mobile/login?desktop=1&role=reseller&redirect=%2Freseller%2Fdashboard",
+  "desktopUrlLink": "https://g5esim.mobile/api/desktop/config",
+  "requestTimeoutMs": 8000,
+  "desktopToken": ""
+}

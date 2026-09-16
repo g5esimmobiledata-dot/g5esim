@@ -1,0 +1,54 @@
+{
+  "name": "g5-esim-admin-desktop",
+  "version": "1.1.8",
+  "description": "G5 eSIM Admin Windows desktop shell",
+  "author": "G5 eSIM",
+  "license": "UNLICENSED",
+  "main": "main.cjs",
+  "build": {
+    "appId": "mobile.g5esim.admin",
+    "productName": "G5 eSIM Admin Desktop",
+    "electronVersion": "42.3.0",
+    "npmRebuild": false,
+    "nodeGypRebuild": false,
+    "buildDependenciesFromSource": false,
+    "directories": {
+      "output": "../release/desktop"
+    },
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "privacy.html",
+      "offline.html",
+      "g5-admin-logo.png",
+      "desktop-config.json",
+      "icon.ico",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "desktop-config.json",
+        "to": "desktop-config.json"
+      }
+    ],
+    "win": {
+      "icon": "icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "G5 eSIM Admin"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+ALTER TABLE "price_brackets" ADD COLUMN "updated_at" timestamp DEFAULT now();--> statement-breakpoint
+ALTER TABLE "price_brackets" ADD CONSTRAINT "price_brackets_currency_min_price_max_price_product_id_unique" UNIQUE("currency","min_price","max_price","product_id");
