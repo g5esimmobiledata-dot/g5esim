@@ -5,6 +5,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:esimconnect/utills/api_end_points.dart';
 import 'package:esimconnect/utills/appColors.dart';
 import 'package:esimconnect/utills/config.dart';
+import 'package:esimconnect/utills/payments/stripe_wallet_page.dart';
 import 'package:esimconnect/utills/global.dart' as global;
 import 'package:esimconnect/utills/services/ApiService.dart';
 import 'package:esimconnect/views/packageModule/packagesList/model/GatewayListModel.dart';
@@ -250,6 +251,7 @@ class _WalletTopUpSheetState extends State<WalletTopUpSheet> {
           builder: (_) => WalletPaymentWebView(
             title: _providerTitle(provider),
             initialUrl: request.initialUrl,
+            initialHtml: request.initialHtml,
             provider: provider,
             walletTransactionId: transactionId,
             providerPaymentId: request.providerPaymentId,
@@ -294,14 +296,13 @@ class _WalletTopUpSheetState extends State<WalletTopUpSheet> {
           .toString();
 
       return _WalletPaymentRequest(
-        initialUrl: _htmlUrl(
-          _buildStripeHtml(
-            publicKey: publicKey,
-            clientSecret: clientSecret,
-            returnUrl: returnUrl,
-            amount: _amount,
-            currency: _currency,
-          ),
+        initialUrl: '${socketbaseUrl}mobile-wallet-checkout',
+        initialHtml: buildStripeWalletPage(
+          publicKey: publicKey,
+          clientSecret: clientSecret,
+          returnUrl: returnUrl,
+          amountLabel: '${widget.symbol}${_amount.toStringAsFixed(2)} $_currency',
+          dark: AppColors.isDarkMode,
         ),
         providerPaymentId: paymentIntentId,
       );
@@ -380,98 +381,6 @@ class _WalletTopUpSheetState extends State<WalletTopUpSheet> {
     }
 
     return null;
-  }
-
-  String _buildStripeHtml({
-    required String publicKey,
-    required String clientSecret,
-    required String returnUrl,
-    required double amount,
-    required String currency,
-  }) {
-    final amountLabel =
-        '${widget.symbol}${amount.toStringAsFixed(2)} $currency';
-    return '''
-<!doctype html>
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script src="https://js.stripe.com/v3/"></script>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #f5f7f8;
-      color: #162b2a;
-      padding: 18px;
-    }
-    .panel {
-      background: #ffffff;
-      border: 1px solid #e2e8e8;
-      border-radius: 8px;
-      padding: 18px;
-      box-shadow: 0 10px 28px rgba(6, 64, 43, 0.08);
-    }
-    h1 { margin: 0 0 4px; font-size: 22px; line-height: 1.2; }
-    .amount { color: #2b8e7f; font-weight: 700; margin-bottom: 18px; }
-    button {
-      width: 100%;
-      min-height: 48px;
-      border: 0;
-      border-radius: 8px;
-      margin-top: 18px;
-      background: #06402b;
-      color: #ffffff;
-      font-size: 16px;
-      font-weight: 700;
-    }
-    button:disabled { opacity: .65; }
-    #error { color: #b42318; margin-top: 12px; font-size: 14px; }
-  </style>
-</head>
-<body>
-  <div class="panel">
-    <h1>${tr('Card Top-Up')}</h1>
-    <div class="amount">$amountLabel</div>
-    <form id="payment-form">
-      <div id="payment-element"></div>
-      <button id="submit">${tr('Pay Now')}</button>
-      <div id="error"></div>
-    </form>
-  </div>
-  <script>
-    const stripe = Stripe(${jsonEncode(publicKey)});
-    const elements = stripe.elements({ clientSecret: ${jsonEncode(clientSecret)} });
-    elements.create("payment").mount("#payment-element");
-    const form = document.getElementById("payment-form");
-    const button = document.getElementById("submit");
-    const errorBox = document.getElementById("error");
-    form.addEventListener("submit", async (event) => {
-      event.preventDefault();
-      button.disabled = true;
-      errorBox.textContent = "";
-      const result = await stripe.confirmPayment({
-        elements,
-        confirmParams: { return_url: ${jsonEncode(returnUrl)} },
-        redirect: "if_required"
-      });
-      if (result.error) {
-        errorBox.textContent = result.error.message || "Payment failed";
-        button.disabled = false;
-        return;
-      }
-      if (result.paymentIntent) {
-        const url = new URL(${jsonEncode(returnUrl)});
-        url.searchParams.set("payment_intent", result.paymentIntent.id);
-        url.searchParams.set("redirect_status", result.paymentIntent.status);
-        window.location.href = url.toString();
-      }
-    });
-  </script>
-</body>
-</html>
-''';
   }
 
   String _buildCryptoHtml({
@@ -1178,10 +1087,12 @@ class _WalletTopUpSheetState extends State<WalletTopUpSheet> {
 class _WalletPaymentRequest {
   const _WalletPaymentRequest({
     required this.initialUrl,
+    this.initialHtml,
     required this.providerPaymentId,
   });
 
   final String initialUrl;
+  final String? initialHtml;
   final String providerPaymentId;
 }
 
@@ -1190,6 +1101,7 @@ class WalletPaymentWebView extends StatefulWidget {
     super.key,
     required this.title,
     required this.initialUrl,
+    this.initialHtml,
     required this.provider,
     required this.walletTransactionId,
     required this.providerPaymentId,
@@ -1197,6 +1109,7 @@ class WalletPaymentWebView extends StatefulWidget {
 
   final String title;
   final String initialUrl;
+  final String? initialHtml;
   final String provider;
   final String walletTransactionId;
   final String providerPaymentId;
@@ -1356,16 +1269,31 @@ class _WalletPaymentWebViewState extends State<WalletPaymentWebView> {
         ],
       ),
       body: InAppWebView(
-        initialUrlRequest: URLRequest(url: WebUri(widget.initialUrl)),
+        // A data: URL has an opaque origin and cannot host Stripe Elements.
+        initialUrlRequest: widget.initialHtml == null
+            ? URLRequest(url: WebUri(widget.initialUrl))
+            : null,
+        initialData: widget.initialHtml == null
+            ? null
+            : InAppWebViewInitialData(
+                data: widget.initialHtml!,
+                baseUrl: WebUri(socketbaseUrl),
+                historyUrl: WebUri(widget.initialUrl),
+                mimeType: 'text/html',
+                encoding: 'utf-8',
+              ),
         initialSettings: InAppWebViewSettings(
-          cacheEnabled: true,
+          cacheEnabled: false,
           javaScriptEnabled: true,
+          domStorageEnabled: true,
+          thirdPartyCookiesEnabled: true,
           javaScriptCanOpenWindowsAutomatically: true,
           useShouldOverrideUrlLoading: true,
-          userAgent:
-              'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36',
         ),
         shouldOverrideUrlLoading: (controller, navigationAction) async {
+          if (navigationAction.isForMainFrame == false) {
+            return NavigationActionPolicy.ALLOW;
+          }
           final url = navigationAction.request.url.toString();
           return _handleUrl(url);
         },
